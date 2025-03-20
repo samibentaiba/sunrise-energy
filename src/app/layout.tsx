@@ -2,8 +2,8 @@ import type React from "react";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
-import { ThemeProvider } from "@/components/theme-provider";
 import Link from "next/link";
+import ThemeProviderWrapper from "./ThemeProvider";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -20,13 +20,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="fr">
-      <body className={inter.className}>
-        <ThemeProvider
-          attribute="class"
-          defaultTheme="light"
-          enableSystem
-          disableTransitionOnChange
-        >
+      {/*suppressHydrationWarning*/}
+      <body className={`${inter.className} light`}>
+        <ThemeProviderWrapper>
           {children}
           <div className="border-t mt-12 pt-8 text-sm">
             <div className="grid md:grid-cols-2 gap-8 mb-8">
@@ -117,7 +113,7 @@ export default function RootLayout({
               </div>
             </div>
           </div>
-        </ThemeProvider>
+        </ThemeProviderWrapper>
       </body>
     </html>
   );

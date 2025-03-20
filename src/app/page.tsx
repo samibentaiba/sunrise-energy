@@ -1,4 +1,4 @@
-"useclient";
+"use client";
 import SectionPrimaryNavigationBar from "@/components/sections/home/SectionPrimaryNavigationBar";
 import SectionSecondaryNavigationBar from "@/components/sections/home/SectionSecondaryNavigationBar";
 import SectionHero from "@/components/sections/home/SectionHero";

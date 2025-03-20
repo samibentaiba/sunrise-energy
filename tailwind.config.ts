@@ -54,9 +54,14 @@ const config = {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
+        white: {
+          DEFAULT: "#ffffff", // Ensure default white exists
+          500: "#d9d9d9",
+          600: "#f9f9f9",
+        },
         yellow: {
-          500: "#FFB800",
-          600: "#E6A600",
+          500: "#fca605",
+          600: "#fca605",
         },
         blue: {
           600: "#0066CC",

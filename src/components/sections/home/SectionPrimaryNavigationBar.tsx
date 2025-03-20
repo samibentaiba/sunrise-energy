@@ -1,40 +1,86 @@
-import Link from "next/link";
-import { Phone } from "lucide-react";
+"use client";
 
-export default function SectionPrimaryNavigationBar() {
+import Link from "next/link";
+import Image from "next/image";
+import { ReactElement } from "react";
+
+export default function SectionPrimaryNavigationBar(): ReactElement {
   return (
-    <div className="border-b">
-      <div className="container mx-auto px-4 py-2 flex justify-between items-center text-sm">
-        <div className="flex space-x-6">
-          <Link href="#" className="font-medium">
+    <div className="border-none bg-[#f9f9f9] ">
+      <div
+        className=" text-black flex justify-between pr-4 items-center text-sm h-full "
+        style={{
+          fontSize: "13.3px",
+          transform: "scaleY(1)",
+          fontWeight: 350,
+        }}
+      >
+        <div
+          className="flex h-full"
+          style={{
+            fontWeight: 400,
+          }}
+        >
+          <Link
+            href="#"
+            className=" px-4 py-4 pl-6 pr-6 bg-white"
+          >
             Particulier
           </Link>
-          <Link href="#" className="text-muted-foreground">
+          <Link
+            href="#"
+            className="font-light px-4 py-4 pl-6 pr-6"
+          >
             Entreprise
           </Link>
         </div>
-        <div className="hidden md:flex space-x-6">
-          <Link href="#" className="text-muted-foreground">
-            Guides
-          </Link>
-          <Link href="#" className="text-muted-foreground">
-            Qui sommes nous ?
-          </Link>
-          <Link href="#" className="text-muted-foreground">
-            Carrières
-          </Link>
-          <Link href="#" className="text-muted-foreground">
-            Nous contacter
-          </Link>
-        </div>
-        <div className="flex items-center">
-          <Link
-            href="tel:0805543056"
-            className="flex items-center text-green-600 font-medium"
-          >
-            <Phone className="h-4 w-4 mr-1" />
-            <span className="hidden sm:inline">N° VERT</span> 0 805 54 30 56
-          </Link>
+        <div className="flex justify-center pr-4 items-center space-x-6">
+          <div className="hidden md:flex space-x-6">
+            <Link
+              href="#"
+              className="text-muted-foreground"
+            >
+              Guides
+            </Link>
+            <Link
+              href="#"
+              className="text-muted-foreground"
+            >
+              Qui sommes nous ?
+            </Link>
+            <Link
+              href="#"
+              className="text-muted-foreground"
+            >
+              Carrières
+            </Link>
+            <Link
+              href="#"
+              className="text-muted-foreground"
+            >
+              Nous contacter
+            </Link>
+          </div>
+
+          <div className="flex items-center">
+            <Link href="" className="">
+              <Image
+                src="/images/numero.png"
+                alt="logo sunvolt"
+                width={180}
+                height={100}
+                priority
+                style={{
+                  borderStyle: "none",
+                  verticalAlign: "top",
+                  maxWidth: "100%",
+                  height: "auto",
+                  boxSizing: "border-box",
+                  boxShadow: "none",
+                }}
+              />
+            </Link>
+          </div>
         </div>
       </div>
     </div>
