@@ -150,7 +150,7 @@ export default function SectionMain(): ReactElement {
                   </span>
 
                   {/* Second text, appears after hover effect */}
-                  <span className="absolute transition-all duration-300 opacity-0 group-hover:opacity-100 group-hover:translate-y-0 translate-x-[11.25px]">
+                  <span className="absolute transition-all m-2 duration-300 opacity-0 group-hover:opacity-100 group-hover:translate-y-0">
                     Demander un devis personnalisé
                   </span>
                 </Link>
