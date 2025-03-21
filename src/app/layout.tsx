@@ -4,6 +4,8 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import Link from "next/link";
 import ThemeProviderWrapper from "./ThemeProvider";
+import SectionPrimaryNavigationBar from "@/components/sections/home/NavBar/ui/SectionPrimaryNavigationBar";
+import SectionSecondaryNavigationBar from "@/components/sections/home/NavBar/ui/SectionSecondaryNavigationBar";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -19,11 +21,20 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="fr">
+    <html lang="fr" className="bg-[#d1d1d1]">
       {/*suppressHydrationWarning*/}
-      <body className={`${inter.className} light`}>
+      <body className={`${inter.className} light `}>
         <ThemeProviderWrapper>
-          {children}
+          {/* Navbar moved here */}
+          <SectionPrimaryNavigationBar />
+          <div className="sticky top-0 z-50 shadow-md">
+            <SectionSecondaryNavigationBar />
+          </div>
+
+          {/* Page Content */}
+          <div className="min-h-screen flex  flex-col ">
+            {children}
+          </div>
           <div className="border-t mt-12 pt-8 text-sm">
             <div className="grid md:grid-cols-2 gap-8 mb-8">
               <div>

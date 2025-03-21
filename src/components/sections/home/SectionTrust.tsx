@@ -1,17 +1,27 @@
 export default function SectionTrust() {
   return (
     <div className="py-12 bg-gray-50">
-      <div className="container mx-auto px-4 text-center">
-        <h2 className="text-2xl font-bold mb-8">
-          Ils nous font confiance pour accompagner leur clients
-        </h2>
-        <div className="flex justify-center space-x-8">
-          {[1, 2, 3, 4, 5].map((partner) => (
-            <div key={partner} className="w-24 h-12 bg-gray-200 rounded">
-            </div>
-          ))}
-        </div>
-      </div>
+      <h2
+        style={{
+          fontFamily: "&quot",
+          fontStyle: "normal",
+          fontWeight: 700,
+          margin: 0,
+          fontSize: "1em",
+          letterSpacing: "var(--awb-typography1-letter-spacing)",
+          lineHeight: "var(--awb-typography1-line-height)",
+          boxSizing: "border-box",
+          flexGrow: 0,
+          padding: "0px",
+          color: "rgb(4, 9, 34)",
+          textAlign: "center",
+          marginTop: "0px",
+          marginBottom: "0px",
+          textTransform: "none",
+        }}
+      >
+        Ils nous font confiance pour accompagner leur clients
+      </h2>
     </div>
   );
 }

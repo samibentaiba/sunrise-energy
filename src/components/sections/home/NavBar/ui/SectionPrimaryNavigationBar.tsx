@@ -35,28 +35,28 @@ export default function SectionPrimaryNavigationBar(): ReactElement {
           </Link>
         </div>
         <div className="flex justify-center pr-4 items-center space-x-6">
-          <div className="hidden md:flex space-x-6">
+          <div className="hidden  md:flex space-x-6">
             <Link
               href="#"
-              className="text-muted-foreground"
+              className="text-muted-foreground transition-colors duration-300 hover:text-[#127a4c]"
             >
               Guides
             </Link>
             <Link
               href="#"
-              className="text-muted-foreground"
+              className="text-muted-foreground transition-colors duration-300 hover:text-[#127a4c]"
             >
               Qui sommes nous ?
             </Link>
             <Link
               href="#"
-              className="text-muted-foreground"
+              className="text-muted-foreground transition-colors duration-300 hover:text-[#127a4c]"
             >
               Carrières
             </Link>
             <Link
               href="#"
-              className="text-muted-foreground"
+              className="text-muted-foreground transition-colors duration-300 hover:text-[#127a4c]"
             >
               Nous contacter
             </Link>
