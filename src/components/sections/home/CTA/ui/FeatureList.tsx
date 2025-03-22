@@ -14,17 +14,17 @@ interface FeatureListProps {
 
 const FeatureList: React.FC<FeatureListProps> = ({ features }) => {
   return (
-    <ul className="space-y-6 mt-8">
+    <ul className="space-y-6 ">
       {features.map((feature, index) => (
         <li 
           key={feature.id}
-          className={`flex items-start gap-4 opacity-0 animate-fade-in-up`}
+          className={`flex items-start gap-4 animate-fade-in-up`}
           style={{ animationDelay: `${400 + index * 100}ms` }}
         >
           <span className="flex-shrink-0 mt-1">
-            <Check className="h-6 w-6 text-solar-accent" />
+            <Check className="h-5 w-5 text-solar-accent" />
           </span>
-          <span className="text-lg text-white/90">
+          <span className="text-base text-white/90">
             {feature.text}
           </span>
         </li>
