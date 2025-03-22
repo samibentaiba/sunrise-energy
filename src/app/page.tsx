@@ -8,8 +8,6 @@ import SectionPricing from "@/components/sections/home/Pricing/SectionPricing";
 import SectionAdditionalGuarantees from "@/components/sections/home/SectionAdditionalGuarantees";
 import SectionCompanyInfo from "@/components/sections/home/CompanyInfo/SectionCompanyInfo";
 import SectionBlog from "@/components/sections/home/SectionBlog";
-import SectionProductComparison from "@/components/sections/home/SectionProductComparison";
-import SectionFooter from "@/components/sections/home/SectionFooter";
 
 export default function Home() {
   return (
@@ -22,8 +20,6 @@ export default function Home() {
       <SectionAdditionalGuarantees />
       <SectionCompanyInfo />
       <SectionBlog />
-      <SectionProductComparison />
-      <SectionFooter />
     </div>
   );
 }
