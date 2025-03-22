@@ -1,5 +1,3 @@
-import Image from "next/image";
-import { Button } from "@/components/ui/button";
 import NumbersSection from "./ui/NumbersSection";
 import BlahBlahBlah from "./ui/BlahBlahBlah";
 export default function SectionCompanyInfo() {
