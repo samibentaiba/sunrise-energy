@@ -1,55 +1,73 @@
-import Link from "next/link";
+"use client";
+import React from "react";
 
+// Main component: Section with additional guarantees
 export default function SectionAdditionalGuarantees() {
   return (
-    <div className="py-16 bg-blue-800 text-white">
-      <div className="container mx-auto px-4">
-        <h2 className="text-2xl font-bold mb-12 max-w-xs">
-          Profitez de garanties complémentaires exclusives SunVolt
-        </h2>
-
-        <div className="grid md:grid-cols-3 gap-6">
-          <div className="bg-white p-6 rounded-lg text-gray-800">
-            <h3 className="font-bold mb-2">
-              Jusqu'à 5 ans d'accompagnement par notre équipe d'experts
-            </h3>
-            <p className="text-sm text-gray-600 mb-4">
-              Nous vous accompagnons dans toutes les étapes de votre projet, de
-              la conception à la mise en service.
-            </p>
-            <Link href="#" className="text-yellow-500 text-sm font-medium">
-              Découvrir cette garantie →
-            </Link>
-          </div>
-
-          <div className="bg-white p-6 rounded-lg text-gray-800">
-            <h3 className="font-bold mb-2">
-              Jusqu'à 10 ans de garantie sur le matériel de façon SunVolt en
-              Résidentiel
-            </h3>
-            <p className="text-sm text-gray-600 mb-4">
-              Nous garantissons le bon fonctionnement de votre installation
-              pendant 10 ans, pièces et main d'œuvre incluses.
-            </p>
-            <Link href="#" className="text-yellow-500 text-sm font-medium">
-              Découvrir cette garantie →
-            </Link>
-          </div>
-
-          <div className="bg-white p-6 rounded-lg text-gray-800">
-            <h3 className="font-bold mb-2">
-              Garantie décennale contre tout dommage à votre maison
-            </h3>
-            <p className="text-sm text-gray-600 mb-4">
-              Vous êtes intégralement couvert en cas de dommage compromettant la
-              solidité du bâti ou qui le rend impropre.
-            </p>
-            <Link href="#" className="text-yellow-500 text-sm font-medium">
-              Découvrir cette garantie →
-            </Link>
+    <div className="relative h-[850px]">
+      <section className="relative h-full py-16 bg-blue-800 text-white overflow-hidden">
+        <ParallaxBackground />
+        <div className="relative z-10 container mx-auto px-4">
+          <h2 className="text-5xl px-50 py-10 font-bold mb-12 text-center">Profitez de garanties complémentaires exclusives SunVolt</h2>
+          <div className="grid md:grid-cols-3 gap-14 max-w-6xl mx-auto">
+            {guarantees.map((guarantee) => (
+              <GuaranteeCard key={guarantee.id} {...guarantee} />
+            ))}
           </div>
         </div>
+      </section>
+
+      {/* Curved shape at the bottom */}
+      <div className="absolute bottom-0 left-0 w-full z-10">
+        <SVGComponent />
       </div>
     </div>
   );
 }
+
+// Background component with parallax effect
+const ParallaxBackground = () => {
+  return (
+    <div className="absolute inset-0 w-full h-[821.344px] bg-cover bg-center bg-fixed" style={{ backgroundImage: "url('https://www.sunvolt.fr/wp-content/uploads/2023/02/maison-famille-bonheur.jpeg')" }}>
+      <div className="absolute inset-0 h-[821.344px]" style={{ background: "linear-gradient(to bottom, rgba(0, 70, 110, 0.9), rgba(0, 1, 20, 0.8))" }}></div>
+    </div>
+  );
+};
+
+const GuaranteeCard = ({ title, description, highlight = false }: { description: string; title: string; highlight?: boolean }) => {
+  return (
+    <div className={`bg-white p-6 rounded-lg text-center ${highlight ? "border-2 border-yellow-500" : ""}`}>
+      <h3 className="font-bold text-lg mb-4 text-gray-800 px-4">{title}</h3>
+      <p className="text-gray-600 mb-4 px-2">{description}</p>
+    </div>
+  );
+};
+const guarantees = [
+  {
+    id: 1,
+    title: "Jusqu'à 5 ans d'accompagnement par notre équipe d'experts",
+    description: "Nos équipes vous accompagnent en cas de difficultés liées à votre installation solaire",
+    link: "#"
+  },
+  {
+    id: 2,
+    title: "Jusqu'à 10 ans de garantie de réduction de facture Satisfait ou Remboursé",
+    description: "Nous vous remboursons la différence si vous ne faites pas les économies annoncées lors de l'étude d'une offre sur-mesure",
+    link: "#",
+    highlight: true
+  },
+  {
+    id: 3,
+    title: "Garantie décennale contre tout dommage à votre maison",
+    description: "Vous êtes intégralement couvert en cas de dommage compromettant la solidité du bâti ou qui le rendrait inhabitable ou impropre à son usage",
+    link: "#"
+  }
+];
+
+
+
+const SVGComponent: React.FC = (props) => (
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" preserveAspectRatio="none" className="w-full h-[200px]" xmlnsXlink="http://www.w3.org/1999/xlink" transform="matrix(-1,0,0,1,0,0)" {...props}>
+    <path fill="#ffffff" fillOpacity={1} d="M0,0 C0,0 0 ,0 0,200 C990,0 1000,100 1500,250 L1500,5000 L0,320 Z" />
+  </svg>
+);
