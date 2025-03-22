@@ -1,13 +1,12 @@
 "use client";
 
 import Link from "next/link";
-import { ReactElement, useState } from "react";
+import { ReactElement, useState, useRef, useEffect } from "react";
 import Image from "next/image";
 import { ChevronDown } from "lucide-react";
 import GetStartButton from "./GetStartButton";
 
 export default function SectionMain(): ReactElement {
-
   return (
     <div className="w-full font-sans">
       <div className="bg-white px-14 py-2">
@@ -47,57 +46,52 @@ function Part1(): ReactElement {
 }
 function Part2(): ReactElement {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
+  const dropdownRef = useRef<HTMLDivElement>(null);
+
+  // Close dropdown when clicking outside
+  useEffect(() => {
+    function handleClickOutside(event: MouseEvent) {
+      if (dropdownRef.current && !dropdownRef.current.contains(event.target as Node)) {
+        setIsDropdownOpen(false);
+      }
+    }
+
+    document.addEventListener("mousedown", handleClickOutside);
+    return () => {
+      document.removeEventListener("mousedown", handleClickOutside);
+    };
+  }, []);
 
   return (
     <div className="flex gap-[5rem]">
       <div
         className="hidden md:flex items-center gap-5 space-x-8"
         style={{
-          transform: "scaleY(1)",
-          fontStyle: "normal",
-          fontStretch: "100%",
           fontSize: "15px",
           fontWeight: "600"
         }}>
-        <div
-          className="relative"
-          style={{
-            transform: "scaleY(1)",
-            fontStyle: "normal",
-            fontStretch: "100%",
-            fontSize: "15px",
-            fontWeight: "600"
-          }}>
+        <div className="relative" ref={dropdownRef}>
           <button
-            className="flex items-center text-sm font-medium text-gray-800 hover:text-[#0b68a4] transition-colors 
-after:content-[''] after:absolute after:left-1/2 after:bottom-[-10px] 
-after:w-0 after:h-[2px] after:bg-[#0b68a4] after:transition-all after:duration-300 
-after:-translate-x-1/2 hover:after:w-full"
-            onClick={() => setIsDropdownOpen(!isDropdownOpen)}
-            style={{
-              transform: "scaleY(1)",
-              fontStyle: "normal",
-              fontStretch: "100%",
-              fontSize: "15px",
-              fontWeight: "600"
-            }}>
+            className={`flex items-center text-sm font-medium ${isDropdownOpen ? "text-[#0b68a4] border-b-[#0b68a4] h-10 border-b-[2px]":"text-gray-800 after:content-[''] after:absolute after:left-1/2 after:bottom-[-10px] after:w-0 after:h-[2px] after:bg-[#0b68a4] after:transition-all after:duration-300 after:-translate-x-1/2 hover:after:w-full" } hover:text-[#0b68a4] transition-colors 
+`}
+            onClick={() => setIsDropdownOpen((prev) => !prev)}>
             Solutions photovoltaïques
             <ChevronDown strokeWidth={2.5} className={`ml-1 h-[16px] w-[16px] transition-transform ${isDropdownOpen ? "rotate-180" : ""}`} />
           </button>
 
           {isDropdownOpen && (
-            <div className="absolute top-full left-0 w-56 mt-2 origin-top-left  ">
+            <div className="absolute top-full left-0 w-[30rem] h-[30rem] mt-2 origin-top-left  p-2 z-50">
               <CardS
                 cards={[
                   {
-                    imageSrc: "/images/panneau-solaire-DMEGC-solar-500-Wc.webp", // Replace with actual image path
+                    imageSrc: "/images/panneau-solaire-DMEGC-solar-500-Wc.webp",
                     title: "Gamme SunEco",
                     description: "Le solaire performant et durable au meilleur prix",
                     linkText: "En savoir plus",
                     linkHref: "#"
                   },
                   {
-                    imageSrc: "/images/Intervenants-LBC5-1.webp", // Replace with actual image path
+                    imageSrc: "/images/Intervenants-LBC5-1.webp",
                     title: "Gamme SunMax",
                     description: "Le solaire Premium avec panneaux solaires de marque française",
                     linkText: "En savoir plus",
@@ -105,7 +99,6 @@ after:-translate-x-1/2 hover:after:w-full"
                   }
                 ]}
               />
-              ;
             </div>
           )}
         </div>
@@ -115,14 +108,7 @@ after:-translate-x-1/2 hover:after:w-full"
           className="relative text-sm font-medium text-gray-800 hover:text-[#0b68a4] transition-colors 
 after:content-[''] after:absolute after:left-1/2 after:bottom-[-10px] 
 after:w-0 after:h-[2px] after:bg-[#0b68a4] after:transition-all after:duration-300 
-after:-translate-x-1/2 hover:after:w-full"
-          style={{
-            transform: "scaleY(1)",
-            fontStyle: "normal",
-            fontStretch: "100%",
-            fontSize: "15px",
-            fontWeight: "600"
-          }}>
+after:-translate-x-1/2 hover:after:w-full">
           Garanties
         </Link>
 
@@ -131,14 +117,7 @@ after:-translate-x-1/2 hover:after:w-full"
           className="relative text-sm font-medium text-gray-800 hover:text-[#0b68a4] transition-colors 
 after:content-[''] after:absolute after:left-1/2 after:bottom-[-10px] 
 after:w-0 after:h-[2px] after:bg-[#0b68a4] after:transition-all after:duration-300 
-after:-translate-x-1/2 hover:after:w-full"
-          style={{
-            transform: "scaleY(1)",
-            fontStyle: "normal",
-            fontStretch: "100%",
-            fontSize: "15px",
-            fontWeight: "600"
-          }}>
+after:-translate-x-1/2 hover:after:w-full">
           Aides
         </Link>
 
@@ -147,14 +126,7 @@ after:-translate-x-1/2 hover:after:w-full"
           className="relative text-sm font-medium text-gray-800 hover:text-[#0b68a4] transition-colors 
 after:content-[''] after:absolute after:left-1/2 after:bottom-[-10px] 
 after:w-0 after:h-[2px] after:bg-[#0b68a4] after:transition-all after:duration-300 
-after:-translate-x-1/2 hover:after:w-full"
-          style={{
-            transform: "scaleY(1)",
-            fontStyle: "normal",
-            fontStretch: "100%",
-            fontSize: "15px",
-            fontWeight: "600"
-          }}>
+after:-translate-x-1/2 hover:after:w-full">
           Avis
         </Link>
       </div>
@@ -163,7 +135,6 @@ after:-translate-x-1/2 hover:after:w-full"
     </div>
   );
 }
-
 interface CardProps {
   imageSrc: string;
   title: string;
@@ -189,7 +160,7 @@ function CardS({ cards }: CardsProps) {
 function Card({ imageSrc, title, description, linkText, linkHref }: CardProps) {
   return (
     <div className="bg-[#ffffff] rounded-xl z-20 p-4 max-w-sm text-center">
-      <img src={imageSrc} alt={title} width={112} height={112} className="mx-auto w-28 h-28 object-contain mb-3" />
+      <Image src={imageSrc} alt={title} width={112} height={112} className="mx-auto w-28 h-28 object-contain mb-3" />
       <h3 className="text-lg text-[#000000] font-semibold">{title}</h3>
       <p className="text-[#000000] text-sm">{description}</p>
       <a href={linkHref} className="text-blue-600 font-semibold mt-2 inline-block hover:underline">
