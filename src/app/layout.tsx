@@ -23,7 +23,7 @@ export default function RootLayout({
   return (
     <html lang="fr" className="bg-[#d1d1d1]">
       {/*suppressHydrationWarning*/}
-      <body className={`${inter.className} light `}>
+      <body className={`${inter.className} light bg-white`}>
         <ThemeProviderWrapper>
           {/* Navbar moved here */}
           <SectionPrimaryNavigationBar />

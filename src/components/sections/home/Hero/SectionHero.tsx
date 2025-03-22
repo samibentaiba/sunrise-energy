@@ -4,7 +4,7 @@ export default function SectionHero() {
   return (
     <div
       className="relative h-[512px] z-0  p-0 m-0  w-full flex items-center justify-center bg-cover bg-center"
-      style={{ backgroundImage: "url('/images/herosection.png')" }}
+      style={{ backgroundImage: "url('/images/Herosection.png')" }}
     >
       {/* Black overlay with 10% opacity */}
       <div className="absolute inset-0 bg-[#00061b] opacity-40"></div>

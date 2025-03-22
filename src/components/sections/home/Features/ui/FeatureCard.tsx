@@ -34,7 +34,7 @@ const FeatureCard: React.FC<FeatureCardProps> = ({
       <div className="flex border-none flex-col gap-5 h-70 justify-center item-center text-center">
         <div className="flex flex-col gap-5 justify-around h-70 item-center">
           <h3
-            className="text-black text-[1.35rem] flex text-center min-h-[5rem] items-start justify-start leading-tight"
+            className="text-black text-[1.35rem] flex min-h-[5rem] items-start text-start justify-start leading-tight"
             style={{ letterSpacing: -0.5, fontWeight: 550 }}
           >
             {title}
