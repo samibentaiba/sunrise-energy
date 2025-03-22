@@ -6,7 +6,7 @@ import SectionTrust from "@/components/sections/home/SectionTrust";
 import SectionCTA from "@/components/sections/home/CTA/SectionCTA";
 import SectionPricing from "@/components/sections/home/Pricing/SectionPricing";
 import SectionAdditionalGuarantees from "@/components/sections/home/SectionAdditionalGuarantees";
-import SectionCompanyInfo from "@/components/sections/home/SectionCompanyInfo";
+import SectionCompanyInfo from "@/components/sections/home/CompanyInfo/SectionCompanyInfo";
 import SectionBlog from "@/components/sections/home/SectionBlog";
 import SectionProductComparison from "@/components/sections/home/SectionProductComparison";
 import SectionFooter from "@/components/sections/home/SectionFooter";
