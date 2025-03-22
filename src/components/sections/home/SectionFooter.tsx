@@ -1,74 +1,122 @@
-import Link from "next/link";
+"use client"
 
-export default function SectionFooter() {
+import Link from "next/link"
+import Image from "next/image"
+import { Facebook, Youtube, Linkedin, Instagram} from "lucide-react"
+
+export default function Footer() {
+
+
   return (
-    <div className="border-t mt-12 pt-8 text-sm">
-      <div className="grid md:grid-cols-2 gap-8 mb-8">
-        <div>
-          <Link href="/" className="flex items-center mb-4">
-            <div className="flex items-center">
-              <span className="text-blue-800 font-bold text-xl">sun</span>
-              <span className="text-yellow-500 font-bold text-xl">volt</span>
+    <footer className="bg-[#0a0b1e] text-white py-12">
+      <div className="container mx-auto px-4">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          {/* Logo and ratings column */}
+          <div className="flex flex-col space-y-6">
+            <Link href="/" className="inline-block">
+              <Image
+                src="/images/sunvolt-logo-footer.png"
+                alt="SunVolt Logo"
+                width={180}
+                height={50}
+                
+              />
+            </Link>
+            <div className="mt-4">
+              <p className="font-medium">Avis Bien</p>
+              <div className="flex items-center mt-1">
+                <p className="text-xl font-bold mr-2">4.0</p>
+                <div className="flex">
+                  {[1, 2, 3, 4].map((star) => (
+                    <svg key={star} className="w-5 h-5 text-yellow-400" fill="currentColor" viewBox="0 0 20 20">
+                      <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118l-2.8-2.034c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                    </svg>
+                  ))}
+                  <svg className="w-5 h-5 text-gray-400" fill="currentColor" viewBox="0 0 20 20">
+                    <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118l-2.8-2.034c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                  </svg>
+                </div>
+              </div>
+              <p className="text-sm mt-1">49 avis Google</p>
             </div>
-          </Link>
-          <div className="flex items-center mb-2">
-            {[1, 2, 3, 4, 5].map((star) => (
-              <svg key={star} className="h-4 w-4 text-yellow-500 fill-current" viewBox="0 0 20 20">
-                <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
-              </svg>
-            ))}
-            <span className="ml-2 text-gray-600">(4.8/5)</span>
           </div>
-          <p className="text-gray-600 mb-4">
-            Entreprise certifiée QualiPV RGE 2023
-            <br />
-            Siret : 12345678900001
-          </p>
-          <p className="text-gray-600">Programme de parrainage</p>
+
+          {/* First links column */}
+          <div className="space-y-4">
+            <Link href="/" className="block hover:text-gray-300 transition-colors">
+              Offre solaire dédiée aux PME PMI
+            </Link>
+            <Link href="/qui-sommes-nous" className="block hover:text-gray-300 transition-colors">
+              Qui sommes nous ?
+            </Link>
+            <Link href="/rejoindre" className="block hover:text-gray-300 transition-colors">
+              Rejoindre le réseau de techniciens SunVolt
+            </Link>
+            <Link href="/avis-clients" className="block hover:text-gray-300 transition-colors">
+              Avis clients
+            </Link>
+            <Link href="/parrainage" className="block hover:text-gray-300 transition-colors">
+              Programme de parrainage
+            </Link>
+          </div>
+
+          {/* Second links column */}
+          <div className="space-y-4">
+            <Link href="/comparez" className="block hover:text-gray-300 transition-colors">
+              Comparez votre devis solaire
+            </Link>
+            <Link href="/devis" className="block hover:text-gray-300 transition-colors">
+              Votre devis Panneau Solaire en moins de 24 heures
+            </Link>
+            <Link href="/politique-donnees" className="block hover:text-gray-300 transition-colors">
+              Politique de données personnelles
+            </Link>
+            <Link href="/mentions-legales" className="block hover:text-gray-300 transition-colors">
+              Mentions légales
+            </Link>
+            <Link href="/contact" className="block hover:text-gray-300 transition-colors">
+              Nous contacter
+            </Link>
+          </div>
         </div>
 
-        <div>
-          <h4 className="font-bold mb-4">Mentions légales</h4>
-          <ul className="space-y-2 text-gray-600">
-            <li>
-              <Link href="#" className="hover:text-gray-900">
-                Conditions générales de vente
-              </Link>
-            </li>
-            <li>
-              <Link href="#" className="hover:text-gray-900">
-                Politique de confidentialité
-              </Link>
-            </li>
-            <li>
-              <Link href="#" className="hover:text-gray-900">
-                Cookies
-              </Link>
-            </li>
-          </ul>
-        </div>
-      </div>
+        {/* Copyright and social media */}
+        <div className="mt-12 pt-8 border-t border-gray-800 flex flex-col md:flex-row justify-between items-center">
+          <div className="text-sm text-gray-400 mb-4 md:mb-0 text-center md:text-left">
+            © 2025 SunVolt - Tous droits réservés |
+            <Link href="/mentions-legales" className="hover:text-white transition-colors">
+              {" "}
+              Mentions légales
+            </Link>{" "}
+            |
+            <Link href="/politique-donnees" className="hover:text-white transition-colors">
+              {" "}
+              Politique de gestion des données personnelles
+            </Link>
+            <div className="mt-2">
+              <button className="text-gray-400 hover:text-white transition-colors">
+                Cliquez-ici pour modifier vos préférences en matière de cookies
+              </button>
+            </div>
+          </div>
 
-      <div className="text-center text-gray-500 border-t pt-6">
-        <p>© 2024 SunVolt - Tous droits réservés | Conception et réalisation par SunVolt Digital</p>
-        <div className="flex justify-center space-x-4 mt-4">
-          <Link href="#" aria-label="Facebook">
-            <svg className="h-5 w-5 text-gray-400 hover:text-gray-600" fill="currentColor" viewBox="0 0 24 24">
-              <path d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z" />
-            </svg>
-          </Link>
-          <Link href="#" aria-label="Twitter">
-            <svg className="h-5 w-5 text-gray-400 hover:text-gray-600" fill="currentColor" viewBox="0 0 24 24">
-              <path d="M8.29 20.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0022 5.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.072 4.072 0 012.8 9.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 012 18.407a11.616 11.616 0 006.29 1.84" />
-            </svg>
-          </Link>
-          <Link href="#" aria-label="LinkedIn">
-            <svg className="h-5 w-5 text-gray-400 hover:text-gray-600" fill="currentColor" viewBox="0 0 24 24">
-              <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" />
-            </svg>
-          </Link>
+          <div className="flex space-x-4">
+            <Link href="https://facebook.com" className="hover:text-gray-300 transition-colors" aria-label="Facebook">
+              <Facebook size={20} />
+            </Link>
+            <Link href="https://youtube.com" className="hover:text-gray-300 transition-colors" aria-label="YouTube">
+              <Youtube size={20} />
+            </Link>
+            <Link href="https://linkedin.com" className="hover:text-gray-300 transition-colors" aria-label="LinkedIn">
+              <Linkedin size={20} />
+            </Link>
+            <Link href="https://instagram.com" className="hover:text-gray-300 transition-colors" aria-label="Instagram">
+              <Instagram size={20} />
+            </Link>
+          </div>
         </div>
       </div>
-    </div>
-  );
+    </footer>
+  )
 }
+
