@@ -2,7 +2,7 @@ import GetStartButton from "./GetStartButton";
 import Image from "next/image";
 export default function BlahBlahBlah() {
   return (
-    <div className="flex h-[20rem] w-full overflow-clip px-20"
+    <div className="flex h-[20rem] bg-white w-full overflow-clip px-50"
     style={{
       justifyContent: "space-between",
       alignContent: "space-between",
