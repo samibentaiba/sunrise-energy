@@ -49,8 +49,8 @@ export default function PricingCard() {
                 <p className="text-sm text-gray-600 mt-1">Livré et posé - Aides déduites</p>
               </div>
               <p className="text-center text-sm font-medium text-orange-600 my-4">{description}</p>
-              <div className="flex justify-center my-6 relative w-48 h-64">
-                <Image src={img} alt={name} width={192} height={256} className="object-contain" />
+              <div className="flex justify-center items-center my-6 relative w-full h-64">
+                <Image src={img} alt={name} width={250} height={200} className=" object-contain" />
               </div>
               <button className="w-full bg-blue-600 text-white py-3 rounded-md font-medium hover:bg-blue-700 transition-colors">
                 Découvrir l&apos;offre
