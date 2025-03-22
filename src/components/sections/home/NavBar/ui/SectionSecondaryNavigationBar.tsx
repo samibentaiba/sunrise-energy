@@ -72,7 +72,7 @@ function Part2(): ReactElement {
         }}>
         <div className="relative" ref={dropdownRef}>
           <button
-            className={`flex items-center text-sm font-medium ${isDropdownOpen ? "text-[#0b68a4] border-b-[#0b68a4] h-10 border-b-[2px]":"text-gray-800 after:content-[''] after:absolute after:left-1/2 after:bottom-[-10px] after:w-0 after:h-[2px] after:bg-[#0b68a4] after:transition-all after:duration-300 after:-translate-x-1/2 hover:after:w-full" } hover:text-[#0b68a4] transition-colors 
+            className={`flex items-center text-sm font-medium ${isDropdownOpen ? "text-[#0b68a4] border-b-[#0b68a4] h-10 border-b-[2px]" : "text-gray-800 after:content-[''] after:absolute after:left-1/2 after:bottom-[-10px] after:w-0 after:h-[2px] after:bg-[#0b68a4] after:transition-all after:duration-300 after:-translate-x-1/2 hover:after:w-full"} hover:text-[#0b68a4] transition-colors 
 `}
             onClick={() => setIsDropdownOpen((prev) => !prev)}>
             Solutions photovoltaïques
@@ -159,13 +159,20 @@ function CardS({ cards }: CardsProps) {
 
 function Card({ imageSrc, title, description, linkText, linkHref }: CardProps) {
   return (
-    <div className="bg-[#ffffff] rounded-xl z-20 p-4 max-w-sm text-center">
-      <Image src={imageSrc} alt={title} width={112} height={112} className="mx-auto w-28 h-28 object-contain mb-3" />
-      <h3 className="text-lg text-[#000000] font-semibold">{title}</h3>
-      <p className="text-[#000000] text-sm">{description}</p>
-      <a href={linkHref} className="text-blue-600 font-semibold mt-2 inline-block hover:underline">
-        {linkText}
-      </a>
-    </div>
+    <button
+      onClick={() => window.location.href = linkHref}
+      className="bg-[#ffffff] rounded-xl z-20 p-4 flex flex-col justify-between h-[450px] text-center 
+                 transition-transform duration-300 ease-in-out hover:scale-105 focus:scale-105"
+    >
+      <Image src={imageSrc} alt={title} width={200} height={200} className="w-[300px] h-[250px]" />
+      <div className="flex flex-col justify-between h-[10rem]">
+        <h3 className="text-lg text-[#000000] font-semibold">{title}</h3>
+        <p className="text-[#000000] text-sm">{description}</p>
+        <span className="text-blue-600 font-semibold mt-2 inline-block hover:underline">
+          {linkText}
+        </span>
+      </div>
+    </button>
   );
 }
+
