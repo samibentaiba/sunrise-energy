@@ -17,7 +17,7 @@ const plans = [
   {
     name: "SunMax",
     price: "8 499 €",
-    img: "/images/Intervenants-LBC5-1-.webp",
+    img: "/images/Intervenants-LBC5-1.webp",
     features: [
       "Panneaux solaires de dernière génération: Dual Sun - FLASH 500",
       "Micro-onduleurs Enphase IQ8P",

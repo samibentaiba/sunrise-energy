@@ -65,7 +65,7 @@ export default function SectionPrimaryNavigationBar(): ReactElement {
           <div className="flex items-center">
             <Link href="" className="">
               <Image
-                src="/images/numero.png"
+                src="/images/Numero.png"
                 alt="logo sunvolt"
                 width={180}
                 height={100}
