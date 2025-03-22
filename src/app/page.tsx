@@ -13,7 +13,7 @@ import SectionFooter from "@/components/sections/home/SectionFooter";
 
 export default function Home() {
   return (
-    <div className="min-h-screen flex flex-col">
+    <div className="min-h-screen w-[100%] flex flex-col">
       <SectionHero />
       <SectionFeatures />
       <SectionTrust />

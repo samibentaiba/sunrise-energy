@@ -1,90 +1,91 @@
-import Image from "next/image";
-import Link from "next/link";
+import Image from "next/image"
+import Link from "next/link"
 
-export default function SectionBlog() {
+export default function ActualitesEtConseils() {
+  const articles = [
+    {
+      image: "/images/estimation-production-energie.jpeg",
+      categories: [
+        { name: "Conso", href: "#" },
+        { name: "Guides", href: "#" },
+      ],
+      title: "Quelle puissance de panneaux solaires choisir pour une maison individuelle ?",
+      href: "#",
+    },
+    {
+      image: "/images/charging-an-electric-car.webp",
+      categories: [
+        { name: "Economies d'énergie", href: "#" },
+        { name: "Guides", href: "#" },
+      ],
+      title: "La voiture électrique et le solaire : une alliance durable et économique",
+      href: "#",
+    },
+    {
+      image: "/images/panneau-solaire-toiture-tuile.webp",
+      categories: [
+        { name: "Guides", href: "#" },
+        { name: "Panneaux solaires", href: "#" },
+      ],
+      title: "11 idées reçues sur l'énergie solaire",
+      href: "#",
+    },
+    {
+      image: "/images/toiture-avec-panneaux-solaires.webp",
+      categories: [
+        { name: "Conso", href: "#" },
+        { name: "Guides", href: "#" },
+      ],
+      title: "Tout savoir sur le routeur solaire photovoltaïque",
+      href: "#",
+    },
+  ]
+
   return (
-    <div className="py-16 bg-white">
-      <div className="container mx-auto px-4">
-        <h2 className="text-2xl font-bold mb-12 text-center">
-          Actualités et Conseils
-        </h2>
+    <section className="py-16 px-50 bg-white">
+      <h2 className="text-4xl font-bold text-center text-gray-900 mb-6">Actualités et Conseils</h2>
 
-        <div className="grid md:grid-cols-4 gap-6">
-          <div className="border rounded-lg overflow-hidden">
-            <Image
-              src="/placeholder.svg?height=200&width=300"
-              alt="Blog post 1"
-              width={300}
-              height={200}
-              className="w-full h-48 object-cover"
-            />
-            <div className="p-4">
-              <h3 className="font-bold text-sm mb-2">
-                Quelle différence de prix panneau solaire hybride avec une
-                installation classique ?
-              </h3>
-              <Link href="#" className="text-blue-600 text-xs font-medium">
-                Lire l'article →
-              </Link>
-            </div>
-          </div>
+      <p className="text-center text-gray-700 mb-16 max-w-4xl mx-auto">
+        Pour tout savoir sur le photovoltaïque pour les particuliers et les professionnels, découvrez nos dernières
+        actualités
+      </p>
 
-          <div className="border rounded-lg overflow-hidden">
-            <Image
-              src="/placeholder.svg?height=200&width=300"
-              alt="Blog post 2"
-              width={300}
-              height={200}
-              className="w-full h-48 object-cover"
-            />
-            <div className="p-4">
-              <h3 className="font-bold text-sm mb-2">
-                Le meilleur moment pour se lancer dans le solaire : une décision
-                stratégique
-              </h3>
-              <Link href="#" className="text-blue-600 text-xs font-medium">
-                Lire l'article →
-              </Link>
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+        {articles.map((article, index) => (
+          <div key={index} className="flex flex-col">
+            <div className="mb-4 overflow-hidden">
+              <Image
+                src={article.image }
+                alt={article.title}
+                width={324}
+                height={256}
+                className="object-cover w-full h-64"
+              />
             </div>
-          </div>
 
-          <div className="border rounded-lg overflow-hidden">
-            <Image
-              src="/placeholder.svg?height=200&width=300"
-              alt="Blog post 3"
-              width={300}
-              height={200}
-              className="w-full h-48 object-cover"
-            />
-            <div className="p-4">
-              <h3 className="font-bold text-sm mb-2">
-                Le solaire résout-il l'énergie solaire ?
-              </h3>
-              <Link href="#" className="text-blue-600 text-xs font-medium">
-                Lire l'article →
-              </Link>
+            <div className="flex gap-1 mb-2">
+              {article.categories.map((category, catIndex) => (
+                <div key={catIndex} className="flex items-center">
+                  {catIndex > 0 && <span className="mx-1 text-blue-600">/</span>}
+                  <Link href={category.href} className="text-blue-600 text-sm hover:underline">
+                    {category.name}
+                  </Link>
+                </div>
+              ))}
             </div>
-          </div>
 
-          <div className="border rounded-lg overflow-hidden">
-            <Image
-              src="/placeholder.svg?height=200&width=300"
-              alt="Blog post 4"
-              width={300}
-              height={200}
-              className="w-full h-48 object-cover"
-            />
-            <div className="p-4">
-              <h3 className="font-bold text-sm mb-2">
-                Tout savoir sur le surplus photovoltaïque
-              </h3>
-              <Link href="#" className="text-blue-600 text-xs font-medium">
-                Lire l'article →
-              </Link>
-            </div>
+            <h3 className="text-xl font-bold text-gray-900 mb-3">{article.title}</h3>
+
+            <Link
+              href={article.href}
+              className="text-blue-600 font-medium border-b-2 border-blue-600 pb-0.5 w-fit hover:border-blue-800 hover:text-blue-800 mt-auto"
+            >
+              Lire l'article
+            </Link>
           </div>
-        </div>
+        ))}
       </div>
-    </div>
-  );
+    </section>
+  )
 }
+

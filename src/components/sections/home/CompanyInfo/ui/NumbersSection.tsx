@@ -1,19 +1,19 @@
 export default function NumbersSection() {
   return (
-    <div className="grid grid-cols-3 gap-6 mt-16">
-      <div className="text-center p-6 bg-gray-50 rounded-lg">
-        <div className="text-4xl font-bold text-blue-800">5</div>
-        <div className="text-sm text-gray-600 mt-2">ans d'expérience</div>
+    <div className="flex gap-52 justify-center items-center py-20 mt-8">
+      <div className="text-center w-58 bg-gray-100 px-10 py-5">
+        <div className="text-[3rem] font-normal text-black">5</div>
+        <div className="text-sm text-black mt-2">ans d’expertise solaire</div>
       </div>
 
-      <div className="text-center p-6 bg-gray-50 rounded-lg">
-        <div className="text-4xl font-bold text-blue-800">3000</div>
-        <div className="text-sm text-gray-600 mt-2">installations réalisées</div>
+      <div className="text-center w-58 bg-gray-100 px-10 py-5">
+        <div className="text-[3rem] font-normal text-black">3000</div>
+        <div className="text-sm text-black mt-2">installation solaires réalisées</div>
       </div>
 
-      <div className="text-center p-6 bg-gray-50 rounded-lg">
-        <div className="text-4xl font-bold text-blue-800">38571</div>
-        <div className="text-sm text-gray-600 mt-2">tonnes de CO2 économisées</div>
+      <div className="text-center w-58 bg-gray-100 px-10 py-5">
+        <div className="text-[3rem] font-normal text-black">38571</div>
+        <div className="text-sm text-black mt-2">panneaux solaires installés</div>
       </div>
     </div>
   );

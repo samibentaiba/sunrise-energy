@@ -2,16 +2,32 @@ import GetStartButton from "./GetStartButton";
 import Image from "next/image";
 export default function BlahBlahBlah() {
   return (
-    <div className="grid md:grid-cols-2 gap-12 items-center">
-      <div>
-        <h2 style={{ margin: 0, boxSizing: "border-box", flexGrow: 0, padding: "0px", fontSize: "40px", color: "rgb(4, 9, 34)", textAlign: "left", marginTop: "0px", marginBottom: "0px", fontFamily: "Lato, Arial, Helvetica, sans-serif", fontWeight: 700, lineHeight: "48px", letterSpacing: "normal", textTransform: "none", fontStyle: "normal" }}>SunVolt France ; le leader du solaire intelligent depuis 2019</h2>
-        <p className="text-gray-800 mb-6">Sunvolt est une entreprise française spécialisée dans l'installation de panneaux solaires pour les particuliers et les professionnels. Notre mission est de rendre l'énergie solaire accessible à tous, grâce à des solutions sur-mesure, innovantes et économiques.</p>
+    <div className="flex h-[20rem] w-full overflow-clip px-20"
+    style={{
+      justifyContent: "space-between",
+      alignContent: "space-between",
+      alignItems: "space-between",
+      justifyItems: "space-between",
+      justifySelf: "space-between",
+      alignSelf: "space-between"
+    }}
+    >
+      <div
+        className="flex flex-col w-[46%] h-full  gap-x-10"
+        style={{
+          justifyContent: "space-between",
+          alignContent: "space-between",
+          alignItems: "space-between",
+          justifyItems: "space-between",
+          justifySelf: "space-between",
+          alignSelf: "space-between"
+        }}>
+        <h2 style={{ fontSize: "40px", color: "rgb(4, 9, 34)", textAlign: "left", fontFamily: "Lato, Arial, Helvetica, sans-serif", fontWeight: 700, lineHeight: "50px", fontStyle: "normal" }}>SunVolt France ; le leader du solaire intelligent depuis 2019</h2>
+        <p className="text-gray-800">SunVolt est un acteur de référence dans les énergies renouvelables avec plus de 3000 installations photovoltaïques réalisées en France. Nous nous sommes donnés pour objectif de rendre le solaire accessible à tous, en offrant le meilleur compromis entre prix, rentabilité et performance.</p>
         <GetStartButton text="En savoir plus" isIcon={false} href="/solutions-photovoltaiques" />
       </div>
 
-      <div>
-        <Image src="/images/installationpanneausolairelarochelle.jpeg" alt="Solar panels on roof" width={500} height={400} className="rounded-lg object-cover" />
-      </div>
+      <Image src="/images/installationpanneausolairelarochelle.jpeg" alt="Solar panels on roof" width={600} height={600} />
     </div>
   );
 }
