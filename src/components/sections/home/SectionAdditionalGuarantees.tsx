@@ -64,8 +64,6 @@ const guarantees = [
   }
 ];
 
-
-
 const SVGComponent: React.FC = (props) => (
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" preserveAspectRatio="none" className="w-full h-[200px]" xmlnsXlink="http://www.w3.org/1999/xlink" transform="matrix(-1,0,0,1,0,0)" {...props}>
     <path fill="#ffffff" fillOpacity={1} d="M0,0 C0,0 0 ,0 0,200 C990,0 1000,100 1500,250 L1500,5000 L0,320 Z" />

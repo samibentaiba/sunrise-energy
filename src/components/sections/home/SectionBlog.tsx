@@ -75,7 +75,7 @@ export default function ActualitesEtConseils() {
           ))}
         </div>
       </section>
-      <div className="w-[60rem] text-black" style={{ fontSize: "10px", boxSizing: "border-box" }}>
+      <div className="w-[100%] text-black" style={{ fontSize: "10px", boxSizing: "border-box" }}>
         *Délai moyen d’installation de centrales solaires SunVolt après signature de devis constaté entre le 01/01/2023 et le 30/05/2023, hors délai de raccordement et de conformité Consuel
       </div>
     </section>

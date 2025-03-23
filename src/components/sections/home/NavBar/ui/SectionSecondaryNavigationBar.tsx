@@ -1,49 +1,57 @@
 "use client";
 
 import Link from "next/link";
-import { ReactElement, useState, useRef, useEffect } from "react";
+import { type ReactElement, useState, useRef, useEffect } from "react";
 import Image from "next/image";
-import { ChevronDown } from "lucide-react";
+import { ChevronDown, Menu, X } from "lucide-react";
 import GetStartButton from "./GetStartButton";
-
-export default function SectionMain(): ReactElement {
-  return (
-    <div className="w-full font-sans">
-      <div className="bg-white px-14 py-2">
-        <div className="flex justify-around w-full">
-          <div className="flex justify-between w-full items-center h-20">
-            <Part1 />
-            <Part2 />
-          </div>
-        </div>
-      </div>
-    </div>
-  );
-}
-
+import "./SectionSecondaryNavigationBar.css";
+import { motion } from "framer-motion";
 function Part1(): ReactElement {
   return (
-    <div className="flex items-center">
+    <div className="logo-container">
       <Link href="/">
-        <Image
-          src="/images/Logo.png"
-          alt="logo sunvolt"
-          width={170}
-          height={91}
-          priority
-          style={{
-            borderStyle: "none",
-            verticalAlign: "top",
-            maxWidth: "100%",
-            height: "auto",
-            boxSizing: "border-box",
-            boxShadow: "none"
-          }}
-        />
+        <Image src="/images/Logo.png" alt="logo sunvolt" width={170} height={91} priority className="logo-image" />
       </Link>
     </div>
   );
 }
+
+interface CardProps {
+  imageSrc: string;
+  title: string;
+  description: string;
+  linkText: string;
+  linkHref: string;
+}
+
+interface CardsProps {
+  cards: CardProps[];
+}
+
+function CardS({ cards }: CardsProps) {
+  return (
+    <div className="cards-container">
+      {cards.map((card, index) => (
+        <Card key={index} imageSrc={card.imageSrc} title={card.title} description={card.description} linkText={card.linkText} linkHref={card.linkHref} />
+      ))}
+    </div>
+  );
+}
+
+function Card({ imageSrc, title, description, linkText, linkHref }: CardProps) {
+  return (
+    <button onClick={() => (window.location.href = linkHref)} className="card">
+      <Image src={imageSrc || "/placeholder.svg"} alt={title} width={200} height={200} className="card-image" />
+      <div className="card-content">
+        <h3 className="card-title">{title}</h3>
+        <p className="card-description">{description}</p>
+        <span className="card-link">{linkText}</span>
+      </div>
+    </button>
+  );
+}
+
 function Part2(): ReactElement {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
   const dropdownRef = useRef<HTMLDivElement>(null);
@@ -63,24 +71,16 @@ function Part2(): ReactElement {
   }, []);
 
   return (
-    <div className="flex gap-[5rem]">
-      <div
-        className="hidden md:flex items-center gap-5 space-x-8"
-        style={{
-          fontSize: "15px",
-          fontWeight: "600"
-        }}>
-        <div className="relative" ref={dropdownRef}>
-          <button
-            className={`flex items-center text-sm font-medium ${isDropdownOpen ? "text-[#0b68a4] border-b-[#0b68a4] h-10 border-b-[2px]" : "text-gray-800 after:content-[''] after:absolute after:left-1/2 after:bottom-[-10px] after:w-0 after:h-[2px] after:bg-[#0b68a4] after:transition-all after:duration-300 after:-translate-x-1/2 hover:after:w-full"} hover:text-[#0b68a4] transition-colors 
-`}
-            onClick={() => setIsDropdownOpen((prev) => !prev)}>
+    <div className="nav-container">
+      <div className="nav-links" ref={dropdownRef}>
+        <div className="dropdown-container">
+          <button className={`dropdown-button ${isDropdownOpen ? "dropdown-button-active" : ""}`} onClick={() => setIsDropdownOpen((prev) => !prev)}>
             Solutions photovoltaïques
-            <ChevronDown strokeWidth={2.5} className={`ml-1 h-[16px] w-[16px] transition-transform ${isDropdownOpen ? "rotate-180" : ""}`} />
+            <ChevronDown strokeWidth={2.5} className={`dropdown-icon ${isDropdownOpen ? "dropdown-icon-open" : ""}`} />
           </button>
 
           {isDropdownOpen && (
-            <div className="absolute top-full left-0 w-[30rem] h-[30rem] mt-2 origin-top-left  p-2 z-50">
+            <div className="dropdown-menu">
               <CardS
                 cards={[
                   {
@@ -103,30 +103,15 @@ function Part2(): ReactElement {
           )}
         </div>
 
-        <Link
-          href="/garanties"
-          className="relative text-sm font-medium text-gray-800 hover:text-[#0b68a4] transition-colors 
-after:content-[''] after:absolute after:left-1/2 after:bottom-[-10px] 
-after:w-0 after:h-[2px] after:bg-[#0b68a4] after:transition-all after:duration-300 
-after:-translate-x-1/2 hover:after:w-full">
+        <Link href="/garanties" className="nav-link">
           Garanties
         </Link>
 
-        <Link
-          href="/aides"
-          className="relative text-sm font-medium text-gray-800 hover:text-[#0b68a4] transition-colors 
-after:content-[''] after:absolute after:left-1/2 after:bottom-[-10px] 
-after:w-0 after:h-[2px] after:bg-[#0b68a4] after:transition-all after:duration-300 
-after:-translate-x-1/2 hover:after:w-full">
+        <Link href="/aides" className="nav-link">
           Aides
         </Link>
 
-        <Link
-          href="/avis"
-          className="relative text-sm font-medium text-gray-800 hover:text-[#0b68a4] transition-colors 
-after:content-[''] after:absolute after:left-1/2 after:bottom-[-10px] 
-after:w-0 after:h-[2px] after:bg-[#0b68a4] after:transition-all after:duration-300 
-after:-translate-x-1/2 hover:after:w-full">
+        <Link href="/avis" className="nav-link">
           Avis
         </Link>
       </div>
@@ -135,40 +120,81 @@ after:-translate-x-1/2 hover:after:w-full">
     </div>
   );
 }
-interface CardProps {
-  imageSrc: string;
-  title: string;
-  description: string;
-  linkText: string;
-  linkHref: string;
-}
 
-interface CardsProps {
-  cards: CardProps[]; // Use an array of CardProps instead of multiple separate arrays
-}
+export default function SectionSecondaryNavigationBar(): ReactElement {
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
-function CardS({ cards }: CardsProps) {
   return (
-    <div className="flex gap-5">
-      {cards.map((card, index) => (
-        <Card key={index} imageSrc={card.imageSrc} title={card.title} description={card.description} linkText={card.linkText} linkHref={card.linkHref} />
-      ))}
-    </div>
-  );
-}
+    <div className="section-main">
+      <div className="header-container">
+        <div className="header-content">
+          <div className="header-inner">
+            <Part1 />
 
-function Card({ imageSrc, title, description, linkText, linkHref }: CardProps) {
-  return (
-    <button
-      onClick={() => (window.location.href = linkHref)}
-      className="bg-[#ffffff] rounded-xl z-20 p-4 flex flex-col justify-between w-[20rem] h-[450px] text-center 
-                 transition-transform duration-300 ease-in-out hover:scale-105 focus:scale-105">
-      <Image src={imageSrc} alt={title} width={200} height={200} className="w-[300px] h-[250px]" />
-      <div className="flex flex-col justify-between h-[10rem]">
-        <h3 className="text-lg text-[#000000] font-semibold">{title}</h3>
-        <p className="text-[#000000] text-sm">{description}</p>
-        <span className="text-blue-600 font-semibold mt-2 inline-block hover:underline">{linkText}</span>
+            <div className="mobile-menu-button">
+              {!mobileMenuOpen && (
+                <button onClick={() => setMobileMenuOpen(true)} className="menu-icon-button">
+                  <Menu size={30} />
+                </button>
+              )}
+            </div>
+
+            <Part2 />
+          </div>
+        </div>
       </div>
-    </button>
+
+      {/* Mobile Menu */}
+      {mobileMenuOpen && (
+        <motion.div initial={{ x: "100%" }} animate={{ x: mobileMenuOpen ? "0%" : "100%" }} transition={{ duration: 0.3, ease: "easeInOut" }} className="mobile-menu">
+          <div className={`mobile-menu `}>
+            <div className="mobile-menu-header bg-transparent">
+              <Link href="/">
+                <Image src="/images/Logo.png" alt="logo sunvolt" width={170} height={91} priority className="logo-image opacity-0" />
+              </Link>
+
+              <button onClick={() => setMobileMenuOpen(false)} className="close-menu-button">
+                <X size={30} />
+              </button>
+            </div>
+
+            <div className="mobile-menu-links">
+              <div className="mobile-menu-item mobile-dropdown">
+                <span className="mobile-menu-text">Solutions photovoltaïques</span>
+                <ChevronDown strokeWidth={2.5} className="mobile-dropdown-icon" />
+              </div>
+
+              <Link href="/garanties" className="mobile-menu-item">
+                <span className="mobile-menu-text">Garanties</span>
+              </Link>
+
+              <Link href="/aides" className="mobile-menu-item">
+                <span className="mobile-menu-text">Aides</span>
+              </Link>
+
+              <Link href="/avis" className="mobile-menu-item">
+                <span className="mobile-menu-text">Avis</span>
+              </Link>
+
+              <Link href="/guides" className="mobile-menu-item">
+                <span className="mobile-menu-text">Guides</span>
+              </Link>
+
+              <Link href="/qui-sommes-nous" className="mobile-menu-item">
+                <span className="mobile-menu-text">Qui sommes nous ?</span>
+              </Link>
+
+              <Link href="/demande-devis" className="mobile-cta">
+                <span>Demande de devis personnalisé</span>
+              </Link>
+
+              <Link href="/entreprise" className="mobile-menu-enterprise">
+                <span>Vous êtes une entreprise ?</span>
+              </Link>
+            </div>
+          </div>
+        </motion.div>
+      )}
+    </div>
   );
 }

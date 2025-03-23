@@ -11,7 +11,7 @@ import BlahBlahBlah from "@/components/sections/home/CompanyInfo/ui/BlahBlahBlah
 import NumbersSection from "@/components/sections/home/CompanyInfo/ui/NumbersSection";
 export default function Home() {
   return (
-    <div className="min-h-screen w-[100%] flex flex-col">
+    <div className="min-h-screen overflow-clip w-[100%] flex flex-col">
       <SectionHero />
       <SectionFeatures />
       <SectionTrust />
