@@ -1,6 +1,6 @@
 import Image from "next/image";
-import { Check } from "lucide-react";
-
+import { Check } from "lucide-react"
+import GetStartButton from "./GetStartButton";
 const plans = [
   {
     name: "SunEco",
@@ -52,9 +52,9 @@ export default function PricingCard() {
               <div className="flex justify-center items-center my-6 relative w-full h-64">
                 <Image src={img} alt={name} width={250} height={200} className=" object-contain" />
               </div>
-              <button className="w-full bg-blue-600 text-white py-3 rounded-md font-medium hover:bg-blue-700 transition-colors">
-                Découvrir l&apos;offre
-              </button>
+              
+                
+              <GetStartButton text="Découvrir l&apos;offre" href="/" isIcon={false} isBuy={true} />
               <div className="mt-6 space-y-3">
                 {features.map((feature) => (
                   <div key={feature} className="flex items-start gap-2">

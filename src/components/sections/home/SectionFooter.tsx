@@ -2,7 +2,7 @@
 
 import Link from "next/link"
 import Image from "next/image"
-import { Facebook, Youtube, Linkedin, Instagram} from "lucide-react"
+import { SiFacebook, SiYoutube, SiLinkedin, SiInstagram } from "react-icons/si"
 
 export default function Footer() {
 
@@ -102,16 +102,16 @@ export default function Footer() {
 
           <div className="flex space-x-4">
             <Link href="https://facebook.com" className="hover:text-gray-300 transition-colors" aria-label="Facebook">
-              <Facebook size={20} />
+              <SiFacebook size={20} />
             </Link>
             <Link href="https://youtube.com" className="hover:text-gray-300 transition-colors" aria-label="YouTube">
-              <Youtube size={20} />
+              <SiYoutube size={20} />
             </Link>
             <Link href="https://linkedin.com" className="hover:text-gray-300 transition-colors" aria-label="LinkedIn">
-              <Linkedin size={20} />
+              <SiLinkedin size={20} />
             </Link>
             <Link href="https://instagram.com" className="hover:text-gray-300 transition-colors" aria-label="Instagram">
-              <Instagram size={20} />
+              <SiInstagram size={20} />
             </Link>
           </div>
         </div>
