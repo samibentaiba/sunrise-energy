@@ -74,7 +74,7 @@ function Part2(): ReactElement {
     <div className="nav-container">
       <div className="nav-links" ref={dropdownRef}>
         <div className="dropdown-container">
-          <button className={`dropdown-button ${isDropdownOpen ? "dropdown-button-active" : ""}`} onClick={() => setIsDropdownOpen((prev) => !prev)}>
+          <button className={` ${isDropdownOpen ? "dropdown-button-active" : "dropdown-button"}`} onClick={() => setIsDropdownOpen((prev) => !prev)}>
             Solutions photovoltaïques
             <ChevronDown strokeWidth={2.5} className={`dropdown-icon ${isDropdownOpen ? "dropdown-icon-open" : ""}`} />
           </button>
@@ -103,17 +103,11 @@ function Part2(): ReactElement {
           )}
         </div>
 
-        <Link href="/garanties" className="nav-link">
-          Garanties
-        </Link>
-
-        <Link href="/aides" className="nav-link">
-          Aides
-        </Link>
-
-        <Link href="/avis" className="nav-link">
-          Avis
-        </Link>
+        {["garanties", "aides", "avis"].map((item) => (
+          <Link key={item} href={`/${item}`} className="nav-link">
+            {item.charAt(0).toUpperCase() + item.slice(1)}
+          </Link>
+        ))}
       </div>
 
       <GetStartButton href="/demande-devis" text="Demander un devis personnalisé" />
@@ -164,33 +158,19 @@ export default function SectionSecondaryNavigationBar(): ReactElement {
                 <ChevronDown strokeWidth={2.5} className="mobile-dropdown-icon" />
               </div>
 
-              <Link href="/garanties" className="mobile-menu-item">
-                <span className="mobile-menu-text">Garanties</span>
-              </Link>
-
-              <Link href="/aides" className="mobile-menu-item">
-                <span className="mobile-menu-text">Aides</span>
-              </Link>
-
-              <Link href="/avis" className="mobile-menu-item">
-                <span className="mobile-menu-text">Avis</span>
-              </Link>
-
-              <Link href="/guides" className="mobile-menu-item">
-                <span className="mobile-menu-text">Guides</span>
-              </Link>
-
-              <Link href="/qui-sommes-nous" className="mobile-menu-item">
-                <span className="mobile-menu-text">Qui sommes nous ?</span>
-              </Link>
-
-              <Link href="/demande-devis" className="mobile-cta">
-                <span>Demande de devis personnalisé</span>
-              </Link>
-
-              <Link href="/entreprise" className="mobile-menu-enterprise">
-                <span>Vous êtes une entreprise ?</span>
-              </Link>
+              {[
+                { href: "/garanties", text: "Garanties", className: "mobile-menu-item" },
+                { href: "/aides", text: "Aides", className: "mobile-menu-item" },
+                { href: "/avis", text: "Avis", className: "mobile-menu-item" },
+                { href: "/guides", text: "Guides", className: "mobile-menu-item" },
+                { href: "/qui-sommes-nous", text: "Qui sommes nous ?", className: "mobile-menu-item" },
+                { href: "/demande-devis", text: "Demande de devis personnalisé", className: "mobile-cta" },
+                { href: "/entreprise", text: "Vous êtes une entreprise ?", className: "mobile-menu-enterprise" }
+              ].map(({ href, text, className }) => (
+                <Link key={href} href={href} className={className}>
+                  <span>{text}</span>
+                </Link>
+              ))}
             </div>
           </div>
         </motion.div>
