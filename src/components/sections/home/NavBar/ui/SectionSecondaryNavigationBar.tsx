@@ -19,15 +19,9 @@ export default function SectionSecondaryNavigationBar(): ReactElement {
               <Image src="/images/Logo.png" alt="logo sunvolt" width={170} height={91} priority className="logo-image" />
             </Link>
             <div className="mobile-menu-button ">
-              {!mobileMenuOpen ? (
-                <button onClick={() => setMobileMenuOpen(true)} className="menu-icon-button">
-                  {!mobileMenuOpen ? <Menu size={30} /> : <X size={30} />}
-                </button>
-              ) : (
-                <button onClick={() => setMobileMenuOpen(false)} className="close-menu-button ">
-                  <X size={30} />
-                </button>
-              )}
+              <button onClick={() => setMobileMenuOpen(!mobileMenuOpen)} className={mobileMenuOpen ? "close-menu-button" : "menu-icon-button"}>
+                {mobileMenuOpen ? <X size={30} /> : <Menu size={30} />}
+              </button>
             </div>
             <Desktop />
           </div>
@@ -35,15 +29,9 @@ export default function SectionSecondaryNavigationBar(): ReactElement {
       </div>
 
       {/* Mobile Menu */}
-      {mobileMenuOpen ? (
-        <motion.div initial={{ x: "100%" }} animate={{ x: mobileMenuOpen ? "0%" : "100%" }} transition={{ duration: 0.3, ease: "easeInOut" }} className="mobile-menu">
-          <MobileMenu setMobileMenuOpen={setMobileMenuOpen} />
-        </motion.div>
-      ) : (
-        <motion.div initial={{ x: "100%" }} animate={{ x: mobileMenuOpen ? "0%" : "100%" }} transition={{ duration: 0.3, ease: "easeInOut" }} className="mobile-menu">
-          <MobileMenu setMobileMenuOpen={setMobileMenuOpen} />
-        </motion.div>
-      )}
+      <motion.div initial={{ x: "100%" }} animate={{ x: mobileMenuOpen ? "0%" : "100%" }} transition={{ duration: 0.3, ease: "easeInOut" }} className="mobile-menu">
+        <MobileMenu setMobileMenuOpen={setMobileMenuOpen} />
+      </motion.div>
     </div>
   );
 }
