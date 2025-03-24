@@ -47,6 +47,7 @@ export default function SectionSecondaryNavigationBar(): ReactElement {
     </div>
   );
 }
+
 function Desktop(): ReactElement {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
   const dropdownRef = useRef<HTMLDivElement>(null);
@@ -145,18 +146,7 @@ function MobileMenu({ setMobileMenuOpen }: { setMobileMenuOpen: (open: boolean) 
     </div>
   );
 }
-
-function CardS({
-  cards
-}: {
-  cards: {
-    imageSrc: string;
-    title: string;
-    description: string;
-    linkText: string;
-    linkHref: string;
-  }[];
-}) {
+function CardS({ cards }: { cards: CardProps[] }) {
   return (
     <div className="cards-container">
       {cards.map((card, index) => (
@@ -177,4 +167,12 @@ function Card({ imageSrc, title, description, linkText, linkHref }: CardProps) {
       </div>
     </button>
   );
+}
+
+interface CardProps {
+  imageSrc: string;
+  title: string;
+  description: string;
+  linkText: string;
+  linkHref: string;
 }

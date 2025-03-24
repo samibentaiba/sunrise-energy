@@ -88,7 +88,7 @@ body {
 }
 
 .dropdown-button-active {
-  @apply text-blue-700 border-b-2 h-10 flex items-center text-lg font-semibold  whitespace-nowrap transition-colors duration-300;
+  @apply text-blue-700 border-b-2 h-10 flex items-center  font-semibold  whitespace-nowrap transition-colors duration-300;
 }
 
 .dropdown-icon {
