@@ -7,7 +7,8 @@ export default function SectionHeroAlt() {
       <div className="absolute inset-0 bg-[#00061b]  opacity-40"></div>
       <div className="relative p-0 m-0 md:w-[75%] w-[90%] flex items-center text-white">
   {/* Blue Overlay */}
-  <div className="absolute inset-0  rounded-[50%] left-100 h-[150rem] w-[200rem] top-[-900px] bg-[#0D1B2A] opacity-80 "></div>
+  <div className="absolute inset-0  rounded-[50%] left-100 h-[110rem] w-[160rem] top-[-600px] bg-[#0042ff] opacity-60 "></div>
+  <div className="absolute inset-0  rounded-[50%] left-100 h-[110rem] w-[160rem] top-[-600px] bg-[#000000] opacity-80 "></div>
 
   <div className="relative w-[80%] h-[50%] flex flex-col p-[4.8rem] gap-[2rem] left-100 md:gap-[3rem] mb-5">
     <h1

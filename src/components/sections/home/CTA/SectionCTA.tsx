@@ -9,7 +9,6 @@ export default function SectionCTA() {
   return (
     <section className="relative w-full md:h-[615px] h-[1100px] flex items-center justify-center overflow-hidden">
       <ParallaxBackground />
-
       {/* Centered Content */}
       <div className="relative z-10 flex flex-col md:flex-row gap-[50px] text-white text-center items-start justify-center md:max-w-[1200px]  w-full px-4">
         <div className="animate-fade-in w-[100%] flex ">
