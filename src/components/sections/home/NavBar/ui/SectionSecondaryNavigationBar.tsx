@@ -7,40 +7,46 @@ import { ChevronDown, Menu, X } from "lucide-react";
 import GetStartButton from "./GetStartButton";
 import "./SectionSecondaryNavigationBar.css";
 import { motion } from "framer-motion";
+export default function SectionSecondaryNavigationBar(): ReactElement {
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
-function CardS({
-  cards
-}: {
-  cards: {
-    imageSrc: string;
-    title: string;
-    description: string;
-    linkText: string;
-    linkHref: string;
-  }[];
-}) {
   return (
-    <div className="cards-container">
-      {cards.map((card, index) => (
-        <Card key={index} {...card} />
-      ))}
+    <div className="section-main">
+      <div className="header-container">
+        <div className="header-content">
+          <div className="header-inner">
+            <Link href="/">
+              <Image src="/images/Logo.png" alt="logo sunvolt" width={170} height={91} priority className="logo-image" />
+            </Link>
+            <div className="mobile-menu-button ">
+              {!mobileMenuOpen ? (
+                <button onClick={() => setMobileMenuOpen(true)} className="menu-icon-button">
+                  {!mobileMenuOpen ? <Menu size={30} /> : <X size={30} />}
+                </button>
+              ) : (
+                <button onClick={() => setMobileMenuOpen(false)} className="close-menu-button ">
+                  <X size={30} />
+                </button>
+              )}
+            </div>
+            <Desktop />
+          </div>
+        </div>
+      </div>
+
+      {/* Mobile Menu */}
+      {mobileMenuOpen ? (
+        <motion.div initial={{ x: "100%" }} animate={{ x: mobileMenuOpen ? "0%" : "100%" }} transition={{ duration: 0.3, ease: "easeInOut" }} className="mobile-menu">
+          <MobileMenu setMobileMenuOpen={setMobileMenuOpen} />
+        </motion.div>
+      ) : (
+        <motion.div initial={{ x: "100%" }} animate={{ x: mobileMenuOpen ? "0%" : "100%" }} transition={{ duration: 0.3, ease: "easeInOut" }} className="mobile-menu">
+          <MobileMenu setMobileMenuOpen={setMobileMenuOpen} />
+        </motion.div>
+      )}
     </div>
   );
 }
-
-function Card({ imageSrc, title, description, linkText, linkHref }: CardProps) {
-  return (
-    <button onClick={() => (window.location.href = linkHref)} className="card">
-      <Image src={imageSrc || "/placeholder.svg"} alt={title} width={200} height={200} className="card-image" />
-      <div className="card-content">
-        <h3 className="card-title">{title}</h3>
-        <p className="card-description">{description}</p>
-        <span className="card-link">{linkText}</span>
-      </div>
-    </button>
-  );
-}
-
 function Desktop(): ReactElement {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
   const dropdownRef = useRef<HTMLDivElement>(null);
@@ -139,43 +145,36 @@ function MobileMenu({ setMobileMenuOpen }: { setMobileMenuOpen: (open: boolean) 
     </div>
   );
 }
-export default function SectionSecondaryNavigationBar(): ReactElement {
-  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
+function CardS({
+  cards
+}: {
+  cards: {
+    imageSrc: string;
+    title: string;
+    description: string;
+    linkText: string;
+    linkHref: string;
+  }[];
+}) {
   return (
-    <div className="section-main">
-      <div className="header-container">
-        <div className="header-content">
-          <div className="header-inner">
-            <Link href="/">
-              <Image src="/images/Logo.png" alt="logo sunvolt" width={170} height={91} priority className="logo-image" />
-            </Link>
-            <div className="mobile-menu-button ">
-              {!mobileMenuOpen ? (
-                <button onClick={() => setMobileMenuOpen(true)} className="menu-icon-button">
-                  {!mobileMenuOpen ? <Menu size={30} /> : <X size={30} />}
-                </button>
-              ) : (
-                <button onClick={() => setMobileMenuOpen(false)} className="close-menu-button ">
-                  <X size={30} />
-                </button>
-              )}
-            </div>
-            <Desktop />
-          </div>
-        </div>
-      </div>
-
-      {/* Mobile Menu */}
-      {mobileMenuOpen ? (
-        <motion.div initial={{ x: "100%" }} animate={{ x: mobileMenuOpen ? "0%" : "100%" }} transition={{ duration: 0.3, ease: "easeInOut" }} className="mobile-menu">
-          <MobileMenu setMobileMenuOpen={setMobileMenuOpen} />
-        </motion.div>
-      ) : (
-        <motion.div initial={{ x: "100%" }} animate={{ x: mobileMenuOpen ? "0%" : "100%" }} transition={{ duration: 0.3, ease: "easeInOut" }} className="mobile-menu">
-          <MobileMenu setMobileMenuOpen={setMobileMenuOpen} />
-        </motion.div>
-      )}
+    <div className="cards-container">
+      {cards.map((card, index) => (
+        <Card key={index} {...card} />
+      ))}
     </div>
+  );
+}
+
+function Card({ imageSrc, title, description, linkText, linkHref }: CardProps) {
+  return (
+    <button onClick={() => (window.location.href = linkHref)} className="card">
+      <Image src={imageSrc || "/placeholder.svg"} alt={title} width={200} height={200} className="card-image" />
+      <div className="card-content">
+        <h3 className="card-title">{title}</h3>
+        <p className="card-description">{description}</p>
+        <span className="card-link">{linkText}</span>
+      </div>
+    </button>
   );
 }
