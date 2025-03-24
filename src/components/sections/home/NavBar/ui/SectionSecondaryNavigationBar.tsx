@@ -7,33 +7,22 @@ import { ChevronDown, Menu, X } from "lucide-react";
 import GetStartButton from "./GetStartButton";
 import "./SectionSecondaryNavigationBar.css";
 import { motion } from "framer-motion";
-function Part1(): ReactElement {
-  return (
-    <div className="logo-container">
-      <Link href="/">
-        <Image src="/images/Logo.png" alt="logo sunvolt" width={170} height={91} priority className="logo-image" />
-      </Link>
-    </div>
-  );
-}
 
-interface CardProps {
-  imageSrc: string;
-  title: string;
-  description: string;
-  linkText: string;
-  linkHref: string;
-}
-
-interface CardsProps {
-  cards: CardProps[];
-}
-
-function CardS({ cards }: CardsProps) {
+function CardS({
+  cards
+}: {
+  cards: {
+    imageSrc: string;
+    title: string;
+    description: string;
+    linkText: string;
+    linkHref: string;
+  }[];
+}) {
   return (
     <div className="cards-container">
       {cards.map((card, index) => (
-        <Card key={index} imageSrc={card.imageSrc} title={card.title} description={card.description} linkText={card.linkText} linkHref={card.linkHref} />
+        <Card key={index} {...card} />
       ))}
     </div>
   );
@@ -52,7 +41,7 @@ function Card({ imageSrc, title, description, linkText, linkHref }: CardProps) {
   );
 }
 
-function Part2(): ReactElement {
+function Desktop(): ReactElement {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
   const dropdownRef = useRef<HTMLDivElement>(null);
 
@@ -114,7 +103,42 @@ function Part2(): ReactElement {
     </div>
   );
 }
+function MobileMenu({ setMobileMenuOpen }: { setMobileMenuOpen: (open: boolean) => void }): ReactElement {
+  return (
+    <div className={`mobile-menu `}>
+      <div className="mobile-menu-header bg-transparent">
+        <Link href="/">
+          <Image src="/images/Logo.png" alt="logo sunvolt" width={170} height={91} priority className="logo-image opacity-0" />
+        </Link>
 
+        <button onClick={() => setMobileMenuOpen(false)} className="close-menu-button opacity-0">
+          <X size={30} />
+        </button>
+      </div>
+
+      <div className="mobile-menu-links">
+        <div className="mobile-menu-item mobile-dropdown">
+          <span className="mobile-menu-text">Solutions photovoltaïques</span>
+          <ChevronDown strokeWidth={2.5} className="mobile-dropdown-icon" />
+        </div>
+
+        {[
+          { href: "/garanties", text: "Garanties", className: "mobile-menu-item" },
+          { href: "/aides", text: "Aides", className: "mobile-menu-item" },
+          { href: "/avis", text: "Avis", className: "mobile-menu-item" },
+          { href: "/guides", text: "Guides", className: "mobile-menu-item" },
+          { href: "/qui-sommes-nous", text: "Qui sommes nous ?", className: "mobile-menu-item" },
+          { href: "/demande-devis", text: "Demande de devis personnalisé", className: "mobile-cta" },
+          { href: "/entreprise", text: "Vous êtes une entreprise ?", className: "mobile-menu-enterprise" }
+        ].map(({ href, text, className }) => (
+          <Link key={href} href={href} className={className}>
+            <span>{text}</span>
+          </Link>
+        ))}
+      </div>
+    </div>
+  );
+}
 export default function SectionSecondaryNavigationBar(): ReactElement {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
@@ -123,20 +147,21 @@ export default function SectionSecondaryNavigationBar(): ReactElement {
       <div className="header-container">
         <div className="header-content">
           <div className="header-inner">
-            <Part1 />
-
+            <Link href="/">
+              <Image src="/images/Logo.png" alt="logo sunvolt" width={170} height={91} priority className="logo-image" />
+            </Link>
             <div className="mobile-menu-button ">
               {!mobileMenuOpen ? (
                 <button onClick={() => setMobileMenuOpen(true)} className="menu-icon-button">
                   {!mobileMenuOpen ? <Menu size={30} /> : <X size={30} />}
                 </button>
-              ):(
-              <button onClick={() => setMobileMenuOpen(false)} className="close-menu-button ">
-              <X size={30} />
-            </button>
+              ) : (
+                <button onClick={() => setMobileMenuOpen(false)} className="close-menu-button ">
+                  <X size={30} />
+                </button>
               )}
             </div>
-            <Part2 />
+            <Desktop />
           </div>
         </div>
       </div>
@@ -144,73 +169,13 @@ export default function SectionSecondaryNavigationBar(): ReactElement {
       {/* Mobile Menu */}
       {mobileMenuOpen ? (
         <motion.div initial={{ x: "100%" }} animate={{ x: mobileMenuOpen ? "0%" : "100%" }} transition={{ duration: 0.3, ease: "easeInOut" }} className="mobile-menu">
-          <div className={`mobile-menu`}>
-            <div className="mobile-menu-header bg-transparent opacity-0">
-              <Link href="/">
-                <Image src="/images/Logo.png" alt="logo sunvolt" width={170} height={91} priority className="logo-image opacity-0" />
-              </Link>
-
-              <button onClick={() => setMobileMenuOpen(false)} className="close-menu-button opacity-0">
-                <X size={30} />
-              </button>
-            </div>
-
-            <div className="mobile-menu-links">
-              <div className="mobile-menu-item mobile-dropdown">
-                <span className="mobile-menu-text">Solutions photovoltaïques</span>
-                <ChevronDown strokeWidth={2.5} className="mobile-dropdown-icon" />
-              </div>
-
-              {[
-                { href: "/garanties", text: "Garanties", className: "mobile-menu-item" },
-                { href: "/aides", text: "Aides", className: "mobile-menu-item" },
-                { href: "/avis", text: "Avis", className: "mobile-menu-item" },
-                { href: "/guides", text: "Guides", className: "mobile-menu-item" },
-                { href: "/qui-sommes-nous", text: "Qui sommes nous ?", className: "mobile-menu-item" },
-                { href: "/demande-devis", text: "Demande de devis personnalisé", className: "mobile-cta" },
-                { href: "/entreprise", text: "Vous êtes une entreprise ?", className: "mobile-menu-enterprise" }
-              ].map(({ href, text, className }) => (
-                <Link key={href} href={href} className={className}>
-                  <span>{text}</span>
-                </Link>
-              ))}
-            </div>
-          </div>
+          <MobileMenu setMobileMenuOpen={setMobileMenuOpen} />
         </motion.div>
-      ):(<motion.div initial={{ x: "100%" }} animate={{ x: mobileMenuOpen ? "0%" : "100%" }} transition={{ duration: 0.3, ease: "easeInOut" }} className="mobile-menu">
-          <div className={`mobile-menu `}>
-            <div className="mobile-menu-header bg-transparent">
-              <Link href="/">
-                <Image src="/images/Logo.png" alt="logo sunvolt" width={170} height={91} priority className="logo-image opacity-0" />
-              </Link>
-
-              <button onClick={() => setMobileMenuOpen(false)} className="close-menu-button opacity-0">
-                <X size={30} />
-              </button>
-            </div>
-
-            <div className="mobile-menu-links">
-              <div className="mobile-menu-item mobile-dropdown">
-                <span className="mobile-menu-text">Solutions photovoltaïques</span>
-                <ChevronDown strokeWidth={2.5} className="mobile-dropdown-icon" />
-              </div>
-
-              {[
-                { href: "/garanties", text: "Garanties", className: "mobile-menu-item" },
-                { href: "/aides", text: "Aides", className: "mobile-menu-item" },
-                { href: "/avis", text: "Avis", className: "mobile-menu-item" },
-                { href: "/guides", text: "Guides", className: "mobile-menu-item" },
-                { href: "/qui-sommes-nous", text: "Qui sommes nous ?", className: "mobile-menu-item" },
-                { href: "/demande-devis", text: "Demande de devis personnalisé", className: "mobile-cta" },
-                { href: "/entreprise", text: "Vous êtes une entreprise ?", className: "mobile-menu-enterprise" }
-              ].map(({ href, text, className }) => (
-                <Link key={href} href={href} className={className}>
-                  <span>{text}</span>
-                </Link>
-              ))}
-            </div>
-          </div>
-        </motion.div>)}
+      ) : (
+        <motion.div initial={{ x: "100%" }} animate={{ x: mobileMenuOpen ? "0%" : "100%" }} transition={{ duration: 0.3, ease: "easeInOut" }} className="mobile-menu">
+          <MobileMenu setMobileMenuOpen={setMobileMenuOpen} />
+        </motion.div>
+      )}
     </div>
   );
 }
