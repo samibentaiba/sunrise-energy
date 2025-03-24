@@ -42,7 +42,7 @@ body {
 
 /* Logo styles */
 .logo-container {
-  @apply flex items-center;
+  @apply flex items-center bg-transparent ;
 }
 
 /* Navigation styles */

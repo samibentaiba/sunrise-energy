@@ -16,7 +16,7 @@ export default function SectionSecondaryNavigationBar(): ReactElement {
         <div className="header-content">
           <div className="header-inner">
             <Link href="/">
-              <Image src="/images/Logo.png" alt="logo sunvolt" width={170} height={91} priority className="logo-image" />
+      <Image src="/images/Sunrise.svg" alt="logo sunvolt" width={120} height={120} priority className="logo-image" />
             </Link>
             <div className="mobile-menu-button ">
               <button onClick={() => setMobileMenuOpen(!mobileMenuOpen)} className={mobileMenuOpen ? "close-menu-button" : "menu-icon-button"}>
@@ -103,7 +103,7 @@ function MobileMenu({ setMobileMenuOpen }: { setMobileMenuOpen: (open: boolean) 
     <div className={`mobile-menu `}>
       <div className="mobile-menu-header bg-transparent">
         <Link href="/">
-          <Image src="/images/Logo.png" alt="logo sunvolt" width={170} height={91} priority className="logo-image opacity-0" />
+          <Image src="/images/Sunrise.svg" alt="logo sunvolt" width={170} height={91} priority className="logo-image opacity-0" />
         </Link>
 
         <button onClick={() => setMobileMenuOpen(false)} className="close-menu-button opacity-0">
