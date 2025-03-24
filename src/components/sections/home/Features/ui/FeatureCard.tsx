@@ -27,7 +27,7 @@ const FeatureCard: React.FC<FeatureCardProps> = ({
   return (
     <div
       className={cn(
-        "p-6 md:p-6 border-0 shadow-lg h-80 transition-opacity duration-700  bg-white mt-[-10rem]",
+        "p-6 md:p-6 border-0 shadow-lg h-80 transition-opacity duration-700  bg-white md:mt-[-10rem]",
         isVisible ? "opacity-100" : "opacity-0",
       )}
     >

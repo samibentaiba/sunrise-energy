@@ -6,7 +6,7 @@ import Image from "next/image";
 
 const FeatureSection: React.FC = () => {
   return (
-    <section className="w-full py-24 px-4 border-none bg-white">
+    <section className="w-full md:py-24 py-10  px-4 border-none bg-white">
       <div
         className="border-none mx-auto"
         style={{ maxWidth: "75rem" }}
