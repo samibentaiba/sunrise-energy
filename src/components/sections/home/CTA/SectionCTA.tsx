@@ -7,12 +7,12 @@ const ReactPlayer = dynamic(() => import("react-player"), { ssr: false });
 // Main SectionCTA Component
 export default function SectionCTA() {
   return (
-    <section className="relative w-full h-[615px] flex items-center justify-center overflow-hidden">
+    <section className="relative w-full md:h-[615px] h-[1100px] flex items-center justify-center overflow-hidden">
       <ParallaxBackground />
 
       {/* Centered Content */}
-      <div className="relative z-10 flex flex-col md:flex-row gap-[50px] text-white text-center items-start justify-center max-w-[1200px] w-full px-4">
-        <div className="animate-fade-in">
+      <div className="relative z-10 flex flex-col md:flex-row gap-[50px] text-white text-center items-start justify-center md:max-w-[1200px]  w-full px-4">
+        <div className="animate-fade-in w-[100%] flex ">
           <ReactPlayer url="https://youtu.be/y4iMWlxVKDA" controls width="504px" height="283px" />
         </div>
         <TextContent />

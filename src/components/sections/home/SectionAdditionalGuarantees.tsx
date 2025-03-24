@@ -4,11 +4,11 @@ import React from "react";
 // Main component: Section with additional guarantees
 export default function SectionAdditionalGuarantees() {
   return (
-    <div className="relative h-[850px]">
+    <div className="relative md:h-[850px] h-[1400px]">
       <section className="relative h-full py-16 bg-blue-800 text-white overflow-hidden">
         <ParallaxBackground />
         <div className="relative z-10 container mx-auto px-4">
-          <h2 className="text-5xl px-50 py-10 font-bold mb-12 text-center">Profitez de garanties complémentaires exclusives SunVolt</h2>
+          <h2 className="md:text-5xl text-4xl md:px-50 py-10 font-bold mb-12 text-center">Profitez de garanties complémentaires exclusives SunVolt</h2>
           <div className="grid md:grid-cols-3 gap-14 max-w-6xl mx-auto">
             {guarantees.map((guarantee) => (
               <GuaranteeCard key={guarantee.id} {...guarantee} />
@@ -18,7 +18,7 @@ export default function SectionAdditionalGuarantees() {
       </section>
 
       {/* Curved shape at the bottom */}
-      <div className="absolute bottom-0 left-0 w-full z-10">
+      <div className="absolute bottom-0 left-0 hidden md:block w-full z-10">
         <SVGComponent />
       </div>
     </div>
@@ -28,8 +28,8 @@ export default function SectionAdditionalGuarantees() {
 // Background component with parallax effect
 const ParallaxBackground = () => {
   return (
-    <div className="absolute inset-0 w-full h-[821.344px] bg-cover bg-center bg-fixed" style={{ backgroundImage: "url('https://www.sunvolt.fr/wp-content/uploads/2023/02/maison-famille-bonheur.jpeg')" }}>
-      <div className="absolute inset-0 h-[821.344px]" style={{ background: "linear-gradient(to bottom, rgba(0, 70, 110, 0.9), rgba(0, 1, 20, 0.8))" }}></div>
+    <div className="absolute inset-0 w-full md:h-[821.344px] h-[1400px] bg-cover bg-center bg-fixed" style={{ backgroundImage: "url('https://www.sunvolt.fr/wp-content/uploads/2023/02/maison-famille-bonheur.jpeg')" }}>
+      <div className="absolute inset-0 h-full" style={{ background: "linear-gradient(to bottom, rgba(0, 70, 110, 0.9), rgba(0, 1, 20, 0.8))" }}></div>
     </div>
   );
 };
