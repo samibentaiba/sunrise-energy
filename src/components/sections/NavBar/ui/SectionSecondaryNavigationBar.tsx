@@ -103,7 +103,7 @@ function MobileMenu({ setMobileMenuOpen }: { setMobileMenuOpen: (open: boolean) 
     <div className={`mobile-menu `}>
       <div className="mobile-menu-header bg-transparent">
         <Link href="/">
-          <Image src="/images/Sunrise.svg" alt="logo sunvolt" width={170} height={91} priority className="logo-image opacity-0" />
+          <Image src="/images/Sunrise.svg" alt="logo sunvolt" width={170} height={91} priority />
         </Link>
 
         <button onClick={() => setMobileMenuOpen(false)} className="close-menu-button opacity-0">
@@ -147,7 +147,7 @@ function CardS({ cards }: { cards: CardProps[] }) {
 function Card({ imageSrc, title, description, linkText, linkHref }: CardProps) {
   return (
     <button onClick={() => (window.location.href = linkHref)} className="card">
-      <Image src={imageSrc || "/placeholder.svg"} alt={title} width={200} height={200} className="card-image" />
+      <Image src={imageSrc || "/placeholder.svg"} alt={title} width={200} height={200}/>
       <div className="card-content">
         <h3 className="card-title">{title}</h3>
         <p className="card-description">{description}</p>

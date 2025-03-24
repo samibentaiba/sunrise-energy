@@ -15,7 +15,7 @@ export default function Footer() {
           <div className="flex flex-col space-y-6">
             <Link href="/" className="inline-block">
               <Image
-                src="/images/sunvolt-logo-footer.png"
+                src="/images/Sunrise-white.svg"
                 alt="SunVolt Logo"
                 width={180}
                 height={50}
