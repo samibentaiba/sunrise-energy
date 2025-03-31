@@ -24,7 +24,7 @@ export default function GetStartButton({ text, hoveredText, href, isIcon = true 
         <div className="absolute transition-all duration-500 opacity-1 group-hover:opacity-100 group-hover:translate-y-0">
           <div className="group relative inline-flex items-center justify-center ">
             {isIcon ? <FaAngleDoubleRight className="text-white opacity-0 text-2xl" size={15} /> : null}
-            <span className=" translate-y-[2px] translate-x-[5px] " style={{ fontSize: "13.4px", fontWeight: 600 }}>
+            <span className=" translate-y-[0px] translate-x-[0px] " style={{ fontSize: "13.4px", fontWeight: 600 }}>
               {text || hoveredText}
             </span>
           </div>

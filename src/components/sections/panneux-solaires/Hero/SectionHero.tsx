@@ -25,7 +25,7 @@ export default function SectionHeroAlt() {
     </p>
 
     <div>
-      <GetStartButton text="Je demande un RDV avec un conseiller" href="demande-devis-panneau-solaire" />
+      <GetStartButton isIcon={false} text="Je demande un RDV avec un conseiller" href="demande-devis-panneau-solaire" />
     </div>
   </div>
 </div>
