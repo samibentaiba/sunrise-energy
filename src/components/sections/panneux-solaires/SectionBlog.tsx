@@ -47,22 +47,18 @@ export default function ActualitesEtConseils() {
             </div>
 
             <h3 className="text-lg md:text-sm font-bold text-gray-900 mb-3 px-2 md:px-0 line-clamp-2">{article.title}</h3>
-            <GetStartButton
-              isIcon={false}
-              text="
-Découvrir l’installation"
-              href="demande-devis-panneau-solaire"
-            />
+            <GetStartButton text="Découvrir l’installation" href="demande-devis-panneau-solaire" />
           </div>
         ))}
       </div>
       <div className="w-full text-black text-[10px] mt-6 px-4 md:px-0 max-w-7xl mx-auto">*Délai moyen d'installation de centrales solaires SunVolt après signature de devis constaté entre le 01/01/2023 et le 30/05/2023, hors délai de raccordement et de conformité Consuel</div>
+      <BlueButton text="Découvrir l’installation" href="demande-devis-panneau-solaire" />
     </section>
   );
 }
 import { useState } from "react";
 
-function GetStartButton({ text, hoveredText, href, isIcon = true }: { text: string; hoveredText?: string; href: string; isIcon?: boolean }) {
+function GetStartButton({ text, hoveredText, href }: { text: string; hoveredText?: string; href: string }) {
   const [isHovered, setIsHovered] = useState(false);
 
   return (
@@ -78,7 +74,6 @@ function GetStartButton({ text, hoveredText, href, isIcon = true }: { text: stri
     </div>
   );
 }
-
 
 function BlueButton({ text, hoveredText, href }: { text: string; hoveredText?: string; href: string }) {
   const [isHovered, setIsHovered] = useState(false);
