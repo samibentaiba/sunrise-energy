@@ -77,7 +77,7 @@ const WarrantyCard = () => {
     </div>
   );
 };
-function GetStartButton({ text, hoveredText, href, isIcon = true }: { text: string; hoveredText?: string; href: string; isIcon?: boolean }): ReactElement {
+function GetStartButton({ text, hoveredText, href }: { text: string; hoveredText?: string; href: string}): ReactElement {
   return (
     <div className="w-full flex justify-center items-center">
       <Link

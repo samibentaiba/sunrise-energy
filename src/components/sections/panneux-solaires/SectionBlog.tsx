@@ -78,3 +78,18 @@ function GetStartButton({ text, hoveredText, href, isIcon = true }: { text: stri
     </div>
   );
 }
+
+
+function BlueButton({ text, hoveredText, href }: { text: string; hoveredText?: string; href: string }) {
+  const [isHovered, setIsHovered] = useState(false);
+
+  return (
+    <div className="w-full flex justify-center items-center">
+      <Link href={href} className="group relative inline-flex items-center justify-center px-5 py-2 bg-[#0b4771] text-white  font-medium rounded-full hover:bg-[#003758] overflow-hidden" style={{ fontSize: "16px", fontWeight: 600 }} onMouseEnter={() => setIsHovered(true)} onMouseLeave={() => setIsHovered(false)}>
+        <span className="transition-all duration-500" style={{ fontSize: "12px", fontWeight: 600 }}>
+          {isHovered ? hoveredText || text : text}
+        </span>
+      </Link>
+    </div>
+  );
+}
