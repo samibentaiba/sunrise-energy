@@ -1,5 +1,5 @@
-import Header from "./ui/Header";
-import PricingCard from "./ui/PicingCard";
+import Header from "./Header";
+import PricingCard from "./PicingCard";
 
 export default function SectionPricing() {
   return (

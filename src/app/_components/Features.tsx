@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
-import FeatureCard from "./ui/FeatureCard";
-import Stars from "./ui/Stars";
+import FeatureCard from "./Features/FeatureCard";
+import Stars from "./Features/Stars";
 import Image from "next/image";
 
 const FeatureSection: React.FC = () => {
