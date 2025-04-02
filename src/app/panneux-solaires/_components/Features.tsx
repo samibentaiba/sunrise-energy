@@ -1,10 +1,10 @@
 "use client";
 import React from "react";
-import FeatureCard from "./ui/FeatureCard";
-import Stars from "./ui/Stars";
+import FeatureCard from "./Features/FeatureCard";
+import Stars from "./Features/Stars";
 import Image from "next/image";
 
-const FeatureSection: React.FC = () => {
+const Features: React.FC = () => {
   return (
     <section className="w-full md:py-24 py-10  px-4 border-none bg-white">
       <div
@@ -53,4 +53,4 @@ const FeatureSection: React.FC = () => {
   );
 };
 
-export default FeatureSection;
+export default Features;

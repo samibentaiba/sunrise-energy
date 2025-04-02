@@ -1,4 +1,4 @@
-import GetStartButton from "./ui/GetStartButton";
+import GetStartButton from "./Hero/GetStartButton";
 
 export default function SectionHeroAlt() {
   return (

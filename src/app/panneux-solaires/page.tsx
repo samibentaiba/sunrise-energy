@@ -1,7 +1,7 @@
 "use client";
 
-import SectionHero from "@/app/panneux-solaires/_components/Hero/Hero";
-import SectionPricing from "@/app/panneux-solaires/_components/Pricing/Pricing";
+import SectionHero from "@/app/panneux-solaires/_components/Hero";
+import SectionPricing from "@/app/panneux-solaires/_components/Pricing";
 import SectionAdditionalGuarantees from "@/app/panneux-solaires/_components/AdditionalGuarantees";
 import SectionBlog from "@/app/panneux-solaires/_components/Blog";
 import SectionSmartSolarInstallation from "@/app/panneux-solaires/_components/SmartSolarInstallation";
