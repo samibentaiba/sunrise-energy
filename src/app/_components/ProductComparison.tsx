@@ -1,7 +1,7 @@
 import Image from "next/image";
 import { Button } from "@/components/ui/button";
 
-export default function SectionProductComparison() {
+export default function ProductComparison() {
   return (
     <div className="py-16 bg-gradient-to-r from-blue-700 to-blue-900 text-white">
       <div className="container mx-auto px-4">

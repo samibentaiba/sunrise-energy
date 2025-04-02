@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 
-export default function ActualitesEtConseils() {
+export default function Blog() {
   const articles = [
     {
       image: "/images/installationpanneausolaireToulonjpeg_6696735b722520.webp",

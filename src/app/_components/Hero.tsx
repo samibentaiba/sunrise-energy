@@ -1,6 +1,6 @@
 import GetStartButton from "./Hero/GetStartButton";
 
-export default function SectionHero() {
+export default function Hero() {
   return (
     <div className="relative md:h-[512px] h-[575px] z-0 p-0 m-0 w-full flex items-center justify-center bg-cover bg-center" style={{ backgroundImage: "url('/images/Herosection.png')" }}>
       {/* Black overlay with 10% opacity */}

@@ -1,7 +1,7 @@
-import Header from "./ui/Header";
-import PricingCard from "./ui/PicingCard";
+import Header from "./Pricing/Header";
+import PricingCard from "./Pricing/PicingCard";
 
-export default function SectionPricing() {
+export default function Pricing() {
   return (
     <>
       <Header />

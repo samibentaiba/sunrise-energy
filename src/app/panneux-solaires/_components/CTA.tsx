@@ -5,7 +5,7 @@ import dynamic from "next/dynamic";
 const ReactPlayer = dynamic(() => import("react-player"), { ssr: false });
 
 // Main SectionCTA Component
-export default function SectionCTA() {
+export default function CTA() {
   return (
     <section className="relative w-full md:h-[615px] h-[1100px] flex items-center justify-center overflow-hidden">
       <ParallaxBackground />
