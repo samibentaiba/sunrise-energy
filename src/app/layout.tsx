@@ -29,7 +29,7 @@ export default function RootLayout({
             <SectionSecondaryNavigationBar />
           </div>
 
-          <div className="min-h-screen flex  flex-col ">{children}</div>
+          <div className="min-h-screen flex bg-white flex-col ">{children}</div>
 
           <SectionFooter />
 
