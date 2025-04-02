@@ -1,19 +1,19 @@
 "use client";
 
-import SectionHero from "@/components/sections/panneux-solaires/Hero/SectionHero";
-import SectionPricing from "@/components/sections/panneux-solaires/Pricing/SectionPricing";
-import SectionAdditionalGuarantees from "@/components/sections/panneux-solaires/SectionAdditionalGuarantees";
-import SectionBlog from "@/components/sections/panneux-solaires/SectionBlog";
-import BlahBlahBlah from "@/components/sections/panneux-solaires/CompanyInfo/ui/BlahBlahBlah";
-import NumbersSection from "@/components/sections/panneux-solaires/CompanyInfo/ui/NumbersSection";
+import SectionHero from "@/app/panneux-solaires/_components/Hero/Hero";
+import SectionPricing from "@/app/panneux-solaires/_components/Pricing/Pricing";
+import SectionAdditionalGuarantees from "@/app/panneux-solaires/_components/AdditionalGuarantees";
+import SectionBlog from "@/app/panneux-solaires/_components/Blog";
+import SectionSmartSolarInstallation from "@/app/panneux-solaires/_components/SmartSolarInstallation";
+import SectionSolarProtection from "@/app/panneux-solaires/_components/SolarProtection";
 export default function Home() {
   return (
     <div className="min-h-screen overflow-clip w-[100%] flex flex-col">
       <SectionHero />
       <SectionPricing />
       <SectionAdditionalGuarantees />
-      <BlahBlahBlah />
-      <NumbersSection />
+      <SectionSmartSolarInstallation />
+      <SectionSolarProtection />
       <SectionBlog />
     </div>
   );

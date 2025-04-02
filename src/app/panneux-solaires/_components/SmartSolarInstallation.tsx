@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-export default function BlahBlahBlah() {
+export default function SectionSmartSolarInstallation() {
   return (
     <div className="w-screen text-gray-900 bg-white">
       <section className="w-full py-16 bg-white">

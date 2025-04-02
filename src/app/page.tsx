@@ -1,26 +1,26 @@
 "use client";
 
-import SectionHero from "@/components/sections/home/Hero/SectionHero";
-import SectionFeatures from "@/components/sections/home/Features/SectionFeatures";
-import SectionTrust from "@/components/sections/home/SectionTrust";
-import SectionCTA from "@/components/sections/home/CTA/SectionCTA";
-import SectionPricing from "@/components/sections/home/Pricing/SectionPricing";
-import SectionAdditionalGuarantees from "@/components/sections/home/SectionAdditionalGuarantees";
-import SectionBlog from "@/components/sections/home/SectionBlog";
-import BlahBlahBlah from "@/components/sections/home/CompanyInfo/ui/BlahBlahBlah";
-import NumbersSection from "@/components/sections/home/CompanyInfo/ui/NumbersSection";
+import Hero from "@/app/_components/Hero/Hero";
+import Features from "@/app/_components/Features/Features";
+import Trust from "@/app/_components/Trust";
+import CTA from "@/app/_components/CTA/CTA";
+import Pricing from "@/app/_components/Pricing/Pricing";
+import AdditionalGuarantees from "@/app/_components/AdditionalGuarantees";
+import Blog from "@/app/_components/Blog";
+import AboutSunVolt from "@/app/_components/CompanyInfo/ui/AboutSunVolt";
+import Numbers from "@/app/_components/CompanyInfo/ui/Numbers";
 export default function Home() {
   return (
     <div className="min-h-screen overflow-clip w-[100%] flex flex-col">
-      <SectionHero />
-      <SectionFeatures />
-      <SectionTrust />
-      <SectionCTA />
-      <SectionPricing />
-      <SectionAdditionalGuarantees />
-      <BlahBlahBlah />
-      <NumbersSection />
-      <SectionBlog />
+      <Hero />
+      <Features />
+      <Trust />
+      <CTA />
+      <Pricing />
+      <AdditionalGuarantees />
+      <AboutSunVolt />
+      <Numbers />
+      <Blog />
     </div>
   );
 }

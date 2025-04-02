@@ -36,13 +36,13 @@ export default function ActualitesEtConseils() {
   ];
 
   return (
-    <section className="py-8 md:pb-14 px-4 md:px-8 lg:px-50 bg-white">
+    <section className="py-8 md:pb-14 px-4 md:px-8 lg:px-50 bg-white flex flex-col gap-12">
       <h2 className="text-3xl md:text-4xl p-20 font-bold text-center text-gray-900 mb-4">Plus de 3 000 clients heureux partout en France</h2>
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8 max-w-7xl mx-auto">
         {articles.map((article, index) => (
-          <div key={index} className="flex flex-col bg-white rounded-lg overflow-hidden">
-            <div className="mb-3 md:mb-4 overflow-hidden">
+          <div key={index} className="flex flex-col place-items-start items-start text-start bg-white rounded-lg overflow-hidden">
+            <div className="mb-3 md:mb-4 w-full">
               <Image src={article.image || "/placeholder.svg"} alt={article.title} width={324} height={256} className="object-cover w-full h-48 md:h-64 transition-transform hover:scale-105 duration-300" />
             </div>
 
@@ -51,8 +51,8 @@ export default function ActualitesEtConseils() {
           </div>
         ))}
       </div>
-      <div className="w-full text-black text-[10px] mt-6 px-4 md:px-0 max-w-7xl mx-auto">*Délai moyen d'installation de centrales solaires SunVolt après signature de devis constaté entre le 01/01/2023 et le 30/05/2023, hors délai de raccordement et de conformité Consuel</div>
-      <BlueButton text="Découvrir l’installation" href="demande-devis-panneau-solaire" />
+      
+      <BlueButton text="Parcourir toutes nos réalisations" href="demande-devis-panneau-solaire" />
     </section>
   );
 }
@@ -62,8 +62,8 @@ function GetStartButton({ text, hoveredText, href }: { text: string; hoveredText
   const [isHovered, setIsHovered] = useState(false);
 
   return (
-    <div className="w-full flex justify-center items-center">
-      <Link href={href} className="group relative inline-flex items-center justify-center px-5 py-2 bg-gray-200 text-black hover:text-white font-medium rounded-full hover:bg-[#0b4771] overflow-hidden" style={{ fontSize: "16px", fontWeight: 600 }} onMouseEnter={() => setIsHovered(true)} onMouseLeave={() => setIsHovered(false)}>
+    <div className="w-full flex  justify-start items-start">
+      <Link href={href} className="group relative inline-flex items-center justify-center px-5 py-2 bg-gray-200 text-black hover:text-white font-medium rounded-full hover:bg-[#0B476F] overflow-hidden" style={{ fontSize: "16px", fontWeight: 600 }} onMouseEnter={() => setIsHovered(true)} onMouseLeave={() => setIsHovered(false)}>
         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke={isHovered ? "white" : "black"} strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="ml-2 h-4 w-4">
           <path d="m9 18 6-6-6-6" />
         </svg>
@@ -80,8 +80,8 @@ function BlueButton({ text, hoveredText, href }: { text: string; hoveredText?: s
 
   return (
     <div className="w-full flex justify-center items-center">
-      <Link href={href} className="group relative inline-flex items-center justify-center px-5 py-2 bg-[#0b4771] text-white  font-medium rounded-full hover:bg-[#003758] overflow-hidden" style={{ fontSize: "16px", fontWeight: 600 }} onMouseEnter={() => setIsHovered(true)} onMouseLeave={() => setIsHovered(false)}>
-        <span className="transition-all duration-500" style={{ fontSize: "12px", fontWeight: 600 }}>
+      <Link href={href} className="group relative inline-flex items-center justify-center px-6 py-3 bg-[#0B68A4] text-white  font-medium rounded-full hover:bg-[#0B476F] overflow-hidden" style={{ fontSize: "16px", fontWeight: 600 }} onMouseEnter={() => setIsHovered(true)} onMouseLeave={() => setIsHovered(false)}>
+        <span className="transition-all duration-500" style={{ fontSize: "14px", fontWeight: 600 }}>
           {isHovered ? hoveredText || text : text}
         </span>
       </Link>
