@@ -1,0 +1,48 @@
+[
+    {
+      "reviewId": "1",
+      "reviewer": { "profilePhotoUrl": "https://via.placeholder.com/50", "displayName": "Brigitte", "isAnonymous": false },
+      "starRating": 5,
+      "comment": "Toutes les étapes, depuis la prise de contact avec l'équipe de SUNVOLT jusqu'à l'installation, se sont très bien déroulées et dans les temps prévus.",
+      "reviewUrl": "https://example.com/review/1",
+      "createTime": "2024-03-10T12:00:00Z",
+      "updateTime": "2024-03-11T12:00:00Z"
+    },
+    {
+      "reviewId": "2",
+      "reviewer": { "profilePhotoUrl": "https://via.placeholder.com/50", "displayName": "Anne", "isAnonymous": false },
+      "starRating": 5,
+      "comment": "Entreprise basée en France, Sérieuse, dont les interlocuteurs sont bien en France et non pas sur des plateformes délocalisées !",
+      "reviewUrl": "https://example.com/review/2",
+      "createTime": "2024-03-12T12:00:00Z",
+      "updateTime": "2024-03-13T12:00:00Z"
+    },
+    {
+      "reviewId": "3",
+      "reviewer": { "profilePhotoUrl": "https://via.placeholder.com/50", "displayName": "Eric", "isAnonymous": false },
+      "starRating": 5,
+      "comment": "Très bonne expérience avec l'entreprise, qui nous a bien conseillé et qui a suivi le projet de bout en bout. Très satisfait.",
+      "reviewUrl": "https://example.com/review/3",
+      "createTime": "2024-03-14T12:00:00Z",
+      "updateTime": "2024-03-15T12:00:00Z"
+    },
+    {
+      "reviewId": "4",
+      "reviewer": { "profilePhotoUrl": "https://via.placeholder.com/50", "displayName": "Dams", "isAnonymous": false },
+      "starRating": 5,
+      "comment": "Entreprise très pro",
+      "reviewUrl": "https://example.com/review/4",
+      "createTime": "2024-03-16T12:00:00Z",
+      "updateTime": "2024-03-17T12:00:00Z"
+    },
+    {
+      "reviewId": "5",
+      "reviewer": { "profilePhotoUrl": "https://via.placeholder.com/50", "displayName": "Dumont", "isAnonymous": false },
+      "starRating": 5,
+      "comment": "Excellent travail",
+      "reviewUrl": "https://example.com/review/5",
+      "createTime": "2024-03-18T12:00:00Z",
+      "updateTime": "2024-03-19T12:00:00Z"
+    }
+  ]
+  

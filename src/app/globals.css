@@ -8,7 +8,7 @@
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
+  color: black;
   background: rgb(var(--background-start-rgb));
 }
 

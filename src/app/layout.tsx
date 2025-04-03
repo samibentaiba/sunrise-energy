@@ -4,8 +4,8 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import ThemeProviderWrapper from "./ThemeProvider";
-import SectionPrimaryNavigationBar from "@/components/sections/NavBar/ui/SectionPrimaryNavigationBar";
-import SectionSecondaryNavigationBar from "@/components/sections/NavBar/ui/SectionSecondaryNavigationBar";
+import SectionPrimaryNavigationBar from "@/components/sections/ui/SectionPrimaryNavigationBar";
+import SectionSecondaryNavigationBar from "@/components/sections/ui/SectionSecondaryNavigationBar";
 import SectionFooter from "@/components/sections/SectionFooter";
 const inter = Inter({ subsets: ["latin"] });
 
@@ -20,7 +20,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="fr" className="bg-[#d1d1d1]">
+    <html lang="fr" className="text-black bg-[#d1d1d1]">
       <body className={`${inter.className} light bg-white`}>
         <ThemeProviderWrapper>
 
