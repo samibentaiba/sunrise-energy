@@ -3,7 +3,7 @@
 import Link from "next/link"
 import Image from "next/image"
 import { SiFacebook, SiYoutube, SiLinkedin, SiInstagram } from "react-icons/si"
-
+import SunriseWhite from "./Footer/Sunrise-white.svg"
 export default function Footer() {
 
 
@@ -15,7 +15,7 @@ export default function Footer() {
           <div className="flex flex-col space-y-6">
             <Link href="/" className="inline-block">
               <Image
-                src="/images/Sunrise-white.svg"
+                src={SunriseWhite}
                 alt="SunVolt Logo"
                 width={180}
                 height={50}

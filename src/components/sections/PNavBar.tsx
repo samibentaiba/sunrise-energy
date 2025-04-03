@@ -3,7 +3,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import { ReactElement } from "react";
-
+import Number from "./NavBar/Numero.png"
 export default function SectionPrimaryNavigationBar(): ReactElement {
   return (
     <div className="border-none bg-[#f9f9f9] hidden lg:block">
@@ -45,7 +45,7 @@ export default function SectionPrimaryNavigationBar(): ReactElement {
           <div className="flex items-center">
             <Link href="" className="">
               <Image
-                src="/images/Numero.png"
+                src={Number}
                 alt="logo sunvolt"
                 width={180}
                 height={100}

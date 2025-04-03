@@ -4,9 +4,9 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import ThemeProviderWrapper from "./ThemeProvider";
-import SectionPrimaryNavigationBar from "@/components/sections/ui/SectionPrimaryNavigationBar";
-import SectionSecondaryNavigationBar from "@/components/sections/ui/SectionSecondaryNavigationBar";
-import SectionFooter from "@/components/sections/SectionFooter";
+import SectionPrimaryNavigationBar from "@/components/sections/PNavBar";
+import SectionSecondaryNavigationBar from "@/components/sections/SNavBar";
+import SectionFooter from "@/components/sections/Footer";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {

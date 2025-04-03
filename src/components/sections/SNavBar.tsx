@@ -4,9 +4,10 @@ import Link from "next/link";
 import { type ReactElement, useState, useRef, useEffect } from "react";
 import Image from "next/image";
 import { ChevronDown, Menu, X } from "lucide-react";
-import GetStartButton from "./GetStartButton";
-import "./SectionSecondaryNavigationBar.css";
+import GetStartButton from "./ui/GetStartButton";
+import "@/styles/SNavBar.css";
 import { motion } from "framer-motion";
+import SunriseLogo from "./NavBar/Sunrise.svg"
 export default function SectionSecondaryNavigationBar(): ReactElement {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
@@ -16,7 +17,7 @@ export default function SectionSecondaryNavigationBar(): ReactElement {
         <div className="header-content">
           <div className="header-inner">
             <Link href="/">
-      <Image src="/images/Sunrise.svg" alt="logo sunvolt" width={120} height={120} priority className="logo-image" />
+      <Image src={SunriseLogo} alt="logo Sunrise" width={120} height={120} priority className="logo-image" />
             </Link>
             <div className="mobile-menu-button ">
               <button onClick={() => setMobileMenuOpen(!mobileMenuOpen)} className={mobileMenuOpen ? "close-menu-button" : "menu-icon-button"}>
