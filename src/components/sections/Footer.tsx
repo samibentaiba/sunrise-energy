@@ -1,12 +1,10 @@
-"use client"
+"use client";
 
-import Link from "next/link"
-import Image from "next/image"
-import { SiFacebook, SiYoutube, SiLinkedin, SiInstagram } from "react-icons/si"
-import SunriseWhite from "./Footer/Sunrise-white.svg"
+import Link from "next/link";
+import Image from "next/image";
+import { SiFacebook, SiYoutube, SiLinkedin, SiInstagram } from "react-icons/si";
+import SunriseWhite from "./Footer/Sunrise-white.svg";
 export default function Footer() {
-
-
   return (
     <footer className="bg-[#0a0b1e] text-white py-12">
       <div className="container mx-auto px-4">
@@ -14,13 +12,7 @@ export default function Footer() {
           {/* Logo and ratings column */}
           <div className="flex flex-col space-y-6">
             <Link href="/" className="inline-block">
-              <Image
-                src={SunriseWhite}
-                alt="SunVolt Logo"
-                width={180}
-                height={50}
-                
-              />
+              <Image src={SunriseWhite} alt="SunVolt Logo" width={180} height={50} />
             </Link>
             <div className="mt-4">
               <p className="font-medium">Avis Bien</p>
@@ -94,9 +86,7 @@ export default function Footer() {
               Politique de gestion des données personnelles
             </Link>
             <div className="mt-2">
-              <button className="text-gray-400 hover:text-white transition-colors">
-                Cliquez-ici pour modifier vos préférences en matière de cookies
-              </button>
+              <button className="text-gray-400 hover:text-white transition-colors">Cliquez-ici pour modifier vos préférences en matière de cookies</button>
             </div>
           </div>
 
@@ -117,6 +107,5 @@ export default function Footer() {
         </div>
       </div>
     </footer>
-  )
+  );
 }
-

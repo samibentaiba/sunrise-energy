@@ -7,7 +7,7 @@ import { ChevronDown, Menu, X } from "lucide-react";
 import GetStartButton from "./ui/GetStartButton";
 import "@/styles/SNavBar.css";
 import { motion } from "framer-motion";
-import SunriseLogo from "./NavBar/Sunrise.svg"
+import SunriseLogo from "./NavBar/Sunrise.svg";
 export default function SectionSecondaryNavigationBar(): ReactElement {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
@@ -17,7 +17,7 @@ export default function SectionSecondaryNavigationBar(): ReactElement {
         <div className="header-content">
           <div className="header-inner">
             <Link href="/">
-      <Image src={SunriseLogo} alt="logo Sunrise" width={120} height={120} priority className="logo-image" />
+              <Image src={SunriseLogo} alt="logo Sunrise" width={120} height={120} priority className="logo-image" />
             </Link>
             <div className="mobile-menu-button ">
               <button onClick={() => setMobileMenuOpen(!mobileMenuOpen)} className={mobileMenuOpen ? "close-menu-button" : "menu-icon-button"}>
@@ -148,7 +148,7 @@ function CardS({ cards }: { cards: CardProps[] }) {
 function Card({ imageSrc, title, description, linkText, linkHref }: CardProps) {
   return (
     <button onClick={() => (window.location.href = linkHref)} className="card">
-      <Image src={imageSrc || "/placeholder.svg"} alt={title} width={200} height={200}/>
+      <Image src={imageSrc || "/placeholder.svg"} alt={title} width={200} height={200} />
       <div className="card-content">
         <h3 className="card-title">{title}</h3>
         <p className="card-description">{description}</p>
