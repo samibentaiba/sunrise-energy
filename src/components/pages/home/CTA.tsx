@@ -22,7 +22,7 @@ export default function CTA() {
 
 const ParallaxBackground = () => {
   return (
-    <div className="absolute inset-0 w-full h-full bg-cover bg-center bg-fixed" style={{ backgroundImage: "url('/images/Castelnau.jpeg')" }}>
+    <div className="absolute inset-0 w-full h-full bg-cover bg-center bg-fixed" style={{ backgroundImage: "url('/images/CTA.jpeg')" }}>
       {/* Overlays */}
       <div className="absolute inset-0 bg-[#0042ff]/61"></div>
       <div className="absolute inset-0 bg-[#000000]/80"></div>

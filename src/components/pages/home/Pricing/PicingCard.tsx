@@ -1,34 +1,25 @@
 import Image from "next/image";
-import { Check } from "lucide-react"
+import { Check } from "lucide-react";
 import GetStartButton from "./GetStartButton";
+import Intervenants from "./Intervenants-LBC5-1.webp";
+import PanneuxSolaires from "./Panneau-solaire-DMEGC.webp";
 const plans = [
   {
     name: "SunEco",
     price: "7 499€",
-    img: "/images/panneau-solaire-DMEGC-solar-500-Wc.webp",
-    features: [
-      "Panneaux solaires de dernière génération DMEGC BIFACIAL",
-      "Onduleurs centraux Huawei SUN2000",
-      "Gestionnaire d'énergie POWER GEN4",
-    ],
+    img: Intervenants,
+    features: ["Panneaux solaires de dernière génération DMEGC BIFACIAL", "Onduleurs centraux Huawei SUN2000", "Gestionnaire d'énergie POWER GEN4"],
     description: "Le solaire performant et durable au meilleur prix",
-    bg: "bg-white",
+    bg: "bg-white"
   },
   {
     name: "SunMax",
     price: "8 499 €",
-    img: "/images/Intervenants-LBC5-1.webp",
-    features: [
-      "Panneaux solaires de dernière génération: Dual Sun - FLASH 500",
-      "Micro-onduleurs Enphase IQ8P",
-      "Suivi de production",
-      "Suivi de consommation",
-      "Optimisation de production en cas d'ombre",
-      "Optimisation des consommations en fonction de la production",
-    ],
+    img: PanneuxSolaires,
+    features: ["Panneaux solaires de dernière génération: Dual Sun - FLASH 500", "Micro-onduleurs Enphase IQ8P", "Suivi de production", "Suivi de consommation", "Optimisation de production en cas d'ombre", "Optimisation des consommations en fonction de la production"],
     description: "Le solaire Premium avec panneaux solaires de marque française",
-    bg: "bg-gray-50 rounded-lg",
-  },
+    bg: "bg-gray-50 rounded-lg"
+  }
 ];
 
 export default function PricingCard() {
@@ -40,7 +31,7 @@ export default function PricingCard() {
             <div className="text-center mb-4">
               <p className="text-blue-600 font-medium">{name}</p>
             </div>
-            <div className={`p-6 flex flex-col h-full ${bg}`}>  
+            <div className={`p-6 flex flex-col h-full ${bg}`}>
               <div className="text-center mb-4">
                 <h3 className="font-bold text-xl">
                   <span className="text-gray-800">À partir de </span>
@@ -52,9 +43,8 @@ export default function PricingCard() {
               <div className="flex justify-center items-center my-6 relative w-full h-64">
                 <Image src={img} alt={name} width={250} height={200} className=" object-contain" />
               </div>
-              
-                
-              <GetStartButton text="Découvrir l&apos;offre" href="/" isIcon={false} isBuy={true} />
+
+              <GetStartButton text="Découvrir l'offre" href="/" isIcon={false} isBuy={true} />
               <div className="mt-6 space-y-3">
                 {features.map((feature) => (
                   <div key={feature} className="flex items-start gap-2">

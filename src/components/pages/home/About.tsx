@@ -1,7 +1,7 @@
-import GetStartButton from "./GetStartButton";
+import GetStartButton from "./About/GetStartButton";
 import Image from "next/image";
-
-export default function AboutSunVolt() {
+import HeroImage from "./About/installationpanneausolairelarochelle.jpeg"
+export default function About() {
   return (
     <div className="bg-white flex justify-center py-10 md:py-20 w-full">
       <div className=" mx-auto px-4 md:px-6 flex flex-col md:flex-row items-center gap-6 md:gap-10">
@@ -24,7 +24,7 @@ export default function AboutSunVolt() {
         {/* Right Side: Image */}
         <div className="w-full md:w-[550px]">
           <Image
-            src="/images/installationpanneausolairelarochelle.jpeg"
+            src={HeroImage}
             alt="Solar panels on roof"
             width={550}
             height={500}
