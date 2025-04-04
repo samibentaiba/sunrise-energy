@@ -70,7 +70,7 @@ const WarrantyCard = () => {
       </div>
 
       <div className="flex flex-col gap-6 justify-center items-center">
-        <Image src="/images/black-panneau-solairejpg.webp" alt="Panneau solaire" width={200} height={400} className="object-contain " />
+        <Image src="/images/pages/panneaux-solaires/Guarantees.webp" alt="Panneau solaire" width={200} height={400} className="object-contain " />
 
         <p className="font-semibold leading-7 text-gray-700 mt-4 max-w-xs">Pendant 10 ans, si vous ne faites pas les économies promises par notre étude, on vous rembourse la différence.</p>
       </div>

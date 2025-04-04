@@ -2,7 +2,7 @@ import GetStartButton from "./Hero/GetStartButton";
 
 export default function SectionHeroAlt() {
   return (
-    <div className="relative md:h-[512px] h-[575px] z-0 p-0 m-0 w-full flex items-center justify-center overflow-hidden bg-cover bg-center" style={{ backgroundImage: "url('/images/solar-house.jpeg')" }}>
+    <div className="relative md:h-[512px] h-[575px] z-0 p-0 m-0 w-full flex items-center justify-center overflow-hidden bg-cover bg-center" style={{ backgroundImage: "url('/images/pages/panneaux-solaires/Hero.jpeg')" }}>
       {/* Black overlay with 10% opacity */}
       <div className="absolute inset-0 bg-[#00061b]  opacity-40"></div>
       <div className="relative p-0 m-0 md:w-[75%] w-[90%] flex items-center text-white">

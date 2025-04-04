@@ -12,7 +12,7 @@ export default function Protection() {
       </section>
       <div className="flex flex-col md:flex-row items-center justify-between bg-gray-50 max-w-7xl mx-auto">
         <div className="w-full md:w-1/2 p-6 flex justify-center">
-          <Image src="/images/onduleur-solaire-hybride-triphase-huawei-sun2000-chargeur-de-batteries.jpg" alt="Gestionnaire d'énergie intelligent avec smartphone et prises connectées" width={500} height={400} className="object-contain" />
+          <Image src="/images/pages/panneaux-solaires/Protection.jpg" alt="Gestionnaire d'énergie intelligent avec smartphone et prises connectées" width={500} height={400} className="object-contain" />
         </div>
 
         <div className="w-full md:w-1/2 p-6 md:p-10 bg-gray-100">
