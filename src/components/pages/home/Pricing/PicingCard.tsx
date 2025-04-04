@@ -1,8 +1,8 @@
 import Image from "next/image";
 import { Check } from "lucide-react";
 import GetStartButton from "./GetStartButton";
-import Intervenants from "./Intervenants-LBC5-1.webp";
-import PanneuxSolaires from "./Panneau-solaire-DMEGC.webp";
+import Intervenants from "@/images/pages/home/Pricing/Intervenants-LBC5-1.webp";
+import PanneuxSolaires from "@/images/pages/home/Pricing/Panneau-solaire-DMEGC.webp";
 const plans = [
   {
     name: "SunEco",

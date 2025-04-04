@@ -1,35 +1,36 @@
+"use client";
 import Image from "next/image";
 import Link from "next/link";
 
 export default function Blog() {
   const articles = [
     {
-      image: "/images/installationpanneausolaireToulonjpeg_6696735b722520.webp",
+      image: "/images/pages/panneaux-solaires/installationpanneausolaireToulonjpeg_6696735b722520.webp",
       title: "Installation de panneaux solaires à Toulon, région Provence-Alpes-Côte d'Azur (83)",
       href: "#"
     },
     {
-      image: "/images/Posedepanneauxsolairessurunmasavecpiscinenimesjpeg_66a0b96a265b79.50680551-200x150.jpeg",
+      image: "/images/pages/panneaux-solaires/Posedepanneauxsolairessurunmasavecpiscinenimesjpeg_66a0b96a265b79.50680551-200x150.jpeg",
       title: "Pose de panneaux solaires sur un mas avec piscine dans à Nîmes dans le Gard (30)",
       href: "#"
     },
     {
-      image: "/images/installationpanneausolaireniortjpeg_668ea8bd893819.webp",
+      image: "/images/pages/panneaux-solaires/installationpanneausolaireniortjpeg_668ea8bd893819.webp",
       title: "Installation de panneaux solaires en autoconsommation triphasé à Niort, Nouvelle-Aquitaine (79)",
       href: "#"
     },
     {
-      image: "/images/installationpanneausolairepoitiersjpeg_668e892f6c2f38.webp",
+      image: "/images/pages/panneaux-solaires/installationpanneausolairepoitiersjpeg_668e892f6c2f38.webp",
       title: "Installation de panneaux solaires d’une puissance de 5kWc à Poitiers en Poitou-Charentes (86)",
       href: "#"
     },
     {
-      image: "/images/panneausolairelillejpeg_667be5b22785f7.14272160-400x282.jpeg",
+      image: "/images/pages/panneaux-solaires/panneausolairelillejpeg_667be5b22785f7.14272160-400x282.jpeg",
       title: "Installation Solaire Photovoltaïque en autoconsommation avec revente du surplus de 3 kWc à Lille dans le Nord (59)",
       href: "#"
     },
     {
-      image: "/images/installationsolairerennesjpeg_667c2b560a1575.00569618-200x151.jpeg",
+      image: "/images/pages/panneaux-solaires/installationsolairerennesjpeg_667c2b560a1575.00569618-200x151.jpeg",
       title: "Installation photovoltaïque de 5 kWc à Rennes en Ille-et-Vilaine (35) pour réduire sa facture d’énergie",
       href: "#"
     }

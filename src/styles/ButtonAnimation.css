@@ -1,0 +1,36 @@
+.svg-button-wrapper {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .button-svg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+    pointer-events: none;
+  }
+  
+  .button-shape {
+    stroke-dasharray: 140 540;
+    stroke-dashoffset: -474;
+    stroke-width: 8px;
+    fill: transparent;
+    stroke: #19f6e8;
+    transition: stroke-width 1s, stroke-dashoffset 1s, stroke-dasharray 1s;
+  }
+  
+  .button-shape.active {
+    stroke-width: 2px;
+    stroke-dashoffset: 0;
+    stroke-dasharray: 760;
+  }
+  
+  .button-content {
+    position: relative;
+    z-index: 1;
+    background: transparent !important;
+    padding: 8px 16px;
+  }
+  
+  

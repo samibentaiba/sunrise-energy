@@ -1,9 +1,9 @@
 import Image from "next/image";
 import Link from "next/link";
-import ChoosingSolar from "./Blog/Choosing-solar-panel-power.jpeg";
-import ElectricCar from "./Blog/Electric-car-charging-with-solar.webp";
-import SolarPanels from "./Blog/Solar-panels-on-tiled-roof.webp";
-import HouseRoof from "./Blog/House-roof-with-solar-panels.webp";
+import ChoosingSolar from "@/images/pages/home/Blog/Choosing-solar-panel-power.jpeg";
+import ElectricCar from "@/images/pages/home/Blog/Electric-car-charging-with-solar.webp";
+import SolarPanels from "@/images/pages/home/Blog/Solar-panels-on-tiled-roof.webp";
+import HouseRoof from "@/images/pages/home/Blog/House-roof-with-solar-panels.webp";
 export default function ActualitesEtConseils() {
   const articles = [
     {

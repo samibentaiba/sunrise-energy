@@ -1,6 +1,6 @@
 import Image from "next/image";
-import Logos from "./Trust/Logos.png"
-import TrustCompany from "./Trust/TrustCompany.png"
+import Logos from "@/images/pages/home/Trust/Logos.png"
+import TrustCompany from "@/images/pages/home/Trust/TrustCompany.png"
 export default function Trust() {
   return (
     <div className=" bg-gray-50 md:px-20 md:py-20 px-5 pb-20 pt-10 flex justify-center flex-col items-center align-middle">

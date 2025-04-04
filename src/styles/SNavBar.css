@@ -42,7 +42,7 @@ body {
 
 /* Logo styles */
 .logo-container {
-  @apply flex items-center bg-transparent ;
+  @apply flex items-center bg-transparent;
 }
 
 /* Navigation styles */
@@ -68,39 +68,6 @@ body {
 
 .nav-link:hover::after {
   @apply w-full;
-}
-
-/* Dropdown styles */
-.dropdown-container {
-  @apply relative;
-}
-
-.dropdown-button {
-  @apply flex items-center text-[16px] font-semibold text-gray-800 whitespace-nowrap transition-colors duration-300;
-}
-
-.dropdown-button::after {
-  @apply content-[""] absolute left-1/2 bottom-[-10px] w-0 h-[2px]  transition-all duration-300 transform -translate-x-1/2;
-}
-
-.dropdown-button:hover::after {
-  @apply w-full;
-}
-
-.dropdown-button-active {
-  @apply text-blue-700 border-b-2 h-10 flex items-center  font-semibold  whitespace-nowrap transition-colors duration-300;
-}
-
-.dropdown-icon {
-  @apply ml-1 h-4 w-4 transition-transform duration-300;
-}
-
-.dropdown-icon-open {
-  @apply rotate-180;
-}
-
-.dropdown-menu {
-  @apply absolute top-full left-[-40px] w-[30rem] h-[30rem] mt-2 p-2 z-50;
 }
 
 /* Card styles */
@@ -184,4 +151,71 @@ body {
 
 .mobile-menu {
   @apply fixed inset-y-0 right-0 w-full h-[147vw] bg-transparent;
+}
+
+
+
+
+/* Dropdown styles */
+.dropdown-container {
+  @apply relative;
+}
+
+.dropdown-button {
+  @apply relative flex items-center text-[16px] font-semibold text-gray-800 whitespace-nowrap transition-all duration-300;
+}
+
+.dropdown-button::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  width: 2px;
+  height: 2px;
+  background-color: transparent;
+  transition: all 0.3s ease-in-out;
+  transform: translateY(10px);
+}
+
+.dropdown-button:hover::after {
+  background-color: blue;
+}
+
+.dropdown-button-active {
+  @apply relative flex items-center text-blue-700 font-semibold h-10 whitespace-nowrap transition-all duration-300;
+}
+
+.dropdown-button-active::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  width: 0;
+  height: 2px;
+  border: 2px solid blue;
+  transition: all 0.3s ease-in-out;
+  transform: translateX(-50%);
+}
+
+.dropdown-button-active:hover::after {
+  width: 100%;
+  height: 100%;
+}
+
+
+.dropdown-icon {
+  @apply ml-1 h-4 w-4 transition-transform duration-300;
+}
+
+.dropdown-icon-open {
+  @apply rotate-180;
+}
+
+.dropdown-menu {
+  @apply absolute top-full left-[-40px] w-[30rem] h-[30rem] mt-2 p-2 z-50;
+}
+
+
+.dropdown-button-open {
+  @apply relative flex items-center text-blue-700 font-semibold h-10 border-b-2 whitespace-nowrap transition-all duration-300 w-full ;
 }

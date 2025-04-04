@@ -26,12 +26,9 @@ export default function SectionAdditionalGuarantees() {
 }
 
 // Background component with parallax effect
-import Image from 'next/image';
-
-// Background component with parallax effect
 const ParallaxBackground = () => {
   return (
-    <div className="absolute inset-0 w-full md:h-[821.344px] h-[1400px] bg-cover bg-center bg-fixed" style={{ backgroundImage: "url('/images/Guarantees.webp')" }}>
+    <div className="absolute inset-0 w-full md:h-[821.344px] h-[1400px] bg-cover bg-center bg-fixed" style={{ backgroundImage: "url('/images/pages/home/Guarantees.webp')" }}>
       <div className="absolute inset-0 h-full" style={{ background: "linear-gradient(to bottom, rgba(0, 70, 110, 0.9), rgba(0, 1, 20, 0.8))" }}></div>
     </div>
   );

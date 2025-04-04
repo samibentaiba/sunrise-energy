@@ -3,7 +3,7 @@
 import { useState } from "react"
 import { Plus, Minus } from "lucide-react"
 import Image from "next/image"
-import message from "./FAQ/message.png"
+import message from "@/images/pages/panneaux-solaires/FAQ.png"
 interface FaqItem {
   question: string
   answer: string

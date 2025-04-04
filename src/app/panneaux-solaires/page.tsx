@@ -2,24 +2,25 @@
 
 import Hero from "@/components/pages/panneaux-solaires/Hero";
 import Pricing from "@/components/pages/panneaux-solaires/Pricing";
-import AdditionalGuarantees from "@/components/pages/panneaux-solaires/Guarantees";
+import Guarantees from "@/components/pages/panneaux-solaires/Guarantees";
 import Blog from "@/components/pages/panneaux-solaires/Blog";
-import SmartSolarInstallation from "@/components/pages/panneaux-solaires/Installation";
-import SolarProtection from "@/components/pages/panneaux-solaires/Protection";
-import InstallationsProches from "@/components/pages/panneaux-solaires/Proches";
+import Installation from "@/components/pages/panneaux-solaires/Installation";
+import Protection from "@/components/pages/panneaux-solaires/Protection";
+import Proches from "@/components/pages/panneaux-solaires/Proches";
 import Reviews from "@/components/pages/panneaux-solaires/Reviews";
 import FAQ from "@/components/pages/panneaux-solaires/FAQ";
 
 export default function PanneuxSolaires() {
+
   return (
     <div className="min-h-screen overflow-clip w-[100%] text-black flex flex-col">
       <Hero />
       <Pricing />
-      <AdditionalGuarantees />
-      <SmartSolarInstallation />
-      <SolarProtection />
+      <Guarantees />
+      <Installation />
+      <Protection />
       <Blog />
-      <InstallationsProches />
+      <Proches />
       <Reviews />
       <FAQ />
     </div>

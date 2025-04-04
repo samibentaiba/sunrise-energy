@@ -1,6 +1,6 @@
 import GetStartButton from "./About/GetStartButton";
 import Image from "next/image";
-import HeroImage from "./About/installationpanneausolairelarochelle.jpeg"
+import AboutImage from "@/images/pages/home/About.jpeg"
 export default function About() {
   return (
     <div className="bg-white flex justify-center py-10 md:py-20 w-full">
@@ -24,7 +24,7 @@ export default function About() {
         {/* Right Side: Image */}
         <div className="w-full md:w-[550px]">
           <Image
-            src={HeroImage}
+            src={AboutImage}
             alt="Solar panels on roof"
             width={550}
             height={500}
