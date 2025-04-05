@@ -1,6 +1,5 @@
 import Image from "next/image";
 import Link from "next/link";
-import { ArrowRight } from "lucide-react";
 import { ReactElement } from "react";
 function GetStartButton({
   text,
@@ -135,12 +134,16 @@ export default function SolarShowcase() {
               </div>
             </div>
 
-            <GetStartButton text="Nos offres" hoveredText="Découvrir" href="/offres" />
+            <GetStartButton
+              text="Nos offres"
+              hoveredText="Découvrir"
+              href="/offres"
+            />
           </div>
         </div>
 
         {/* Brand Logos */}
-        <div className="grid grid-cols-2 md:grid-cols-2 gap-8 mb-32 hidden md:grid">
+        <div className="grid grid-cols-2 md:grid-cols-2 gap-8 mb-32 md:grid">
           <div className="flex justify-center items-center">
             <Image
               src="/images/pages/garanties/Trinasolar.png"
@@ -208,7 +211,7 @@ export default function SolarShowcase() {
               className="w-full max-w-xs h-auto mb-8"
             />
 
-            <div className="grid grid-cols-2 gap-4 hidden md:grid">
+            <div className="grid grid-cols-2 gap-4  md:grid">
               <Image
                 src="/images/pages/garanties/UPS/ENPHASE.jpg"
                 alt="Enphase"
