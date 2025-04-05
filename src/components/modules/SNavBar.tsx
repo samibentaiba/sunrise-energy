@@ -8,8 +8,8 @@ import "@/styles/SNavBar.css";
 import { motion } from "framer-motion";
 import SunriseLogo from "@/images/modules/NavBar/Sunrise.svg";
 import React from "react";
-import MobileMenu from "./ui/Mobile";
-import Desktop from "./ui/Desktop";
+import MobileMenu from "./ui/SNavBar/Mobile";
+import Desktop from "./ui/SNavBar/Desktop";
 export default function SNavBar(): ReactElement {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 

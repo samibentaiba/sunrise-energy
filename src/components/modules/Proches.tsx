@@ -1,6 +1,6 @@
 "use client"
 import dynamic from "next/dynamic"
-import FranceMap from "./Proches/FranceMap"
+import FranceMap from "./ui/Proches/FranceMap"
 const ReactPlayer = dynamic(() => import("react-player"), {
   ssr: false,
   loading: () => <p>Loading video...</p>,

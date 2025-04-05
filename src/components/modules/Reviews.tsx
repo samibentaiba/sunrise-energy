@@ -1,6 +1,6 @@
-import Review from "./Reviews/Review";
-import mockdata from "./Reviews/mockdata.json";
-import Resume from "./Reviews/Resume";
+import Review from "./ui/Reviews/Review";
+import mockdata from "@/data/Reviews.json";
+import Resume from "./ui/Reviews/Resume";
 
 export default function Reviews() {
   return (
