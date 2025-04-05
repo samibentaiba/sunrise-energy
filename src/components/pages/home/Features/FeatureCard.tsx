@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { ArrowRight } from "lucide-react";
-import { cn } from "@/lib/utils";
+import { cn } from "@/libs/utils";
 
 interface FeatureCardProps {
   title: string;

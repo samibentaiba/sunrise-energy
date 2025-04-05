@@ -6,7 +6,7 @@ import { ChevronDown } from "lucide-react";
 import GetStartButton from "./GetStartButton";
 import "@/styles/SNavBar.css";
 import React from "react";
-import { useRouter } from "next/navigation";
+import { useRouter, usePathname } from "next/navigation";
 import CardS from "./CardS";
 
 export default function Desktop(): ReactElement {
@@ -16,6 +16,7 @@ export default function Desktop(): ReactElement {
   const [isHolding, setIsHolding] = useState(false);
   const [holdDuration, setHoldDuration] = useState<NodeJS.Timeout | null>(null);
   const router = useRouter();
+  const pathname = usePathname(); // Get the current path
 
   useEffect(() => {
     function handleClickOutside(event: MouseEvent) {
@@ -38,7 +39,7 @@ export default function Desktop(): ReactElement {
     // Set a timeout for 2 seconds to trigger the redirect if holding
     const timeout = setTimeout(() => {
       router.push("/panneaux-solaires/");
-    }, 2000);
+    }, 1000);
     setHoldDuration(timeout);
   };
 
@@ -67,12 +68,16 @@ export default function Desktop(): ReactElement {
           <button
             ref={buttonRef}
             className={`${
-              isHolding 
+              isHolding
                 ? "dropdown-button-active"
                 : isDropdownOpen
                 ? "dropdown-button-open"
-                : " dropdown-button"
-            } `}
+                : pathname === `/panneaux-solaires`
+                ? "dropdown-button-notactive"
+                : "dropdown-button"
+            } 
+            
+            `}
             onClick={() => {
               setIsDropdownOpen((prev) => !prev);
             }}
@@ -124,7 +129,13 @@ export default function Desktop(): ReactElement {
         </div>
 
         {["garanties", "aides", "avis"].map((item) => (
-          <Link key={item} href={`/${item}`} className="nav-link">
+          <Link
+            key={item}
+            href={`/${item}`}
+            className={`nav-link ${
+              pathname === `/${item}` ? "nav-link-active" : ""
+            }`}
+          >
             {item.charAt(0).toUpperCase() + item.slice(1)}
           </Link>
         ))}

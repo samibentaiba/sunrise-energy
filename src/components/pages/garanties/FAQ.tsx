@@ -1,17 +1,27 @@
-"use client"
+"use client";
 
-import { useState } from "react"
-import { Plus, Minus } from "lucide-react"
-import Image from "next/image"
-import message from "@/images/pages/panneaux-solaires/FAQ.png"
-interface FaqItem {
-  question: string
-  answer: string
-  isOpen?: boolean
+import type React from "react";
+import { useState } from "react";
+import Image from "next/image";
+import { Minus, Plus } from "lucide-react";
+import message from "@/images/modules/FAQ.png";
+
+interface FAQItem {
+  question: string;
+  answer: string;
+  isOpen: boolean;
 }
 
-export default function FAQ() {
-  const [faqItems, setFaqItems] = useState<FaqItem[]>([
+// Update the FAQProps interface to make props optional with default values
+interface FAQProps {
+  faqData?: FAQItem[];
+  title?: string;
+  subtitle?: string;
+}
+
+// Update the component definition to include default values
+const FAQ: React.FC<FAQProps> = ({
+  faqData = [
     {
       question: "Quelle est la durée de vie d'un panneau photovoltaïque ?",
       answer:
@@ -19,7 +29,8 @@ export default function FAQ() {
       isOpen: false,
     },
     {
-      question: "Pourquoi est-il si important de bien dimensionner la taille de sa centrale solaire ?",
+      question:
+        "Pourquoi est-il si important de bien dimensionner la taille de sa centrale solaire ?",
       answer:
         "Avant à l'époque de la revente totale, il fallait mettre un maximum de panneaux pour être le plus rentable. Aujourd'hui, il faut choisir la puissance optimale pour couvrir au plus juste ses besoins en énergie sans investir dans une centrale surdimensionner qui vous coûterait plus cher inutilement.",
       isOpen: false,
@@ -30,61 +41,66 @@ export default function FAQ() {
         "L'autoconsommation c'est produire de l'électricité et la consommer directement sur le lieu de production. Si vous consommez davantage d'électricité que votre capacité de production, vous achetez au réseau. A l'inverse, si la production est plus importante que la consommation, le surplus est donné ou vendu au réseau.",
       isOpen: false,
     },
-  ])
+  ],
+  title = "On répond à vos questions",
+  subtitle = "Découvrez les réponses aux questions les plus fréquemment posées",
+}) => {
+  const [faqs, setFaqs] = useState<FAQItem[]>(
+    faqData.map((faq) => ({ ...faq, isOpen: false }))
+  );
 
   const toggleFaq = (index: number) => {
-    setFaqItems(
-      faqItems.map((item, i) => {
-        if (i === index) {
-          return { ...item, isOpen: !item.isOpen }
-        }
-        return item
-      }),
-    )
-  }
+    setFaqs((prevFaqs) =>
+      prevFaqs.map((faq, i) =>
+        i === index ? { ...faq, isOpen: !faq.isOpen } : faq
+      )
+    );
+  };
 
   return (
-    <section className="mx-auto py-12 md:py-16 lg:py-20">
-      <div className="container px-4 flex gap-10 flex-col md:px-6">
-        <div className="flex flex-col items-center justify-center space-y-6 text-center">
-          <div className="flex justify-center w-full">
-            <Image
-              src={message}
-              alt="Speech bubble icon"
-              width={120}
-              height={120}
-              className="mb-5"
-            />
-          </div>
-          <h2 className="text-3xl font-bold tracking-tight sm:text-4xl md:text-5xl">
-            Nos experts solaire répondent à vos <span className="bg-[#00acc2] text-white px-3 py-2">questions</span>
-          </h2>
-        </div>
+    <section className="mx-auto px-6 w-full max-w-[1200px] flex flex-col py-8 md:py-12 lg:py-16 xl:py-20">
+      <div className="flex flex-col items-center text-center">
+        <Image
+          src={message || "/placeholder.svg"}
+          alt="Speech bubble icon"
+          width={120}
+          height={120}
+          className="mb-3 md:mb-5 w-20 h-20 md:w-24 md:h-24 lg:w-28 lg:h-28 xl:w-32 xl:h-32"
+        />
+        <h2 className="text-3xl font-semibold">{title}</h2>
+        <p className="mt-3 text-gray-600">{subtitle}</p>
+      </div>
 
-        <div className="mx-auto mt-12 w-7xl space-y-4">
-          {faqItems.map((item, index) => (
-            <div key={index} className="bg-[#f7f7f7] rounded-none overflow-hidden">
-              <button
-                className="flex w-full items-center justify-between px-6 py-4 text-left"
-                onClick={() => toggleFaq(index)}
-              >
-                <div className="flex items-center">
-                  <div className="flex items-center justify-center w-6 h-6 mr-4 bg-[#fbac18] text-white">
-                    {item.isOpen ? <Minus size={20} /> : <Plus size={20} />}
-                  </div>
-                  <h3 className="text-2xl font-normal text-[#040922]">{item.question}</h3>
+      <div className=" mt-6  md:mt-8 lg:mt-12 w-full space-y-3 md:space-y-4">
+        {faqs.map((item, index) => (
+          <div key={index} className=" bg-[#f7f7f7]">
+            <button
+              className="flex w-full items-center justify-between px-3 sm:px-4 md:px-6 py-3 md:py-4 text-left"
+              onClick={() => toggleFaq(index)}
+            >
+              <div className="flex items-center">
+                <div className="flex items-center justify-center  h-5 md:w-6 md:h-6 mr-2 sm:mr-3 md:mr-4 bg-[#fbac18] text-white">
+                  {item.isOpen ? (
+                    <Minus size={16} className="md:size-20" />
+                  ) : (
+                    <Plus size={16} className="md:size-20" />
+                  )}
                 </div>
-              </button>
-              {item.isOpen && (
-                <div className="px-6 pb-4 pt-1">
-                  <p className="text-[#040922] text-lg">{item.answer}</p>
-                </div>
-              )}
-            </div>
-          ))}
-        </div>
+                <h3 className="text-lg md:text-xl lg:text-2xl font-normal">
+                  {item.question}
+                </h3>
+              </div>
+            </button>
+            {item.isOpen && (
+              <div className="px-3 sm:px-4 md:px-6 pb-3 md:pb-4 pt-1">
+                <p className="text-base md:text-lg">{item.answer}</p>
+              </div>
+            )}
+          </div>
+        ))}
       </div>
     </section>
-  )
-}
+  );
+};
 
+export default FAQ;

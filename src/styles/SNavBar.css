@@ -65,7 +65,9 @@ body {
 .nav-link::after {
   @apply content-[""] absolute left-1/2 bottom-[-10px] w-0 h-[2px] bg-blue-700 transition-all duration-300 transform -translate-x-1/2;
 }
-
+.nav-link-active {
+  @apply text-blue-700 relative flex items-center text-[16px] font-semibold  whitespace-nowrap transition-all duration-300;
+}
 .nav-link:hover::after {
   @apply w-full;
 }
@@ -153,9 +155,6 @@ body {
   @apply fixed inset-y-0 right-0 w-full h-[147vw] bg-transparent;
 }
 
-
-
-
 /* Dropdown styles */
 .dropdown-container {
   @apply relative;
@@ -192,16 +191,15 @@ body {
   bottom: 0;
   width: 0;
   height: 2px;
-  border: 2px solid blue;
   transition: all 0.3s ease-in-out;
   transform: translateX(-50%);
 }
 
 .dropdown-button-active:hover::after {
-  width: 100%;
+  width: 250px;
   height: 100%;
+  border-bottom:none;
 }
-
 
 .dropdown-icon {
   @apply ml-1 h-4 w-4 transition-transform duration-300;
@@ -215,7 +213,17 @@ body {
   @apply absolute top-full left-[-40px] w-[30rem] h-[30rem] mt-2 p-2 z-50;
 }
 
-
 .dropdown-button-open {
-  @apply relative flex items-center text-blue-700 font-semibold h-10 border-b-2 whitespace-nowrap transition-all duration-300 w-full ;
+  @apply relative flex items-center text-blue-700 font-semibold h-[44px] border-b-2 whitespace-nowrap transition-all duration-300 w-full;
+}
+
+.dropdown-button-notactive {
+  @apply relative flex items-center w-full text-[16px] font-semibold text-blue-700 whitespace-nowrap transition-all duration-300;
+}
+.dropdown-button-notactive::after {
+  @apply content-[""] absolute left-1/2 bottom-[-10px] w-0 h-[2px] bg-blue-700 transition-all duration-300 transform -translate-x-1/2;
+}
+
+.dropdown-button-notactive:hover::after {
+  @apply content-[""] absolute left-1/2 bottom-[-10px] w-full h-[2px] bg-blue-700 transition-all duration-300 transform -translate-x-1/2;
 }

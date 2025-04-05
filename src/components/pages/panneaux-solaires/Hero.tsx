@@ -6,7 +6,7 @@ export default function Hero() {
       className="relative md:h-[420px] h-[450px] z-0 p-0 m-0 w-full flex items-center justify-center overflow-hidden bg-cover bg-center"
       style={{
         backgroundImage:
-          "url('/images/pages/panneaux-solaires/Hero/Hero.jpeg')",
+          "url('/images/pages/panneaux-solaires/Hero.jpeg')",
       }}
     >
       {/* Black overlay with 10% opacity */}
@@ -15,7 +15,7 @@ export default function Hero() {
         {/* Blue Overlay */}{" "}
         <div className="absolute inset-0 w-full h-full">
           <Image
-            src="/images/pages/panneaux-solaires/Hero/BlueShape.svg"
+            src="/images/modules/hero/BlueShape.svg"
             alt="Blue background shape"
             fill
             style={{
