@@ -1,6 +1,6 @@
 "use client";
 
-import Hero from "@/components/pages/panneaux-solaires/Hero";
+import Hero from "@/components/modules/Hero";
 import Pricing from "@/components/pages/panneaux-solaires/Pricing";
 import Guarantees from "@/components/pages/panneaux-solaires/Guarantees";
 import Installation from "@/components/pages/panneaux-solaires/Installation";
@@ -12,7 +12,13 @@ import FAQ from "@/components/modules/FAQ";
 export default function PanneuxSolaires() {
   return (
     <div className="min-h-screen overflow-clip w-[100%] text-black flex flex-col">
-      <Hero />
+      
+      <Hero
+        title="Le photovoltaïque au juste prix, sans compromis sur la qualité"
+        description="Avec les offres SunVolt, vous bénéficiez du prix le plus juste pour un matériel de qualité et des garanties étendues"
+        buttonText="Je demande un RDV avec un conseiller"
+        backgroundImage="/images/pages/panneaux-solaires/Hero.jpeg"
+      />
       <Pricing />
       <Guarantees />
       <Installation />

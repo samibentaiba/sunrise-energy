@@ -1,28 +1,38 @@
-"use client"
+"use client";
 
-import GetStartButton from "./Hero/GetStartButton"
-import Image from "next/image"
-import { useEffect, useState } from "react"
+import GetStartButton from "./ui/Hero/GetStartButton";
+import Image from "next/image";
+import { useEffect, useState } from "react";
 
-export default function Hero() {
-  const [isMobile, setIsMobile] = useState(false)
+export default function Hero({
+  title,
+  description,
+  backgroundImage = "/images/pages/garanties/Hero.jpeg",
+  buttonText,
+}: {
+  title: string;
+  description: string;
+  backgroundImage: string;
+  buttonText: string;
+}) {
+  const [isMobile, setIsMobile] = useState(false);
 
   // Detect mobile screen on client side
   useEffect(() => {
     const checkMobile = () => {
-      setIsMobile(window.innerWidth < 768)
-    }
+      setIsMobile(window.innerWidth < 768);
+    };
 
-    checkMobile()
-    window.addEventListener("resize", checkMobile)
-    return () => window.removeEventListener("resize", checkMobile)
-  }, [])
+    checkMobile();
+    window.addEventListener("resize", checkMobile);
+    return () => window.removeEventListener("resize", checkMobile);
+  }, []);
 
   return (
     <div
       className="relative md:h-[420px] h-[500px] z-0 p-0 m-0 w-full flex items-center justify-center overflow-hidden bg-cover bg-center"
       style={{
-        backgroundImage: "url('/images/pages/garanties/Hero.jpeg')",
+        backgroundImage: `url('${backgroundImage}')`,
       }}
     >
       {/* Black overlay with opacity */}
@@ -31,7 +41,7 @@ export default function Hero() {
         {/* Blue Overlay */}
         <div className="absolute left-[-5rem] md:left-0  inset-0  h-full">
           <Image
-            src="/images/modules/hero/BlueShape.svg"
+            src={"/images/modules/hero/BlueShape.svg"}
             alt="Blue background shape"
             fill
             style={{
@@ -47,17 +57,20 @@ export default function Hero() {
         {isMobile ? (
           <div className="relative w-full px-6 py-8 flex flex-col items-start justify-center">
             <div className="max-w-[90%]">
-              <h1 className="text-2xl sm:text-3xl font-semibold leading-tight mb-4" style={{ fontWeight: 600 }}>
-                Des garanties uniques
-                <br />& des engagements forts
+              <h1
+                className="text-2xl sm:text-3xl font-semibold  leading-tight mb-4"
+                style={{ fontWeight: 600 }}
+              >
+                {title}
               </h1>
 
-              <p className="text-sm leading-relaxed mb-6">
-                Afin de vous assurer une sérénité qui dure dans le temps, vous bénéficiez de garanties étendues
-                exclusives SunVolt pour votre installation sur-mesure de panneaux solaires en autoconsommation
-              </p>
+              <p className="text-sm leading-relaxed mb-6">{description}</p>
 
-              <GetStartButton isIcon={false} text="Je demande un RDV" href="demande-devis-panneau-solaire" />
+              <GetStartButton
+                isIcon={false}
+                text={buttonText}
+                href={buttonText}
+              />
             </div>
           </div>
         ) : (
@@ -68,23 +81,21 @@ export default function Hero() {
               style={{ width: "100%", maxWidth: "1200px" }}
             >
               <h1
-                className="text-3xl sm:text-4xl md:text-[2.3rem] lg:text-[3rem] font-semibold leading-tight"
+                className="text-3xl sm:text-4xl md:text-[2.3rem] lg:text-[3rem] w-[70%] font-semibold leading-tight"
                 style={{ fontWeight: 600 }}
               >
-                Des garanties uniques
-                <br />& des engagements forts
+                {title}
               </h1>
 
               <p className="text-base w-full sm:w-[80%] md:w-[60%] lg:w-[50%]">
-                Afin de vous assurer une sérénité qui dure dans le temps, vous bénéficiez de garanties étendues
-                exclusives SunVolt pour votre installation sur-mesure de panneaux solaires en autoconsommation
+                {description}
               </p>
 
               <div className="mt-2">
                 <GetStartButton
                   isIcon={false}
-                  text="Je demande un RDV avec un conseiller"
-                  href="demande-devis-panneau-solaire"
+                  text={buttonText}
+                  href={buttonText}
                 />
               </div>
             </div>
@@ -92,6 +103,5 @@ export default function Hero() {
         )}
       </div>
     </div>
-  )
+  );
 }
-
