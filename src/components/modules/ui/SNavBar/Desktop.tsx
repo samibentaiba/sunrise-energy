@@ -131,7 +131,7 @@ export default function Desktop(): ReactElement {
         {["garanties", "aides", "avis"].map((item) => (
           <Link
             key={item}
-            href={`/${item}`}
+            href={`/${item == "avis" ? "avis-clients" : item}`}
             className={`nav-link ${
               pathname === `/${item}` ? "nav-link-active" : ""
             }`}
