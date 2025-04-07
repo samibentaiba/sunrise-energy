@@ -90,7 +90,9 @@ body {
   }
 }
 
-
+input{
+  background-color: white;
+}
 :root {
   --background: #ffffff;
   --foreground: #171717;

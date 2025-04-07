@@ -4,9 +4,10 @@ import Hero from "@/components/modules/Hero";
 import Trust from "@/components/pages/qui-sommes-nous/Trust";
 import About from "@/components/pages/qui-sommes-nous/About";
 import Touch from "@/components/pages/qui-sommes-nous/Touch";
-import QA from "@/components/pages/qui-sommes-nous/QA"
+import MultiStepForm from "@/components/pages/reseau-techniciens/Form";
+import QA from "@/components/pages/qui-sommes-nous/QA";
 import CTA from "@/components/pages/qui-sommes-nous/CTA";
-export default function QuiSommesNous() {
+export default function ResauTechnique() {
   return (
     <div className="min-h-screen overflow-clip w-[100%] text-black flex flex-col">
       <Hero
@@ -15,11 +16,11 @@ export default function QuiSommesNous() {
         buttonText="Je demande un RDV avec un conseiller"
         backgroundImage="/images/pages/garanties/Hero.jpeg"
       />
+      <MultiStepForm />
       <About />
       <Touch />
       <Trust />
       <QA />
-      <CTA />
     </div>
   );
 }
