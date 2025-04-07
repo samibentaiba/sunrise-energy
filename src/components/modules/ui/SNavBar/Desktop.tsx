@@ -107,7 +107,7 @@ export default function Desktop(): ReactElement {
               <CardS
                 cards={[
                   {
-                    imageSrc: "/images/panneau-solaire-DMEGC-solar-500-Wc.webp",
+                    imageSrc: "/images/modules/FProduct.png",
                     title: "Gamme SunEco",
                     description:
                       "Le solaire performant et durable au meilleur prix",
@@ -115,7 +115,7 @@ export default function Desktop(): ReactElement {
                     linkHref: "#",
                   },
                   {
-                    imageSrc: "/images/Intervenants-LBC5-1.webp",
+                    imageSrc: "/images/modules/SProduct.png",
                     title: "Gamme SunMax",
                     description:
                       "Le solaire Premium avec panneaux solaires de marque française",
@@ -142,7 +142,7 @@ export default function Desktop(): ReactElement {
       </div>
 
       <GetStartButton
-        href="/demande-devis"
+        href="/demande-devis-panneau-solaire"
         text="Demander un devis personnalisé"
       />
     </div>

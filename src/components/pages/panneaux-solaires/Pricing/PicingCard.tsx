@@ -5,7 +5,7 @@ const plans = [
   {
     name: "SunEco",
     price: "7 499€",
-    img: "/images/panneau-solaire-DMEGC-solar-500-Wc.webp",
+    img: "/images/modules/FProduct.png",
     features: [
       "Panneaux solaires de dernière génération DMEGC BIFACIAL",
       "Onduleurs centraux Huawei SUN2000",
@@ -17,7 +17,7 @@ const plans = [
   {
     name: "SunMax",
     price: "8 499 €",
-    img: "/images/Intervenants-LBC5-1.webp",
+    img: "/images/modules/SProduct.png",
     features: [
       "Panneaux solaires de dernière génération: Dual Sun - FLASH 500",
       "Micro-onduleurs Enphase IQ8P",

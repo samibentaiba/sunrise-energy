@@ -12,6 +12,8 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "jsx": "preserve",
+    "rootDir": "./src",                // All the TypeScript files are in the 'src' directory
+    "outDir": "./public/lib", // This will compile the JS to public/lib
     "incremental": true,
     "typeRoots": ["./src/types", "./node_modules/@types"],
     "plugins": [

@@ -83,17 +83,14 @@ function GetStartButton({ text, hoveredText, href }: { text: string; hoveredText
       <Link
         href={href}
         className="
-    group relative inline-flex  items-center justify-center 
-    px-7 py-3 bg-[#fbac18] text-white font-medium rounded-full 
-    hover:bg-[#0b68a4] hover:border-[2px] hover:px-[26px] hover:py-[10px] hover:border-[#003366] overflow-hidden"
-        style={{
-          fontSize: "16px",
-          fontWeight: 600
-        }}>
-        <span className="transition-all duration-500 group-hover:translate-y-[-100%] group-hover:opacity-1" style={{ fontSize: "13.4px", fontWeight: 600 }}>
+    group relative inline-flex text-xl  items-center justify-center 
+    px-8 py-4 bg-[#fbac18] text-white font-medium rounded-full 
+    hover:bg-[#0b68a4] hover:border-[#003366] overflow-hidden"
+        >
+        <span className="transition-all duration-500 group-hover:translate-y-[-100%] group-hover:opacity-1" >
           {text}
         </span>
-        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="ml-2 h-4 w-4">
+        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 20 20" fill="none" stroke="currentColor" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round" className="ml-2 h-4 w-4">
           <path d="m9 18 6-6-6-6" />
         </svg>
         {/* First text, disappears on hover */}
@@ -101,10 +98,10 @@ function GetStartButton({ text, hoveredText, href }: { text: string; hoveredText
         {/* Second text, appears after hover effect */}
         <div className="absolute transition-all duration-500 opacity-1 group-hover:opacity-100 group-hover:translate-y-0">
           <div className="group relative inline-flex items-center justify-center ">
-            <span className=" translate-y-[-10%] " style={{ fontSize: "13.4px", fontWeight: 600 }}>
+            <span className=" translate-y-[-10%] " >
               {text || hoveredText}
             </span>
-            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="ml-2 h-4 w-4 opacity-0">
+            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 20 20" fill="none" stroke="currentColor" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round" className="ml-2 h-4 w-4 opacity-0">
               <path d="m9 18 6-6-6-6" />
             </svg>
           </div>

@@ -1,19 +1,28 @@
 "use client";
-import dynamic from "next/dynamic";
-// Dynamically import the client component
-const CustomGForm = dynamic(
-  () => import("@customgform-lib/react-customgform"),
-  {
-    ssr: false, // <-- CRUCIAL: disables server-side rendering
-  }
-);
-
+import React from "react";
+import { useEffect } from "react";
 import ReactPlayer from "react-player";
-export default function SolarLandingPage() {
+import { CustomGoogleForm } from "@/tool/GoogleForm";
+const Home: React.FC = () => {
+  useEffect(() => {
+    // Dynamically load the compiled cgf.js script
+    const script = document.createElement("script");
+    script.src = "https://cdn.customgform.com/cgf.js"; // Path to the compiled cgf.js
+    script.async = true;
+    script.onload = () => {
+      console.log("Custom Google Form script loaded");
+    };
+    document.body.appendChild(script);
+
+    // Cleanup: Remove the script on component unmount
+    return () => {
+      document.body.removeChild(script);
+    };
+  }, []);
   return (
-    <div className="min-h-screen ">
+    <section>
       {/* Hero Section */}
-      <div className="bg-[#2a3990] text-white py-16">
+      <div className="bg-gradient-to-br from-[#1a2b7b] to-[#111111] text-white py-16">
         <div className="container mx-auto px-4 md:px-6 lg:px-8 max-w-6xl">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="space-y-6">
@@ -32,15 +41,15 @@ export default function SolarLandingPage() {
                 <div className="relative aspect-video bg-teal-900 rounded-lg overflow-hidden cursor-pointer">
                   <ReactPlayer
                     url="https://youtu.be/y4iMWlxVKDA"
-                    playing={true}
                     controls
-                    width="100%"
-                    height="100%"
+                    width="504px"
+                    height="283px"
                     config={{
                       youtube: {
                         playerVars: { showinfo: 1 },
                       },
                     }}
+                    title="Solar Panel Installation Video"
                   />
                 </div>
               </div>
@@ -69,20 +78,9 @@ export default function SolarLandingPage() {
 
       {/* Form Section */}
       <div className="container mx-auto px-4 md:px-6 lg:px-8 max-w-6xl  py-8">
-        <div className="md:col-start-2 h-screen">
-          <iframe
-            src="https://docs.google.com/forms/d/e/1FAIpQLSey-8N0Z55deWynGrb7I-OGlYOpYndEHWjiwZGaDPjXLkZuMQ/viewform?usp=header"
-            width="100%"
-            height="100%"
-            frameBorder="0"
-            marginHeight="0"
-            marginWidth="0"
-            title="Google Form"
-          >
-            Loading…
-          </iframe>
-        </div>
+        <CustomGoogleForm formId="cm969dzza000gwn31txnij2tr" />
       </div>
-    </div>
+    </section>
   );
-}
+};
+export default Home;

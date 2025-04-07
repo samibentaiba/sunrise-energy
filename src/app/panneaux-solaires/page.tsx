@@ -2,7 +2,7 @@
 
 import Hero from "@/components/modules/Hero";
 import Pricing from "@/components/pages/panneaux-solaires/Pricing";
-import Guarantees from "@/components/pages/panneaux-solaires/Guarantees";
+import Guarantees from "@/components/modules/Guarantees";
 import Installation from "@/components/pages/panneaux-solaires/Installation";
 import Protection from "@/components/pages/panneaux-solaires/Protection";
 import Blog from "@/components/modules/Blog";

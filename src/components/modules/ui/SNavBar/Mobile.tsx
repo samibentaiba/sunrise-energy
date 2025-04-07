@@ -33,7 +33,7 @@ export default function MobileMenu({ setMobileMenuOpen }: { setMobileMenuOpen: (
             { href: "/avis", text: "Avis", className: "mobile-menu-item" },
             { href: "/guides", text: "Guides", className: "mobile-menu-item" },
             { href: "/qui-sommes-nous", text: "Qui sommes nous ?", className: "mobile-menu-item" },
-            { href: "/demande-devis", text: "Demande de devis personnalisé", className: "mobile-cta" },
+            { href: "/demande-devis-panneau-solaire", text: "Demande de devis personnalisé", className: "mobile-cta" },
             { href: "/entreprise", text: "Vous êtes une entreprise ?", className: "mobile-menu-enterprise" }
           ].map(({ href, text, className }) => (
             <Link key={href} href={href} className={className}>

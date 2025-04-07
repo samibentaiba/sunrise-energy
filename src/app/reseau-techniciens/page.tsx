@@ -6,7 +6,6 @@ import About from "@/components/pages/qui-sommes-nous/About";
 import Touch from "@/components/pages/qui-sommes-nous/Touch";
 import MultiStepForm from "@/components/pages/reseau-techniciens/Form";
 import QA from "@/components/pages/qui-sommes-nous/QA";
-import CTA from "@/components/pages/qui-sommes-nous/CTA";
 export default function ResauTechnique() {
   return (
     <div className="min-h-screen overflow-clip w-[100%] text-black flex flex-col">
