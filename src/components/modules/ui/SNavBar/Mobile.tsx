@@ -1,84 +1,87 @@
-"use client"
+"use client";
 
-import Link from "next/link"
-import { type ReactElement, useState, useRef, useEffect } from "react"
-import Image from "next/image"
-import { ChevronDown, X } from "lucide-react"
-import "@/styles/SNavBar.css"
-import SunriseLogo from "@/images/modules/NavBar/Sunrise.svg"
-import { useRouter, usePathname } from "next/navigation"
-import CardS from "./CardS"
+import Link from "next/link";
+import { type ReactElement, useState, useRef, useEffect } from "react";
+import Image from "next/image";
+import { ChevronDown, X } from "lucide-react";
+import "@/styles/SNavBar.css";
+// Remove the direct import that's causing the error
+import { useRouter, usePathname } from "next/navigation";
+import CardS from "./CardS";
 
 export default function MobileMenu({
   setMobileMenuOpen,
 }: {
-  setMobileMenuOpen: (open: boolean) => void
+  setMobileMenuOpen: (open: boolean) => void;
 }): ReactElement {
-  const [isDropdownOpen, setIsDropdownOpen] = useState(false)
-  const dropdownRef = useRef<HTMLDivElement>(null)
-  const buttonRef = useRef<HTMLButtonElement>(null)
-  const [isHolding, setIsHolding] = useState(false)
-  const [holdDuration, setHoldDuration] = useState<NodeJS.Timeout | null>(null)
-  const router = useRouter()
-  const pathname = usePathname()
+  const [isDropdownOpen, setIsDropdownOpen] = useState(false);
+  const dropdownRef = useRef<HTMLDivElement>(null);
+  const buttonRef = useRef<HTMLButtonElement>(null);
+  const [isHolding, setIsHolding] = useState(false);
+  const [holdDuration, setHoldDuration] = useState<NodeJS.Timeout | null>(null);
+  const router = useRouter();
+  const pathname = usePathname();
 
   useEffect(() => {
     function handleClickOutside(event: MouseEvent) {
-      if (dropdownRef.current && !dropdownRef.current.contains(event.target as Node)) {
-        setIsDropdownOpen(false)
+      if (
+        dropdownRef.current &&
+        !dropdownRef.current.contains(event.target as Node)
+      ) {
+        setIsDropdownOpen(false);
       }
     }
 
-    document.addEventListener("mousedown", handleClickOutside)
+    document.addEventListener("mousedown", handleClickOutside);
     return () => {
-      document.removeEventListener("mousedown", handleClickOutside)
-    }
-  }, [])
+      document.removeEventListener("mousedown", handleClickOutside);
+    };
+  }, []);
 
   const handleMouseDown = () => {
-    setIsHolding(true)
+    setIsHolding(true);
     // Set a timeout for 1 second to trigger the redirect if holding
     const timeout = setTimeout(() => {
-      router.push("/panneaux-solaires/")
-      setMobileMenuOpen(false) // Close mobile menu after navigation
-    }, 1000)
-    setHoldDuration(timeout)
-  }
+      router.push("/panneaux-solaires/");
+      setMobileMenuOpen(false); // Close mobile menu after navigation
+    }, 1000);
+    setHoldDuration(timeout);
+  };
 
   const handleMouseUp = () => {
-    setIsHolding(false)
+    setIsHolding(false);
     if (holdDuration) {
-      clearTimeout(holdDuration)
-      setHoldDuration(null)
+      clearTimeout(holdDuration);
+      setHoldDuration(null);
     } else {
       // Toggle dropdown if clicked without holding
-      setIsDropdownOpen((prev) => !prev)
+      setIsDropdownOpen((prev) => !prev);
     }
-  }
+  };
 
   const handleMouseLeave = () => {
-    setIsHolding(false)
+    setIsHolding(false);
     if (holdDuration) {
-      clearTimeout(holdDuration)
-      setHoldDuration(null)
+      clearTimeout(holdDuration);
+      setHoldDuration(null);
     }
-  }
+  };
 
   // For touch devices
   const handleTouchStart = () => {
-    handleMouseDown()
-  }
+    handleMouseDown();
+  };
 
   const handleTouchEnd = () => {
-    handleMouseUp()
-  }
+    handleMouseUp();
+  };
 
   return (
     <div className="mobile-menu">
       <div className="mobile-menu-header bg-transparent">
         <Link href="/">
           <Image
-            src={SunriseLogo || "/placeholder.svg"}
+            src="/placeholder.svg?height=91&width=170"
             alt="logo sunvolt"
             className="hidden"
             width={170}
@@ -87,7 +90,10 @@ export default function MobileMenu({
           />
         </Link>
 
-        <button onClick={() => setMobileMenuOpen(false)} className="close-menu-button opacity-0">
+        <button
+          onClick={() => setMobileMenuOpen(false)}
+          className="close-menu-button opacity-0"
+        >
           <X size={30} />
         </button>
       </div>
@@ -96,14 +102,17 @@ export default function MobileMenu({
         <div className="mobile-dropdown-container" ref={dropdownRef}>
           <button
             ref={buttonRef}
+            onClick={() => {
+              setIsDropdownOpen((prev) => !prev);
+            }}
             className={`mobile-menu-item mobile-dropdown ${
               isHolding
                 ? "mobile-dropdown-active"
                 : isDropdownOpen
-                  ? "mobile-dropdown-open"
-                  : pathname === `/panneaux-solaires`
-                    ? "mobile-dropdown-notactive"
-                    : ""
+                ? "mobile-dropdown-open"
+                : pathname === `/panneaux-solaires`
+                ? "mobile-dropdown-notactive"
+                : ""
             }`}
             onMouseDown={handleMouseDown}
             onMouseUp={handleMouseUp}
@@ -122,7 +131,9 @@ export default function MobileMenu({
             <span className="mobile-menu-text">Solutions photovoltaïques</span>
             <ChevronDown
               strokeWidth={2.5}
-              className={`mobile-dropdown-icon ${isDropdownOpen ? "mobile-dropdown-icon-open" : ""}`}
+              className={`mobile-dropdown-icon ${
+                isDropdownOpen ? "mobile-dropdown-icon-open" : ""
+              }`}
             />
           </button>
 
@@ -133,14 +144,16 @@ export default function MobileMenu({
                   {
                     imageSrc: "/images/modules/FProduct.png",
                     title: "Gamme SunEco",
-                    description: "Le solaire performant et durable au meilleur prix",
+                    description:
+                      "Le solaire performant et durable au meilleur prix",
                     linkText: "En savoir plus",
                     linkHref: "#",
                   },
                   {
                     imageSrc: "/images/modules/SProduct.png",
                     title: "Gamme SunMax",
-                    description: "Le solaire Premium avec panneaux solaires de marque française",
+                    description:
+                      "Le solaire Premium avec panneaux solaires de marque française",
                     linkText: "En savoir plus",
                     linkHref: "#",
                   },
@@ -179,12 +192,16 @@ export default function MobileMenu({
             className: "mobile-menu-enterprise",
           },
         ].map(({ href, text, className }) => (
-          <Link key={href} href={href} className={className}>
+          <Link
+            key={href}
+            href={href}
+            className={className}
+            onClick={() => setMobileMenuOpen(false)} // Close mobile menu after navigation
+          >
             <span>{text}</span>
           </Link>
         ))}
       </div>
     </div>
-  )
+  );
 }
-
