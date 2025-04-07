@@ -68,9 +68,19 @@ export default function SolarLandingPage() {
       </div>
 
       {/* Form Section */}
-      <div className="container mx-auto px-4 md:px-6 lg:px-8 max-w-6xl py-8">
-        <div className="md:col-start-2">
-          <CustomGForm formId="cm969dzza000gwn31txnij2tr" />
+      <div className="container mx-auto px-4 md:px-6 lg:px-8 max-w-6xl  py-8">
+        <div className="md:col-start-2 h-screen">
+          <iframe
+            src="https://docs.google.com/forms/d/e/1FAIpQLSey-8N0Z55deWynGrb7I-OGlYOpYndEHWjiwZGaDPjXLkZuMQ/viewform?usp=header"
+            width="100%"
+            height="100%"
+            frameBorder="0"
+            marginHeight="0"
+            marginWidth="0"
+            title="Google Form"
+          >
+            Loading…
+          </iframe>
         </div>
       </div>
     </div>
