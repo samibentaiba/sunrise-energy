@@ -36,27 +36,10 @@ const Home: React.FC = () => {
                 avez droit.
               </p>
 
-              {/* Video Testimonial for Mobile */}
-              <div className="md:hidden relative">
-                <div className="relative aspect-video bg-teal-900 rounded-lg overflow-hidden cursor-pointer">
-                  <ReactPlayer
-                    url="https://youtu.be/y4iMWlxVKDA"
-                    controls
-                    width="504px"
-                    height="283px"
-                    config={{
-                      youtube: {
-                        playerVars: { showinfo: 1 },
-                      },
-                    }}
-                    title="Solar Panel Installation Video"
-                  />
-                </div>
-              </div>
             </div>
 
             {/* Video Testimonial for Desktop */}
-            <div className="hidden md:block relative">
+            <div className=" relative">
               <div className="relative aspect-video bg-teal-900 rounded-lg overflow-hidden cursor-pointer">
                 <ReactPlayer
                   url="https://youtu.be/y4iMWlxVKDA"
