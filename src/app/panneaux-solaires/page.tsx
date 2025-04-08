@@ -15,7 +15,7 @@ export default function PanneuxSolaires() {
       
       <Hero
         title="Le photovoltaïque au juste prix, sans compromis sur la qualité"
-        description="Avec les offres SunVolt, vous bénéficiez du prix le plus juste pour un matériel de qualité et des garanties étendues"
+        description="Avec les offres Sunrise, vous bénéficiez du prix le plus juste pour un matériel de qualité et des garanties étendues"
         buttonText="Je demande un RDV avec un conseiller"
         backgroundImage="/images/pages/panneaux-solaires/Hero.jpeg"
       />

@@ -38,7 +38,7 @@ export default function SubSide() {
           {/* Right column - Explanation text */}
           <div>
             <p className="text-slate-700 mb-6 md:mb-8">
-              Tout acquéreur d&apos;une installation solaire SunVolt bénéficie de la prime à l&apos;autoconsommation
+              Tout acquéreur d&apos;une installation solaire Sunrise bénéficie de la prime à l&apos;autoconsommation
               photovoltaïque, indépendamment de ses revenus. 3 conditions suffisent. Nous nous engageons à ce
               qu&apos;elles soient respectées.
             </p>

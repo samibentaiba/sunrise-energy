@@ -21,13 +21,13 @@ export default function About() {
             Le rachat de surplus de production non consommée
           </h2>
           <p className="text-gray-800">
-          SunVolt France ; le leader de l’autoconsommation solaire
+          Sunrise France ; le leader de l’autoconsommation solaire
           intelligente depuis 2019
           </p>
 
           <p className="text-gray-800">
-            SunVolt est une filiale du groupe QAIR, groupe international de
-            référence dans les énergies renouvelables. SunVolt France s’est
+            Sunrise est une filiale du groupe QAIR, groupe international de
+            référence dans les énergies renouvelables. Sunrise France s’est
             donné pour objectif de rendre le solaire accessible à tous, en
             offrant le meilleur compromis entre prix, rentabilité et
             performance.

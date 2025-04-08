@@ -8,7 +8,7 @@ export default function SectionAdditionalGuarantees() {
       <section className="relative h-full py-16 bg-blue-800 text-white overflow-hidden">
         <ParallaxBackground />
         <div className="relative z-10 container mx-auto px-4">
-          <h2 className="md:text-5xl text-4xl md:px-50 py-10 font-bold mb-12 text-center">Profitez de garanties complémentaires exclusives SunVolt</h2>
+          <h2 className="md:text-5xl text-4xl md:px-50 py-10 font-bold mb-12 text-center">Profitez de garanties complémentaires exclusives Sunrise</h2>
           <div className="grid md:grid-cols-3 gap-14 max-w-6xl mx-auto">
             {guarantees.map((guarantee) => (
               <GuaranteeCard key={guarantee.id} {...guarantee} />

@@ -21,7 +21,7 @@ export default function About() {
           </h2>
           <p className="text-gray-800">
             Lors de la conception de votre projet, votre expert en énergie
-            SunVolt identifie avec vous s’il vaut mieux consommer la totalité de
+            Sunrise identifie avec vous s’il vaut mieux consommer la totalité de
             votre production d’électricité ou si vous devrez en injecter, tout
             ou partie, sur le réseau public.
           </p>

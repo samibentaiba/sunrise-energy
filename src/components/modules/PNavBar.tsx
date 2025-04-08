@@ -46,7 +46,7 @@ export default function PNavBar(): ReactElement {
             <Link href="" className="">
               <Image
                 src={Number}
-                alt="logo sunvolt"
+                alt="logo Sunrise"
                 width={180}
                 height={100}
                 priority

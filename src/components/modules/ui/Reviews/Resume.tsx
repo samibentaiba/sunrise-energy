@@ -39,10 +39,10 @@ export default function ReviewSummary() {
             isExpanded ? "h-[196px]" : "h-[111px]"
           }`}
         >
-          Les clients apprécient SunVolt France pour leur service professionnel, leurs conseils utiles et un processus
-          d&apos;installation fluide. Les installations solaires de SunVolt sont louées pour leur qualité et leur
+          Les clients apprécient Sunrise France pour leur service professionnel, leurs conseils utiles et un processus
+          d&apos;installation fluide. Les installations solaires de Sunrise sont louées pour leur qualité et leur
           efficacité dans le suivi de la consommation d&apos;énergie. Cette expérience positive amène les clients à
-          recommander SunVolt pour des solutions solaires.
+          recommander Sunrise pour des solutions solaires.
         </div>
 
         {/* Hide/Show button */}

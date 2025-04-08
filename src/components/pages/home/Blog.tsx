@@ -72,7 +72,7 @@ export default function ActualitesEtConseils() {
           </div>
         ))}
       </div>
-      <div className="w-full text-black text-[10px] mt-6 px-4 md:px-0 max-w-7xl mx-auto">*Délai moyen d'installation de centrales solaires SunVolt après signature de devis constaté entre le 01/01/2023 et le 30/05/2023, hors délai de raccordement et de conformité Consuel</div>
+      <div className="w-full text-black text-[10px] mt-6 px-4 md:px-0 max-w-7xl mx-auto">*Délai moyen d'installation de centrales solaires Sunrise après signature de devis constaté entre le 01/01/2023 et le 30/05/2023, hors délai de raccordement et de conformité Consuel</div>
     </section>
   );
 }

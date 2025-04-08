@@ -16,7 +16,7 @@ export default function Footer() {
             <Link href="/" className="inline-block">
               <Image
                 src={SunriseWhite}
-                alt="SunVolt Logo"
+                alt="Sunrise Logo"
                 width={180}
                 height={50}
               />
@@ -68,7 +68,7 @@ export default function Footer() {
               href="/rejoindre"
               className="block hover:text-gray-300 transition-colors"
             >
-              Rejoindre le réseau de techniciens SunVolt
+              Rejoindre le réseau de techniciens Sunrise
             </Link>
             <Link
               href="/avis-clients"
@@ -122,7 +122,7 @@ export default function Footer() {
         {/* Copyright and social media */}
         <div className="mt-12 pt-8 border-t border-gray-800 flex flex-col md:flex-row justify-between items-center">
           <div className="text-sm text-gray-400 mb-4 md:mb-0 text-center md:text-left">
-            © 2025 SunVolt - Tous droits réservés |
+            © 2025 Sunrise - Tous droits réservés |
             <Link
               href="/mentions-legales"
               className="hover:text-white transition-colors"

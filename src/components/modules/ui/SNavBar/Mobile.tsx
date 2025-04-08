@@ -82,7 +82,7 @@ export default function MobileMenu({
         <Link href="/">
           <Image
             src="/placeholder.svg?height=91&width=170"
-            alt="logo sunvolt"
+            alt="logo Sunrise"
             className="hidden"
             width={170}
             height={91}

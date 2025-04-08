@@ -9,10 +9,10 @@ export default function About() {
         {/* Left Side: Text Content */}
         <div className="flex flex-col space-y-4 md:space-y-6 md:max-w-[35rem]">
           <h2 className="text-[28px] md:text-[40px] font-bold text-[#040922] leading-tight md:leading-[50px] font-['Lato',_Arial,_Helvetica,_sans-serif]">
-            SunVolt France ; le leader du solaire intelligent depuis 2019
+            Sunrise France ; le leader du solaire intelligent depuis 2019
           </h2>
           <p className="text-gray-800">
-            SunVolt est un acteur de référence dans les énergies renouvelables avec plus de 3000 installations
+            Sunrise est un acteur de référence dans les énergies renouvelables avec plus de 3000 installations
             photovoltaïques réalisées en France. Nous nous sommes donnés pour objectif de rendre le solaire accessible à
             tous, en offrant le meilleur compromis entre prix, rentabilité et performance.
           </p>

@@ -25,7 +25,7 @@ const FAQ: React.FC<FAQProps> = ({
     {
       question: "Quelle est la durée de vie d'un panneau photovoltaïque ?",
       answer:
-        "La durée de vie moyenne d'un panneau solaire est aujourd'hui supérieure à 40 ans tout en conservant un haut niveau de rendement. Pour preuve, les fabricants garantissent aujourd'hui 80 % de la puissance initiale après 25 ans. Vos panneaux restent donc performants bien au-delà de la durée nécessaire à votre retour sur investissement de 10 ans maximum chez SunVolt !",
+        "La durée de vie moyenne d'un panneau solaire est aujourd'hui supérieure à 40 ans tout en conservant un haut niveau de rendement. Pour preuve, les fabricants garantissent aujourd'hui 80 % de la puissance initiale après 25 ans. Vos panneaux restent donc performants bien au-delà de la durée nécessaire à votre retour sur investissement de 10 ans maximum chez Sunrise !",
       isOpen: false,
     },
     {

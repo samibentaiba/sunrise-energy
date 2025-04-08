@@ -16,14 +16,14 @@ export default function CTA() {
         {/* Right Side: Image */}
         <div className="flex flex-col space-y-4 md:space-y-6 md:max-w-[35rem]">
           <h2 className="text-[28px] md:text-[40px] font-bold text-[#040922] leading-tight md:leading-[50px] font-['Lato',_Arial,_Helvetica,_sans-serif]">
-          Professionnels ; devenez technicien solaire SunVolt
+          Professionnels ; devenez technicien solaire Sunrise
           </h2>
           <p className="text-gray-800">
           Déposez votre candidature. Nos équipes auront à coeur de prendre contact avec vous.
           </p>
           <div className="pt-2">
             <GetStartButton
-              text="Je souhaite adhérer au réseau SunVolt"
+              text="Je souhaite adhérer au réseau Sunrise"
               isIcon={false}
               href="/solutions-photovoltaiques"
             />

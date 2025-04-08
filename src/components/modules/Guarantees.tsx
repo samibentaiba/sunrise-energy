@@ -8,7 +8,7 @@ export default function AdditionalGuarantees() {
       <div className="mx-auto px-4 max-w-6xl">
         {/* Heading */}
         <div className="text-center mb-6 md:mb-10">
-          <h2 className="text-xl md:text-2xl lg:text-3xl font-bold mb-2">Des garanties exclusives SunVolt</h2>
+          <h2 className="text-xl md:text-2xl lg:text-3xl font-bold mb-2">Des garanties exclusives Sunrise</h2>
           <h3 className="text-lg md:text-xl lg:text-2xl font-bold mb-4 md:mb-6">
             pour produire sereinement son énergie solaire
           </h3>

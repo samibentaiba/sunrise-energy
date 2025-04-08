@@ -10,7 +10,7 @@ import SectionFooter from "@/components/modules/Footer";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Sunvolt - La seule offre solaire avec garantie d'économies incluse",
+  title: "Sunrise - La seule offre solaire avec garantie d'économies incluse",
   description: "Découvrez nos solutions photovoltaïques avec garantie d'économies incluse. Panneaux solaires, batteries et plus encore."
 };
 

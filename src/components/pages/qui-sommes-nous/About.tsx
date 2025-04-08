@@ -13,12 +13,12 @@ export default function About() {
           {/* Left Column - Text Content */}
           <div className="w-full md:w-1/2 space-y-5 md:space-y-6">
             <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold leading-tight">
-              SunVolt ; le leader de l'autoconsommation solaire intelligente depuis 2019
+              Sunrise ; le leader de l'autoconsommation solaire intelligente depuis 2019
             </h2>
 
             <div className="text-gray-700 space-y-3 md:space-y-4 text-base md:text-lg">
               <p>
-                Que vous soyez Particulier ou Entreprise, SunVolt est le pont de confiance entre vous et les
+                Que vous soyez Particulier ou Entreprise, Sunrise est le pont de confiance entre vous et les
                 professionnels du solaire.
               </p>
               <p>
@@ -74,7 +74,7 @@ export default function About() {
             <div className="relative overflow-hidden rounded-lg shadow-lg transform transition-transform duration-300 hover:scale-[1.02]">
               <Image
                 src="/images/pages/qui-sommes-nous/About.webp"
-                alt="Installateur SunVolt sur un toit avec panneaux solaires"
+                alt="Installateur Sunrise sur un toit avec panneaux solaires"
                 width={600}
                 height={399}
                 className="w-full h-auto object-cover rounded-lg"

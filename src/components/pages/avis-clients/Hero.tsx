@@ -88,7 +88,7 @@ export default function Hero({
               style={{ width: "100%", maxWidth: "1200px" }}
             >
               <span className="box-border px-2 w-22 bg-white text-xs text-[rgb(4,9,34)]">
-                Avis SunVolt
+                Avis Sunrise
               </span>
 
               <h1

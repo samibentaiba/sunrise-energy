@@ -11,7 +11,7 @@ const reviews = [
     date: "14 Mars 2025",
     rating: 5,
     text:
-      "toutes les étapes, depuis la prise de contact avec l'équipe de SUNVOLT jusqu'à l'installation par la sté O2TOIT, se sont très bien déroulées et dans les temps prévus. Les réponses aux questions posées par mail et par téléphone sont rapides. tout est ok",
+      "toutes les étapes, depuis la prise de contact avec l'équipe de Sunrise jusqu'à l'installation par la sté O2TOIT, se sont très bien déroulées et dans les temps prévus. Les réponses aux questions posées par mail et par téléphone sont rapides. tout est ok",
   },
   {
     name: "Anne",
@@ -57,7 +57,7 @@ const reviews = [
     date: "3 Décembre 2024",
     rating: 5,
     text:
-      "Quand on parle de panneaux photovoltaïques on panique vu le nombre d'arnaque, mais avec Sunvolt, vous pouvez y aller les yeux fermés. Le personnel est très compétent, jusqu'aux installateurs.",
+      "Quand on parle de panneaux photovoltaïques on panique vu le nombre d'arnaque, mais avec Sunrise, vous pouvez y aller les yeux fermés. Le personnel est très compétent, jusqu'aux installateurs.",
   },
 ]
 
