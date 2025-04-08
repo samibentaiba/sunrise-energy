@@ -2,7 +2,7 @@
 import React from "react";
 import { useEffect } from "react";
 import ReactPlayer from "react-player";
-import { CustomGoogleForm } from "@/tool/GoogleForm";
+import { CustomGoogleForm } from "@/tools/GoogleForm";
 const Home: React.FC = () => {
   useEffect(() => {
     // Dynamically load the compiled cgf.js script
