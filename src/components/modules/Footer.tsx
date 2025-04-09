@@ -3,9 +3,6 @@
 import Link from "next/link";
 import Image from "next/image";
 import { SiFacebook, SiYoutube, SiLinkedin, SiInstagram } from "react-icons/si";
-import SunriseWhite from "@/images/modules/Footer/Sunrise-white.svg";
-import Star from "@/images/modules/Footer/Star.svg";
-import EmptyStar from "@/images/modules/Footer/EmptyStar.svg"
 export default function Footer() {
   return (
     <footer className="bg-[#0a0b1e] text-white py-12">
@@ -15,7 +12,7 @@ export default function Footer() {
           <div className="flex flex-col space-y-6">
             <Link href="/" className="inline-block">
               <Image
-                src={SunriseWhite}
+                src="images/modules/Footer/Sunrise-white.svg"
                 alt="Sunrise Logo"
                 width={180}
                 height={50}
@@ -29,7 +26,7 @@ export default function Footer() {
                   {[1, 2, 3, 4].map((star) => (
                     <Image
                       key={star}
-                      src={Star}
+                      src="/images/modules/Footer/Star.svg"
                       alt="star"
                       width={20}
                       height={20}
@@ -38,7 +35,7 @@ export default function Footer() {
                   ))}
                   <Image
                     
-                    src={EmptyStar}
+                    src="/images/modules/Footer/EmptyStar.svg"
                     alt="star"
                     width={20}
                     height={20}

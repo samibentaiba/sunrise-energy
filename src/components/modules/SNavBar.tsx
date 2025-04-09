@@ -6,7 +6,6 @@ import Image from "next/image";
 import { Menu, X } from "lucide-react";
 import "@/styles/SNavBar.css";
 import { motion } from "framer-motion";
-import SunriseLogo from "@/images/modules/NavBar/Sunrise.svg";
 import React from "react";
 import MobileMenu from "./ui/SNavBar/Mobile";
 import Desktop from "./ui/SNavBar/Desktop";
@@ -20,7 +19,7 @@ export default function SNavBar(): ReactElement {
           <div className="header-inner">
             <Link href="/">
               <Image
-                src={SunriseLogo}
+                src="/images/modules/NavBar/Sunrise.svg"
                 alt="logo Sunrise"
                 width={120}
                 height={120}

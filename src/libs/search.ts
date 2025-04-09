@@ -2,8 +2,7 @@
 import fs from "fs";
 import path from "path";
 import { glob } from "glob";
-import * as parser from "@babel/parser";
-import traverse from "@babel/traverse";
+import ts from "typescript";
 
 export type SearchResult = {
   path: string;
@@ -14,46 +13,46 @@ const SEARCH_TERM = "motion";
 const SEARCH_DIRS = ["src/app", "src/components"];
 const FILE_PATTERN = "**/*.{js,jsx,ts,tsx}";
 
-function parseJSX(content: string) {
-  return parser.parse(content, {
-    sourceType: "module",
-    plugins: [
-      "jsx",
-      "typescript",
-      "classProperties",
-      "decorators-legacy",
-      "dynamicImport",
-      "nullishCoalescingOperator",
-      "optionalChaining",
-      "topLevelAwait",
-    ],
-  });
+// Function to parse TypeScript and JSX/TSX
+function parseTSX(content: string) {
+  const sourceFile = ts.createSourceFile(
+    "temp.tsx", // A placeholder file name
+    content,
+    ts.ScriptTarget.Latest,
+    true,
+    ts.ScriptKind.TSX
+  );
+  return sourceFile;
 }
 
+// Function to search in JSX and TypeScript files
 function searchInFile(filePath: string, searchTerm: string): string[] {
   const content = fs.readFileSync(filePath, "utf-8");
   const matches: string[] = [];
 
   try {
-    const ast = parseJSX(content);
-    traverse(ast, {
-      JSXText(path) {
-        const text = path.node.value.trim();
+    const sourceFile = parseTSX(content);
+
+    // Walk through the source file's nodes
+    const visitNode = (node: ts.Node) => {
+      if (ts.isJsxText(node)) {
+        const text = node.text.trim();
         if (text.toLowerCase().includes(searchTerm.toLowerCase())) {
           matches.push(text);
         }
-      },
-      JSXAttribute(path) {
-        const { name, value } = path.node;
-        if (
-          value &&
-          value.type === "StringLiteral" &&
-          value.value.toLowerCase().includes(searchTerm.toLowerCase())
-        ) {
-          matches.push(`${name.name}="${value.value}"`);
+      }
+      if (ts.isJsxAttribute(node) && node.initializer && ts.isStringLiteral(node.initializer)) {
+        const value = node.initializer.text.toLowerCase();
+        if (value.includes(searchTerm.toLowerCase())) {
+          if (ts.isIdentifier(node.name)) {
+            matches.push(`${node.name.text}="${node.initializer.text}"`);
+          }
         }
-      },
-    });
+      }
+      ts.forEachChild(node, visitNode); // Traverse child nodes
+    };
+
+    visitNode(sourceFile);
   } catch (error) {
     if (error instanceof Error) {
       console.error(`Error processing file ${filePath}:`, error.message);
@@ -65,9 +64,10 @@ function searchInFile(filePath: string, searchTerm: string): string[] {
   return matches;
 }
 
+// Main function to search the project
 export function searchProject(): SearchResult[] {
   const results: SearchResult[] = [];
-  let failedFiles: string[] = [];  // لحفظ الملفات التي لم تتم معالجتها بشكل صحيح
+  let failedFiles: string[] = [];  // For tracking files that couldn't be processed
 
   for (const dir of SEARCH_DIRS) {
     const files = glob.sync(path.join(dir, FILE_PATTERN), { absolute: true });
@@ -82,7 +82,7 @@ export function searchProject(): SearchResult[] {
           });
         }
       } catch (error) {
-        failedFiles.push(file);  // إضافة الملف الذي فشل
+        failedFiles.push(file);  // Track failed files
         if (error instanceof Error) {
           console.error(`Error processing file ${file}: ${error.message}`);
         } else {
