@@ -8,48 +8,58 @@ export type SearchResult = {
   content: string;
 };
 
-export function useSearchIndex() {
+type UseSearchIndexReturn = {
+  query: string;
+  setQuery: (value: string) => void;
+  results: SearchResult[];
+  error: string | null;
+  loading: boolean;
+};
+
+export function useSearchIndex(): UseSearchIndexReturn {
   const [query, setQuery] = useState('');
   const [index, setIndex] = useState<SearchResult[]>([]);
   const [results, setResults] = useState<SearchResult[]>([]);
-  const [error, setError] = useState<string | null>(null); // Error state
-  const [loading, setLoading] = useState<boolean>(false); // Loading state
+  const [error, setError] = useState<string | null>(null);
+  const [loading, setLoading] = useState<boolean>(false);
 
-  // Fetch search index data on component mount
+  // Fetch search index on mount
   useEffect(() => {
-    setLoading(true); // Set loading state to true when fetching
-    axios
-      .get('/api/search-index/route.ts') // Use axios to make a GET request to your API
-      .then((response) => {
-        setIndex(response.data); // Set the search index data
-        setError(null); // Clear any previous errors
-      })
-      .catch((err) => {
+    const fetchIndex = async () => {
+      setLoading(true);
+      try {
+        const response = await axios.get<SearchResult[]>('/api/search-index');
+        setIndex(response.data);
+        setError(null);
+      } catch (err: any) {
         console.error('Error fetching search index:', err);
-        setError('Failed to load search data. Please try again later.'); // Set error message
-      })
-      .finally(() => {
-        setLoading(false); // Set loading to false once request completes
-      });
+        setError('Failed to load search data. Please try again later.');
+      } finally {
+        setLoading(false);
+      }
+    };
+
+    fetchIndex();
   }, []);
 
-  // Filter the index based on the query
+  // Filter results when query changes
   useEffect(() => {
-    if (!query) {
-      setResults([]); // Clear results if query is empty
+    if (!query.trim()) {
+      setResults([]);
       return;
     }
-    const filtered = index.filter((entry) =>
-      entry.content.toLowerCase().includes(query.toLowerCase()) // Case-insensitive search
+
+    const filtered = index.filter(({ content }) =>
+      content.toLowerCase().includes(query.toLowerCase())
     );
-    setResults(filtered); // Set the search results
-  }, [query, index]); // Update results when query or index changes
+    setResults(filtered);
+  }, [query, index]);
 
   return {
     query,
     setQuery,
     results,
     error,
-    loading, // Return loading state
+    loading,
   };
 }
