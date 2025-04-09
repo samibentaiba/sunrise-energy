@@ -1,0 +1,14 @@
+{
+    "extends": "./tsconfig.json",
+    "compilerOptions": {
+      "module": "CommonJS",                // <-- Important! Use CommonJS instead of ESNext
+      "moduleResolution": "Node",          // <-- Node-style resolution
+      "allowImportingTsExtensions": false, // <-- Disallow `.ts` in imports
+      "noEmit": false,
+      "paths": {
+        "@/*": ["./src/*"]
+      }
+    },
+    "include": ["src/scripts/**/*"]
+  }
+  
