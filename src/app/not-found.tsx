@@ -12,6 +12,16 @@ export default function NotFound() {
 
   const handleSearchComplete = (query: string, results: any[]) => {
     setSearchResults(results);
+    console.log("Search completed with query:", query);
+    console.log("Search results:", results);
+    // You can also handle the search results here, e.g., redirect to a search results page
+    // or display them in a modal, etc.
+    // For example, you could redirect to a search results page:
+    // window.location.href = `/search?query=${encodeURIComponent(query)}`;
+    // Or you could display them in a modal or another component.
+    // setSearchResults(results); // Update the state with the search results
+    // setShowResults(true); // Show the results
+    // console.log("Search results:", results); 
   };
 
   return (
