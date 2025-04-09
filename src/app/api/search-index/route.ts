@@ -1,7 +1,8 @@
 // src/app/api/search-index/route.ts
 
 import { NextRequest, NextResponse } from 'next/server';
-import { searchProject } from '@/libs/search';
+import fs from 'fs';
+import path from 'path';
 
 export async function GET(req: NextRequest) {
   const { searchParams } = req.nextUrl;
@@ -12,10 +13,17 @@ export async function GET(req: NextRequest) {
   }
 
   try {
-    const results = searchProject(query); // Pass the query to the search function
+    const filePath = path.join(process.cwd(), 'public', 'search-index.json');
+    const rawData = fs.readFileSync(filePath, 'utf-8');
+    const index = JSON.parse(rawData);
+
+    const results = index.filter((item: { content: string }) =>
+      item.content.toLowerCase().includes(query.toLowerCase())
+    );
+
     return NextResponse.json(results);
   } catch (error) {
-    console.error('Error:', error);
-    return NextResponse.json({ error: 'Failed to fetch search index' }, { status: 500 });
+    console.error('Error reading search index:', error);
+    return NextResponse.json({ error: 'Failed to read search index' }, { status: 500 });
   }
 }
