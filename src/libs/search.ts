@@ -25,56 +25,65 @@ function parseTSX(content: string) {
   return sourceFile;
 }
 
-// Function to search in JSX and TypeScript files
 function searchInFile(filePath: string, searchTerm: string): string[] {
   const content = fs.readFileSync(filePath, "utf-8");
   const matches: string[] = [];
 
   try {
-    const sourceFile = parseTSX(content);
-
-    // Walk through the source file's nodes
-    const visitNode = (node: ts.Node) => {
-      if (ts.isJsxText(node)) {
-        const text = node.text.trim();
-        if (text.toLowerCase().includes(searchTerm.toLowerCase())) {
-          matches.push(text);
-        }
+    if (filePath.endsWith(".js") || filePath.endsWith(".jsx")) {
+      const regex = new RegExp(searchTerm, "gi");
+      const match = content.match(regex);
+      if (match) {
+        matches.push(...match);
       }
-      if (ts.isJsxAttribute(node) && node.initializer && ts.isStringLiteral(node.initializer)) {
-        const value = node.initializer.text.toLowerCase();
-        if (value.includes(searchTerm.toLowerCase())) {
-          if (ts.isIdentifier(node.name)) {
-            matches.push(`${node.name.text}="${node.initializer.text}"`);
+    } else {
+      const sourceFile = parseTSX(content);
+
+      const visitNode = (node: ts.Node) => {
+        if (ts.isJsxText(node)) {
+          const text = node.text.trim();
+          if (text.toLowerCase().includes(searchTerm.toLowerCase())) {
+            matches.push(text);
           }
         }
-      }
-      ts.forEachChild(node, visitNode); // Traverse child nodes
-    };
+        if (
+          ts.isJsxAttribute(node) &&
+          node.initializer &&
+          ts.isStringLiteral(node.initializer)
+        ) {
+          const value = node.initializer.text.toLowerCase();
+          if (value.includes(searchTerm.toLowerCase())) {
+            if (ts.isIdentifier(node.name)) {
+              matches.push(`${node.name.text}="${node.initializer.text}"`);
+            }
+          }
+        }
+        ts.forEachChild(node, visitNode); // Traverse child nodes
+      };
 
-    visitNode(sourceFile);
+      visitNode(sourceFile);
+    }
   } catch (error) {
     if (error instanceof Error) {
       console.error(`Error processing file ${filePath}:`, error.message);
     } else {
-      console.error(`Error processing file ${filePath}:`, error);
+      console.error(`Error processing file ${filePath}: ${error}`);
     }
   }
 
   return matches;
 }
 
-// Main function to search the project
-export function searchProject(): SearchResult[] {
+export function searchProject(searchTerm: string): SearchResult[] {
   const results: SearchResult[] = [];
-  let failedFiles: string[] = [];  // For tracking files that couldn't be processed
+  let failedFiles: string[] = []; // For tracking files that couldn't be processed
 
   for (const dir of SEARCH_DIRS) {
     const files = glob.sync(path.join(dir, FILE_PATTERN), { absolute: true });
 
     for (const file of files) {
       try {
-        const matches = searchInFile(file, SEARCH_TERM);
+        const matches = searchInFile(file, searchTerm);
         for (const match of matches) {
           results.push({
             path: path.relative(process.cwd(), file),
@@ -82,7 +91,7 @@ export function searchProject(): SearchResult[] {
           });
         }
       } catch (error) {
-        failedFiles.push(file);  // Track failed files
+        failedFiles.push(file); // Track failed files
         if (error instanceof Error) {
           console.error(`Error processing file ${file}: ${error.message}`);
         } else {
@@ -93,7 +102,9 @@ export function searchProject(): SearchResult[] {
   }
 
   if (failedFiles.length > 0) {
-    console.log(`Failed to process the following files: ${failedFiles.join(', ')}`);
+    console.log(
+      `Failed to process the following files: ${failedFiles.join(", ")}`
+    );
   }
 
   return results;

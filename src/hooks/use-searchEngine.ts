@@ -1,7 +1,7 @@
-'use client';
+"use client";
 
-import { useEffect, useState } from 'react';
-import axios from 'axios';
+import { useEffect, useState } from "react";
+import axios from "axios";
 
 export type SearchResult = {
   path: string;
@@ -17,30 +17,35 @@ type UseSearchIndexReturn = {
 };
 
 export function useSearchIndex(): UseSearchIndexReturn {
-  const [query, setQuery] = useState('');
+  const [query, setQuery] = useState("");
   const [index, setIndex] = useState<SearchResult[]>([]);
   const [results, setResults] = useState<SearchResult[]>([]);
   const [error, setError] = useState<string | null>(null);
   const [loading, setLoading] = useState<boolean>(false);
 
-  // Fetch search index on mount
+  // Fetch search index when query changes
   useEffect(() => {
     const fetchIndex = async () => {
       setLoading(true);
       try {
-        const response = await axios.get<SearchResult[]>('/api/search-index');
+        const url = `/api/search-index?query=${encodeURIComponent(query)}`;
+        console.log("Making request to:", url); // Log the URL for debugging
+        const response = await axios.get<SearchResult[]>(url);
         setIndex(response.data);
         setError(null);
       } catch (err: any) {
-        console.error('Error fetching search index:', err);
-        setError('Failed to load search data. Please try again later.');
+        console.error("Error fetching search index:", err);
+        setError("Failed to load search data. Please try again later.");
       } finally {
         setLoading(false);
       }
     };
 
-    fetchIndex();
-  }, []);
+    // Only fetch if query is not empty
+    if (query.trim()) {
+      fetchIndex();
+    }
+  }, [query]); // Fetch new data whenever the query changes
 
   // Filter results when query changes
   useEffect(() => {
