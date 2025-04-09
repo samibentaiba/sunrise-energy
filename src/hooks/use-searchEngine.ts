@@ -33,9 +33,15 @@ export function useSearchIndex(): UseSearchIndexReturn {
         const response = await axios.get<SearchResult[]>(url);
         setIndex(response.data);
         setError(null);
-      } catch (err: any) {
+      } catch (err: unknown) {
         console.error("Error fetching search index:", err);
-        setError("Failed to load search data. Please try again later.");
+
+        // Narrow down the error type
+        if (err instanceof Error) {
+          setError(`Failed to load search data: ${err.message}`);
+        } else {
+          setError("Failed to load search data. Please try again later.");
+        }
       } finally {
         setLoading(false);
       }

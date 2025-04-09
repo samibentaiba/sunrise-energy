@@ -9,7 +9,7 @@ export type SearchResult = {
   content: string;
 };
 
-const SEARCH_TERM = "motion";
+// Removed unused SEARCH_TERM
 const SEARCH_DIRS = ["src/app", "src/components"];
 const FILE_PATTERN = "**/*.{js,jsx,ts,tsx}";
 
@@ -76,7 +76,7 @@ function searchInFile(filePath: string, searchTerm: string): string[] {
 
 export function searchProject(searchTerm: string): SearchResult[] {
   const results: SearchResult[] = [];
-  let failedFiles: string[] = []; // For tracking files that couldn't be processed
+  const failedFiles: string[] = []; // For tracking files that couldn't be processed
 
   for (const dir of SEARCH_DIRS) {
     const files = glob.sync(path.join(dir, FILE_PATTERN), { absolute: true });

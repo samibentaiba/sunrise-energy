@@ -6,23 +6,19 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { useSearchIndex } from "@/hooks/use-searchEngine";
 import Link from "next/link";
+interface SearchResult {
+  path: string;
+  content: string;
+}
 
 export default function NotFound() {
-  const [searchResults, setSearchResults] = useState<any[]>([]);
+  const [searchResults, setSearchResults] = useState<SearchResult[]>([]);
+  const { query: _query, setQuery: _setQuery, results: _results, error: _error } = useSearchIndex(); // Assume results are SearchResult[]
 
-  const handleSearchComplete = (query: string, results: any[]) => {
+  const handleSearchComplete = (_query: string, results: SearchResult[]) => {
     setSearchResults(results);
-    console.log("Search completed with query:", query);
-    console.log("Search results:", results);
-    // You can also handle the search results here, e.g., redirect to a search results page
-    // or display them in a modal, etc.
-    // For example, you could redirect to a search results page:
-    // window.location.href = `/search?query=${encodeURIComponent(query)}`;
-    // Or you could display them in a modal or another component.
-    // setSearchResults(results); // Update the state with the search results
-    // setShowResults(true); // Show the results
-    // console.log("Search results:", results); 
   };
+  
 
   return (
     <div
@@ -52,7 +48,7 @@ export default function NotFound() {
   );
 }
 interface SearchComponentProps {
-  onSearchComplete: (query: string, results: any[]) => void;
+  onSearchComplete: (query: string, results: SearchResult[]) => void;
 }
 
 function SearchBar({ onSearchComplete }: SearchComponentProps) {
