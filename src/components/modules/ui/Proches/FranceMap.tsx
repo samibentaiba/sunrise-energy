@@ -1,10 +1,10 @@
 "use client";
-import React, { useState, useRef } from "react";
+import React, { useState, useRef, ReactElement } from "react";
 import { ComposableMap, Geographies, Geography } from "react-simple-maps";
 
 const geoUrl = "https://france-geojson.gregoiredavid.fr/repo/regions.geojson"; // GeoJSON for France regions
 
-const FranceMap = () => {
+export default function FranceMap () :ReactElement {
   const [selectedRegion, setSelectedRegion] = useState(null);
   const [tooltip, setTooltip] = useState({ visible: false, name: "", x: 0, y: 0 });
   const mapContainerRef = useRef<HTMLDivElement>(null); // Reference for the map container
@@ -78,5 +78,3 @@ const FranceMap = () => {
     </div>
   );
 };
-
-export default FranceMap;

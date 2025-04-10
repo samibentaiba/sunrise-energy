@@ -3,7 +3,8 @@
 import Link from "next/link";
 import Image from "next/image";
 import { SiFacebook, SiYoutube, SiLinkedin, SiInstagram } from "react-icons/si";
-export default function Footer() {
+import type { ReactElement } from "react";
+export default function Footer(): ReactElement {
   return (
     <footer className="bg-[#0a0b1e] text-white py-12">
       <div className="container mx-auto px-4">
@@ -12,7 +13,7 @@ export default function Footer() {
           <div className="flex flex-col space-y-6">
             <Link href="/" className="inline-block">
               <Image
-                src="images/modules/Footer/Sunrise-white.svg"
+                src="/images/modules/Footer/Sunrise-white.svg"
                 alt="Sunrise Logo"
                 width={180}
                 height={50}
@@ -30,16 +31,13 @@ export default function Footer() {
                       alt="star"
                       width={20}
                       height={20}
-                      
                     />
                   ))}
                   <Image
-                    
                     src="/images/modules/Footer/EmptyStar.svg"
                     alt="star"
                     width={20}
                     height={20}
-                    
                   />
                 </div>
               </div>

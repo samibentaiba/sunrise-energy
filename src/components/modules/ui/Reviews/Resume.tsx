@@ -1,9 +1,9 @@
 "use client"
 
-import { useState } from "react"
+import { ReactElement, useState } from "react"
 import { RandomAvatar } from "react-random-avatars"
 
-export default function ReviewSummary() {
+export default function ReviewSummary():ReactElement {
   // Names for the avatars
   const names = ["Brigitte", "Antoine", "Sophie", "AI"]
   // State to track if content is expanded

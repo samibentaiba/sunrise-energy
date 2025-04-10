@@ -2,8 +2,9 @@
 
 import Image from "next/image"
 import "@/styles/SNavBar.css"
+import { ReactElement } from "react"
 
-export default function CardS({ cards }: { cards: CardProps[] }) {
+export default function CardS({ cards }: { cards: CardProps[] }) :ReactElement{
   return (
     <div className="cards-container">
       {cards.map((card, index) => (

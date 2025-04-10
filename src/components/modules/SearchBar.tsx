@@ -15,7 +15,7 @@ interface SearchComponentProps {
   onSearchComplete: (query: string, results: SearchResult[]) => void;
 }
 
-export function SearchBar({ onSearchComplete }: SearchComponentProps) {
+export default function SearchBar({ onSearchComplete }: SearchComponentProps) {
   const [showResults, setShowResults] = useState(false);
   const { query, setQuery, results, error } = useSearchIndex();
 

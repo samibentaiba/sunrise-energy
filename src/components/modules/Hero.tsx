@@ -2,7 +2,7 @@
 
 import GetStartButton from "./ui/Hero/GetStartButton";
 import Image from "next/image";
-import { useEffect, useState } from "react";
+import { ReactElement, useEffect, useState } from "react";
 
 export default function Hero({
   title,
@@ -14,7 +14,7 @@ export default function Hero({
   description: string;
   backgroundImage: string;
   buttonText: string;
-}) {
+}): ReactElement {
   const [isMobile, setIsMobile] = useState(false);
 
   // Detect mobile screen on client side

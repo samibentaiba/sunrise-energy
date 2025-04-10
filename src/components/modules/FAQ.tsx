@@ -1,6 +1,6 @@
 "use client";
 
-import type React from "react";
+import type { ReactElement } from "react"; // Correctly import ReactElement
 import { useState } from "react";
 import Image from "next/image";
 import { Minus, Plus } from "lucide-react";
@@ -11,15 +11,13 @@ interface FAQItem {
   isOpen: boolean;
 }
 
-// Update the FAQProps interface to make props optional with default values
 interface FAQProps {
   faqData?: FAQItem[];
   title?: string;
   subtitle?: string;
 }
 
-// Update the component definition to include default values
-const FAQ: React.FC<FAQProps> = ({
+export default function FAQ({
   faqData = [
     {
       question: "Quelle est la durée de vie d'un panneau photovoltaïque ?",
@@ -43,7 +41,7 @@ const FAQ: React.FC<FAQProps> = ({
   ],
   title = "On répond à vos questions",
   subtitle = "Découvrez les réponses aux questions les plus fréquemment posées",
-}) => {
+}: FAQProps): ReactElement {
   const [faqs, setFaqs] = useState<FAQItem[]>(
     faqData.map((faq) => ({ ...faq, isOpen: false }))
   );
@@ -100,6 +98,4 @@ const FAQ: React.FC<FAQProps> = ({
       </div>
     </section>
   );
-};
-
-export default FAQ;
+}

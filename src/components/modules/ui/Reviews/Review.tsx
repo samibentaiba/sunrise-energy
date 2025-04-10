@@ -1,6 +1,7 @@
 import Image from "next/image";
 import "@/styles/Review.css";
 import { RandomAvatar } from "react-random-avatars";
+import { ReactElement } from "react";
 interface ReviewProps {
   name: string;
   time: string;
@@ -15,7 +16,7 @@ export default function Review({
   comment,
   avatar,
   rating,
-}: ReviewProps) {
+}: ReviewProps) :ReactElement{
   return (
     <div
       tabIndex={-1}

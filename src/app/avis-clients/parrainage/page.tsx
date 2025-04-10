@@ -6,7 +6,8 @@ import Blog from "@/components/modules/Blog";
 import Proches from "@/components/modules/Proches";
 import Reviews from "@/components/modules/Reviews";
 import FAQ from "@/components/modules/FAQ";
-export default function AvisClients() {
+import { ReactElement } from "react";
+export default function AvisClients():ReactElement {
   return (
     <div className="min-h-screen overflow-clip w-[100%] text-black flex flex-col">
       <Hero

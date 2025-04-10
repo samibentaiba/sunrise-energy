@@ -2,7 +2,7 @@
 import { Suspense, useState, useEffect } from "react";
 
 export function DynamicComponent({ path }: { path: string }) {
-  const [Component, setComponent] = useState<React.ComponentType<any> | null>(
+  const [Component, setComponent] = useState<React.ComponentType | null>(
     null
   );
 
@@ -11,10 +11,11 @@ export function DynamicComponent({ path }: { path: string }) {
       try {
         // Dynamically import the component
         console.log(path.endsWith(".tsx") ? path.slice(0, -4) : path);
-        const importedComponent = await import("src/components/modules/SNavBar"); // it works on src/components/modules/Blog
+        const importedComponent = await import("src/components/modules/Blog"); // it works on src/components/modules/Blog
         // Extract the default or named export as a React component
         setComponent(() => importedComponent.default ); // Use the default export or fallback
       } catch (error) {
+        console.error("Error loading component:", error);
         setComponent(null); // If the component fails to load, set it to null
       }
     };

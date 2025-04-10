@@ -1,12 +1,13 @@
 "use client"
 import dynamic from "next/dynamic"
 import FranceMap from "./ui/Proches/FranceMap"
+import { ReactElement } from "react";
 const ReactPlayer = dynamic(() => import("react-player"), {
   ssr: false,
   loading: () => <p>Loading video...</p>,
 });
 
-export default function Proches() {
+export default function Proches():ReactElement {
   return (
     <section className="py-8 md:py-14 px-4 md:px-8 lg:px-16 bg-white">
       <h2 className="text-center text-2xl md:text-3xl font-semibold mb-8 text-gray-800">

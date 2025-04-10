@@ -1,8 +1,9 @@
 import Review from "./ui/Reviews/Review";
 import mockdata from "@/data/Reviews.json";
 import Resume from "./ui/Reviews/Resume";
+import { ReactElement } from "react";
 
-export default function Reviews() {
+export default function Reviews():ReactElement {
   return (
     <div className="max-w-6xl mx-auto p-5">
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">

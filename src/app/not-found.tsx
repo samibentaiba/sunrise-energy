@@ -1,7 +1,7 @@
 "use client";
 import { useState } from "react";
 import { BlueButton } from "@/components/ui/bluebutton";
-import { SearchBar } from "@/components/modules/SearchBar";
+import SearchBar from "@/components/modules/SearchBar";
 
 interface SearchResult {
   path: string;

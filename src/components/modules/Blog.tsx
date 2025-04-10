@@ -71,7 +71,7 @@ function BlueButton({
   )
 }
 
-export default function Blog() {
+export default function Blog() : ReactElement{
   const articles = [
     {
       image: "/images/modules/Blog/installation_toulon.webp",
