@@ -1,5 +1,4 @@
 import Image from "next/image";
-import AboutImage from "@/images/pages/garanties/About.jpeg";
 export default function About() {
   return (
     <div className="bg-white flex justify-center py-10 md:py-20 w-full">
@@ -18,7 +17,7 @@ export default function About() {
         {/* Right Side: Image */}
         <div className="w-full md:w-[550px]">
           <Image
-            src={AboutImage}
+            src="/images/pages/garanties/About.jpeg"
             alt="Solar panels on roof"
             width={550}
             height={500}

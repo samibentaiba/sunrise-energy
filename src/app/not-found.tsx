@@ -1,11 +1,8 @@
 "use client";
-
 import { useState } from "react";
-import { Search } from "lucide-react";
-import { Button } from "@/components/ui/button";
-import { Input } from "@/components/ui/input";
-import { useSearchIndex } from "@/hooks/use-searchEngine";
-import Link from "next/link";
+import { BlueButton } from "@/components/ui/bluebutton";
+import { SearchBar } from "@/components/modules/SearchBar";
+
 interface SearchResult {
   path: string;
   content: string;
@@ -13,12 +10,10 @@ interface SearchResult {
 
 export default function NotFound() {
   const [searchResults, setSearchResults] = useState<SearchResult[]>([]);
-  const { query: _query, setQuery: _setQuery, results: _results, error: _error } = useSearchIndex(); // Assume results are SearchResult[]
 
   const handleSearchComplete = (_query: string, results: SearchResult[]) => {
     setSearchResults(results);
   };
-  
 
   return (
     <div
@@ -45,90 +40,5 @@ export default function NotFound() {
         ) : null}
       </div>
     </div>
-  );
-}
-interface SearchComponentProps {
-  onSearchComplete: (query: string, results: SearchResult[]) => void;
-}
-
-function SearchBar({ onSearchComplete }: SearchComponentProps) {
-  const [showResults, setShowResults] = useState(false);
-  const { query, setQuery, results, error } = useSearchIndex(); // Include error in the destructure
-  console.log(query, results, error); // Log error for debugging
-
-  const handleSearchSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
-    setShowResults(true);
-    onSearchComplete(query, results);
-  };
-
-  return (
-    <div className="relative w-full md:w-auto md:flex-1">
-      <form onSubmit={handleSearchSubmit} className="w-full">
-        <Input
-          type="search"
-          value={query}
-          onChange={(e) => {
-            setQuery(e.target.value);
-            setShowResults(true);
-          }}
-          placeholder="Commencer une recherche"
-          className="h-12 pl-14 pr-10 bg-white border-white focus:border-blue-300 w-full"
-        />
-        <Button
-          type="submit"
-          size="icon"
-          variant="ghost"
-          className="absolute left-0 top-0 h-12 w-12 text-gray-900 font-bold"
-        >
-          <span className="sr-only">Recherche</span>
-          <Search className="h-6 w-6" strokeWidth={4} />
-        </Button>
-      </form>
-
-      {error && <div className="mt-4 text-red-500 text-sm">{error}</div>}
-
-      {showResults && results.length > 0 && (
-        <div className="mt-10 bg-white rounded-lg p-4 max-h-64 overflow-y-auto text-left">
-          <h3 className="font-semibold mb-2">Résultats pour “{query}” :</h3>
-          <ul className="space-y-2 text-sm">
-            {results.map((res, i) => (
-              <li key={i}>
-                <span className="text-blue-600 font-medium">{res.path}</span>:{" "}
-                {res.content}
-              </li>
-            ))}
-          </ul>
-        </div>
-      )}
-
-      {showResults && results.length === 0 && (
-        <div className="mt-10 text-white text-sm">Aucun résultat trouvé.</div>
-      )}
-    </div>
-  );
-}
-function BlueButton({
-  text,
-  hoveredText,
-  href,
-}: {
-  text: string;
-  hoveredText?: string;
-  href: string;
-}) {
-  const [isHovered, setIsHovered] = useState(false);
-
-  return (
-    <Link
-      href={href}
-      className="group relative inline-flex items-center justify-center px-4 sm:px-5 md:px-6 py-2 sm:py-2.5 md:py-3 bg-[#0B68A4] text-white font-medium rounded-full hover:bg-[#0B476F] overflow-hidden transition-colors duration-300"
-      onMouseEnter={() => setIsHovered(true)}
-      onMouseLeave={() => setIsHovered(false)}
-    >
-      <span className="transition-all duration-500 text-xs sm:text-sm md:text-base font-semibold">
-        {isHovered ? hoveredText || text : text}
-      </span>
-    </Link>
   );
 }

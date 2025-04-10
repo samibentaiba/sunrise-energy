@@ -1,11 +1,10 @@
 import GetStartButton from "./Hero/GetStartButton";
 import Image from "next/image";
-import Herosection from "@/images/pages/home/Hero.png";
 export default function Hero() {
   return (
     <div className="relative md:h-[512px] h-[575px] z-0 p-0 m-0 w-full flex items-center justify-center bg-cover bg-center">
       <Image
-        src={Herosection}
+        src="/images/pages/home/Hero.png"
         alt="Hero"
         fill
         style={{ objectFit: "cover" }}

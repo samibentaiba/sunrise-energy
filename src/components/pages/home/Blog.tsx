@@ -1,13 +1,9 @@
 import Image from "next/image";
 import Link from "next/link";
-import ChoosingSolar from "@/images/pages/home/Blog/Choosing-solar-panel-power.jpeg";
-import ElectricCar from "@/images/pages/home/Blog/Electric-car-charging-with-solar.webp";
-import SolarPanels from "@/images/pages/home/Blog/Solar-panels-on-tiled-roof.webp";
-import HouseRoof from "@/images/pages/home/Blog/House-roof-with-solar-panels.webp";
 export default function ActualitesEtConseils() {
   const articles = [
     {
-      image: ChoosingSolar,
+      image: "/images/pages/home/Blog/Choosing-solar-panel-power.jpeg",
       categories: [
         { name: "Conso", href: "#" },
         { name: "Guides", href: "#" }
@@ -16,7 +12,7 @@ export default function ActualitesEtConseils() {
       href: "#"
     },
     {
-      image: ElectricCar,
+      image: "/images/pages/home/Blog/Electric-car-charging-with-solar.webp",
       categories: [
         { name: "Economies d'énergie", href: "#" },
         { name: "Guides", href: "#" }
@@ -25,7 +21,7 @@ export default function ActualitesEtConseils() {
       href: "#"
     },
     {
-      image: SolarPanels,
+      image: "/images/pages/home/Blog/Solar-panels-on-tiled-roof.webp",
       categories: [
         { name: "Guides", href: "#" },
         { name: "Panneaux solaires", href: "#" }
@@ -34,7 +30,7 @@ export default function ActualitesEtConseils() {
       href: "#"
     },
     {
-      image: HouseRoof,
+      image: "/images/pages/home/Blog/House-roof-with-solar-panels.webp",
       categories: [
         { name: "Conso", href: "#" },
         { name: "Guides", href: "#" }

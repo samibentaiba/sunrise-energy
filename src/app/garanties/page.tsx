@@ -19,7 +19,6 @@ export default function Garanties() {
         buttonText="Je demande un RDV avec un conseiller"
         backgroundImage="/images/pages/garanties/Hero.jpeg"
       />
-
       <About />
       <Steps />
       <Guarantees />

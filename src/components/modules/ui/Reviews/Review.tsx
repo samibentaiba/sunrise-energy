@@ -1,6 +1,4 @@
 import Image from "next/image";
-import starsvg from "@/images/pages/panneaux-solaires/Reviews/star.svg";
-import googlesvg from "@/images/pages/panneaux-solaires/Reviews/google.svg";
 import "@/styles/Review.css";
 import { RandomAvatar } from "react-random-avatars";
 interface ReviewProps {
@@ -30,7 +28,7 @@ export default function Review({
             <div className="review-avatar">
               {avatar ? (
                 <Image
-                  src={avatar}
+                  src="@/images/pages/panneaux-solaires/Reviews/star.svg"
                   className="avatar-img"
                   alt={name}
                   width={40}
@@ -52,10 +50,10 @@ export default function Review({
         <div className="review-footer">
           <div className="review-stars">
             {[...Array(rating)].map((_, i) => (
-              <Image key={i} src={starsvg} width={30} height={30} alt="star" />
+              <Image key={i} src="/images/pages/panneaux-solaires/Reviews/star.svg" width={30} height={30} alt="star" />
             ))}
           </div>
-          <Image src={googlesvg} width={30} height={30} alt="google" />
+          <Image src="/images/pages/panneaux-solaires/Reviews/google.svg" width={30} height={30} alt="google" />
         </div>
       </div>
     </div>

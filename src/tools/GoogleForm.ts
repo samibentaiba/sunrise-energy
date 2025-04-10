@@ -1,10 +1,11 @@
 import { useEffect } from "react";
-import React from "react";
+import React, { ReactElement } from "react";
+
 interface CustomGoogleFormProps {
   formId: string;
 }
 
-export const CustomGoogleForm = ({ formId }: CustomGoogleFormProps) => {
+export const CustomGoogleForm = ({ formId }: CustomGoogleFormProps): ReactElement => {
   useEffect(() => {
     // Dynamically load the cgf.js script
     const script = document.createElement("script");

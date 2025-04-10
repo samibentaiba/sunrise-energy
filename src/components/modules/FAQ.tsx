@@ -4,7 +4,6 @@ import type React from "react";
 import { useState } from "react";
 import Image from "next/image";
 import { Minus, Plus } from "lucide-react";
-import message from "@/images/modules/FAQ.png";
 
 interface FAQItem {
   question: string;
@@ -61,7 +60,7 @@ const FAQ: React.FC<FAQProps> = ({
     <section className="mx-auto px-6 w-full max-w-[1200px] flex flex-col py-8 md:py-12 lg:py-16 xl:py-20">
       <div className="flex flex-col items-center text-center">
         <Image
-          src={message || "/placeholder.svg"}
+          src={"/images/modules/FAQ.png"}
           alt="Speech bubble icon"
           width={120}
           height={120}

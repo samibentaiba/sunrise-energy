@@ -1,13 +1,11 @@
 import Image from "next/image";
 import { Check } from "lucide-react";
 import GetStartButton from "./GetStartButton";
-import Intervenants from "@/images/pages/home/Pricing/Intervenants-LBC5-1.webp";
-import PanneuxSolaires from "@/images/pages/home/Pricing/Panneau-solaire-DMEGC.webp";
 const plans = [
   {
     name: "SunEco",
     price: "7 499€",
-    img: Intervenants,
+    img: "/images/pages/home/Pricing/Intervenants-LBC5-1.webp",
     features: ["Panneaux solaires de dernière génération DMEGC BIFACIAL", "Onduleurs centraux Huawei SUN2000", "Gestionnaire d'énergie POWER GEN4"],
     description: "Le solaire performant et durable au meilleur prix",
     bg: "bg-white"
@@ -15,7 +13,7 @@ const plans = [
   {
     name: "SunMax",
     price: "8 499 €",
-    img: PanneuxSolaires,
+    img: "/images/pages/home/Pricing/Panneau-solaire-DMEGC.webp",
     features: ["Panneaux solaires de dernière génération: Dual Sun - FLASH 500", "Micro-onduleurs Enphase IQ8P", "Suivi de production", "Suivi de consommation", "Optimisation de production en cas d'ombre", "Optimisation des consommations en fonction de la production"],
     description: "Le solaire Premium avec panneaux solaires de marque française",
     bg: "bg-gray-50 rounded-lg"

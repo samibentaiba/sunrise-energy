@@ -1,9 +1,10 @@
 "use client";
-import React from "react";
+import React, { ReactElement } from "react";
 import { useEffect } from "react";
 import ReactPlayer from "react-player";
 import { CustomGoogleForm } from "@/tools/GoogleForm";
-const Home: React.FC = () => {
+
+const Home: React.FC = (): ReactElement => {
   useEffect(() => {
     // Dynamically load the compiled cgf.js script
     const script = document.createElement("script");
@@ -19,6 +20,7 @@ const Home: React.FC = () => {
       document.body.removeChild(script);
     };
   }, []);
+
   return (
     <section>
       {/* Hero Section */}
@@ -35,7 +37,6 @@ const Home: React.FC = () => {
                 découvrez vos économies, le montant des aides auxquelles vous
                 avez droit.
               </p>
-
             </div>
 
             {/* Video Testimonial for Desktop */}
@@ -66,4 +67,5 @@ const Home: React.FC = () => {
     </section>
   );
 };
+
 export default Home;

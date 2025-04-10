@@ -2,7 +2,7 @@
 import Image from "next/image"
 import Link from "next/link"
 import { useState } from "react"
-
+import { ReactElement } from "react"
 function GetStartButton({
   text,
   hoveredText,
@@ -11,7 +11,7 @@ function GetStartButton({
   text: string
   hoveredText?: string
   href: string
-}) {
+}): ReactElement{
   const [isHovered, setIsHovered] = useState(false)
 
   return (
