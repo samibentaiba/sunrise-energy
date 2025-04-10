@@ -1,17 +1,19 @@
 "use client";
-import { useState } from "react";
+import { ReactElement, useState } from "react";
 import { BlueButton } from "@/components/ui/bluebutton";
 import SearchBar from "@/components/modules/SearchBar";
 
-interface SearchResult {
-  path: string;
-  content: string;
-}
 
-export default function NotFound() {
-  const [searchResults, setSearchResults] = useState<SearchResult[]>([]);
 
-  const handleSearchComplete = (_query: string, results: SearchResult[]) => {
+export default function NotFound(): ReactElement {
+  const [searchResults, setSearchResults] = useState<
+    { path: string; content: string }[]
+  >([]);
+
+  const handleSearchComplete = (
+    _query: string,
+    results: { path: string; content: string }[]
+  ) => {
     setSearchResults(results);
   };
 

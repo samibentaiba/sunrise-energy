@@ -2,8 +2,8 @@
 
 import Image from "next/image"
 import { motion } from "framer-motion"
-
-export default function TVA() {
+import type {ReactElement } from "react"
+export default function TVA():ReactElement {
   return (
     <section
       className="w-full py-12 md:py-[50px] overflow-hidden"

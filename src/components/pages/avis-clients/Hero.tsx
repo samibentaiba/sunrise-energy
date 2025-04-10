@@ -16,7 +16,7 @@ export default function Hero({
   backgroundImage: string;
   fButtonText: string;
   sButtonText: string;
-}) {
+}): ReactElement {
   const [isMobile, setIsMobile] = useState(false);
 
   // Detect mobile screen on client side
@@ -123,7 +123,7 @@ export default function Hero({
 }
 import { FaAngleDoubleRight } from "react-icons/fa";
 import Link from "next/link";
-import { ReactElement } from "react";
+import type { ReactElement } from "react";
 function WhiteButton({
   text,
   hoveredText,

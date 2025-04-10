@@ -5,18 +5,6 @@ import { useState } from "react";
 import Image from "next/image";
 import { Minus, Plus } from "lucide-react";
 
-interface FAQItem {
-  question: string;
-  answer: string;
-  isOpen: boolean;
-}
-
-interface FAQProps {
-  faqData?: FAQItem[];
-  title?: string;
-  subtitle?: string;
-}
-
 export default function FAQ({
   faqData = [
     {
@@ -41,10 +29,14 @@ export default function FAQ({
   ],
   title = "On répond à vos questions",
   subtitle = "Découvrez les réponses aux questions les plus fréquemment posées",
-}: FAQProps): ReactElement {
-  const [faqs, setFaqs] = useState<FAQItem[]>(
-    faqData.map((faq) => ({ ...faq, isOpen: false }))
-  );
+}: {
+  faqData?: { question: string; answer: string; isOpen: boolean }[];
+  title?: string;
+  subtitle?: string;
+}): ReactElement {
+  const [faqs, setFaqs] = useState<
+    { question: string; answer: string; isOpen: boolean }[]
+  >(faqData.map((faq) => ({ ...faq, isOpen: false })));
 
   const toggleFaq = (index: number) => {
     setFaqs((prevFaqs) =>

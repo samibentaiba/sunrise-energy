@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 import FeatureCard from "./Features/FeatureCard";
-const Features: React.FC = () => {
+export default function Features(): ReactElement {
   return (
     <section className="w-full md:py-10 py-20  px-4 border-none bg-white">
       <div className="border-none mx-auto" style={{ maxWidth: "75rem" }}>
@@ -28,20 +28,23 @@ const Features: React.FC = () => {
           />
         </div>
       </div>
-      <GetStartButton  text="Je simule mes économies" href="Je simule mes économies" />
+      <GetStartButton
+        text="Je simule mes économies"
+        href="Je simule mes économies"
+      />
     </section>
   );
-};
+}
 import Link from "next/link";
-import { ReactElement } from "react";
+import type { ReactElement } from "react";
 function GetStartButton({
   text,
   hoveredText,
   href,
 }: {
-  text: string
-  hoveredText?: string
-  href: string
+  text: string;
+  hoveredText?: string;
+  href: string;
 }): ReactElement {
   return (
     <div className="w-full flex justify-center items-center mt-4">
@@ -79,7 +82,10 @@ function GetStartButton({
 
         <div className="absolute transition-all duration-500 opacity-1 group-hover:opacity-100 group-hover:translate-y-0">
           <div className="group relative inline-flex items-center justify-center">
-            <span className="translate-y-[-10%]" style={{ fontSize: "1rem", fontWeight: 600 }}>
+            <span
+              className="translate-y-[-10%]"
+              style={{ fontSize: "1rem", fontWeight: 600 }}
+            >
               {text || hoveredText}
             </span>
             <svg
@@ -100,9 +106,5 @@ function GetStartButton({
         </div>
       </Link>
     </div>
-  )
+  );
 }
-
-
-
-export default Features;

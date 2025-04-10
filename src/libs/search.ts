@@ -10,7 +10,7 @@ export type SearchResult = {
 };
 
 // Removed unused SEARCH_TERM
-const SEARCH_DIRS = ["src/app", "src/components"];
+const SEARCH_DIRS = ["src/components"];
 const FILE_PATTERN = "**/*.{js,jsx,ts,tsx}";
 
 // Function to parse TypeScript and JSX/TSX

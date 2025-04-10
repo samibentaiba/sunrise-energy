@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import { ReactElement } from "react";
+import { type ReactElement } from "react";
 function GetStartButton({
   text,
   hoveredText,
@@ -75,7 +75,7 @@ function GetStartButton({
   );
 }
 
-export default function SolarShowcase() {
+export default function SolarShowcase(): ReactElement {
   return (
     <section className="bg-white py-20 px-6 md:py-24 lg:py-32">
       <div className="container mx-auto max-w-6xl">

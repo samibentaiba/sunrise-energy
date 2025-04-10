@@ -6,16 +6,14 @@ import { Button } from "@/components/ui/button";
 import { useSearchIndex } from "@/hooks/use-searchEngine";
 import { DynamicComponent } from "./ui/SearchBar/DynamicComponent";
 
-interface SearchResult {
-  path: string;
-  content: string;
-}
-
-interface SearchComponentProps {
-  onSearchComplete: (query: string, results: SearchResult[]) => void;
-}
-
-export default function SearchBar({ onSearchComplete }: SearchComponentProps) {
+export default function SearchBar({
+  onSearchComplete,
+}: {
+  onSearchComplete: (
+    query: string,
+    results: { path: string; content: string }[]
+  ) => void;
+}) {
   const [showResults, setShowResults] = useState(false);
   const { query, setQuery, results, error } = useSearchIndex();
 
@@ -80,7 +78,9 @@ export default function SearchBar({ onSearchComplete }: SearchComponentProps) {
       )}
 
       {showResults && results.length === 0 && (
-        <div className="mt-10 text-sm text-gray-500">Aucun résultat trouvé.</div>
+        <div className="mt-10 text-sm text-gray-500">
+          Aucun résultat trouvé.
+        </div>
       )}
     </div>
   );

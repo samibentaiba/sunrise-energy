@@ -2,13 +2,17 @@ import { FaAngleDoubleRight } from "react-icons/fa";
 import Link from "next/link";
 import { ReactElement } from "react";
 
-interface GetStartButtonProps {
+
+
+export default function GetStartButton({
+  text,
+  hoveredText,
+  href,
+}: {
   text: string;
   hoveredText?: string;
   href: string;
-}
-
-export default function GetStartButton({ text, hoveredText, href }: GetStartButtonProps): ReactElement {
+}): ReactElement {
   return (
     <Link
       href={href}
@@ -20,15 +24,23 @@ export default function GetStartButton({ text, hoveredText, href }: GetStartButt
   "
       style={{
         padding: "13px 40px",
-        fontSize: "14px"
-      }}>
-      <FaAngleDoubleRight className="text-white md:text-2xl text-3xl " size={18} />
+        fontSize: "14px",
+      }}
+    >
+      <FaAngleDoubleRight
+        className="text-white md:text-2xl text-3xl "
+        size={18}
+      />
 
       {/* First text, disappears on hover */}
-      <span className="transition-all md:font-[650] font-[600] md:text-[20px] text-[18px]  opacity-100  duration-500 group-hover:translate-y-[-20px] group-hover:opacity-1">{text}</span>
+      <span className="transition-all md:font-[650] font-[600] md:text-[20px] text-[18px]  opacity-100  duration-500 group-hover:translate-y-[-20px] group-hover:opacity-1">
+        {text}
+      </span>
 
       {/* Second text, appears after hover effect */}
-      <span className="absolute transition-all md:font-[650] font-[600] md:text-[20px] text-[18px] duration-500 opacity-1 group-hover:opacity-100 group-hover:translate-y-0 translate-x-[16px]">{hoveredText || text}</span>
+      <span className="absolute transition-all md:font-[650] font-[600] md:text-[20px] text-[18px] duration-500 opacity-1 group-hover:opacity-100 group-hover:translate-y-0 translate-x-[16px]">
+        {hoveredText || text}
+      </span>
     </Link>
   );
 }

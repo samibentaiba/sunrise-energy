@@ -3,7 +3,7 @@
 import Image from "next/image";
 import { motion } from "framer-motion";
 
-export default function TVA() {
+export default function TVA(): ReactElement {
   return (
     <section
       className="w-full py-12 md:py-[50px] overflow-hidden"
@@ -82,7 +82,7 @@ export default function TVA() {
 
 import { FaAngleDoubleRight } from "react-icons/fa";
 import Link from "next/link";
-import { ReactElement } from "react";
+import type { ReactElement } from "react";
 
 function GetStartButton({
   text,

@@ -1,5 +1,5 @@
 "use client";
-import React from "react";
+import React, { ReactElement } from "react";
 import FeatureList from "./CTA/FeatureList";
 import dynamic from "next/dynamic";
 
@@ -9,7 +9,7 @@ const ReactPlayer = dynamic(() => import("react-player"), {
 });
 
 // Main SectionCTA Component
-export default function CTA() {
+export default function CTA(): ReactElement {
   return (
     <section className="relative w-full md:h-[615px] h-[1100px] flex items-center justify-center overflow-hidden">
       <ParallaxBackground />

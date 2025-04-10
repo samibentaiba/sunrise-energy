@@ -1,7 +1,8 @@
 
 import Image from "next/image";
+import { ReactElement } from "react";
 
-export default function Protection() {
+export default function Protection():ReactElement {
   return (
     <div className="w-screen text-gray-900 bg-white">
       <section className="w-full py-16 bg-white">

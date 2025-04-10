@@ -1,9 +1,9 @@
 "use client"
 
-import { useEffect, useRef } from "react"
+import { ReactElement, useEffect, useRef } from "react"
 import { motion, useAnimation, useInView } from "framer-motion"
 
-export default function Team() {
+export default function Team() :ReactElement{
   const controls = useAnimation()
   const ref = useRef(null)
   const isInView = useInView(ref, { once: true })

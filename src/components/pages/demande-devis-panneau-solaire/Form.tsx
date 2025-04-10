@@ -4,7 +4,7 @@ import { useEffect } from "react";
 import ReactPlayer from "react-player";
 import { CustomGoogleForm } from "@/tools/GoogleForm";
 
-const Home: React.FC = (): ReactElement => {
+export default function Home(): ReactElement {
   useEffect(() => {
     // Dynamically load the compiled cgf.js script
     const script = document.createElement("script");
@@ -66,6 +66,4 @@ const Home: React.FC = (): ReactElement => {
       </div>
     </section>
   );
-};
-
-export default Home;
+}

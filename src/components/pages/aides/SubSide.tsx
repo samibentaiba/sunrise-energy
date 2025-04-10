@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { ReactElement, useState } from "react";
 import Image from "next/image";
 import BlueButton  from "./SubSide/button";
 import { Card } from "./SubSide/card";
@@ -9,7 +9,7 @@ import { RadioGroup, RadioGroupItem } from "./SubSide/radio-group";
 import { Label } from "./SubSide/label";
 
 
-export default function SubSide() {
+export default function SubSide():ReactElement {
   const [powerCapacity, setPowerCapacity] = useState<number>(4.5)
   const [housingType, setHousingType] = useState<string>("")
   const [propertyAge, setPropertyAge] = useState<string>("")

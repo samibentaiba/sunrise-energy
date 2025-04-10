@@ -1,4 +1,6 @@
-export default function header() {
+import { ReactElement } from "react";
+
+export default function header():ReactElement {
   return (
     <section className="w-full py-16 bg-white">
       <div className="container mx-auto items-center justify-center flex flex-col text-center space-y-6">

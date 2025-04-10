@@ -1,4 +1,4 @@
-export default function CTA() {
+export default function CTA() :ReactElement{
   return (
     <section className="w-full py-12 md:py-16 lg:py-20 text-gray-900 bg-gray-50">
       <div className="mx-auto px-4 max-w-6xl">

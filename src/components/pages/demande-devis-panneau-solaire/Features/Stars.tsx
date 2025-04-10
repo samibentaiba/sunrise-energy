@@ -1,18 +1,22 @@
-import React from "react";
+import React, { ReactElement } from "react";
 
-interface StarsProps {
+
+
+export default function Stars({
+  rating,
+  maxRating = 5,
+}: {
   rating: number;
   maxRating?: number;
-}
-
-const Stars: React.FC<StarsProps> = ({ rating, maxRating = 5 }) => {
+}): ReactElement {
   return (
     <div className="flex items-center justify-center">
       {Array.from({ length: maxRating }).map((_, index) => (
         <svg
           key={index}
-          className={`w-5 h-5 ${index < rating ? "text-yellow-400" : "text-gray-300"
-            }`}
+          className={`w-5 h-5 ${
+            index < rating ? "text-yellow-400" : "text-gray-300"
+          }`}
           fill="currentColor"
           viewBox="0 0 20 20"
           xmlns="http://www.w3.org/2000/svg"
@@ -22,6 +26,4 @@ const Stars: React.FC<StarsProps> = ({ rating, maxRating = 5 }) => {
       ))}
     </div>
   );
-};
-
-export default Stars;
+}

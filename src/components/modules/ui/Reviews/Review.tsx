@@ -2,13 +2,7 @@ import Image from "next/image";
 import "@/styles/Review.css";
 import { RandomAvatar } from "react-random-avatars";
 import { ReactElement } from "react";
-interface ReviewProps {
-  name: string;
-  time: string;
-  comment: string;
-  avatar?: string;
-  rating: 1 | 2 | 3 | 4 | 5;
-}
+
 
 export default function Review({
   name,
@@ -16,7 +10,13 @@ export default function Review({
   comment,
   avatar,
   rating,
-}: ReviewProps) :ReactElement{
+}: {
+  name: string;
+  time: string;
+  comment: string;
+  avatar?: string;
+  rating: 1 | 2 | 3 | 4 | 5;
+}): ReactElement {
   return (
     <div
       tabIndex={-1}
@@ -51,10 +51,21 @@ export default function Review({
         <div className="review-footer">
           <div className="review-stars">
             {[...Array(rating)].map((_, i) => (
-              <Image key={i} src="/images/pages/panneaux-solaires/Reviews/star.svg" width={30} height={30} alt="star" />
+              <Image
+                key={i}
+                src="/images/pages/panneaux-solaires/Reviews/star.svg"
+                width={30}
+                height={30}
+                alt="star"
+              />
             ))}
           </div>
-          <Image src="/images/pages/panneaux-solaires/Reviews/google.svg" width={30} height={30} alt="google" />
+          <Image
+            src="/images/pages/panneaux-solaires/Reviews/google.svg"
+            width={30}
+            height={30}
+            alt="google"
+          />
         </div>
       </div>
     </div>

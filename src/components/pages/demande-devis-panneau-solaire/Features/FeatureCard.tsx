@@ -1,16 +1,16 @@
-import React, { useEffect, useState } from "react";
+import React, { ReactElement, useEffect, useState } from "react";
 import { cn } from "@/libs/utils";
 
-interface FeatureCardProps {
-  title: string;
-  description: string;
-  delay?: number;
-}
-const FeatureCard: React.FC<FeatureCardProps> = ({
+
+export default function FeatureCard({
   title,
   description,
   delay = 0,
-}) => {
+}: {
+  title: string;
+  description: string;
+  delay?: number;
+}): ReactElement {
   const [isVisible, setIsVisible] = useState(false);
 
   useEffect(() => {
@@ -42,6 +42,6 @@ const FeatureCard: React.FC<FeatureCardProps> = ({
       </div>
     </div>
   );
-};
+}
 
-export default FeatureCard;
+// export default FeatureCard; (removed to avoid multiple default exports)

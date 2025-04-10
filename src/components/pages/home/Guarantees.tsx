@@ -1,8 +1,7 @@
 "use client";
-import React from "react";
-
+import type {ReactElement} from "react"
 // Main component: Section with additional guarantees
-export default function SectionAdditionalGuarantees() {
+export default function SectionAdditionalGuarantees(): ReactElement {
   return (
     <div className="relative md:h-[850px] h-[1400px]">
       <section className="relative h-full py-16 bg-blue-800 text-white overflow-hidden">

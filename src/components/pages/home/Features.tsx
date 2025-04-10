@@ -1,16 +1,13 @@
 "use client";
-import React from "react";
+import React, { ReactElement } from "react";
 import FeatureCard from "./Features/FeatureCard";
 import Stars from "./Features/Stars";
 import Image from "next/image";
 
-const Features: React.FC = () => {
+export default function Features(): ReactElement {
   return (
     <section className="w-full md:py-24 py-10  px-4 border-none bg-white">
-      <div
-        className="border-none mx-auto"
-        style={{ maxWidth: "75rem" }}
-      >
+      <div className="border-none mx-auto" style={{ maxWidth: "75rem" }}>
         <div className="grid relative grid-cols-1 md:grid-cols-3 border-none gap-14">
           {/* Card 1 */}
           <FeatureCard
@@ -51,6 +48,4 @@ const Features: React.FC = () => {
       </div>
     </section>
   );
-};
-
-export default Features;
+}

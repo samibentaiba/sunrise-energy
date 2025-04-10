@@ -5,7 +5,7 @@ import Link from "next/link"
 import { FaAngleDoubleRight } from "react-icons/fa"
 import type { ReactElement } from "react"
 
-export default function About() {
+export default function About():ReactElement {
   return (
     <section className="w-full bg-white py-16 md:py-24 mt-16 md:mt-24">
       <div className="container mx-auto px-4 md:px-6">

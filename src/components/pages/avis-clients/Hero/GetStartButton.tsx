@@ -1,6 +1,6 @@
 import { FaAngleDoubleRight } from "react-icons/fa";
 import Link from "next/link";
-import { ReactElement } from "react"
+import type { ReactElement } from "react"
 
 export default function GetStartButton({ text, hoveredText, href, isIcon = true }: { text: string; hoveredText?: string; href: string; isIcon?: boolean }): ReactElement {
   return (

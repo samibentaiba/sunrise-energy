@@ -1,23 +1,22 @@
-import React, { useEffect, useState } from "react";
+import React, { ReactElement, useEffect, useState } from "react";
 import { ArrowRight } from "lucide-react";
 import { cn } from "@/libs/utils";
 
-interface FeatureCardProps {
-  title: string;
-  description: string;
-  linkText?: string;
-  linkHref: string;
-  children?: React.ReactNode;
-  delay?: number;
-}
-const FeatureCard: React.FC<FeatureCardProps> = ({
+export default function FeatureCard({
   title,
   description,
   linkText,
   linkHref,
   children,
   delay = 0,
-}) => {
+}: {
+  title: string;
+  description: string;
+  linkText?: string;
+  linkHref: string;
+  children?: React.ReactNode;
+  delay?: number;
+}): ReactElement {
   const [isVisible, setIsVisible] = useState(false);
 
   useEffect(() => {
@@ -28,7 +27,7 @@ const FeatureCard: React.FC<FeatureCardProps> = ({
     <div
       className={cn(
         "p-6 md:p-6 border-0 shadow-lg h-80 transition-opacity duration-700  bg-white md:mt-[-10rem]",
-        isVisible ? "opacity-100" : "opacity-0",
+        isVisible ? "opacity-100" : "opacity-0"
       )}
     >
       <div className="flex border-none flex-col gap-5 h-70 justify-center item-center text-center">
@@ -49,25 +48,22 @@ const FeatureCard: React.FC<FeatureCardProps> = ({
         <div className="flex justify-center items-center">
           <a
             href={linkHref}
-            className={`flex items-center text-black font-medium group w-fit  ${linkText
+            className={`flex items-center text-black font-medium group w-fit  ${
+              linkText
                 ? "border-b-2 border-yellow-500 hover:border-yellow-700"
                 : ""
-              }transition-all`}
+            }transition-all`}
           >
             {linkText || "BIEN"}
-            {linkText
-              ? (
-                <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
-              )
-              : (
-                <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
-              )}
+            {linkText ? (
+              <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
+            ) : (
+              <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
+            )}
           </a>
           {children}
         </div>
       </div>
     </div>
   );
-};
-
-export default FeatureCard;
+}

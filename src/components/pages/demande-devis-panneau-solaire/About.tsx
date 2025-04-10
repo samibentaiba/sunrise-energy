@@ -1,5 +1,6 @@
 import Image from "next/image";
-export default function About() {
+import { ReactElement } from "react";
+export default function About():ReactElement {
   return (
     <div className="bg-white flex justify-center py-10 h-200 md:py-20 w-full">
       <div className=" mx-auto px-4 md:px-6 flex flex-col md:flex-row items-center gap-10 md:gap-20">
