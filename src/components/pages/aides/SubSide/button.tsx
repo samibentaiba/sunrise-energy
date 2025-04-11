@@ -2,9 +2,9 @@ import { useState } from "react";
 
 import Link from "next/link";
 export default function BlueButton({
-  text,
-  hoveredText,
-  href,
+  text="text",
+  hoveredText="hoveredText",
+  href="href",
 }: {
   text: string;
   hoveredText?: string;

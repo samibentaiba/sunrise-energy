@@ -3,8 +3,8 @@ import { cn } from "@/libs/utils";
 
 
 export default function FeatureCard({
-  title,
-  description,
+  title="title",
+  description="description",
   delay = 0,
 }: {
   title: string;

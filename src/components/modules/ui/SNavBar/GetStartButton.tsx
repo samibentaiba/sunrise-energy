@@ -4,9 +4,9 @@ import { ReactElement } from "react";
 
 
 export default function GetStartButton({
-  text,
-  hoveredText,
-  href,
+  text="text",
+  hoveredText="hoveredText",
+  href="href",
   isIcon = true,
 }: {
   text: string;

@@ -7,10 +7,11 @@ import { useSearchIndex } from "@/hooks/use-searchEngine";
 import { DynamicComponent } from "./ui/SearchBar/DynamicComponent";
 
 export default function SearchBar({
-  onSearchComplete,
+  onSearchComplete = () => {},
+
 }: {
   onSearchComplete: (
-    query: string,
+    query: string | null,
     results: { path: string; content: string }[]
   ) => void;
 }) {
@@ -31,7 +32,9 @@ export default function SearchBar({
     },
     {}
   );
-
+  const cleanPath = ({ path }: { path: string | null }) => {
+    return path && path.startsWith("src/") ? path.slice(4) : path || "";
+  };
   return (
     <div className="relative w-full md:w-auto md:flex-1">
       <form onSubmit={handleSearchSubmit} className="w-full">
@@ -70,7 +73,15 @@ export default function SearchBar({
                     <li key={j}>{content}</li>
                   ))}
                 </ul>
-                <DynamicComponent path={path} />
+                <DynamicComponent
+                  path={
+                    query
+                      ? cleanPath({ path }).endsWith(".tsx")
+                        ? cleanPath({ path }).slice(0, -4)
+                        : cleanPath({ path })
+                      : null
+                  }
+                />
               </li>
             ))}
           </ul>

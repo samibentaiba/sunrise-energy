@@ -1,35 +1,35 @@
-// pages/api/search-index.ts
-import type { NextApiRequest, NextApiResponse } from "next";
+// src/app/api/search-index/route.ts
+
+import { NextRequest, NextResponse } from "next/server";
 import fs from "fs";
 import path from "path";
 
-export default async function handler(
-  req: NextApiRequest,
-  res: NextApiResponse
-) {
-  if (req.method === "GET") {
-    const { query } = req.query;
+export async function GET(req: NextRequest) {
+  const { searchParams } = req.nextUrl;
+  const query = searchParams.get("query");
 
-    if (!query || typeof query !== "string") {
-      return res.status(400).json({ error: "Search term is required" });
-    }
+  if (!query || typeof query !== "string") {
+    return NextResponse.json(
+      { error: "Search term is required" },
+      { status: 400 }
+    );
+  }
 
-    try {
-      const filePath = path.join(process.cwd(), "public", "search-index.json");
-      const rawData = fs.readFileSync(filePath, "utf-8");
-      const index = JSON.parse(rawData);
+  try {
+    const filePath = path.join(process.cwd(), "public", "search-index.json");
+    const rawData = fs.readFileSync(filePath, "utf-8");
+    const index = JSON.parse(rawData);
 
-      const results = index.filter((item: { content: string }) =>
-        item.content.toLowerCase().includes(query.toLowerCase())
-      );
+    const results = index.filter((item: { content: string }) =>
+      item.content.toLowerCase().includes(query.toLowerCase())
+    );
 
-      res.status(200).json(results);
-    } catch (error) {
-      console.error("Error reading search index:", error);
-      res.status(500).json({ error: "Failed to read search index" });
-    }
-  } else {
-    res.setHeader("Allow", ["GET"]);
-    res.status(405).json({ error: "Method Not Allowed" });
+    return NextResponse.json(results);
+  } catch (error) {
+    console.error("Error reading search index:", error);
+    return NextResponse.json(
+      { error: "Failed to read search index" },
+      { status: 500 }
+    );
   }
 }

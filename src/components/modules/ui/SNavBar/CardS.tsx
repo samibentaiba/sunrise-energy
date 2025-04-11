@@ -5,10 +5,17 @@ import "@/styles/SNavBar.css";
 import { ReactElement } from "react";
 
 export default function CardS({
-  cards,
+  cards = [
+    {
+      title: "title",
+      description: "description",
+      linkText: "linkText",
+      linkHref: "linkHref",
+    },
+  ],
 }: {
   cards: {
-    imageSrc: string;
+    imageSrc?: string;
     title: string;
     description: string;
     linkText: string;
@@ -31,7 +38,7 @@ function Card({
   linkText,
   linkHref,
 }: {
-  imageSrc: string;
+  imageSrc?: string;
   title: string;
   description: string;
   linkText: string;

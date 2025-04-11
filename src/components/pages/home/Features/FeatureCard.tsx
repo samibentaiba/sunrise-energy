@@ -3,10 +3,10 @@ import { ArrowRight } from "lucide-react";
 import { cn } from "@/libs/utils";
 
 export default function FeatureCard({
-  title,
-  description,
-  linkText,
-  linkHref,
+  title = "title",
+  description = "description",
+  linkText = "linkText",
+  linkHref = "linkHref",
   children,
   delay = 0,
 }: {

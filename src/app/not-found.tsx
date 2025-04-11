@@ -11,7 +11,7 @@ export default function NotFound(): ReactElement {
   >([]);
 
   const handleSearchComplete = (
-    _query: string,
+    _query: string | null,
     results: { path: string; content: string }[]
   ) => {
     setSearchResults(results);

@@ -1,22 +1,34 @@
 "use client";
-import { Suspense, useState, useEffect } from "react";
 
-export function DynamicComponent({ path }: { path: string }) {
-  const [Component, setComponent] = useState<React.ComponentType | null>(
-    null
-  );
+import { Suspense, useState, useEffect } from "react";
+import { componentMap } from "@/data/componentMap";
+import type { ComponentType, ReactElement } from "react";
+
+const Loading = () => <div>Loading...</div>;
+
+export function DynamicComponent({
+  path,
+}: {
+  path: string | null;
+}): ReactElement {
+  const [Component, setComponent] = useState<ComponentType | null>(null);
 
   useEffect(() => {
     const loadComponent = async () => {
+      console.log(`Attempting to load component from: ${path}`);
+
+      if (!path || !(path in componentMap)) {
+        console.error("Invalid or missing path in componentMap.");
+        setComponent(null);
+        return;
+      }
+
       try {
-        // Dynamically import the component
-        console.log(path.endsWith(".tsx") ? path.slice(0, -4) : path);
-        const importedComponent = await import("src/components/modules/Blog"); // it works on src/components/modules/Blog
-        // Extract the default or named export as a React component
-        setComponent(() => importedComponent.default ); // Use the default export or fallback
+        const mod = await componentMap[path as keyof typeof componentMap]();
+        setComponent(() => mod.default);
       } catch (error) {
-        console.error("Error loading component:", error);
-        setComponent(null); // If the component fails to load, set it to null
+        console.error("Error during component loading:", error);
+        setComponent(null);
       }
     };
 
@@ -25,7 +37,7 @@ export function DynamicComponent({ path }: { path: string }) {
 
   return (
     <div className="mt-4 border rounded-md p-4 bg-gray-50">
-      <Suspense fallback={<div>Chargement…</div>}>
+      <Suspense fallback={<Loading />}>
         {Component ? <Component /> : <div>Component failed to load.</div>}
       </Suspense>
     </div>

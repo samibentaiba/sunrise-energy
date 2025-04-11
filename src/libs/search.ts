@@ -9,9 +9,15 @@ export type SearchResult = {
   content: string;
 };
 
-// Removed unused SEARCH_TERM
-const SEARCH_DIRS = ["src/components"];
-const FILE_PATTERN = "**/*.{js,jsx,ts,tsx}";
+// Directories and files to exclude from the search
+const EXCLUDED_PATHS = [
+  "src/components/theme-provider.tsx",
+  "src/components/ui",
+  "src/components/module/ui",
+  "src/components/modules/ui/SearchBar/DynamicComponent",
+  "src/components/pages/aides/SubSide/radio-group",
+  "src/components/pages/aides/SubSide/slider",
+];
 
 // Function to parse TypeScript and JSX/TSX
 function parseTSX(content: string) {
@@ -78,10 +84,17 @@ export function searchProject(searchTerm: string): SearchResult[] {
   const results: SearchResult[] = [];
   const failedFiles: string[] = []; // For tracking files that couldn't be processed
 
-  for (const dir of SEARCH_DIRS) {
-    const files = glob.sync(path.join(dir, FILE_PATTERN), { absolute: true });
+  for (const dir of ["src/components"]) {
+    const files = glob.sync(path.join(dir, "**/*.{js,jsx,ts,tsx}"), {
+      absolute: true,
+    });
 
     for (const file of files) {
+      // Skip excluded files and directories
+      if (EXCLUDED_PATHS.some((excludePath) => file.includes(excludePath))) {
+        continue;
+      }
+
       try {
         const matches = searchInFile(file, searchTerm);
         for (const match of matches) {

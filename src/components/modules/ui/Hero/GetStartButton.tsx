@@ -2,7 +2,7 @@ import { FaAngleDoubleRight } from "react-icons/fa";
 import Link from "next/link";
 import { ReactElement } from "react"
 
-export default function GetStartButton({ text, hoveredText, href, isIcon = true }: { text: string; hoveredText?: string; href: string; isIcon?: boolean }): ReactElement {
+export default function GetStartButton({ text = "text", hoveredText ="hoveredText", href="href", isIcon = true }: { text: string; hoveredText?: string; href: string; isIcon?: boolean }): ReactElement {
   return (
     <div className="w-full flex justify-start items-start">
       <Link

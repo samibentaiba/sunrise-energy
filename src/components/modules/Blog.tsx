@@ -4,9 +4,9 @@ import Link from "next/link"
 import { useState } from "react"
 import { ReactElement } from "react"
 function GetStartButton({
-  text,
-  hoveredText,
-  href,
+  text="text",
+  hoveredText="hoveredText",
+  href="href",
 }: {
   text: string
   hoveredText?: string

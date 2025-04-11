@@ -5,10 +5,10 @@ import Image from "next/image";
 import { ReactElement, useEffect, useState } from "react";
 
 export default function Hero({
-  title,
-  description,
+  title = "title",
+  description = "description",
   backgroundImage = "/images/pages/garanties/Hero.jpeg",
-  buttonText,
+  buttonText = "buttonText",
 }: {
   title: string;
   description: string;

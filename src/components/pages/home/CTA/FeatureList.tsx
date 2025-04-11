@@ -4,7 +4,7 @@ import React, { ReactElement } from "react";
 import { Check } from "lucide-react";
 
 export default function FeatureList({
-  features,
+  features = [{ id: 5, text: "text" }],
 }: {
   features: { id: number; text: string }[];
 }): ReactElement {
@@ -25,4 +25,3 @@ export default function FeatureList({
     </ul>
   );
 }
-

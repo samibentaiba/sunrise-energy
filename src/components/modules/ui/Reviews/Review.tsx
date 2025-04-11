@@ -3,13 +3,12 @@ import "@/styles/Review.css";
 import { RandomAvatar } from "react-random-avatars";
 import { ReactElement } from "react";
 
-
 export default function Review({
-  name,
-  time,
-  comment,
-  avatar,
-  rating,
+  name = "name",
+  time = "time",
+  comment = "comment",
+  avatar = "avatar",
+  rating = 4,
 }: {
   name: string;
   time: string;

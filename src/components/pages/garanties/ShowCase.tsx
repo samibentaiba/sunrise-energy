@@ -2,9 +2,9 @@ import Image from "next/image";
 import Link from "next/link";
 import { type ReactElement } from "react";
 function GetStartButton({
-  text,
-  hoveredText,
-  href,
+  text="text",
+  hoveredText="hoveredText",
+  href="href",
 }: {
   text: string;
   hoveredText?: string;

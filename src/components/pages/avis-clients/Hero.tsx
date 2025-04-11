@@ -5,11 +5,11 @@ import Image from "next/image";
 import { useEffect, useState } from "react";
 
 export default function Hero({
-  title,
-  description,
+  title = "title",
+  description = "description",
   backgroundImage = "/images/pages/garanties/Hero.jpeg",
-  fButtonText,
-  sButtonText,
+  fButtonText = "fButtonText",
+  sButtonText = "sButtonText",
 }: {
   title: string;
   description: string;

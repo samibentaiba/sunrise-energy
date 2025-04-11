@@ -10,7 +10,7 @@ import { useRouter, usePathname } from "next/navigation";
 import CardS from "./CardS";
 
 export default function MobileMenu({
-  setMobileMenuOpen,
+  setMobileMenuOpen = () => {},
 }: {
   setMobileMenuOpen: (open: boolean) => void;
 }): ReactElement {

@@ -1,9 +1,7 @@
 import React, { ReactElement } from "react";
 
-
-
 export default function Stars({
-  rating,
+  rating = 2,
   maxRating = 5,
 }: {
   rating: number;

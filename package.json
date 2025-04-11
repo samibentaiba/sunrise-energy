@@ -6,7 +6,8 @@
     "dev": "next dev --turbopack",
     "build": "next build",
     "generate-search": "ts-node --project tsconfig.scripts.json src/scripts/search-index.ts",
-    "prebuild": "bun run generate-search",
+    "generate-map": "ts-node --project tsconfig.scripts.json src/scripts/map-index.ts",
+    "prebuild": "bun run generate-search && bun run generate-map",
     "start": "next start",
     "lint": "next lint"
   },
