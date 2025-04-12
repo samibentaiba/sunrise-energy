@@ -2,20 +2,9 @@
 import { ReactElement, useState } from "react";
 import { BlueButton } from "@/components/ui/bluebutton";
 import SearchBar from "@/components/modules/SearchBar";
-
-
-
+import { useSearchResult } from "@/hooks/use-searchResult";
 export default function NotFound(): ReactElement {
-  const [searchResults, setSearchResults] = useState<
-    { path: string; content: string }[]
-  >([]);
-
-  const handleSearchComplete = (
-    _query: string | null,
-    results: { path: string; content: string }[]
-  ) => {
-    setSearchResults(results);
-  };
+  const { searchResults, handleSearchComplete } = useSearchResult();
 
   return (
     <div

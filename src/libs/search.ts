@@ -1,28 +1,27 @@
-// lib/search.ts
+// libs/search.ts
 import fs from "fs";
 import path from "path";
 import { glob } from "glob";
 import ts from "typescript";
+import { minimatch } from "minimatch";
 
 export type SearchResult = {
   path: string;
   content: string;
 };
 
-// Directories and files to exclude from the search
+// Paths or glob-style patterns to exclude from the search
 const EXCLUDED_PATHS = [
   "src/components/theme-provider.tsx",
-  "src/components/ui",
-  "src/components/module/ui",
-  "src/components/modules/ui/SearchBar/DynamicComponent",
   "src/components/pages/aides/SubSide/radio-group",
   "src/components/pages/aides/SubSide/slider",
+  "**/ui/**", // exclude any folder named "ui"
 ];
 
 // Function to parse TypeScript and JSX/TSX
 function parseTSX(content: string) {
   const sourceFile = ts.createSourceFile(
-    "temp.tsx", // A placeholder file name
+    "temp.tsx",
     content,
     ts.ScriptTarget.Latest,
     true,
@@ -80,9 +79,17 @@ function searchInFile(filePath: string, searchTerm: string): string[] {
   return matches;
 }
 
+function isPathExcluded(filePath: string): boolean {
+  const normalized = filePath.replace(/\\/g, "/");
+
+  return EXCLUDED_PATHS.some((pattern) =>
+    minimatch(normalized, pattern, { matchBase: true })
+  );
+}
+
 export function searchProject(searchTerm: string): SearchResult[] {
   const results: SearchResult[] = [];
-  const failedFiles: string[] = []; // For tracking files that couldn't be processed
+  const failedFiles: string[] = [];
 
   for (const dir of ["src/components"]) {
     const files = glob.sync(path.join(dir, "**/*.{js,jsx,ts,tsx}"), {
@@ -90,8 +97,9 @@ export function searchProject(searchTerm: string): SearchResult[] {
     });
 
     for (const file of files) {
-      // Skip excluded files and directories
-      if (EXCLUDED_PATHS.some((excludePath) => file.includes(excludePath))) {
+      const normalizedFile = file.replace(/\\/g, "/");
+
+      if (isPathExcluded(normalizedFile)) {
         continue;
       }
 
@@ -104,7 +112,7 @@ export function searchProject(searchTerm: string): SearchResult[] {
           });
         }
       } catch (error) {
-        failedFiles.push(file); // Track failed files
+        failedFiles.push(file);
         if (error instanceof Error) {
           console.error(`Error processing file ${file}: ${error.message}`);
         } else {

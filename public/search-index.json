@@ -3689,6 +3689,14 @@
   },
   {
     "path": "src/components/pages/home/Pricing/GetStartButton.tsx",
+    "content": ""
+  },
+  {
+    "path": "src/components/pages/home/Pricing/GetStartButton.tsx",
+    "content": ""
+  },
+  {
+    "path": "src/components/pages/home/Pricing/GetStartButton.tsx",
     "content": "className=\"\n    group relative inline-flex gap-2 items-center justify-center \n    px-7 py-4 bg-[#fbac18] text-white font-medium rounded-full \n    hover:bg-[#0b68a4] hover:border-[2px] hover:px-[26px] hover:py-[14px] hover:border-[#003366] overflow-hidden\""
   },
   {
@@ -3746,6 +3754,14 @@
   {
     "path": "src/components/pages/home/Pricing/GetStartButton.tsx",
     "content": "className=\"text-white opacity-0 text-2xl\""
+  },
+  {
+    "path": "src/components/pages/home/Pricing/GetStartButton.tsx",
+    "content": ""
+  },
+  {
+    "path": "src/components/pages/home/Pricing/GetStartButton.tsx",
+    "content": ""
   },
   {
     "path": "src/components/pages/home/Pricing/GetStartButton.tsx",
@@ -4058,6 +4074,14 @@
   {
     "path": "src/components/pages/home/About/GetStartButton.tsx",
     "content": "className=\"text-white opacity-0 text-2xl\""
+  },
+  {
+    "path": "src/components/pages/home/About/GetStartButton.tsx",
+    "content": ""
+  },
+  {
+    "path": "src/components/pages/home/About/GetStartButton.tsx",
+    "content": ""
   },
   {
     "path": "src/components/pages/home/About/GetStartButton.tsx",
@@ -8188,6 +8212,62 @@
     "content": ""
   },
   {
+    "path": "src/components/pages/aides/SubSide/slider.tsx",
+    "content": ""
+  },
+  {
+    "path": "src/components/pages/aides/SubSide/slider.tsx",
+    "content": "className=\"relative h-2 w-full grow overflow-hidden rounded-full bg-slate-100\""
+  },
+  {
+    "path": "src/components/pages/aides/SubSide/slider.tsx",
+    "content": ""
+  },
+  {
+    "path": "src/components/pages/aides/SubSide/slider.tsx",
+    "content": "className=\"absolute h-full bg-teal-500\""
+  },
+  {
+    "path": "src/components/pages/aides/SubSide/slider.tsx",
+    "content": ""
+  },
+  {
+    "path": "src/components/pages/aides/SubSide/slider.tsx",
+    "content": ""
+  },
+  {
+    "path": "src/components/pages/aides/SubSide/slider.tsx",
+    "content": "className=\"block h-5 w-5 rounded-full border-2 border-teal-500 bg-white ring-offset-white transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-slate-950 focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50\""
+  },
+  {
+    "path": "src/components/pages/aides/SubSide/slider.tsx",
+    "content": ""
+  },
+  {
+    "path": "src/components/pages/aides/SubSide/radio-group.tsx",
+    "content": ""
+  },
+  {
+    "path": "src/components/pages/aides/SubSide/radio-group.tsx",
+    "content": "className=\"flex items-center justify-center\""
+  },
+  {
+    "path": "src/components/pages/aides/SubSide/radio-group.tsx",
+    "content": ""
+  },
+  {
+    "path": "src/components/pages/aides/SubSide/radio-group.tsx",
+    "content": "className=\"h-2.5 w-2.5 fill-current text-current\""
+  },
+  {
+    "path": "src/components/pages/aides/SubSide/radio-group.tsx",
+    "content": ""
+  },
+  {
+    "path": "src/components/pages/aides/SubSide/radio-group.tsx",
+    "content": ""
+  },
+  {
     "path": "src/components/pages/aides/SubSide/button.tsx",
     "content": "className=\"w-full flex justify-center items-center\""
   },
@@ -10493,826 +10573,6 @@
   },
   {
     "path": "src/components/modules/Blog.tsx",
-    "content": ""
-  },
-  {
-    "path": "src/components/modules/ui/SNavBar/Mobile.tsx",
-    "content": "className=\"mobile-menu\""
-  },
-  {
-    "path": "src/components/modules/ui/SNavBar/Mobile.tsx",
-    "content": ""
-  },
-  {
-    "path": "src/components/modules/ui/SNavBar/Mobile.tsx",
-    "content": "className=\"mobile-menu-header bg-transparent\""
-  },
-  {
-    "path": "src/components/modules/ui/SNavBar/Mobile.tsx",
-    "content": ""
-  },
-  {
-    "path": "src/components/modules/ui/SNavBar/Mobile.tsx",
-    "content": "href=\"/\""
-  },
-  {
-    "path": "src/components/modules/ui/SNavBar/Mobile.tsx",
-    "content": ""
-  },
-  {
-    "path": "src/components/modules/ui/SNavBar/Mobile.tsx",
-    "content": "src=\"/placeholder.svg?height=91&width=170\""
-  },
-  {
-    "path": "src/components/modules/ui/SNavBar/Mobile.tsx",
-    "content": "alt=\"logo Sunrise\""
-  },
-  {
-    "path": "src/components/modules/ui/SNavBar/Mobile.tsx",
-    "content": "className=\"hidden\""
-  },
-  {
-    "path": "src/components/modules/ui/SNavBar/Mobile.tsx",
-    "content": ""
-  },
-  {
-    "path": "src/components/modules/ui/SNavBar/Mobile.tsx",
-    "content": ""
-  },
-  {
-    "path": "src/components/modules/ui/SNavBar/Mobile.tsx",
-    "content": "className=\"close-menu-button opacity-0\""
-  },
-  {
-    "path": "src/components/modules/ui/SNavBar/Mobile.tsx",
-    "content": ""
-  },
-  {
-    "path": "src/components/modules/ui/SNavBar/Mobile.tsx",
-    "content": ""
-  },
-  {
-    "path": "src/components/modules/ui/SNavBar/Mobile.tsx",
-    "content": ""
-  },
-  {
-    "path": "src/components/modules/ui/SNavBar/Mobile.tsx",
-    "content": ""
-  },
-  {
-    "path": "src/components/modules/ui/SNavBar/Mobile.tsx",
-    "content": "className=\"mobile-menu-links\""
-  },
-  {
-    "path": "src/components/modules/ui/SNavBar/Mobile.tsx",
-    "content": ""
-  },
-  {
-    "path": "src/components/modules/ui/SNavBar/Mobile.tsx",
-    "content": "className=\"mobile-dropdown-container\""
-  },
-  {
-    "path": "src/components/modules/ui/SNavBar/Mobile.tsx",
-    "content": ""
-  },
-  {
-    "path": "src/components/modules/ui/SNavBar/Mobile.tsx",
-    "content": ""
-  },
-  {
-    "path": "src/components/modules/ui/SNavBar/Mobile.tsx",
-    "content": "className=\"mobile-menu-text\""
-  },
-  {
-    "path": "src/components/modules/ui/SNavBar/Mobile.tsx",
-    "content": "Solutions photovoltaïques"
-  },
-  {
-    "path": "src/components/modules/ui/SNavBar/Mobile.tsx",
-    "content": ""
-  },
-  {
-    "path": "src/components/modules/ui/SNavBar/Mobile.tsx",
-    "content": ""
-  },
-  {
-    "path": "src/components/modules/ui/SNavBar/Mobile.tsx",
-    "content": ""
-  },
-  {
-    "path": "src/components/modules/ui/SNavBar/Mobile.tsx",
-    "content": "className=\"mobile-dropdown-menu\""
-  },
-  {
-    "path": "src/components/modules/ui/SNavBar/Mobile.tsx",
-    "content": ""
-  },
-  {
-    "path": "src/components/modules/ui/SNavBar/Mobile.tsx",
-    "content": ""
-  },
-  {
-    "path": "src/components/modules/ui/SNavBar/Mobile.tsx",
-    "content": ""
-  },
-  {
-    "path": "src/components/modules/ui/SNavBar/Mobile.tsx",
-    "content": ""
-  },
-  {
-    "path": "src/components/modules/ui/SNavBar/Mobile.tsx",
-    "content": ""
-  },
-  {
-    "path": "src/components/modules/ui/SNavBar/Mobile.tsx",
-    "content": ""
-  },
-  {
-    "path": "src/components/modules/ui/SNavBar/Mobile.tsx",
-    "content": ""
-  },
-  {
-    "path": "src/components/modules/ui/SNavBar/Mobile.tsx",
-    "content": ""
-  },
-  {
-    "path": "src/components/modules/ui/SNavBar/GetStartButton.tsx",
-    "content": "className=\"w-full flex justify-center items-center\""
-  },
-  {
-    "path": "src/components/modules/ui/SNavBar/GetStartButton.tsx",
-    "content": ""
-  },
-  {
-    "path": "src/components/modules/ui/SNavBar/GetStartButton.tsx",
-    "content": "className=\"\n    group relative inline-flex gap-2 items-center justify-center \n    px-7 py-4 bg-[#fbac18] text-white font-medium rounded-full \n    hover:bg-[#0b68a4] hover:border-[2px] hover:px-[26px] hover:py-[14px] hover:border-[#003366] overflow-hidden\""
-  },
-  {
-    "path": "src/components/modules/ui/SNavBar/GetStartButton.tsx",
-    "content": ""
-  },
-  {
-    "path": "src/components/modules/ui/SNavBar/GetStartButton.tsx",
-    "content": "className=\"text-white text-2xl\""
-  },
-  {
-    "path": "src/components/modules/ui/SNavBar/GetStartButton.tsx",
-    "content": ""
-  },
-  {
-    "path": "src/components/modules/ui/SNavBar/GetStartButton.tsx",
-    "content": ""
-  },
-  {
-    "path": "src/components/modules/ui/SNavBar/GetStartButton.tsx",
-    "content": "className=\"transition-all duration-500 group-hover:translate-y-[-20px] group-hover:opacity-1\""
-  },
-  {
-    "path": "src/components/modules/ui/SNavBar/GetStartButton.tsx",
-    "content": ""
-  },
-  {
-    "path": "src/components/modules/ui/SNavBar/GetStartButton.tsx",
-    "content": ""
-  },
-  {
-    "path": "src/components/modules/ui/SNavBar/GetStartButton.tsx",
-    "content": ""
-  },
-  {
-    "path": "src/components/modules/ui/SNavBar/GetStartButton.tsx",
-    "content": ""
-  },
-  {
-    "path": "src/components/modules/ui/SNavBar/GetStartButton.tsx",
-    "content": "className=\"absolute transition-all duration-500 opacity-1 group-hover:opacity-100 group-hover:translate-y-0\""
-  },
-  {
-    "path": "src/components/modules/ui/SNavBar/GetStartButton.tsx",
-    "content": ""
-  },
-  {
-    "path": "src/components/modules/ui/SNavBar/GetStartButton.tsx",
-    "content": "className=\"group relative inline-flex items-center justify-center \""
-  },
-  {
-    "path": "src/components/modules/ui/SNavBar/GetStartButton.tsx",
-    "content": ""
-  },
-  {
-    "path": "src/components/modules/ui/SNavBar/GetStartButton.tsx",
-    "content": "className=\"text-white opacity-0 text-2xl\""
-  },
-  {
-    "path": "src/components/modules/ui/SNavBar/GetStartButton.tsx",
-    "content": ""
-  },
-  {
-    "path": "src/components/modules/ui/SNavBar/GetStartButton.tsx",
-    "content": "className=\" translate-y-[2px] translate-x-[5px] \""
-  },
-  {
-    "path": "src/components/modules/ui/SNavBar/GetStartButton.tsx",
-    "content": ""
-  },
-  {
-    "path": "src/components/modules/ui/SNavBar/GetStartButton.tsx",
-    "content": ""
-  },
-  {
-    "path": "src/components/modules/ui/SNavBar/GetStartButton.tsx",
-    "content": ""
-  },
-  {
-    "path": "src/components/modules/ui/SNavBar/GetStartButton.tsx",
-    "content": ""
-  },
-  {
-    "path": "src/components/modules/ui/SNavBar/GetStartButton.tsx",
-    "content": ""
-  },
-  {
-    "path": "src/components/modules/ui/SNavBar/GetStartButton.tsx",
-    "content": ""
-  },
-  {
-    "path": "src/components/modules/ui/SNavBar/Desktop.tsx",
-    "content": "className=\"nav-container\""
-  },
-  {
-    "path": "src/components/modules/ui/SNavBar/Desktop.tsx",
-    "content": ""
-  },
-  {
-    "path": "src/components/modules/ui/SNavBar/Desktop.tsx",
-    "content": "className=\"nav-links\""
-  },
-  {
-    "path": "src/components/modules/ui/SNavBar/Desktop.tsx",
-    "content": ""
-  },
-  {
-    "path": "src/components/modules/ui/SNavBar/Desktop.tsx",
-    "content": "className=\"dropdown-container\""
-  },
-  {
-    "path": "src/components/modules/ui/SNavBar/Desktop.tsx",
-    "content": ""
-  },
-  {
-    "path": "src/components/modules/ui/SNavBar/Desktop.tsx",
-    "content": "Solutions photovoltaïques"
-  },
-  {
-    "path": "src/components/modules/ui/SNavBar/Desktop.tsx",
-    "content": ""
-  },
-  {
-    "path": "src/components/modules/ui/SNavBar/Desktop.tsx",
-    "content": ""
-  },
-  {
-    "path": "src/components/modules/ui/SNavBar/Desktop.tsx",
-    "content": "className=\"dropdown-menu\""
-  },
-  {
-    "path": "src/components/modules/ui/SNavBar/Desktop.tsx",
-    "content": ""
-  },
-  {
-    "path": "src/components/modules/ui/SNavBar/Desktop.tsx",
-    "content": ""
-  },
-  {
-    "path": "src/components/modules/ui/SNavBar/Desktop.tsx",
-    "content": ""
-  },
-  {
-    "path": "src/components/modules/ui/SNavBar/Desktop.tsx",
-    "content": ""
-  },
-  {
-    "path": "src/components/modules/ui/SNavBar/Desktop.tsx",
-    "content": ""
-  },
-  {
-    "path": "src/components/modules/ui/SNavBar/Desktop.tsx",
-    "content": ""
-  },
-  {
-    "path": "src/components/modules/ui/SNavBar/Desktop.tsx",
-    "content": ""
-  },
-  {
-    "path": "src/components/modules/ui/SNavBar/Desktop.tsx",
-    "content": ""
-  },
-  {
-    "path": "src/components/modules/ui/SNavBar/Desktop.tsx",
-    "content": "href=\"/demande-devis-panneau-solaire\""
-  },
-  {
-    "path": "src/components/modules/ui/SNavBar/Desktop.tsx",
-    "content": "text=\"Demander un devis personnalisé\""
-  },
-  {
-    "path": "src/components/modules/ui/SNavBar/Desktop.tsx",
-    "content": ""
-  },
-  {
-    "path": "src/components/modules/ui/SNavBar/CardS.tsx",
-    "content": "className=\"cards-container\""
-  },
-  {
-    "path": "src/components/modules/ui/SNavBar/CardS.tsx",
-    "content": ""
-  },
-  {
-    "path": "src/components/modules/ui/SNavBar/CardS.tsx",
-    "content": ""
-  },
-  {
-    "path": "src/components/modules/ui/SNavBar/CardS.tsx",
-    "content": "className=\"card\""
-  },
-  {
-    "path": "src/components/modules/ui/SNavBar/CardS.tsx",
-    "content": ""
-  },
-  {
-    "path": "src/components/modules/ui/SNavBar/CardS.tsx",
-    "content": "className=\"card-image\""
-  },
-  {
-    "path": "src/components/modules/ui/SNavBar/CardS.tsx",
-    "content": ""
-  },
-  {
-    "path": "src/components/modules/ui/SNavBar/CardS.tsx",
-    "content": "className=\"card-content\""
-  },
-  {
-    "path": "src/components/modules/ui/SNavBar/CardS.tsx",
-    "content": ""
-  },
-  {
-    "path": "src/components/modules/ui/SNavBar/CardS.tsx",
-    "content": "className=\"card-title\""
-  },
-  {
-    "path": "src/components/modules/ui/SNavBar/CardS.tsx",
-    "content": ""
-  },
-  {
-    "path": "src/components/modules/ui/SNavBar/CardS.tsx",
-    "content": "className=\"card-description\""
-  },
-  {
-    "path": "src/components/modules/ui/SNavBar/CardS.tsx",
-    "content": ""
-  },
-  {
-    "path": "src/components/modules/ui/SNavBar/CardS.tsx",
-    "content": "className=\"card-link\""
-  },
-  {
-    "path": "src/components/modules/ui/SNavBar/CardS.tsx",
-    "content": ""
-  },
-  {
-    "path": "src/components/modules/ui/SNavBar/CardS.tsx",
-    "content": ""
-  },
-  {
-    "path": "src/components/modules/ui/Reviews/Review.tsx",
-    "content": "className=\"review-container \""
-  },
-  {
-    "path": "src/components/modules/ui/Reviews/Review.tsx",
-    "content": ""
-  },
-  {
-    "path": "src/components/modules/ui/Reviews/Review.tsx",
-    "content": "className=\"review-card\""
-  },
-  {
-    "path": "src/components/modules/ui/Reviews/Review.tsx",
-    "content": ""
-  },
-  {
-    "path": "src/components/modules/ui/Reviews/Review.tsx",
-    "content": ""
-  },
-  {
-    "path": "src/components/modules/ui/Reviews/Review.tsx",
-    "content": "className=\"review-header\""
-  },
-  {
-    "path": "src/components/modules/ui/Reviews/Review.tsx",
-    "content": ""
-  },
-  {
-    "path": "src/components/modules/ui/Reviews/Review.tsx",
-    "content": "className=\"review-avatar\""
-  },
-  {
-    "path": "src/components/modules/ui/Reviews/Review.tsx",
-    "content": ""
-  },
-  {
-    "path": "src/components/modules/ui/Reviews/Review.tsx",
-    "content": "src=\"@/images/pages/panneaux-solaires/Reviews/star.svg\""
-  },
-  {
-    "path": "src/components/modules/ui/Reviews/Review.tsx",
-    "content": "className=\"avatar-img\""
-  },
-  {
-    "path": "src/components/modules/ui/Reviews/Review.tsx",
-    "content": ""
-  },
-  {
-    "path": "src/components/modules/ui/Reviews/Review.tsx",
-    "content": ""
-  },
-  {
-    "path": "src/components/modules/ui/Reviews/Review.tsx",
-    "content": "className=\"review-info\""
-  },
-  {
-    "path": "src/components/modules/ui/Reviews/Review.tsx",
-    "content": ""
-  },
-  {
-    "path": "src/components/modules/ui/Reviews/Review.tsx",
-    "content": "className=\"review-name\""
-  },
-  {
-    "path": "src/components/modules/ui/Reviews/Review.tsx",
-    "content": ""
-  },
-  {
-    "path": "src/components/modules/ui/Reviews/Review.tsx",
-    "content": "className=\"review-time\""
-  },
-  {
-    "path": "src/components/modules/ui/Reviews/Review.tsx",
-    "content": ""
-  },
-  {
-    "path": "src/components/modules/ui/Reviews/Review.tsx",
-    "content": ""
-  },
-  {
-    "path": "src/components/modules/ui/Reviews/Review.tsx",
-    "content": ""
-  },
-  {
-    "path": "src/components/modules/ui/Reviews/Review.tsx",
-    "content": "className=\"review-text\""
-  },
-  {
-    "path": "src/components/modules/ui/Reviews/Review.tsx",
-    "content": ""
-  },
-  {
-    "path": "src/components/modules/ui/Reviews/Review.tsx",
-    "content": "data-review-comment=\"true\""
-  },
-  {
-    "path": "src/components/modules/ui/Reviews/Review.tsx",
-    "content": ""
-  },
-  {
-    "path": "src/components/modules/ui/Reviews/Review.tsx",
-    "content": ""
-  },
-  {
-    "path": "src/components/modules/ui/Reviews/Review.tsx",
-    "content": ""
-  },
-  {
-    "path": "src/components/modules/ui/Reviews/Review.tsx",
-    "content": "className=\"review-footer\""
-  },
-  {
-    "path": "src/components/modules/ui/Reviews/Review.tsx",
-    "content": ""
-  },
-  {
-    "path": "src/components/modules/ui/Reviews/Review.tsx",
-    "content": "className=\"review-stars\""
-  },
-  {
-    "path": "src/components/modules/ui/Reviews/Review.tsx",
-    "content": ""
-  },
-  {
-    "path": "src/components/modules/ui/Reviews/Review.tsx",
-    "content": "src=\"/images/pages/panneaux-solaires/Reviews/star.svg\""
-  },
-  {
-    "path": "src/components/modules/ui/Reviews/Review.tsx",
-    "content": "alt=\"star\""
-  },
-  {
-    "path": "src/components/modules/ui/Reviews/Review.tsx",
-    "content": ""
-  },
-  {
-    "path": "src/components/modules/ui/Reviews/Review.tsx",
-    "content": ""
-  },
-  {
-    "path": "src/components/modules/ui/Reviews/Review.tsx",
-    "content": "src=\"/images/pages/panneaux-solaires/Reviews/google.svg\""
-  },
-  {
-    "path": "src/components/modules/ui/Reviews/Review.tsx",
-    "content": "alt=\"google\""
-  },
-  {
-    "path": "src/components/modules/ui/Reviews/Review.tsx",
-    "content": ""
-  },
-  {
-    "path": "src/components/modules/ui/Reviews/Review.tsx",
-    "content": ""
-  },
-  {
-    "path": "src/components/modules/ui/Reviews/Review.tsx",
-    "content": ""
-  },
-  {
-    "path": "src/components/modules/ui/Reviews/Resume.tsx",
-    "content": "className=\"h-auto p-5 rounded-md shadow-md bg-gradient-to-br from-[#E0F6FE] to-[#EED8F1]\""
-  },
-  {
-    "path": "src/components/modules/ui/Reviews/Resume.tsx",
-    "content": ""
-  },
-  {
-    "path": "src/components/modules/ui/Reviews/Resume.tsx",
-    "content": ""
-  },
-  {
-    "path": "src/components/modules/ui/Reviews/Resume.tsx",
-    "content": "className=\"flex items-center\""
-  },
-  {
-    "path": "src/components/modules/ui/Reviews/Resume.tsx",
-    "content": ""
-  },
-  {
-    "path": "src/components/modules/ui/Reviews/Resume.tsx",
-    "content": "className=\"flex mr-3\""
-  },
-  {
-    "path": "src/components/modules/ui/Reviews/Resume.tsx",
-    "content": ""
-  },
-  {
-    "path": "src/components/modules/ui/Reviews/Resume.tsx",
-    "content": ""
-  },
-  {
-    "path": "src/components/modules/ui/Reviews/Resume.tsx",
-    "content": ""
-  },
-  {
-    "path": "src/components/modules/ui/Reviews/Resume.tsx",
-    "content": ""
-  },
-  {
-    "path": "src/components/modules/ui/Reviews/Resume.tsx",
-    "content": ""
-  },
-  {
-    "path": "src/components/modules/ui/Reviews/Resume.tsx",
-    "content": "className=\"flex-1 overflow-hidden text-ellipsis whitespace-nowrap\""
-  },
-  {
-    "path": "src/components/modules/ui/Reviews/Resume.tsx",
-    "content": ""
-  },
-  {
-    "path": "src/components/modules/ui/Reviews/Resume.tsx",
-    "content": "className=\"font-bold text-black pr-6 mb-0.5 overflow-hidden text-ellipsis whitespace-nowrap\""
-  },
-  {
-    "path": "src/components/modules/ui/Reviews/Resume.tsx",
-    "content": "Résumé des commentaires"
-  },
-  {
-    "path": "src/components/modules/ui/Reviews/Resume.tsx",
-    "content": ""
-  },
-  {
-    "path": "src/components/modules/ui/Reviews/Resume.tsx",
-    "content": ""
-  },
-  {
-    "path": "src/components/modules/ui/Reviews/Resume.tsx",
-    "content": ""
-  },
-  {
-    "path": "src/components/modules/ui/Reviews/Resume.tsx",
-    "content": ""
-  },
-  {
-    "path": "src/components/modules/ui/Reviews/Resume.tsx",
-    "content": "Les clients apprécient Sunrise France pour leur service professionnel, leurs conseils utiles et un processus\n          d&apos;installation fluide. Les installations solaires de Sunrise sont louées pour leur qualité et leur\n          efficacité dans le suivi de la consommation d&apos;énergie. Cette expérience positive amène les clients à\n          recommander Sunrise pour des solutions solaires."
-  },
-  {
-    "path": "src/components/modules/ui/Reviews/Resume.tsx",
-    "content": ""
-  },
-  {
-    "path": "src/components/modules/ui/Reviews/Resume.tsx",
-    "content": ""
-  },
-  {
-    "path": "src/components/modules/ui/Reviews/Resume.tsx",
-    "content": "className=\"pt-1.5 text-left\""
-  },
-  {
-    "path": "src/components/modules/ui/Reviews/Resume.tsx",
-    "content": ""
-  },
-  {
-    "path": "src/components/modules/ui/Reviews/Resume.tsx",
-    "content": "className=\"text-[13.5px] text-black/50 whitespace-nowrap hover:text-black/70 transition-colors\""
-  },
-  {
-    "path": "src/components/modules/ui/Reviews/Resume.tsx",
-    "content": ""
-  },
-  {
-    "path": "src/components/modules/ui/Reviews/Resume.tsx",
-    "content": ""
-  },
-  {
-    "path": "src/components/modules/ui/Reviews/Resume.tsx",
-    "content": ""
-  },
-  {
-    "path": "src/components/modules/ui/Reviews/Resume.tsx",
-    "content": ""
-  },
-  {
-    "path": "src/components/modules/ui/Proches/FranceMap.tsx",
-    "content": ""
-  },
-  {
-    "path": "src/components/modules/ui/Proches/FranceMap.tsx",
-    "content": "projection=\"geoMercator\""
-  },
-  {
-    "path": "src/components/modules/ui/Proches/FranceMap.tsx",
-    "content": ""
-  },
-  {
-    "path": "src/components/modules/ui/Proches/FranceMap.tsx",
-    "content": ""
-  },
-  {
-    "path": "src/components/modules/ui/Proches/FranceMap.tsx",
-    "content": ""
-  },
-  {
-    "path": "src/components/modules/ui/Proches/FranceMap.tsx",
-    "content": ""
-  },
-  {
-    "path": "src/components/modules/ui/Proches/FranceMap.tsx",
-    "content": ""
-  },
-  {
-    "path": "src/components/modules/ui/Proches/FranceMap.tsx",
-    "content": ""
-  },
-  {
-    "path": "src/components/modules/ui/Proches/FranceMap.tsx",
-    "content": ""
-  },
-  {
-    "path": "src/components/modules/ui/Proches/FranceMap.tsx",
-    "content": ""
-  },
-  {
-    "path": "src/components/modules/ui/Proches/FranceMap.tsx",
-    "content": ""
-  },
-  {
-    "path": "src/components/modules/ui/Proches/FranceMap.tsx",
-    "content": "className=\"text-black\""
-  },
-  {
-    "path": "src/components/modules/ui/Proches/FranceMap.tsx",
-    "content": "Selected Region:"
-  },
-  {
-    "path": "src/components/modules/ui/Proches/FranceMap.tsx",
-    "content": ""
-  },
-  {
-    "path": "src/components/modules/ui/Hero/GetStartButton.tsx",
-    "content": "className=\"w-full flex justify-start items-start\""
-  },
-  {
-    "path": "src/components/modules/ui/Hero/GetStartButton.tsx",
-    "content": ""
-  },
-  {
-    "path": "src/components/modules/ui/Hero/GetStartButton.tsx",
-    "content": "className=\"\n    group relative inline-flex gap-2 items-center justify-center \n    px-7 py-4 bg-[#fbac18] text-white font-medium rounded-full \n    hover:bg-[#e09404] overflow-hidden\""
-  },
-  {
-    "path": "src/components/modules/ui/Hero/GetStartButton.tsx",
-    "content": ""
-  },
-  {
-    "path": "src/components/modules/ui/Hero/GetStartButton.tsx",
-    "content": "className=\"text-white text-2xl\""
-  },
-  {
-    "path": "src/components/modules/ui/Hero/GetStartButton.tsx",
-    "content": ""
-  },
-  {
-    "path": "src/components/modules/ui/Hero/GetStartButton.tsx",
-    "content": ""
-  },
-  {
-    "path": "src/components/modules/ui/Hero/GetStartButton.tsx",
-    "content": "className=\"transition-all duration-500 group-hover:translate-y-[-20px] group-hover:opacity-1\""
-  },
-  {
-    "path": "src/components/modules/ui/Hero/GetStartButton.tsx",
-    "content": ""
-  },
-  {
-    "path": "src/components/modules/ui/Hero/GetStartButton.tsx",
-    "content": ""
-  },
-  {
-    "path": "src/components/modules/ui/Hero/GetStartButton.tsx",
-    "content": ""
-  },
-  {
-    "path": "src/components/modules/ui/Hero/GetStartButton.tsx",
-    "content": ""
-  },
-  {
-    "path": "src/components/modules/ui/Hero/GetStartButton.tsx",
-    "content": "className=\"absolute transition-all duration-500 opacity-1 group-hover:opacity-100 group-hover:translate-y-0\""
-  },
-  {
-    "path": "src/components/modules/ui/Hero/GetStartButton.tsx",
-    "content": ""
-  },
-  {
-    "path": "src/components/modules/ui/Hero/GetStartButton.tsx",
-    "content": "className=\"group relative inline-flex items-center justify-center \""
-  },
-  {
-    "path": "src/components/modules/ui/Hero/GetStartButton.tsx",
-    "content": ""
-  },
-  {
-    "path": "src/components/modules/ui/Hero/GetStartButton.tsx",
-    "content": "className=\"text-white opacity-0 text-2xl\""
-  },
-  {
-    "path": "src/components/modules/ui/Hero/GetStartButton.tsx",
-    "content": ""
-  },
-  {
-    "path": "src/components/modules/ui/Hero/GetStartButton.tsx",
-    "content": "className=\" translate-y-[0px] translate-x-[0px] \""
-  },
-  {
-    "path": "src/components/modules/ui/Hero/GetStartButton.tsx",
-    "content": ""
-  },
-  {
-    "path": "src/components/modules/ui/Hero/GetStartButton.tsx",
-    "content": ""
-  },
-  {
-    "path": "src/components/modules/ui/Hero/GetStartButton.tsx",
-    "content": ""
-  },
-  {
-    "path": "src/components/modules/ui/Hero/GetStartButton.tsx",
-    "content": ""
-  },
-  {
-    "path": "src/components/modules/ui/Hero/GetStartButton.tsx",
-    "content": ""
-  },
-  {
-    "path": "src/components/modules/ui/Hero/GetStartButton.tsx",
     "content": ""
   }
 ]

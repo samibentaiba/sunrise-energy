@@ -4,7 +4,7 @@ import { ReactElement, useState } from "react";
 import Image from "next/image";
 import BlueButton  from "./SubSide/button";
 import { Card } from "./SubSide/card";
-import { Slider } from "./SubSide/slider";
+import Slider from "./SubSide/slider";
 import { RadioGroup, RadioGroupItem } from "./SubSide/radio-group";
 import { Label } from "./SubSide/label";
 

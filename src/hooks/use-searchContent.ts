@@ -1,28 +1,32 @@
-// hooks/use-searchEngine.ts
+// hooks/use-searchContent.ts
 "use client";
 
-import { useEffect, useState } from "react";
+import { useState, useEffect, useCallback } from "react";
 import axios from "axios";
 
-export type SearchResult = {
+// Types
+export interface SearchResult {
   path: string;
   content: string;
-};
+}
 
-type UseSearchIndexReturn = {
-  query: string;
-  setQuery: (value: string) => void;
-  results: SearchResult[];
-  error: string | null;
-  loading: boolean;
-};
+export interface GroupedResults {
+  [path: string]: string[];
+}
 
-export function useSearchIndex(): UseSearchIndexReturn {
+// Hook
+export function useSearch(
+  onSearchComplete: (
+    query: string | null,
+    results: SearchResult[]
+  ) => void = () => {}
+) {
   const [query, setQuery] = useState("");
   const [index, setIndex] = useState<SearchResult[]>([]);
   const [results, setResults] = useState<SearchResult[]>([]);
   const [error, setError] = useState<string | null>(null);
   const [loading, setLoading] = useState<boolean>(false);
+  const [showResults, setShowResults] = useState(false);
 
   // Fetch search index when query changes
   useEffect(() => {
@@ -30,14 +34,12 @@ export function useSearchIndex(): UseSearchIndexReturn {
       setLoading(true);
       try {
         const url = `/api/search-index?query=${encodeURIComponent(query)}`;
-        console.log("Making request to:", url); // Log the URL for debugging
+        console.log("Making request to:", url);
         const response = await axios.get<SearchResult[]>(url);
         setIndex(response.data);
         setError(null);
       } catch (err: unknown) {
         console.error("Error fetching search index:", err);
-
-        // Narrow down the error type
         if (err instanceof Error) {
           setError(`Failed to load search data: ${err.message}`);
         } else {
@@ -48,13 +50,12 @@ export function useSearchIndex(): UseSearchIndexReturn {
       }
     };
 
-    // Only fetch if query is not empty
     if (query.trim()) {
       fetchIndex();
     }
-  }, [query]); // Fetch new data whenever the query changes
+  }, [query]);
 
-  // Filter results when query changes
+  // Filter results when query or index changes
   useEffect(() => {
     if (!query.trim()) {
       setResults([]);
@@ -67,11 +68,37 @@ export function useSearchIndex(): UseSearchIndexReturn {
     setResults(filtered);
   }, [query, index]);
 
+  const groupedResults: GroupedResults = results.reduce((acc, result) => {
+    if (!acc[result.path]) acc[result.path] = [];
+    acc[result.path].push(result.content);
+    return acc;
+  }, {} as GroupedResults);
+
+  const cleanPath = useCallback(({ path }: { path: string | null }) => {
+    return path && path.startsWith("src/") ? path.slice(4) : path || "";
+  }, []);
+
+  const handleSearchSubmit = useCallback((e: React.FormEvent) => {
+    e.preventDefault();
+    setShowResults(true);
+    onSearchComplete(query, results);
+  }, [query, results, onSearchComplete]);
+
+  const handleInputChange = useCallback((value: string) => {
+    setQuery(value);
+    setShowResults(true);
+  }, []);
+
   return {
     query,
     setQuery,
     results,
     error,
     loading,
+    showResults,
+    groupedResults,
+    cleanPath,
+    handleSearchSubmit,
+    handleInputChange,
   };
 }

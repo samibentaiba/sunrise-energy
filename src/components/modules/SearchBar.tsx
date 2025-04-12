@@ -3,48 +3,34 @@ import { useState } from "react";
 import { Search } from "lucide-react";
 import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
-import { useSearchIndex } from "@/hooks/use-searchEngine";
+import { useSearch } from "@/hooks/use-searchContent";
 import { DynamicComponent } from "./ui/SearchBar/DynamicComponent";
 
 export default function SearchBar({
   onSearchComplete = () => {},
-
 }: {
   onSearchComplete: (
     query: string | null,
     results: { path: string; content: string }[]
   ) => void;
 }) {
-  const [showResults, setShowResults] = useState(false);
-  const { query, setQuery, results, error } = useSearchIndex();
-
-  const handleSearchSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
-    setShowResults(true);
-    onSearchComplete(query, results);
-  };
-
-  const groupedResults = results.reduce<Record<string, string[]>>(
-    (acc, result) => {
-      if (!acc[result.path]) acc[result.path] = [];
-      acc[result.path].push(result.content);
-      return acc;
-    },
-    {}
-  );
-  const cleanPath = ({ path }: { path: string | null }) => {
-    return path && path.startsWith("src/") ? path.slice(4) : path || "";
-  };
+  const {
+    query,
+    results,
+    error,
+    showResults,
+    groupedResults,
+    cleanPath,
+    handleSearchSubmit,
+    handleInputChange,
+  } = useSearch(onSearchComplete);
   return (
     <div className="relative w-full md:w-auto md:flex-1">
       <form onSubmit={handleSearchSubmit} className="w-full">
         <Input
           type="search"
           value={query}
-          onChange={(e) => {
-            setQuery(e.target.value);
-            setShowResults(true);
-          }}
+          onChange={(e) => handleInputChange(e.target.value)}
           placeholder="Commencer une recherche"
           className="h-12 pl-14 pr-10 bg-white border-white focus:border-blue-300 w-full"
         />
