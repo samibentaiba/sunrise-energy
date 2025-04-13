@@ -1,0 +1,4826 @@
+[
+  {
+    "path": "src/components/pages/reseau-techniciens/Form.tsx",
+    "content": "className=\"flex items-center justify-center bg-[#f9f9f9] p-4\""
+  },
+  {
+    "path": "src/components/pages/reseau-techniciens/Form.tsx",
+    "content": "className=\"w-full max-w-3xl\""
+  },
+  {
+    "path": "src/components/pages/reseau-techniciens/Form.tsx",
+    "content": "className=\"shadow-md\""
+  },
+  {
+    "path": "src/components/pages/reseau-techniciens/Form.tsx",
+    "content": "className=\"pt-6\""
+  },
+  {
+    "path": "src/components/pages/reseau-techniciens/Form.tsx",
+    "content": "className=\"space-y-4\""
+  },
+  {
+    "path": "src/components/pages/reseau-techniciens/Form.tsx",
+    "content": "className=\"grid grid-cols-1 md:grid-cols-2 gap-4\""
+  },
+  {
+    "path": "src/components/pages/reseau-techniciens/Form.tsx",
+    "content": "type=\"text\""
+  },
+  {
+    "path": "src/components/pages/reseau-techniciens/Form.tsx",
+    "content": "name=\"companyName\""
+  },
+  {
+    "path": "src/components/pages/reseau-techniciens/Form.tsx",
+    "content": "placeholder=\"Raison sociale\""
+  },
+  {
+    "path": "src/components/pages/reseau-techniciens/Form.tsx",
+    "content": "type=\"text\""
+  },
+  {
+    "path": "src/components/pages/reseau-techniciens/Form.tsx",
+    "content": "name=\"fullName\""
+  },
+  {
+    "path": "src/components/pages/reseau-techniciens/Form.tsx",
+    "content": "placeholder=\"Nom & Prénom\""
+  },
+  {
+    "path": "src/components/pages/reseau-techniciens/Form.tsx",
+    "content": "className=\"flex justify-end mt-6\""
+  },
+  {
+    "path": "src/components/pages/reseau-techniciens/Form.tsx",
+    "content": "type=\"button\""
+  },
+  {
+    "path": "src/components/pages/reseau-techniciens/Form.tsx",
+    "content": "className=\"bg-blue-600 text-white hover:bg-blue-700\""
+  },
+  {
+    "path": "src/components/pages/reseau-techniciens/Form.tsx",
+    "content": "Suivant"
+  },
+  {
+    "path": "src/components/pages/reseau-techniciens/Form.tsx",
+    "content": "className=\"space-y-4\""
+  },
+  {
+    "path": "src/components/pages/reseau-techniciens/Form.tsx",
+    "content": "className=\"grid grid-cols-1 md:grid-cols-2 gap-4\""
+  },
+  {
+    "path": "src/components/pages/reseau-techniciens/Form.tsx",
+    "content": "type=\"tel\""
+  },
+  {
+    "path": "src/components/pages/reseau-techniciens/Form.tsx",
+    "content": "name=\"phone\""
+  },
+  {
+    "path": "src/components/pages/reseau-techniciens/Form.tsx",
+    "content": "placeholder=\"Numéro de téléphone\""
+  },
+  {
+    "path": "src/components/pages/reseau-techniciens/Form.tsx",
+    "content": "type=\"email\""
+  },
+  {
+    "path": "src/components/pages/reseau-techniciens/Form.tsx",
+    "content": "name=\"email\""
+  },
+  {
+    "path": "src/components/pages/reseau-techniciens/Form.tsx",
+    "content": "placeholder=\"Email\""
+  },
+  {
+    "path": "src/components/pages/reseau-techniciens/Form.tsx",
+    "content": "className=\"flex justify-between mt-6\""
+  },
+  {
+    "path": "src/components/pages/reseau-techniciens/Form.tsx",
+    "content": "type=\"button\""
+  },
+  {
+    "path": "src/components/pages/reseau-techniciens/Form.tsx",
+    "content": "variant=\"outline\""
+  },
+  {
+    "path": "src/components/pages/reseau-techniciens/Form.tsx",
+    "content": "Précédent"
+  },
+  {
+    "path": "src/components/pages/reseau-techniciens/Form.tsx",
+    "content": "type=\"submit\""
+  },
+  {
+    "path": "src/components/pages/reseau-techniciens/Form.tsx",
+    "content": "className=\"bg-blue-600 text-white hover:bg-blue-700\""
+  },
+  {
+    "path": "src/components/pages/reseau-techniciens/Form.tsx",
+    "content": "Envoyer"
+  },
+  {
+    "path": "src/components/pages/qui-sommes-nous/Trust.tsx",
+    "content": "className=\"flex mb-3\""
+  },
+  {
+    "path": "src/components/pages/qui-sommes-nous/Trust.tsx",
+    "content": "className=\"bg-white rounded-xl shadow-md p-6\""
+  },
+  {
+    "path": "src/components/pages/qui-sommes-nous/Trust.tsx",
+    "content": "className=\"flex items-center justify-between mb-3\""
+  },
+  {
+    "path": "src/components/pages/qui-sommes-nous/Trust.tsx",
+    "content": "className=\"font-medium\""
+  },
+  {
+    "path": "src/components/pages/qui-sommes-nous/Trust.tsx",
+    "content": "className=\"text-sm text-gray-500\""
+  },
+  {
+    "path": "src/components/pages/qui-sommes-nous/Trust.tsx",
+    "content": "src=\"/images/modules/Google.svg\""
+  },
+  {
+    "path": "src/components/pages/qui-sommes-nous/Trust.tsx",
+    "content": "alt=\"Google\""
+  },
+  {
+    "path": "src/components/pages/qui-sommes-nous/Trust.tsx",
+    "content": "className=\"text-sm\""
+  },
+  {
+    "path": "src/components/pages/qui-sommes-nous/Trust.tsx",
+    "content": "className=\"text-sm text-gray-500 mt-2 hover:underline\""
+  },
+  {
+    "path": "src/components/pages/qui-sommes-nous/Trust.tsx",
+    "content": "className=\"container mx-auto px-4 py-12\""
+  },
+  {
+    "path": "src/components/pages/qui-sommes-nous/Trust.tsx",
+    "content": "className=\"grid md:grid-cols-2 gap-6 mb-16\""
+  },
+  {
+    "path": "src/components/pages/qui-sommes-nous/Trust.tsx",
+    "content": "className=\"text-3xl md:text-4xl font-bold\""
+  },
+  {
+    "path": "src/components/pages/qui-sommes-nous/Trust.tsx",
+    "content": "className=\"bg-yellow-300 px-2 py-1\""
+  },
+  {
+    "path": "src/components/pages/qui-sommes-nous/Trust.tsx",
+    "content": "Merci"
+  },
+  {
+    "path": "src/components/pages/qui-sommes-nous/Trust.tsx",
+    "content": "à nos 3 000\n            clients pour leur confiance et leur fidélité !"
+  },
+  {
+    "path": "src/components/pages/qui-sommes-nous/Trust.tsx",
+    "content": "className=\"flex justify-start md:justify-end items-start\""
+  },
+  {
+    "path": "src/components/pages/qui-sommes-nous/Trust.tsx",
+    "content": "className=\"bg-white rounded-lg shadow-sm p-4 flex items-center gap-3\""
+  },
+  {
+    "path": "src/components/pages/qui-sommes-nous/Trust.tsx",
+    "content": "src=\"/images/modules/Google.svg\""
+  },
+  {
+    "path": "src/components/pages/qui-sommes-nous/Trust.tsx",
+    "content": "alt=\"Google\""
+  },
+  {
+    "path": "src/components/pages/qui-sommes-nous/Trust.tsx",
+    "content": "className=\"rounded-full\""
+  },
+  {
+    "path": "src/components/pages/qui-sommes-nous/Trust.tsx",
+    "content": "className=\"font-medium\""
+  },
+  {
+    "path": "src/components/pages/qui-sommes-nous/Trust.tsx",
+    "content": "Avis Google"
+  },
+  {
+    "path": "src/components/pages/qui-sommes-nous/Trust.tsx",
+    "content": "className=\"flex items-center\""
+  },
+  {
+    "path": "src/components/pages/qui-sommes-nous/Trust.tsx",
+    "content": "className=\"font-medium mr-2\""
+  },
+  {
+    "path": "src/components/pages/qui-sommes-nous/Trust.tsx",
+    "content": "3.9"
+  },
+  {
+    "path": "src/components/pages/qui-sommes-nous/Trust.tsx",
+    "content": "className=\"flex\""
+  },
+  {
+    "path": "src/components/pages/qui-sommes-nous/Trust.tsx",
+    "content": "className=\"h-5 w-5 fill-yellow-400 text-yellow-400\""
+  },
+  {
+    "path": "src/components/pages/qui-sommes-nous/Trust.tsx",
+    "content": "className=\"h-5 w-5 fill-yellow-400 text-yellow-400\""
+  },
+  {
+    "path": "src/components/pages/qui-sommes-nous/Trust.tsx",
+    "content": "className=\"h-5 w-5 fill-yellow-400 text-yellow-400\""
+  },
+  {
+    "path": "src/components/pages/qui-sommes-nous/Trust.tsx",
+    "content": "className=\"h-5 w-5 fill-yellow-400 text-yellow-400\""
+  },
+  {
+    "path": "src/components/pages/qui-sommes-nous/Trust.tsx",
+    "content": "className=\"h-5 w-5 text-gray-300\""
+  },
+  {
+    "path": "src/components/pages/qui-sommes-nous/Trust.tsx",
+    "content": "className=\"grid md:grid-cols-2 lg:grid-cols-4 gap-6\""
+  },
+  {
+    "path": "src/components/pages/qui-sommes-nous/Touch.tsx",
+    "content": "id=\"team\""
+  },
+  {
+    "path": "src/components/pages/qui-sommes-nous/Touch.tsx",
+    "content": "className=\"w-full\""
+  },
+  {
+    "path": "src/components/pages/qui-sommes-nous/Touch.tsx",
+    "content": "className=\"w-screen py-[130px] md:py-40 px-4 bg-cover bg-center\""
+  },
+  {
+    "path": "src/components/pages/qui-sommes-nous/Touch.tsx",
+    "content": "className=\"max-w-7xl mx-auto flex justify-center\""
+  },
+  {
+    "path": "src/components/pages/qui-sommes-nous/Touch.tsx",
+    "content": "className=\"w-full md:w-3/4 animate-fadeIn\""
+  },
+  {
+    "path": "src/components/pages/qui-sommes-nous/Touch.tsx",
+    "content": "className=\"text-3xl md:text-4xl lg:text-[45px] font-bold text-white leading-tight text-center\""
+  },
+  {
+    "path": "src/components/pages/qui-sommes-nous/Touch.tsx",
+    "content": "Nous existons pour rendre le solaire simple, sans risque,\n              performant et accessible à tous"
+  },
+  {
+    "path": "src/components/pages/qui-sommes-nous/QA.tsx",
+    "content": "className=\"border-none  py-24 md:py-32 bg-white\""
+  },
+  {
+    "path": "src/components/pages/qui-sommes-nous/QA.tsx",
+    "content": "className=\"border-none container mx-auto px-4\""
+  },
+  {
+    "path": "src/components/pages/qui-sommes-nous/QA.tsx",
+    "content": "className=\"border-none grid grid-cols-1 md:grid-cols-3 gap-8\""
+  },
+  {
+    "path": "src/components/pages/qui-sommes-nous/QA.tsx",
+    "content": "className=\"border-none md:col-span-1\""
+  },
+  {
+    "path": "src/components/pages/qui-sommes-nous/QA.tsx",
+    "content": "className=\"border-none text-2xl font-bold mb-6\""
+  },
+  {
+    "path": "src/components/pages/qui-sommes-nous/QA.tsx",
+    "content": "Questions fréquemment posées"
+  },
+  {
+    "path": "src/components/pages/qui-sommes-nous/QA.tsx",
+    "content": "className=\"border-none md:col-span-2\""
+  },
+  {
+    "path": "src/components/pages/qui-sommes-nous/QA.tsx",
+    "content": "type=\"single\""
+  },
+  {
+    "path": "src/components/pages/qui-sommes-nous/QA.tsx",
+    "content": "className=\"border-none space-y-4\""
+  },
+  {
+    "path": "src/components/pages/qui-sommes-nous/QA.tsx",
+    "content": "className=\"border-none hover:text-blue-950 rounded-lg overflow-hidden\""
+  },
+  {
+    "path": "src/components/pages/qui-sommes-nous/QA.tsx",
+    "content": "className=\"border-none px-6 py-4 bg-gray-100 text-xl text-left font-medium hover:no-underline\""
+  },
+  {
+    "path": "src/components/pages/qui-sommes-nous/QA.tsx",
+    "content": "className=\"border-none px-6 py-4 text-black bg-gray-100\""
+  },
+  {
+    "path": "src/components/pages/qui-sommes-nous/CTA.tsx",
+    "content": "className=\"bg-white flex justify-center py-10 md:py-20 w-full\""
+  },
+  {
+    "path": "src/components/pages/qui-sommes-nous/CTA.tsx",
+    "content": "className=\" mx-auto px-4 md:px-6 flex flex-col md:flex-row items-center gap-6 md:gap-20\""
+  },
+  {
+    "path": "src/components/pages/qui-sommes-nous/CTA.tsx",
+    "content": "src=\"/images/pages/qui-sommes-nous/CTA.webp\""
+  },
+  {
+    "path": "src/components/pages/qui-sommes-nous/CTA.tsx",
+    "content": "alt=\"Solar panels on roof\""
+  },
+  {
+    "path": "src/components/pages/qui-sommes-nous/CTA.tsx",
+    "content": "className=\"w-full h-auto rounded-lg\""
+  },
+  {
+    "path": "src/components/pages/qui-sommes-nous/CTA.tsx",
+    "content": "className=\"flex flex-col space-y-4 md:space-y-6 md:max-w-[35rem]\""
+  },
+  {
+    "path": "src/components/pages/qui-sommes-nous/CTA.tsx",
+    "content": "className=\"text-[28px] md:text-[40px] font-bold text-[#040922] leading-tight md:leading-[50px] font-['Lato',_Arial,_Helvetica,_sans-serif]\""
+  },
+  {
+    "path": "src/components/pages/qui-sommes-nous/CTA.tsx",
+    "content": "Professionnels ; devenez technicien solaire Sunrise"
+  },
+  {
+    "path": "src/components/pages/qui-sommes-nous/CTA.tsx",
+    "content": "className=\"text-gray-800\""
+  },
+  {
+    "path": "src/components/pages/qui-sommes-nous/CTA.tsx",
+    "content": "Déposez votre candidature. Nos équipes auront à coeur de prendre\n            contact avec vous."
+  },
+  {
+    "path": "src/components/pages/qui-sommes-nous/CTA.tsx",
+    "content": "className=\"pt-2\""
+  },
+  {
+    "path": "src/components/pages/qui-sommes-nous/CTA.tsx",
+    "content": "text=\"Je souhaite adhérer au réseau Sunrise\""
+  },
+  {
+    "path": "src/components/pages/qui-sommes-nous/CTA.tsx",
+    "content": "href=\"/solutions-photovoltaiques\""
+  },
+  {
+    "path": "src/components/pages/qui-sommes-nous/CTA.tsx",
+    "content": "className=\"\n    group relative inline-flex gap-2 items-center justify-center \n    px-7 py-4 bg-[#fbac18] text-white font-medium rounded-full \n    hover:bg-[#0b68a4] hover:border-[2px] hover:px-[26px] hover:py-[14px] hover:border-[#003366] overflow-hidden\""
+  },
+  {
+    "path": "src/components/pages/qui-sommes-nous/CTA.tsx",
+    "content": "className=\"text-white text-2xl\""
+  },
+  {
+    "path": "src/components/pages/qui-sommes-nous/CTA.tsx",
+    "content": "className=\"transition-all duration-500 group-hover:translate-y-[-20px] group-hover:opacity-1\""
+  },
+  {
+    "path": "src/components/pages/qui-sommes-nous/CTA.tsx",
+    "content": "className=\"absolute transition-all duration-500 opacity-1 group-hover:opacity-100 group-hover:translate-y-0\""
+  },
+  {
+    "path": "src/components/pages/qui-sommes-nous/CTA.tsx",
+    "content": "className=\"group relative inline-flex gap-2 items-center justify-center \""
+  },
+  {
+    "path": "src/components/pages/qui-sommes-nous/CTA.tsx",
+    "content": "className=\"text-white opacity-0 text-2xl\""
+  },
+  {
+    "path": "src/components/pages/qui-sommes-nous/About.tsx",
+    "content": "className=\"w-full bg-white py-16 md:py-24 mt-16 md:mt-24\""
+  },
+  {
+    "path": "src/components/pages/qui-sommes-nous/About.tsx",
+    "content": "className=\"container mx-auto px-4 md:px-6\""
+  },
+  {
+    "path": "src/components/pages/qui-sommes-nous/About.tsx",
+    "content": "className=\"flex flex-col md:flex-row items-start md:items-center gap-8 md:gap-12 lg:gap-16\""
+  },
+  {
+    "path": "src/components/pages/qui-sommes-nous/About.tsx",
+    "content": "className=\"w-full md:w-1/2 space-y-5 md:space-y-6\""
+  },
+  {
+    "path": "src/components/pages/qui-sommes-nous/About.tsx",
+    "content": "className=\"text-2xl sm:text-3xl md:text-4xl font-bold leading-tight\""
+  },
+  {
+    "path": "src/components/pages/qui-sommes-nous/About.tsx",
+    "content": "Sunrise ; le leader de l'autoconsommation solaire intelligente depuis 2019"
+  },
+  {
+    "path": "src/components/pages/qui-sommes-nous/About.tsx",
+    "content": "className=\"text-gray-700 space-y-3 md:space-y-4 text-base md:text-lg\""
+  },
+  {
+    "path": "src/components/pages/qui-sommes-nous/About.tsx",
+    "content": "Que vous soyez Particulier ou Entreprise, Sunrise est le pont de confiance entre vous et les\n                professionnels du solaire."
+  },
+  {
+    "path": "src/components/pages/qui-sommes-nous/About.tsx",
+    "content": "De la conception et l'installation jusqu'à la maintenance, nos experts vous conseillent à chaque étape\n                de votre projet photovoltaïque grâce à un réseau de techniciens RGE rigoureusement sélectionnés et\n                évalués."
+  },
+  {
+    "path": "src/components/pages/qui-sommes-nous/About.tsx",
+    "content": "className=\"my-5 md:my-6\""
+  },
+  {
+    "path": "src/components/pages/qui-sommes-nous/About.tsx",
+    "content": "className=\"flex flex-wrap gap-4\""
+  },
+  {
+    "path": "src/components/pages/qui-sommes-nous/About.tsx",
+    "content": "text=\"Offre photovoltaïque pour Particuliers\""
+  },
+  {
+    "path": "src/components/pages/qui-sommes-nous/About.tsx",
+    "content": "href=\"/panneaux-solaires\""
+  },
+  {
+    "path": "src/components/pages/qui-sommes-nous/About.tsx",
+    "content": "className=\"my-5 md:my-6\""
+  },
+  {
+    "path": "src/components/pages/qui-sommes-nous/About.tsx",
+    "content": "className=\"grid grid-cols-1 sm:grid-cols-2 gap-6\""
+  },
+  {
+    "path": "src/components/pages/qui-sommes-nous/About.tsx",
+    "content": "className=\"flex flex-col\""
+  },
+  {
+    "path": "src/components/pages/qui-sommes-nous/About.tsx",
+    "content": "className=\"text-4xl md:text-5xl font-bold\""
+  },
+  {
+    "path": "src/components/pages/qui-sommes-nous/About.tsx",
+    "content": "3 000"
+  },
+  {
+    "path": "src/components/pages/qui-sommes-nous/About.tsx",
+    "content": "className=\"text-green-500 font-semibold text-sm md:text-base\""
+  },
+  {
+    "path": "src/components/pages/qui-sommes-nous/About.tsx",
+    "content": "clients heureux"
+  },
+  {
+    "path": "src/components/pages/qui-sommes-nous/About.tsx",
+    "content": "className=\"flex items-center\""
+  },
+  {
+    "path": "src/components/pages/qui-sommes-nous/About.tsx",
+    "content": "className=\"flex flex-col\""
+  },
+  {
+    "path": "src/components/pages/qui-sommes-nous/About.tsx",
+    "content": "className=\"flex items-center gap-2\""
+  },
+  {
+    "path": "src/components/pages/qui-sommes-nous/About.tsx",
+    "content": "src=\"/images/modules/Google.svg\""
+  },
+  {
+    "path": "src/components/pages/qui-sommes-nous/About.tsx",
+    "content": "alt=\"Google\""
+  },
+  {
+    "path": "src/components/pages/qui-sommes-nous/About.tsx",
+    "content": "className=\"rounded-full\""
+  },
+  {
+    "path": "src/components/pages/qui-sommes-nous/About.tsx",
+    "content": "className=\"text-sm text-gray-600\""
+  },
+  {
+    "path": "src/components/pages/qui-sommes-nous/About.tsx",
+    "content": "Avis Google"
+  },
+  {
+    "path": "src/components/pages/qui-sommes-nous/About.tsx",
+    "content": "className=\"flex items-center gap-1 mt-1\""
+  },
+  {
+    "path": "src/components/pages/qui-sommes-nous/About.tsx",
+    "content": "className=\"font-medium\""
+  },
+  {
+    "path": "src/components/pages/qui-sommes-nous/About.tsx",
+    "content": "4.2"
+  },
+  {
+    "path": "src/components/pages/qui-sommes-nous/About.tsx",
+    "content": "className=\"flex\""
+  },
+  {
+    "path": "src/components/pages/qui-sommes-nous/About.tsx",
+    "content": "className=\"h-4 w-4 fill-yellow-400 text-yellow-400\""
+  },
+  {
+    "path": "src/components/pages/qui-sommes-nous/About.tsx",
+    "content": "className=\"h-4 w-4 fill-yellow-400 text-yellow-400\""
+  },
+  {
+    "path": "src/components/pages/qui-sommes-nous/About.tsx",
+    "content": "className=\"h-4 w-4 fill-yellow-400 text-yellow-400\""
+  },
+  {
+    "path": "src/components/pages/qui-sommes-nous/About.tsx",
+    "content": "className=\"h-4 w-4 fill-yellow-400 text-yellow-400\""
+  },
+  {
+    "path": "src/components/pages/qui-sommes-nous/About.tsx",
+    "content": "className=\"h-4 w-4 fill-yellow-400 text-yellow-400\""
+  },
+  {
+    "path": "src/components/pages/qui-sommes-nous/About.tsx",
+    "content": "className=\"w-full md:w-1/2 mt-8 md:mt-0\""
+  },
+  {
+    "path": "src/components/pages/qui-sommes-nous/About.tsx",
+    "content": "className=\"relative overflow-hidden rounded-lg shadow-lg transform transition-transform duration-300 hover:scale-[1.02]\""
+  },
+  {
+    "path": "src/components/pages/qui-sommes-nous/About.tsx",
+    "content": "src=\"/images/pages/qui-sommes-nous/About.webp\""
+  },
+  {
+    "path": "src/components/pages/qui-sommes-nous/About.tsx",
+    "content": "alt=\"Installateur Sunrise sur un toit avec panneaux solaires\""
+  },
+  {
+    "path": "src/components/pages/qui-sommes-nous/About.tsx",
+    "content": "className=\"w-full h-auto object-cover rounded-lg\""
+  },
+  {
+    "path": "src/components/pages/qui-sommes-nous/About.tsx",
+    "content": "className=\"absolute inset-0 bg-gradient-to-t from-black/20 to-transparent opacity-0 hover:opacity-100 transition-opacity duration-300\""
+  },
+  {
+    "path": "src/components/pages/qui-sommes-nous/About.tsx",
+    "content": "className=\"w-full sm:w-auto flex justify-start items-start\""
+  },
+  {
+    "path": "src/components/pages/qui-sommes-nous/About.tsx",
+    "content": "className=\"\n          group relative inline-flex gap-2 items-center justify-center \n          px-5 sm:px-7 py-3 sm:py-4 bg-[#fbac18] text-white font-medium rounded-full \n          hover:bg-[#0B476F] overflow-hidden transition-colors duration-300\n          shadow-md hover:shadow-lg\""
+  },
+  {
+    "path": "src/components/pages/qui-sommes-nous/About.tsx",
+    "content": "className=\"text-white text-2xl flex-shrink-0\""
+  },
+  {
+    "path": "src/components/pages/qui-sommes-nous/About.tsx",
+    "content": "aria-hidden=\"true\""
+  },
+  {
+    "path": "src/components/pages/qui-sommes-nous/About.tsx",
+    "content": "className=\"transition-all duration-500 group-hover:translate-y-[-20px] group-hover:opacity-0\""
+  },
+  {
+    "path": "src/components/pages/qui-sommes-nous/About.tsx",
+    "content": "className=\"absolute transition-all duration-500 opacity-0 translate-y-[20px] group-hover:opacity-100 group-hover:translate-y-0\""
+  },
+  {
+    "path": "src/components/pages/qui-sommes-nous/About.tsx",
+    "content": "className=\"group relative inline-flex items-center justify-center\""
+  },
+  {
+    "path": "src/components/pages/qui-sommes-nous/About.tsx",
+    "content": "className=\"text-white opacity-0 text-2xl flex-shrink-0\""
+  },
+  {
+    "path": "src/components/pages/qui-sommes-nous/About.tsx",
+    "content": "aria-hidden=\"true\""
+  },
+  {
+    "path": "src/components/pages/qui-sommes-nous/About.tsx",
+    "content": "className=\"whitespace-nowrap\""
+  },
+  {
+    "path": "src/components/pages/panneaux-solaires/Protection.tsx",
+    "content": "className=\"w-screen text-gray-900 bg-white\""
+  },
+  {
+    "path": "src/components/pages/panneaux-solaires/Protection.tsx",
+    "content": "className=\"w-full py-16 bg-white\""
+  },
+  {
+    "path": "src/components/pages/panneaux-solaires/Protection.tsx",
+    "content": "className=\"container mx-auto items-center justify-center flex flex-col text-center space-y-6\""
+  },
+  {
+    "path": "src/components/pages/panneaux-solaires/Protection.tsx",
+    "content": "className=\"text-3xl w-[80%] md:text-5xl px-10 lg:text-[2.5rem] font-semibold text-slate-900 leading-tight\""
+  },
+  {
+    "path": "src/components/pages/panneaux-solaires/Protection.tsx",
+    "content": "Une installation solaire qui vous protège des coupures de courant"
+  },
+  {
+    "path": "src/components/pages/panneaux-solaires/Protection.tsx",
+    "content": "className=\"text-[#000000] w-[77%] px-2 leading-relaxed\""
+  },
+  {
+    "path": "src/components/pages/panneaux-solaires/Protection.tsx",
+    "content": "Une centrale solaire avec une solution de stockage intégrée permettant de se prémunir des coupures de courant"
+  },
+  {
+    "path": "src/components/pages/panneaux-solaires/Protection.tsx",
+    "content": "className=\"flex flex-col md:flex-row items-center justify-between bg-gray-50 max-w-7xl mx-auto\""
+  },
+  {
+    "path": "src/components/pages/panneaux-solaires/Protection.tsx",
+    "content": "className=\"w-full md:w-1/2 p-6 flex justify-center\""
+  },
+  {
+    "path": "src/components/pages/panneaux-solaires/Protection.tsx",
+    "content": "src=\"/images/pages/panneaux-solaires/Protection.jpg\""
+  },
+  {
+    "path": "src/components/pages/panneaux-solaires/Protection.tsx",
+    "content": "alt=\"Gestionnaire d'énergie intelligent avec smartphone et prises connectées\""
+  },
+  {
+    "path": "src/components/pages/panneaux-solaires/Protection.tsx",
+    "content": "className=\"object-contain\""
+  },
+  {
+    "path": "src/components/pages/panneaux-solaires/Protection.tsx",
+    "content": "className=\"w-full md:w-1/2 p-6 md:p-10 bg-gray-100\""
+  },
+  {
+    "path": "src/components/pages/panneaux-solaires/Protection.tsx",
+    "content": "className=\"text-2xl font-bold text-gray-800 mb-4\""
+  },
+  {
+    "path": "src/components/pages/panneaux-solaires/Protection.tsx",
+    "content": "Une sélection de batteries solaires fiables rigoureusement choisies par nos experts en énergie"
+  },
+  {
+    "path": "src/components/pages/panneaux-solaires/Protection.tsx",
+    "content": "className=\"text-gray-700 mb-6\""
+  },
+  {
+    "path": "src/components/pages/panneaux-solaires/Protection.tsx",
+    "content": "D’une capacité jusqu’à 5kW, notre sélection de batterie solaire haut de gamme permet en cas de coupure réseau de prendre le relai. Ne nécessitant aucun entretien, eur design est idéal pour s’intégrer directement dans votre maison."
+  },
+  {
+    "path": "src/components/pages/panneaux-solaires/Protection.tsx",
+    "content": "className=\"flex items-center mb-2\""
+  },
+  {
+    "path": "src/components/pages/panneaux-solaires/Protection.tsx",
+    "content": "className=\"w-6 h-0.5 bg-blue-600 mr-2\""
+  },
+  {
+    "path": "src/components/pages/panneaux-solaires/Protection.tsx",
+    "content": "className=\"font-bold text-xl\""
+  },
+  {
+    "path": "src/components/pages/panneaux-solaires/Protection.tsx",
+    "content": "10 ans"
+  },
+  {
+    "path": "src/components/pages/panneaux-solaires/Protection.tsx",
+    "content": "className=\"text-gray-700\""
+  },
+  {
+    "path": "src/components/pages/panneaux-solaires/Protection.tsx",
+    "content": "garantie fabricant"
+  },
+  {
+    "path": "src/components/pages/panneaux-solaires/Installation.tsx",
+    "content": "className=\"w-screen text-gray-900 bg-white\""
+  },
+  {
+    "path": "src/components/pages/panneaux-solaires/Installation.tsx",
+    "content": "className=\"w-full py-16 bg-white\""
+  },
+  {
+    "path": "src/components/pages/panneaux-solaires/Installation.tsx",
+    "content": "className=\"container mx-auto items-center justify-center flex flex-col text-center space-y-6\""
+  },
+  {
+    "path": "src/components/pages/panneaux-solaires/Installation.tsx",
+    "content": "className=\"text-3xl w-[80%] md:text-5xl px-10 lg:text-[2.5rem] font-semibold text-slate-900 leading-tight\""
+  },
+  {
+    "path": "src/components/pages/panneaux-solaires/Installation.tsx",
+    "content": "Une installation solaire intelligente qui booste la rentabilité de votre investissement"
+  },
+  {
+    "path": "src/components/pages/panneaux-solaires/Installation.tsx",
+    "content": "className=\"text-[#000000] w-[77%] px-2 leading-relaxed\""
+  },
+  {
+    "path": "src/components/pages/panneaux-solaires/Installation.tsx",
+    "content": "D’un seul doigt, pilotez vos équipements énergivores, suivez votre consommation d’énergie et optimisez votre production solaire d’énergie"
+  },
+  {
+    "path": "src/components/pages/panneaux-solaires/Installation.tsx",
+    "content": "className=\"flex flex-col md:flex-row items-center justify-between bg-gray-50 max-w-7xl mx-auto\""
+  },
+  {
+    "path": "src/components/pages/panneaux-solaires/Installation.tsx",
+    "content": "className=\"w-full md:w-1/2 p-6 flex justify-center\""
+  },
+  {
+    "path": "src/components/pages/panneaux-solaires/Installation.tsx",
+    "content": "src=\"/images/pack_BoxGEN4_HD_1.jpg\""
+  },
+  {
+    "path": "src/components/pages/panneaux-solaires/Installation.tsx",
+    "content": "alt=\"Gestionnaire d'énergie intelligent avec smartphone et prises connectées\""
+  },
+  {
+    "path": "src/components/pages/panneaux-solaires/Installation.tsx",
+    "content": "className=\"object-contain\""
+  },
+  {
+    "path": "src/components/pages/panneaux-solaires/Installation.tsx",
+    "content": "className=\"w-full md:w-1/2 p-6 md:p-10 bg-gray-100\""
+  },
+  {
+    "path": "src/components/pages/panneaux-solaires/Installation.tsx",
+    "content": "className=\"text-2xl font-bold text-gray-800 mb-4\""
+  },
+  {
+    "path": "src/components/pages/panneaux-solaires/Installation.tsx",
+    "content": "Un gestionnaire d'énergie intelligent pour surveiller et piloter vos équipements énergivores"
+  },
+  {
+    "path": "src/components/pages/panneaux-solaires/Installation.tsx",
+    "content": "className=\"text-gray-700 mb-6\""
+  },
+  {
+    "path": "src/components/pages/panneaux-solaires/Installation.tsx",
+    "content": "Très simple d'usage, suivez en temps réel votre consommation d'énergie par appareils et synchronisez automatiquement la consommation de vos équipements avec vos périodes de production solaire. Vous amortissez jusqu'à 2 fois plus vite votre installation, tout en réduisant drastiquement votre facture d'électricité."
+  },
+  {
+    "path": "src/components/pages/panneaux-solaires/Installation.tsx",
+    "content": "className=\"flex items-center mb-2\""
+  },
+  {
+    "path": "src/components/pages/panneaux-solaires/Installation.tsx",
+    "content": "className=\"w-6 h-0.5 bg-blue-600 mr-2\""
+  },
+  {
+    "path": "src/components/pages/panneaux-solaires/Installation.tsx",
+    "content": "className=\"font-bold text-xl\""
+  },
+  {
+    "path": "src/components/pages/panneaux-solaires/Installation.tsx",
+    "content": "15 ans"
+  },
+  {
+    "path": "src/components/pages/panneaux-solaires/Installation.tsx",
+    "content": "className=\"text-gray-700\""
+  },
+  {
+    "path": "src/components/pages/panneaux-solaires/Installation.tsx",
+    "content": "de garantie fabricant"
+  },
+  {
+    "path": "src/components/pages/panneaux-solaires/Pricing/PicingCard.tsx",
+    "content": "className=\"w-full py-12 px-4 bg-white\""
+  },
+  {
+    "path": "src/components/pages/panneaux-solaires/Pricing/PicingCard.tsx",
+    "content": "className=\"container mx-auto max-w-6xl grid md:grid-cols-2 gap-8\""
+  },
+  {
+    "path": "src/components/pages/panneaux-solaires/Pricing/PicingCard.tsx",
+    "content": "className=\"flex flex-col h-full\""
+  },
+  {
+    "path": "src/components/pages/panneaux-solaires/Pricing/PicingCard.tsx",
+    "content": "className=\"text-center mb-4\""
+  },
+  {
+    "path": "src/components/pages/panneaux-solaires/Pricing/PicingCard.tsx",
+    "content": "className=\"text-blue-600 font-medium\""
+  },
+  {
+    "path": "src/components/pages/panneaux-solaires/Pricing/PicingCard.tsx",
+    "content": "className=\"text-center mb-4\""
+  },
+  {
+    "path": "src/components/pages/panneaux-solaires/Pricing/PicingCard.tsx",
+    "content": "className=\"font-bold text-xl\""
+  },
+  {
+    "path": "src/components/pages/panneaux-solaires/Pricing/PicingCard.tsx",
+    "content": "className=\"text-gray-800\""
+  },
+  {
+    "path": "src/components/pages/panneaux-solaires/Pricing/PicingCard.tsx",
+    "content": "À partir de"
+  },
+  {
+    "path": "src/components/pages/panneaux-solaires/Pricing/PicingCard.tsx",
+    "content": "className=\"text-blue-600 text-2xl\""
+  },
+  {
+    "path": "src/components/pages/panneaux-solaires/Pricing/PicingCard.tsx",
+    "content": "className=\"text-sm text-gray-600 mt-1\""
+  },
+  {
+    "path": "src/components/pages/panneaux-solaires/Pricing/PicingCard.tsx",
+    "content": "Livré et posé - Aides déduites"
+  },
+  {
+    "path": "src/components/pages/panneaux-solaires/Pricing/PicingCard.tsx",
+    "content": "className=\"text-center text-sm font-medium text-orange-600 my-4\""
+  },
+  {
+    "path": "src/components/pages/panneaux-solaires/Pricing/PicingCard.tsx",
+    "content": "className=\"flex justify-center items-center my-6 relative w-full h-64\""
+  },
+  {
+    "path": "src/components/pages/panneaux-solaires/Pricing/PicingCard.tsx",
+    "content": "className=\" object-contain\""
+  },
+  {
+    "path": "src/components/pages/panneaux-solaires/Pricing/PicingCard.tsx",
+    "content": "text=\"Découvrir l'offre\""
+  },
+  {
+    "path": "src/components/pages/panneaux-solaires/Pricing/PicingCard.tsx",
+    "content": "href=\"/\""
+  },
+  {
+    "path": "src/components/pages/panneaux-solaires/Pricing/PicingCard.tsx",
+    "content": "className=\"mt-6 space-y-3\""
+  },
+  {
+    "path": "src/components/pages/panneaux-solaires/Pricing/PicingCard.tsx",
+    "content": "className=\"flex items-start gap-2\""
+  },
+  {
+    "path": "src/components/pages/panneaux-solaires/Pricing/PicingCard.tsx",
+    "content": "className=\"h-5 w-5 text-green-500 flex-shrink-0 mt-0.5\""
+  },
+  {
+    "path": "src/components/pages/panneaux-solaires/Pricing/PicingCard.tsx",
+    "content": "className=\"text-sm text-gray-700\""
+  },
+  {
+    "path": "src/components/pages/panneaux-solaires/Pricing/PicingCard.tsx",
+    "content": "className=\"mt-6 pt-4 text-center\""
+  },
+  {
+    "path": "src/components/pages/panneaux-solaires/Pricing/PicingCard.tsx",
+    "content": "className=\"font-medium text-sm text-blue-800\""
+  },
+  {
+    "path": "src/components/pages/panneaux-solaires/Pricing/PicingCard.tsx",
+    "content": "Options disponibles sur demande"
+  },
+  {
+    "path": "src/components/pages/panneaux-solaires/Pricing/PicingCard.tsx",
+    "content": "className=\"flex items-center justify-center gap-2 mt-3\""
+  },
+  {
+    "path": "src/components/pages/panneaux-solaires/Pricing/PicingCard.tsx",
+    "content": "className=\"w-3 h-3 rounded-full bg-gray-300\""
+  },
+  {
+    "path": "src/components/pages/panneaux-solaires/Pricing/PicingCard.tsx",
+    "content": "className=\"text-sm text-gray-600\""
+  },
+  {
+    "path": "src/components/pages/panneaux-solaires/Pricing/PicingCard.tsx",
+    "content": "Batterie solaire"
+  },
+  {
+    "path": "src/components/pages/panneaux-solaires/Pricing/Header.tsx",
+    "content": "className=\"w-full py-16 bg-white\""
+  },
+  {
+    "path": "src/components/pages/panneaux-solaires/Pricing/Header.tsx",
+    "content": "className=\"container mx-auto items-center justify-center flex flex-col text-center space-y-6\""
+  },
+  {
+    "path": "src/components/pages/panneaux-solaires/Pricing/Header.tsx",
+    "content": "className=\"text-blue-600 font-medium\""
+  },
+  {
+    "path": "src/components/pages/panneaux-solaires/Pricing/Header.tsx",
+    "content": "A chacun son offre clé en main"
+  },
+  {
+    "path": "src/components/pages/panneaux-solaires/Pricing/Header.tsx",
+    "content": "className=\"text-3xl w-[80%] md:text-5xl px-10 lg:text-[2.5rem] font-semibold text-slate-900 leading-tight\""
+  },
+  {
+    "path": "src/components/pages/panneaux-solaires/Pricing/Header.tsx",
+    "content": "Des offres de panneaux solaires qui s&apos;adaptent à vos besoins et à votre budget"
+  },
+  {
+    "path": "src/components/pages/panneaux-solaires/Pricing/Header.tsx",
+    "content": "className=\"text-[#000000] w-[77%] px-2 leading-relaxed\""
+  },
+  {
+    "path": "src/components/pages/panneaux-solaires/Pricing/Header.tsx",
+    "content": "Sunrise vous accompagne tout au long de votre projet d&apos;installation de panneaux solaires : dimensionnement de l&apos;installation, négociation des prix, sélection des meilleurs professionnels RGE, contrôle qualité de l&apos;installation. On s&apos;occupe même des démarches administratives pour vous faire bénéficier des aides panneau solaire accordées par l&apos;État !"
+  },
+  {
+    "path": "src/components/pages/panneaux-solaires/Pricing/GetStartButton.tsx",
+    "content": "className=\"w-full flex justify-center items-center\""
+  },
+  {
+    "path": "src/components/pages/panneaux-solaires/Pricing/GetStartButton.tsx",
+    "content": "className=\"\n    group relative inline-flex gap-2 items-center justify-center \n    w-[90%] py-4 bg-[#0b68a4] text-white font-medium rounded-full \n    hover:bg-[#0b68a4]  overflow-hidden\""
+  },
+  {
+    "path": "src/components/pages/panneaux-solaires/Pricing/GetStartButton.tsx",
+    "content": "className=\"text-white text-2xl\""
+  },
+  {
+    "path": "src/components/pages/panneaux-solaires/Pricing/GetStartButton.tsx",
+    "content": "className=\"transition-all duration-500 group-hover:translate-y-[-20px] group-hover:opacity-1\""
+  },
+  {
+    "path": "src/components/pages/panneaux-solaires/Pricing/GetStartButton.tsx",
+    "content": "className=\"absolute transition-all duration-500 opacity-1 group-hover:opacity-100 group-hover:translate-y-0 \""
+  },
+  {
+    "path": "src/components/pages/panneaux-solaires/Pricing/GetStartButton.tsx",
+    "content": "className=\"group relative inline-flex gap-5 items-center justify-center \""
+  },
+  {
+    "path": "src/components/pages/panneaux-solaires/Pricing/GetStartButton.tsx",
+    "content": "className=\"text-white opacity-0 text-2xl\""
+  },
+  {
+    "path": "src/components/pages/panneaux-solaires/Pricing/GetStartButton.tsx",
+    "content": "className=\"\n    group relative inline-flex gap-2 items-center justify-center \n    px-7 py-4 bg-[#fbac18] text-white font-medium rounded-full \n    hover:bg-[#0b68a4] hover:border-[2px] hover:px-[26px] hover:py-[14px] hover:border-[#003366] overflow-hidden\""
+  },
+  {
+    "path": "src/components/pages/panneaux-solaires/Pricing/GetStartButton.tsx",
+    "content": "className=\"text-white text-2xl\""
+  },
+  {
+    "path": "src/components/pages/panneaux-solaires/Pricing/GetStartButton.tsx",
+    "content": "className=\"transition-all duration-500 group-hover:translate-y-[-20px] group-hover:opacity-1\""
+  },
+  {
+    "path": "src/components/pages/panneaux-solaires/Pricing/GetStartButton.tsx",
+    "content": "className=\"absolute transition-all duration-500 opacity-1 group-hover:opacity-100 group-hover:translate-y-0\""
+  },
+  {
+    "path": "src/components/pages/panneaux-solaires/Pricing/GetStartButton.tsx",
+    "content": "className=\"group relative inline-flex gap-5 items-center justify-center \""
+  },
+  {
+    "path": "src/components/pages/panneaux-solaires/Pricing/GetStartButton.tsx",
+    "content": "className=\"text-white opacity-0 text-2xl\""
+  },
+  {
+    "path": "src/components/pages/home/Trust.tsx",
+    "content": "className=\" bg-gray-50 md:px-20 md:py-20 px-5 pb-20 pt-10 flex justify-center flex-col items-center align-middle\""
+  },
+  {
+    "path": "src/components/pages/home/Trust.tsx",
+    "content": "className=\"md:p-5 pb-10 text-[2em] font-bold text-[rgb(4,9,34)]  text-center m-0 box-border flex-grow-0 normal-case\""
+  },
+  {
+    "path": "src/components/pages/home/Trust.tsx",
+    "content": "Ils nous font confiance pour accompagner leur clients"
+  },
+  {
+    "path": "src/components/pages/home/Trust.tsx",
+    "content": "className=\"flex justify-center md:p-5 md:flex-row flex-col items-center gap-5\""
+  },
+  {
+    "path": "src/components/pages/home/Trust.tsx",
+    "content": "src=\"/images/pages/home/Trust/Logos.png\""
+  },
+  {
+    "path": "src/components/pages/home/Trust.tsx",
+    "content": "alt=\"logo Sunrise\""
+  },
+  {
+    "path": "src/components/pages/home/Trust.tsx",
+    "content": "src=\"/images/pages/home/Trust/Logos.png\""
+  },
+  {
+    "path": "src/components/pages/home/Trust.tsx",
+    "content": "alt=\"logo Sunrise\""
+  },
+  {
+    "path": "src/components/pages/home/Numbers.tsx",
+    "content": "className=\"flex flex-col md:flex-row gap-6 md:gap-42 bg-white justify-center items-center py-10 md:py-20 px-4 md:px-0\""
+  },
+  {
+    "path": "src/components/pages/home/Numbers.tsx",
+    "content": "className=\"text-center w-full md:w-58 bg-gray-100 px-6 md:px-10 py-5 max-w-xs\""
+  },
+  {
+    "path": "src/components/pages/home/Numbers.tsx",
+    "content": "className=\"text-[2.5rem] md:text-[3rem] font-normal text-black\""
+  },
+  {
+    "path": "src/components/pages/home/Numbers.tsx",
+    "content": "5"
+  },
+  {
+    "path": "src/components/pages/home/Numbers.tsx",
+    "content": "className=\"text-sm text-black\""
+  },
+  {
+    "path": "src/components/pages/home/Numbers.tsx",
+    "content": "ans d'expertise solaire"
+  },
+  {
+    "path": "src/components/pages/home/Numbers.tsx",
+    "content": "className=\"text-center w-full md:w-58 bg-gray-100 px-6 md:px-10 py-5 max-w-xs\""
+  },
+  {
+    "path": "src/components/pages/home/Numbers.tsx",
+    "content": "className=\"text-[2.5rem] md:text-[3rem] font-normal text-black\""
+  },
+  {
+    "path": "src/components/pages/home/Numbers.tsx",
+    "content": "3000"
+  },
+  {
+    "path": "src/components/pages/home/Numbers.tsx",
+    "content": "className=\"text-sm text-black\""
+  },
+  {
+    "path": "src/components/pages/home/Numbers.tsx",
+    "content": "installation solaires réalisées"
+  },
+  {
+    "path": "src/components/pages/home/Numbers.tsx",
+    "content": "className=\"text-center w-full md:w-58 bg-gray-100 px-6 md:px-10 py-5 max-w-xs\""
+  },
+  {
+    "path": "src/components/pages/home/Numbers.tsx",
+    "content": "className=\"text-[2.5rem] md:text-[3rem] font-normal text-black\""
+  },
+  {
+    "path": "src/components/pages/home/Numbers.tsx",
+    "content": "38571"
+  },
+  {
+    "path": "src/components/pages/home/Numbers.tsx",
+    "content": "className=\"text-sm text-black\""
+  },
+  {
+    "path": "src/components/pages/home/Numbers.tsx",
+    "content": "panneaux solaires installés"
+  },
+  {
+    "path": "src/components/pages/home/Hero.tsx",
+    "content": "className=\"relative md:h-[512px] h-[575px] z-0 p-0 m-0 w-full flex items-center justify-center bg-cover bg-center\""
+  },
+  {
+    "path": "src/components/pages/home/Hero.tsx",
+    "content": "src=\"/images/pages/home/Hero.png\""
+  },
+  {
+    "path": "src/components/pages/home/Hero.tsx",
+    "content": "alt=\"Hero\""
+  },
+  {
+    "path": "src/components/pages/home/Hero.tsx",
+    "content": "className=\"absolute inset-0 bg-[#00061b] opacity-40\""
+  },
+  {
+    "path": "src/components/pages/home/Hero.tsx",
+    "content": "className=\"relative container p-0 m-0 md:w-[75%] w-[90%] flex items-center text-white\""
+  },
+  {
+    "path": "src/components/pages/home/Hero.tsx",
+    "content": "className=\" w-[80%] flex flex-col gap-[2rem] md:gap-[4.5rem] mb-5\""
+  },
+  {
+    "path": "src/components/pages/home/Hero.tsx",
+    "content": "className=\"text-6xl p-0 m-0 text-[2.3rem] md:text-[3.30rem] w-[17rem] md:w-auto font-semibold\""
+  },
+  {
+    "path": "src/components/pages/home/Hero.tsx",
+    "content": "La seule offre solaire"
+  },
+  {
+    "path": "src/components/pages/home/Hero.tsx",
+    "content": "avec garantie d'économies incluse"
+  },
+  {
+    "path": "src/components/pages/home/Hero.tsx",
+    "content": "text=\"Prendre RDV avec un expert solaire\""
+  },
+  {
+    "path": "src/components/pages/home/Hero.tsx",
+    "content": "href=\"demande-devis-panneau-solaire\""
+  },
+  {
+    "path": "src/components/pages/home/Hero.tsx",
+    "content": "Gratuit et sans engagement"
+  },
+  {
+    "path": "src/components/pages/home/Guarantees.tsx",
+    "content": "className=\"relative md:h-[850px] h-[1400px]\""
+  },
+  {
+    "path": "src/components/pages/home/Guarantees.tsx",
+    "content": "className=\"relative h-full py-16 bg-blue-800 text-white overflow-hidden\""
+  },
+  {
+    "path": "src/components/pages/home/Guarantees.tsx",
+    "content": "className=\"relative z-10 container mx-auto px-4\""
+  },
+  {
+    "path": "src/components/pages/home/Guarantees.tsx",
+    "content": "className=\"md:text-5xl text-4xl md:px-50 py-10 font-bold mb-12 text-center\""
+  },
+  {
+    "path": "src/components/pages/home/Guarantees.tsx",
+    "content": "Profitez de garanties complémentaires exclusives Sunrise"
+  },
+  {
+    "path": "src/components/pages/home/Guarantees.tsx",
+    "content": "className=\"grid md:grid-cols-3 gap-14 max-w-6xl mx-auto\""
+  },
+  {
+    "path": "src/components/pages/home/Guarantees.tsx",
+    "content": "className=\"absolute bottom-0 left-0 hidden md:block w-full z-10\""
+  },
+  {
+    "path": "src/components/pages/home/Guarantees.tsx",
+    "content": "className=\"absolute inset-0 w-full md:h-[821.344px] h-[1400px] bg-cover bg-center bg-fixed\""
+  },
+  {
+    "path": "src/components/pages/home/Guarantees.tsx",
+    "content": "className=\"absolute inset-0 h-full\""
+  },
+  {
+    "path": "src/components/pages/home/Guarantees.tsx",
+    "content": "className=\"font-bold text-lg mb-4 text-gray-800 px-4\""
+  },
+  {
+    "path": "src/components/pages/home/Guarantees.tsx",
+    "content": "className=\"text-gray-600 mb-4 px-2\""
+  },
+  {
+    "path": "src/components/pages/home/Guarantees.tsx",
+    "content": "xmlns=\"http://www.w3.org/2000/svg\""
+  },
+  {
+    "path": "src/components/pages/home/Guarantees.tsx",
+    "content": "viewBox=\"0 0 1440 320\""
+  },
+  {
+    "path": "src/components/pages/home/Guarantees.tsx",
+    "content": "preserveAspectRatio=\"none\""
+  },
+  {
+    "path": "src/components/pages/home/Guarantees.tsx",
+    "content": "className=\"w-full h-[200px]\""
+  },
+  {
+    "path": "src/components/pages/home/Guarantees.tsx",
+    "content": "xmlnsXlink=\"http://www.w3.org/1999/xlink\""
+  },
+  {
+    "path": "src/components/pages/home/Guarantees.tsx",
+    "content": "transform=\"matrix(-1,0,0,1,0,0)\""
+  },
+  {
+    "path": "src/components/pages/home/Guarantees.tsx",
+    "content": "fill=\"#ffffff\""
+  },
+  {
+    "path": "src/components/pages/home/Guarantees.tsx",
+    "content": "d=\"M0,0 C0,0 0 ,0 0,200 C990,0 1000,100 1500,250 L1500,5000 L0,320 Z\""
+  },
+  {
+    "path": "src/components/pages/home/Features.tsx",
+    "content": "className=\"w-full md:py-24 py-10  px-4 border-none bg-white\""
+  },
+  {
+    "path": "src/components/pages/home/Features.tsx",
+    "content": "className=\"border-none mx-auto\""
+  },
+  {
+    "path": "src/components/pages/home/Features.tsx",
+    "content": "className=\"grid relative grid-cols-1 md:grid-cols-3 border-none gap-14\""
+  },
+  {
+    "path": "src/components/pages/home/Features.tsx",
+    "content": "title=\"Des prix bas pour tous et sans compromis sur la qualité\""
+  },
+  {
+    "path": "src/components/pages/home/Features.tsx",
+    "content": "description=\"Panneaux solaires dernière génération, batterie, gestionnaire d'énergie intelligent, interface de gestion et de pilotage... concevez l'installation de vos rêves.\""
+  },
+  {
+    "path": "src/components/pages/home/Features.tsx",
+    "content": "linkText=\"Nos offres\""
+  },
+  {
+    "path": "src/components/pages/home/Features.tsx",
+    "content": "linkHref=\"#offers\""
+  },
+  {
+    "path": "src/components/pages/home/Features.tsx",
+    "content": "title=\"Des techniciens locaux RGE notés à chaque pose de panneaux solaires\""
+  },
+  {
+    "path": "src/components/pages/home/Features.tsx",
+    "content": "description=\"Ont été sélectionnés les installateurs offrant les meilleures garanties pour vous faire bénéficier d'une installation de haute qualité.\""
+  },
+  {
+    "path": "src/components/pages/home/Features.tsx",
+    "content": "linkHref=\"#quality\""
+  },
+  {
+    "path": "src/components/pages/home/Features.tsx",
+    "content": "className=\"flex items-center justify-center\""
+  },
+  {
+    "path": "src/components/pages/home/Features.tsx",
+    "content": "src=\"https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_92x30dp.png\""
+  },
+  {
+    "path": "src/components/pages/home/Features.tsx",
+    "content": "alt=\"Google\""
+  },
+  {
+    "path": "src/components/pages/home/Features.tsx",
+    "content": "title=\"De fortes garanties incluses pour être serein à chaque étape\""
+  },
+  {
+    "path": "src/components/pages/home/Features.tsx",
+    "content": "description=\"Pendant 10 ans, si vous ne faites pas les économies promises, on vous rembourse la différence. En cas de difficultés, on vous accompagne jusqu'à 5 ans.\""
+  },
+  {
+    "path": "src/components/pages/home/Features.tsx",
+    "content": "linkText=\"Nos garanties\""
+  },
+  {
+    "path": "src/components/pages/home/Features.tsx",
+    "content": "linkHref=\"#guarantees\""
+  },
+  {
+    "path": "src/components/pages/home/CTA.tsx",
+    "content": "Loading video..."
+  },
+  {
+    "path": "src/components/pages/home/CTA.tsx",
+    "content": "className=\"relative w-full md:h-[615px] h-[1100px] flex items-center justify-center overflow-hidden\""
+  },
+  {
+    "path": "src/components/pages/home/CTA.tsx",
+    "content": "className=\"relative z-10 flex flex-col md:flex-row gap-[50px] text-white text-center items-start justify-center md:max-w-[1200px]  w-full px-4\""
+  },
+  {
+    "path": "src/components/pages/home/CTA.tsx",
+    "content": "className=\"animate-fade-in w-[100%] flex \""
+  },
+  {
+    "path": "src/components/pages/home/CTA.tsx",
+    "content": "url=\"https://youtu.be/y4iMWlxVKDA\""
+  },
+  {
+    "path": "src/components/pages/home/CTA.tsx",
+    "content": "width=\"504px\""
+  },
+  {
+    "path": "src/components/pages/home/CTA.tsx",
+    "content": "height=\"283px\""
+  },
+  {
+    "path": "src/components/pages/home/CTA.tsx",
+    "content": "title=\"Solar Panel Installation Video\""
+  },
+  {
+    "path": "src/components/pages/home/CTA.tsx",
+    "content": "className=\"absolute inset-0 w-full h-full bg-cover bg-center bg-fixed\""
+  },
+  {
+    "path": "src/components/pages/home/CTA.tsx",
+    "content": "className=\"absolute inset-0 bg-[#0042ff]/61\""
+  },
+  {
+    "path": "src/components/pages/home/CTA.tsx",
+    "content": "className=\"absolute inset-0 bg-[#000000]/80\""
+  },
+  {
+    "path": "src/components/pages/home/CTA.tsx",
+    "content": "className=\"animate-fade-in-up flex max-w-[600px] flex-col gap-10 text-left\""
+  },
+  {
+    "path": "src/components/pages/home/CTA.tsx",
+    "content": "className=\"text-4xl font-medium leading-tight text-shadow\""
+  },
+  {
+    "path": "src/components/pages/home/CTA.tsx",
+    "content": "Achetez sans risque une installation de panneaux solaires performante\n        100% garantie"
+  },
+  {
+    "path": "src/components/pages/home/Blog.tsx",
+    "content": "className=\"py-8 md:pb-14 px-4 md:px-8 lg:px-50 bg-white\""
+  },
+  {
+    "path": "src/components/pages/home/Blog.tsx",
+    "content": "className=\"text-3xl md:text-4xl font-bold text-center text-gray-900 mb-4\""
+  },
+  {
+    "path": "src/components/pages/home/Blog.tsx",
+    "content": "Actualités et Conseils"
+  },
+  {
+    "path": "src/components/pages/home/Blog.tsx",
+    "content": "className=\"text-center text-gray-700 mb-8 md:mb-16 max-w-4xl mx-auto px-4\""
+  },
+  {
+    "path": "src/components/pages/home/Blog.tsx",
+    "content": "Pour tout savoir sur le photovoltaïque pour les particuliers et les\n        professionnels, découvrez nos dernières actualités"
+  },
+  {
+    "path": "src/components/pages/home/Blog.tsx",
+    "content": "className=\"grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 md:gap-8 max-w-7xl mx-auto\""
+  },
+  {
+    "path": "src/components/pages/home/Blog.tsx",
+    "content": "className=\"flex flex-col bg-white rounded-lg overflow-hidden\""
+  },
+  {
+    "path": "src/components/pages/home/Blog.tsx",
+    "content": "className=\"mb-3 md:mb-4 overflow-hidden\""
+  },
+  {
+    "path": "src/components/pages/home/Blog.tsx",
+    "content": "className=\"object-cover w-full h-48 md:h-64 transition-transform hover:scale-105 duration-300\""
+  },
+  {
+    "path": "src/components/pages/home/Blog.tsx",
+    "content": "className=\"flex flex-wrap gap-1 mb-2 px-2 md:px-0\""
+  },
+  {
+    "path": "src/components/pages/home/Blog.tsx",
+    "content": "className=\"flex items-center\""
+  },
+  {
+    "path": "src/components/pages/home/Blog.tsx",
+    "content": "className=\"mx-1 text-blue-600\""
+  },
+  {
+    "path": "src/components/pages/home/Blog.tsx",
+    "content": "/"
+  },
+  {
+    "path": "src/components/pages/home/Blog.tsx",
+    "content": "className=\"text-blue-600 text-sm hover:underline\""
+  },
+  {
+    "path": "src/components/pages/home/Blog.tsx",
+    "content": "className=\"text-lg md:text-xl font-bold text-gray-900 mb-3 px-2 md:px-0 line-clamp-2\""
+  },
+  {
+    "path": "src/components/pages/home/Blog.tsx",
+    "content": "className=\"text-blue-600 font-medium border-b-2 border-blue-600 pb-0.5 w-fit hover:border-blue-800 hover:text-blue-800 mt-auto mx-2 md:mx-0 mb-3\""
+  },
+  {
+    "path": "src/components/pages/home/Blog.tsx",
+    "content": "Lire l'article"
+  },
+  {
+    "path": "src/components/pages/home/Blog.tsx",
+    "content": "className=\"w-full text-black text-[10px] mt-6 px-4 md:px-0 max-w-7xl mx-auto\""
+  },
+  {
+    "path": "src/components/pages/home/Blog.tsx",
+    "content": "*Délai moyen d'installation de centrales solaires Sunrise après\n        signature de devis constaté entre le 01/01/2023 et le 30/05/2023, hors\n        délai de raccordement et de conformité Consuel"
+  },
+  {
+    "path": "src/components/pages/home/About.tsx",
+    "content": "className=\"bg-white flex justify-center py-10 md:py-20 w-full\""
+  },
+  {
+    "path": "src/components/pages/home/About.tsx",
+    "content": "className=\" mx-auto px-4 md:px-6 flex flex-col md:flex-row items-center gap-6 md:gap-10\""
+  },
+  {
+    "path": "src/components/pages/home/About.tsx",
+    "content": "className=\"flex flex-col space-y-4 md:space-y-6 md:max-w-[35rem]\""
+  },
+  {
+    "path": "src/components/pages/home/About.tsx",
+    "content": "className=\"text-[28px] md:text-[40px] font-bold text-[#040922] leading-tight md:leading-[50px] font-['Lato',_Arial,_Helvetica,_sans-serif]\""
+  },
+  {
+    "path": "src/components/pages/home/About.tsx",
+    "content": "Sunrise France ; le leader du solaire intelligent depuis 2019"
+  },
+  {
+    "path": "src/components/pages/home/About.tsx",
+    "content": "className=\"text-gray-800\""
+  },
+  {
+    "path": "src/components/pages/home/About.tsx",
+    "content": "Sunrise est un acteur de référence dans les énergies renouvelables\n            avec plus de 3000 installations photovoltaïques réalisées en France.\n            Nous nous sommes donnés pour objectif de rendre le solaire\n            accessible à tous, en offrant le meilleur compromis entre prix,\n            rentabilité et performance."
+  },
+  {
+    "path": "src/components/pages/home/About.tsx",
+    "content": "className=\"pt-2\""
+  },
+  {
+    "path": "src/components/pages/home/About.tsx",
+    "content": "text=\"En savoir plus\""
+  },
+  {
+    "path": "src/components/pages/home/About.tsx",
+    "content": "href=\"/solutions-photovoltaiques\""
+  },
+  {
+    "path": "src/components/pages/home/About.tsx",
+    "content": "className=\"w-full md:w-[550px]\""
+  },
+  {
+    "path": "src/components/pages/home/About.tsx",
+    "content": "src=\"/images/pages/home/About.jpeg\""
+  },
+  {
+    "path": "src/components/pages/home/About.tsx",
+    "content": "alt=\"Solar panels on roof\""
+  },
+  {
+    "path": "src/components/pages/home/About.tsx",
+    "content": "className=\"w-full h-auto rounded-lg\""
+  },
+  {
+    "path": "src/components/pages/home/Pricing/PicingCard.tsx",
+    "content": "className=\"w-full py-12 px-4 bg-white\""
+  },
+  {
+    "path": "src/components/pages/home/Pricing/PicingCard.tsx",
+    "content": "className=\"container mx-auto max-w-6xl grid md:grid-cols-2 gap-8\""
+  },
+  {
+    "path": "src/components/pages/home/Pricing/PicingCard.tsx",
+    "content": "className=\"flex flex-col h-full\""
+  },
+  {
+    "path": "src/components/pages/home/Pricing/PicingCard.tsx",
+    "content": "className=\"text-center mb-4\""
+  },
+  {
+    "path": "src/components/pages/home/Pricing/PicingCard.tsx",
+    "content": "className=\"text-blue-600 font-medium\""
+  },
+  {
+    "path": "src/components/pages/home/Pricing/PicingCard.tsx",
+    "content": "className=\"text-center mb-4\""
+  },
+  {
+    "path": "src/components/pages/home/Pricing/PicingCard.tsx",
+    "content": "className=\"font-bold text-xl\""
+  },
+  {
+    "path": "src/components/pages/home/Pricing/PicingCard.tsx",
+    "content": "className=\"text-gray-800\""
+  },
+  {
+    "path": "src/components/pages/home/Pricing/PicingCard.tsx",
+    "content": "À partir de"
+  },
+  {
+    "path": "src/components/pages/home/Pricing/PicingCard.tsx",
+    "content": "className=\"text-blue-600 text-2xl\""
+  },
+  {
+    "path": "src/components/pages/home/Pricing/PicingCard.tsx",
+    "content": "className=\"text-sm text-gray-600 mt-1\""
+  },
+  {
+    "path": "src/components/pages/home/Pricing/PicingCard.tsx",
+    "content": "Livré et posé - Aides déduites"
+  },
+  {
+    "path": "src/components/pages/home/Pricing/PicingCard.tsx",
+    "content": "className=\"text-center text-sm font-medium text-orange-600 my-4\""
+  },
+  {
+    "path": "src/components/pages/home/Pricing/PicingCard.tsx",
+    "content": "className=\"flex justify-center items-center my-6 relative w-full h-64\""
+  },
+  {
+    "path": "src/components/pages/home/Pricing/PicingCard.tsx",
+    "content": "className=\" object-contain\""
+  },
+  {
+    "path": "src/components/pages/home/Pricing/PicingCard.tsx",
+    "content": "text=\"Découvrir l'offre\""
+  },
+  {
+    "path": "src/components/pages/home/Pricing/PicingCard.tsx",
+    "content": "href=\"/\""
+  },
+  {
+    "path": "src/components/pages/home/Pricing/PicingCard.tsx",
+    "content": "className=\"mt-6 space-y-3\""
+  },
+  {
+    "path": "src/components/pages/home/Pricing/PicingCard.tsx",
+    "content": "className=\"flex items-start gap-2\""
+  },
+  {
+    "path": "src/components/pages/home/Pricing/PicingCard.tsx",
+    "content": "className=\"h-5 w-5 text-green-500 flex-shrink-0 mt-0.5\""
+  },
+  {
+    "path": "src/components/pages/home/Pricing/PicingCard.tsx",
+    "content": "className=\"text-sm text-gray-700\""
+  },
+  {
+    "path": "src/components/pages/home/Pricing/PicingCard.tsx",
+    "content": "className=\"mt-6 pt-4 text-center\""
+  },
+  {
+    "path": "src/components/pages/home/Pricing/PicingCard.tsx",
+    "content": "className=\"font-medium text-sm text-blue-800\""
+  },
+  {
+    "path": "src/components/pages/home/Pricing/PicingCard.tsx",
+    "content": "Options disponibles sur demande"
+  },
+  {
+    "path": "src/components/pages/home/Pricing/PicingCard.tsx",
+    "content": "className=\"flex items-center justify-center gap-2 mt-3\""
+  },
+  {
+    "path": "src/components/pages/home/Pricing/PicingCard.tsx",
+    "content": "className=\"w-3 h-3 rounded-full bg-gray-300\""
+  },
+  {
+    "path": "src/components/pages/home/Pricing/PicingCard.tsx",
+    "content": "className=\"text-sm text-gray-600\""
+  },
+  {
+    "path": "src/components/pages/home/Pricing/PicingCard.tsx",
+    "content": "Batterie solaire"
+  },
+  {
+    "path": "src/components/pages/home/Pricing/Header.tsx",
+    "content": "className=\"w-full py-16 bg-white\""
+  },
+  {
+    "path": "src/components/pages/home/Pricing/Header.tsx",
+    "content": "className=\"container mx-auto items-center justify-center flex flex-col text-center space-y-6\""
+  },
+  {
+    "path": "src/components/pages/home/Pricing/Header.tsx",
+    "content": "className=\"text-blue-600 font-medium\""
+  },
+  {
+    "path": "src/components/pages/home/Pricing/Header.tsx",
+    "content": "A chacun son offre clé en main"
+  },
+  {
+    "path": "src/components/pages/home/Pricing/Header.tsx",
+    "content": "className=\"text-3xl w-[80%] md:text-5xl px-10 lg:text-[2.5rem] font-semibold text-slate-900 leading-tight\""
+  },
+  {
+    "path": "src/components/pages/home/Pricing/Header.tsx",
+    "content": "Des offres de panneaux solaires qui s&apos;adaptent à vos besoins et à votre budget"
+  },
+  {
+    "path": "src/components/pages/home/Pricing/Header.tsx",
+    "content": "className=\"text-[#000000] w-[77%] px-2 leading-relaxed\""
+  },
+  {
+    "path": "src/components/pages/home/Pricing/Header.tsx",
+    "content": "Sunrise vous accompagne tout au long de votre projet d&apos;installation de panneaux solaires : dimensionnement de l&apos;installation, négociation des prix, sélection des meilleurs professionnels RGE, contrôle qualité de l&apos;installation. On s&apos;occupe même des démarches administratives pour vous faire bénéficier des aides panneau solaire accordées par l&apos;État !"
+  },
+  {
+    "path": "src/components/pages/home/Pricing/GetStartButton.tsx",
+    "content": "className=\"w-full flex justify-center items-center\""
+  },
+  {
+    "path": "src/components/pages/home/Pricing/GetStartButton.tsx",
+    "content": "className=\"\n    group relative inline-flex gap-2 items-center justify-center \n    w-[90%] py-4 bg-[#0b68a4] text-white font-medium rounded-full \n    hover:bg-[#0b68a4]  overflow-hidden\""
+  },
+  {
+    "path": "src/components/pages/home/Pricing/GetStartButton.tsx",
+    "content": "className=\"text-white text-2xl\""
+  },
+  {
+    "path": "src/components/pages/home/Pricing/GetStartButton.tsx",
+    "content": "className=\"transition-all duration-500 group-hover:translate-y-[-20px] group-hover:opacity-1\""
+  },
+  {
+    "path": "src/components/pages/home/Pricing/GetStartButton.tsx",
+    "content": "className=\"absolute transition-all duration-500 opacity-1 group-hover:opacity-100 group-hover:translate-y-0 \""
+  },
+  {
+    "path": "src/components/pages/home/Pricing/GetStartButton.tsx",
+    "content": "className=\"group relative inline-flex gap-5 items-center justify-center \""
+  },
+  {
+    "path": "src/components/pages/home/Pricing/GetStartButton.tsx",
+    "content": "className=\"text-white opacity-0 text-2xl\""
+  },
+  {
+    "path": "src/components/pages/home/Pricing/GetStartButton.tsx",
+    "content": "className=\"\n    group relative inline-flex gap-2 items-center justify-center \n    px-7 py-4 bg-[#fbac18] text-white font-medium rounded-full \n    hover:bg-[#0b68a4] hover:border-[2px] hover:px-[26px] hover:py-[14px] hover:border-[#003366] overflow-hidden\""
+  },
+  {
+    "path": "src/components/pages/home/Pricing/GetStartButton.tsx",
+    "content": "className=\"text-white text-2xl\""
+  },
+  {
+    "path": "src/components/pages/home/Pricing/GetStartButton.tsx",
+    "content": "className=\"transition-all duration-500 group-hover:translate-y-[-20px] group-hover:opacity-1\""
+  },
+  {
+    "path": "src/components/pages/home/Pricing/GetStartButton.tsx",
+    "content": "className=\"absolute transition-all duration-500 opacity-1 group-hover:opacity-100 group-hover:translate-y-0\""
+  },
+  {
+    "path": "src/components/pages/home/Pricing/GetStartButton.tsx",
+    "content": "className=\"group relative inline-flex gap-5 items-center justify-center \""
+  },
+  {
+    "path": "src/components/pages/home/Pricing/GetStartButton.tsx",
+    "content": "className=\"text-white opacity-0 text-2xl\""
+  },
+  {
+    "path": "src/components/pages/home/Hero/GetStartButton.tsx",
+    "content": "className=\"\n    group  inline-flex gap-2 items-center justify-center \n     bg-[#fbac18]/75 text-white w-[90vw] rounded-full  md:w-auto\n    border-[3px] font-[650] border-[#ffffff]/75 hover:bg-[#fbac18]/100 hover:border-[#ffffff]/100 \n    overflow-hidden\n  \""
+  },
+  {
+    "path": "src/components/pages/home/Hero/GetStartButton.tsx",
+    "content": "className=\"text-white md:text-2xl text-3xl \""
+  },
+  {
+    "path": "src/components/pages/home/Hero/GetStartButton.tsx",
+    "content": "className=\"transition-all md:font-[650] font-[600] md:text-[20px] text-[18px]  opacity-100  duration-500 group-hover:translate-y-[-20px] group-hover:opacity-1\""
+  },
+  {
+    "path": "src/components/pages/home/Hero/GetStartButton.tsx",
+    "content": "className=\"absolute transition-all md:font-[650] font-[600] md:text-[20px] text-[18px] duration-500 opacity-1 group-hover:opacity-100 group-hover:translate-y-0 translate-x-[16px]\""
+  },
+  {
+    "path": "src/components/pages/home/Features/Stars.tsx",
+    "content": "className=\"flex items-center justify-center\""
+  },
+  {
+    "path": "src/components/pages/home/Features/Stars.tsx",
+    "content": "fill=\"currentColor\""
+  },
+  {
+    "path": "src/components/pages/home/Features/Stars.tsx",
+    "content": "viewBox=\"0 0 20 20\""
+  },
+  {
+    "path": "src/components/pages/home/Features/Stars.tsx",
+    "content": "xmlns=\"http://www.w3.org/2000/svg\""
+  },
+  {
+    "path": "src/components/pages/home/Features/Stars.tsx",
+    "content": "d=\"M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z\""
+  },
+  {
+    "path": "src/components/pages/home/Features/FeatureCard.tsx",
+    "content": "className=\"flex border-none flex-col gap-5 h-70 justify-center item-center text-center\""
+  },
+  {
+    "path": "src/components/pages/home/Features/FeatureCard.tsx",
+    "content": "className=\"flex flex-col gap-5 justify-around h-70 item-center\""
+  },
+  {
+    "path": "src/components/pages/home/Features/FeatureCard.tsx",
+    "content": "className=\"text-black text-[1.35rem] flex min-h-[5rem] items-start text-start justify-start leading-tight\""
+  },
+  {
+    "path": "src/components/pages/home/Features/FeatureCard.tsx",
+    "content": "className=\"text-[#31394a]  mt-[-30px] text-[1.05rem] flex item-center  mb-4 text-start\""
+  },
+  {
+    "path": "src/components/pages/home/Features/FeatureCard.tsx",
+    "content": "className=\"flex justify-center items-center\""
+  },
+  {
+    "path": "src/components/pages/home/Features/FeatureCard.tsx",
+    "content": "className=\"ml-2 h-4 w-4 transition-transform group-hover:translate-x-1\""
+  },
+  {
+    "path": "src/components/pages/home/Features/FeatureCard.tsx",
+    "content": "className=\"ml-2 h-4 w-4 transition-transform group-hover:translate-x-1\""
+  },
+  {
+    "path": "src/components/pages/home/CTA/FeatureList.tsx",
+    "content": "className=\"space-y-6 \""
+  },
+  {
+    "path": "src/components/pages/home/CTA/FeatureList.tsx",
+    "content": "className=\"flex-shrink-0 mt-1\""
+  },
+  {
+    "path": "src/components/pages/home/CTA/FeatureList.tsx",
+    "content": "className=\"h-5 w-5 text-solar-accent\""
+  },
+  {
+    "path": "src/components/pages/home/CTA/FeatureList.tsx",
+    "content": "className=\"text-base text-white/90\""
+  },
+  {
+    "path": "src/components/pages/home/About/GetStartButton.tsx",
+    "content": "className=\"\n    group relative inline-flex gap-2 items-center justify-center \n    px-7 py-4 bg-[#fbac18] text-white font-medium rounded-full \n    hover:bg-[#0b68a4] hover:border-[2px] hover:px-[26px] hover:py-[14px] hover:border-[#003366] overflow-hidden\""
+  },
+  {
+    "path": "src/components/pages/home/About/GetStartButton.tsx",
+    "content": "className=\"text-white text-2xl\""
+  },
+  {
+    "path": "src/components/pages/home/About/GetStartButton.tsx",
+    "content": "className=\"transition-all duration-500 group-hover:translate-y-[-20px] group-hover:opacity-1\""
+  },
+  {
+    "path": "src/components/pages/home/About/GetStartButton.tsx",
+    "content": "className=\"absolute transition-all duration-500 opacity-1 group-hover:opacity-100 group-hover:translate-y-0\""
+  },
+  {
+    "path": "src/components/pages/home/About/GetStartButton.tsx",
+    "content": "className=\"group relative inline-flex gap-2 items-center justify-center \""
+  },
+  {
+    "path": "src/components/pages/home/About/GetStartButton.tsx",
+    "content": "className=\"text-white opacity-0 text-2xl\""
+  },
+  {
+    "path": "src/components/pages/garanties/Team.tsx",
+    "content": "className=\"w-full py-16 md:py-24 relative\""
+  },
+  {
+    "path": "src/components/pages/garanties/Team.tsx",
+    "content": "className=\"container mx-auto px-4 md:px-6\""
+  },
+  {
+    "path": "src/components/pages/garanties/Team.tsx",
+    "content": "className=\"flex flex-wrap items-center\""
+  },
+  {
+    "path": "src/components/pages/garanties/Team.tsx",
+    "content": "className=\"w-full mt-16 mb-5\""
+  },
+  {
+    "path": "src/components/pages/garanties/Team.tsx",
+    "content": "initial=\"hidden\""
+  },
+  {
+    "path": "src/components/pages/garanties/Team.tsx",
+    "content": "className=\"text-3xl md:text-4xl font-bold text-white mb-8 md:w-[70%]\""
+  },
+  {
+    "path": "src/components/pages/garanties/Team.tsx",
+    "content": "Une équipe engagée dédiée à votre projet"
+  },
+  {
+    "path": "src/components/pages/garanties/Team.tsx",
+    "content": "className=\"hidden md:block text-white md:w-[60%] mb-8\""
+  },
+  {
+    "path": "src/components/pages/garanties/Team.tsx",
+    "content": "Tout au long du projet, vous êtes accompagnés par un expert en énergie solaire et un responsable des\n                démarches administratives. Notre mission sera la réalisation de votre installation photovoltaïque."
+  },
+  {
+    "path": "src/components/pages/garanties/Team.tsx",
+    "content": "className=\"w-full md:w-1/2 mb-16 mt-5\""
+  },
+  {
+    "path": "src/components/pages/garanties/Team.tsx",
+    "content": "initial=\"hidden\""
+  },
+  {
+    "path": "src/components/pages/garanties/Team.tsx",
+    "content": "className=\"bg-white bg-opacity-90 p-6 rounded-sm shadow-sm\""
+  },
+  {
+    "path": "src/components/pages/garanties/Team.tsx",
+    "content": "className=\"text-gray-900\""
+  },
+  {
+    "path": "src/components/pages/garanties/Team.tsx",
+    "content": "Nous nous engageons par contrat à :"
+  },
+  {
+    "path": "src/components/pages/garanties/Team.tsx",
+    "content": "className=\"list-disc pl-5 mt-2 space-y-2\""
+  },
+  {
+    "path": "src/components/pages/garanties/Team.tsx",
+    "content": "Obtenir toutes les autorisations administratives nécessaires à la réalisation de votre installation"
+  },
+  {
+    "path": "src/components/pages/garanties/Team.tsx",
+    "content": "Vous fournir une installation photovoltaïque impeccable"
+  },
+  {
+    "path": "src/components/pages/garanties/Team.tsx",
+    "content": "Assurer le raccordement des panneaux solaires"
+  },
+  {
+    "path": "src/components/pages/garanties/Team.tsx",
+    "content": "A renseigner la déclaration attestant de l&apos;achèvement et de la conformité de\n                    l&apos;installation"
+  },
+  {
+    "path": "src/components/pages/garanties/Steps.tsx",
+    "content": "className=\"container mx-auto px-4 py-12\""
+  },
+  {
+    "path": "src/components/pages/garanties/Steps.tsx",
+    "content": "className=\"grid grid-cols-1 md:grid-cols-3 gap-8\""
+  },
+  {
+    "path": "src/components/pages/garanties/Steps.tsx",
+    "content": "className=\"flex flex-col items-center text-center\""
+  },
+  {
+    "path": "src/components/pages/garanties/Steps.tsx",
+    "content": "src=\"/images/pages/garanties/Steps.jpeg\""
+  },
+  {
+    "path": "src/components/pages/garanties/Steps.tsx",
+    "content": "alt=\"RGE Logo\""
+  },
+  {
+    "path": "src/components/pages/garanties/Steps.tsx",
+    "content": "className=\"mb-6\""
+  },
+  {
+    "path": "src/components/pages/garanties/Steps.tsx",
+    "content": "className=\"text-xl font-semibold mb-4\""
+  },
+  {
+    "path": "src/components/pages/garanties/Steps.tsx",
+    "content": "Certification RGE"
+  },
+  {
+    "path": "src/components/pages/garanties/Steps.tsx",
+    "content": "className=\"text-gray-700\""
+  },
+  {
+    "path": "src/components/pages/garanties/Steps.tsx",
+    "content": "Tous nos techniciens détiennent la certification RGE afin de vous\n            faire bénéficier des aides d'État et de vous offrir la meilleure\n            qualité de pose possible"
+  },
+  {
+    "path": "src/components/pages/garanties/Steps.tsx",
+    "content": "className=\"flex flex-col items-center text-center\""
+  },
+  {
+    "path": "src/components/pages/garanties/Steps.tsx",
+    "content": "className=\"mb-6 text-[#4b3479]\""
+  },
+  {
+    "path": "src/components/pages/garanties/Steps.tsx",
+    "content": "className=\"text-xl font-semibold mb-4\""
+  },
+  {
+    "path": "src/components/pages/garanties/Steps.tsx",
+    "content": "Assurance décennale"
+  },
+  {
+    "path": "src/components/pages/garanties/Steps.tsx",
+    "content": "className=\"text-gray-700\""
+  },
+  {
+    "path": "src/components/pages/garanties/Steps.tsx",
+    "content": "Pendant les 10 années suivant l'installation, seront réparés tous\n            dommages qui n'étaient pas décelables lors de la réception des\n            travaux et qui compromettraient la solidité du bâti ou qui le\n            rendraient inhabitable ou impropre à son usage"
+  },
+  {
+    "path": "src/components/pages/garanties/Steps.tsx",
+    "content": "className=\"flex flex-col items-center text-center\""
+  },
+  {
+    "path": "src/components/pages/garanties/Steps.tsx",
+    "content": "className=\"mb-6 text-[#4b3479]\""
+  },
+  {
+    "path": "src/components/pages/garanties/Steps.tsx",
+    "content": "className=\"text-xl font-semibold mb-4\""
+  },
+  {
+    "path": "src/components/pages/garanties/Steps.tsx",
+    "content": "Visites de contrôle"
+  },
+  {
+    "path": "src/components/pages/garanties/Steps.tsx",
+    "content": "className=\"text-gray-700\""
+  },
+  {
+    "path": "src/components/pages/garanties/Steps.tsx",
+    "content": "Nos équipes contrôlent aléatoirement la qualité des installations\n            réalisées et interrogent systématiquement les clients 1 mois après\n            la mise en service pour connaître leur satisfaction."
+  },
+  {
+    "path": "src/components/pages/garanties/ShowCase.tsx",
+    "content": "className=\"w-full flex justify-start items-center\""
+  },
+  {
+    "path": "src/components/pages/garanties/ShowCase.tsx",
+    "content": "className=\"\n    group relative inline-flex  items-center justify-center \n    px-7 py-4 bg-[#fbac18] text-white font-medium rounded-full \n    hover:bg-[#fba01a]  overflow-hidden\""
+  },
+  {
+    "path": "src/components/pages/garanties/ShowCase.tsx",
+    "content": "className=\"transition-all duration-500 group-hover:translate-y-[-100%] group-hover:opacity-1\""
+  },
+  {
+    "path": "src/components/pages/garanties/ShowCase.tsx",
+    "content": "xmlns=\"http://www.w3.org/2000/svg\""
+  },
+  {
+    "path": "src/components/pages/garanties/ShowCase.tsx",
+    "content": "width=\"24\""
+  },
+  {
+    "path": "src/components/pages/garanties/ShowCase.tsx",
+    "content": "height=\"24\""
+  },
+  {
+    "path": "src/components/pages/garanties/ShowCase.tsx",
+    "content": "viewBox=\"0 0 24 24\""
+  },
+  {
+    "path": "src/components/pages/garanties/ShowCase.tsx",
+    "content": "fill=\"none\""
+  },
+  {
+    "path": "src/components/pages/garanties/ShowCase.tsx",
+    "content": "stroke=\"currentColor\""
+  },
+  {
+    "path": "src/components/pages/garanties/ShowCase.tsx",
+    "content": "strokeWidth=\"2\""
+  },
+  {
+    "path": "src/components/pages/garanties/ShowCase.tsx",
+    "content": "strokeLinecap=\"round\""
+  },
+  {
+    "path": "src/components/pages/garanties/ShowCase.tsx",
+    "content": "strokeLinejoin=\"round\""
+  },
+  {
+    "path": "src/components/pages/garanties/ShowCase.tsx",
+    "content": "className=\"ml-2 h-4 w-4\""
+  },
+  {
+    "path": "src/components/pages/garanties/ShowCase.tsx",
+    "content": "d=\"m9 18 6-6-6-6\""
+  },
+  {
+    "path": "src/components/pages/garanties/ShowCase.tsx",
+    "content": "className=\"absolute transition-all duration-500 opacity-1 group-hover:opacity-100 group-hover:translate-y-0\""
+  },
+  {
+    "path": "src/components/pages/garanties/ShowCase.tsx",
+    "content": "className=\"group relative inline-flex items-center justify-center \""
+  },
+  {
+    "path": "src/components/pages/garanties/ShowCase.tsx",
+    "content": "className=\" translate-y-[-10%] \""
+  },
+  {
+    "path": "src/components/pages/garanties/ShowCase.tsx",
+    "content": "xmlns=\"http://www.w3.org/2000/svg\""
+  },
+  {
+    "path": "src/components/pages/garanties/ShowCase.tsx",
+    "content": "width=\"24\""
+  },
+  {
+    "path": "src/components/pages/garanties/ShowCase.tsx",
+    "content": "height=\"24\""
+  },
+  {
+    "path": "src/components/pages/garanties/ShowCase.tsx",
+    "content": "viewBox=\"0 0 24 24\""
+  },
+  {
+    "path": "src/components/pages/garanties/ShowCase.tsx",
+    "content": "fill=\"none\""
+  },
+  {
+    "path": "src/components/pages/garanties/ShowCase.tsx",
+    "content": "stroke=\"currentColor\""
+  },
+  {
+    "path": "src/components/pages/garanties/ShowCase.tsx",
+    "content": "strokeWidth=\"2\""
+  },
+  {
+    "path": "src/components/pages/garanties/ShowCase.tsx",
+    "content": "strokeLinecap=\"round\""
+  },
+  {
+    "path": "src/components/pages/garanties/ShowCase.tsx",
+    "content": "strokeLinejoin=\"round\""
+  },
+  {
+    "path": "src/components/pages/garanties/ShowCase.tsx",
+    "content": "className=\"ml-2 h-4 w-4 opacity-0\""
+  },
+  {
+    "path": "src/components/pages/garanties/ShowCase.tsx",
+    "content": "d=\"m9 18 6-6-6-6\""
+  },
+  {
+    "path": "src/components/pages/garanties/ShowCase.tsx",
+    "content": "className=\"bg-white py-20 px-6 md:py-24 lg:py-32\""
+  },
+  {
+    "path": "src/components/pages/garanties/ShowCase.tsx",
+    "content": "className=\"container mx-auto max-w-6xl\""
+  },
+  {
+    "path": "src/components/pages/garanties/ShowCase.tsx",
+    "content": "className=\"mb-24\""
+  },
+  {
+    "path": "src/components/pages/garanties/ShowCase.tsx",
+    "content": "className=\"text-3xl font-bold tracking-tight text-[#1d1d1f] mb-4 md:text-4xl lg:text-5xl text-center sm:text-center\""
+  },
+  {
+    "path": "src/components/pages/garanties/ShowCase.tsx",
+    "content": "Les meilleures technologies au meilleur prix"
+  },
+  {
+    "path": "src/components/pages/garanties/ShowCase.tsx",
+    "content": "className=\"text-[#1d1d1f] text-center sm:text-center max-w-3xl mx-auto\""
+  },
+  {
+    "path": "src/components/pages/garanties/ShowCase.tsx",
+    "content": "Des panneaux solaires et onduleurs de dernière génération, aux\n            technologies éprouvées et de marques mondiales de référence"
+  },
+  {
+    "path": "src/components/pages/garanties/ShowCase.tsx",
+    "content": "className=\"grid grid-cols-1 lg:grid-cols-2 gap-8 mb-32\""
+  },
+  {
+    "path": "src/components/pages/garanties/ShowCase.tsx",
+    "content": "className=\"flex justify-center items-center\""
+  },
+  {
+    "path": "src/components/pages/garanties/ShowCase.tsx",
+    "content": "className=\"rounded-lg overflow-hidden\""
+  },
+  {
+    "path": "src/components/pages/garanties/ShowCase.tsx",
+    "content": "src=\"/images/pages/garanties/Technology.jpeg\""
+  },
+  {
+    "path": "src/components/pages/garanties/ShowCase.tsx",
+    "content": "alt=\"Panneau solaire\""
+  },
+  {
+    "path": "src/components/pages/garanties/ShowCase.tsx",
+    "content": "className=\"w-full h-auto\""
+  },
+  {
+    "path": "src/components/pages/garanties/ShowCase.tsx",
+    "content": "className=\"bg-[#f5f6f7] p-8 flex flex-col justify-center\""
+  },
+  {
+    "path": "src/components/pages/garanties/ShowCase.tsx",
+    "content": "className=\"text-2xl font-bold text-[#010709] mb-6\""
+  },
+  {
+    "path": "src/components/pages/garanties/ShowCase.tsx",
+    "content": "Les meilleurs panneaux solaires du moment sélectionnés par nos\n              experts en énergie"
+  },
+  {
+    "path": "src/components/pages/garanties/ShowCase.tsx",
+    "content": "className=\"text-[#010709] mb-8\""
+  },
+  {
+    "path": "src/components/pages/garanties/ShowCase.tsx",
+    "content": "Recyclable à 95%, nos marques de panneaux solaires monocristallins\n              sélectionnés chaque mois utilisent la dernière technologie «\n              half-cut » et conjuguent performance, fiabilité et esthétisme."
+  },
+  {
+    "path": "src/components/pages/garanties/ShowCase.tsx",
+    "content": "className=\"grid grid-cols-2 gap-6 mb-8\""
+  },
+  {
+    "path": "src/components/pages/garanties/ShowCase.tsx",
+    "content": "className=\"w-4 h-1 bg-[#2ba0b5] mb-3\""
+  },
+  {
+    "path": "src/components/pages/garanties/ShowCase.tsx",
+    "content": "className=\"text-lg font-normal text-[#010709] mb-1\""
+  },
+  {
+    "path": "src/components/pages/garanties/ShowCase.tsx",
+    "content": "Jusqu'à 30 ans"
+  },
+  {
+    "path": "src/components/pages/garanties/ShowCase.tsx",
+    "content": "className=\"text-[#010709]\""
+  },
+  {
+    "path": "src/components/pages/garanties/ShowCase.tsx",
+    "content": "de garantie fabricant"
+  },
+  {
+    "path": "src/components/pages/garanties/ShowCase.tsx",
+    "content": "className=\"w-4 h-1 bg-[#2ba0b5] mb-3\""
+  },
+  {
+    "path": "src/components/pages/garanties/ShowCase.tsx",
+    "content": "className=\"text-lg font-normal text-[#010709] mb-1\""
+  },
+  {
+    "path": "src/components/pages/garanties/ShowCase.tsx",
+    "content": "Jusqu'à 30 ans"
+  },
+  {
+    "path": "src/components/pages/garanties/ShowCase.tsx",
+    "content": "className=\"text-[#010709]\""
+  },
+  {
+    "path": "src/components/pages/garanties/ShowCase.tsx",
+    "content": "de garantie de performance"
+  },
+  {
+    "path": "src/components/pages/garanties/ShowCase.tsx",
+    "content": "text=\"Nos offres\""
+  },
+  {
+    "path": "src/components/pages/garanties/ShowCase.tsx",
+    "content": "hoveredText=\"Découvrir\""
+  },
+  {
+    "path": "src/components/pages/garanties/ShowCase.tsx",
+    "content": "href=\"/offres\""
+  },
+  {
+    "path": "src/components/pages/garanties/ShowCase.tsx",
+    "content": "className=\"grid grid-cols-2 md:grid-cols-2 gap-8 mb-32 md:grid\""
+  },
+  {
+    "path": "src/components/pages/garanties/ShowCase.tsx",
+    "content": "className=\"flex justify-center items-center\""
+  },
+  {
+    "path": "src/components/pages/garanties/ShowCase.tsx",
+    "content": "src=\"/images/pages/garanties/Trinasolar.png\""
+  },
+  {
+    "path": "src/components/pages/garanties/ShowCase.tsx",
+    "content": "alt=\"Trina Solar\""
+  },
+  {
+    "path": "src/components/pages/garanties/ShowCase.tsx",
+    "content": "className=\"max-w-full h-auto\""
+  },
+  {
+    "path": "src/components/pages/garanties/ShowCase.tsx",
+    "content": "className=\"flex justify-center items-center\""
+  },
+  {
+    "path": "src/components/pages/garanties/ShowCase.tsx",
+    "content": "src=\"/images/pages/garanties/Sunpower.jpg\""
+  },
+  {
+    "path": "src/components/pages/garanties/ShowCase.tsx",
+    "content": "alt=\"SunPower\""
+  },
+  {
+    "path": "src/components/pages/garanties/ShowCase.tsx",
+    "content": "className=\"max-w-full h-auto\""
+  },
+  {
+    "path": "src/components/pages/garanties/ShowCase.tsx",
+    "content": "className=\"grid grid-cols-1 lg:grid-cols-2 gap-8\""
+  },
+  {
+    "path": "src/components/pages/garanties/ShowCase.tsx",
+    "content": "className=\"order-2 lg:order-1 bg-[#f5f6f7] p-8 flex flex-col justify-center\""
+  },
+  {
+    "path": "src/components/pages/garanties/ShowCase.tsx",
+    "content": "className=\"text-2xl font-bold text-[#010709] mb-6\""
+  },
+  {
+    "path": "src/components/pages/garanties/ShowCase.tsx",
+    "content": "Les onduleurs et micro-onduleurs solaires les plus fiables du\n              moment sélectionnés par nos experts en énergie"
+  },
+  {
+    "path": "src/components/pages/garanties/ShowCase.tsx",
+    "content": "className=\"text-[#010709] mb-8\""
+  },
+  {
+    "path": "src/components/pages/garanties/ShowCase.tsx",
+    "content": "Nos experts ont sélectionné les 2 technologies les plus\n              performantes du moment, pour répondre à toutes les situations même\n              en cas d'ombrage : micro-onduleur ou onduleur string avec\n              optimiseur"
+  },
+  {
+    "path": "src/components/pages/garanties/ShowCase.tsx",
+    "content": "className=\"grid grid-cols-2 gap-6 mb-8\""
+  },
+  {
+    "path": "src/components/pages/garanties/ShowCase.tsx",
+    "content": "className=\"w-4 h-1 bg-[#2ba0b5] mb-3\""
+  },
+  {
+    "path": "src/components/pages/garanties/ShowCase.tsx",
+    "content": "className=\"text-lg font-normal text-[#010709] mb-1\""
+  },
+  {
+    "path": "src/components/pages/garanties/ShowCase.tsx",
+    "content": "20 ans"
+  },
+  {
+    "path": "src/components/pages/garanties/ShowCase.tsx",
+    "content": "className=\"text-[#010709]\""
+  },
+  {
+    "path": "src/components/pages/garanties/ShowCase.tsx",
+    "content": "garantie fabricant pour la marque Huawei"
+  },
+  {
+    "path": "src/components/pages/garanties/ShowCase.tsx",
+    "content": "className=\"w-4 h-1 bg-[#2ba0b5] mb-3\""
+  },
+  {
+    "path": "src/components/pages/garanties/ShowCase.tsx",
+    "content": "className=\"text-lg font-normal text-[#010709] mb-1\""
+  },
+  {
+    "path": "src/components/pages/garanties/ShowCase.tsx",
+    "content": "25 ans"
+  },
+  {
+    "path": "src/components/pages/garanties/ShowCase.tsx",
+    "content": "className=\"text-[#010709]\""
+  },
+  {
+    "path": "src/components/pages/garanties/ShowCase.tsx",
+    "content": "garantie fabricant pour la marque Enphase"
+  },
+  {
+    "path": "src/components/pages/garanties/ShowCase.tsx",
+    "content": "className=\"order-1 lg:order-2 flex flex-col justify-center items-center\""
+  },
+  {
+    "path": "src/components/pages/garanties/ShowCase.tsx",
+    "content": "src=\"/images/pages/garanties/UPS/UPS.jpg\""
+  },
+  {
+    "path": "src/components/pages/garanties/ShowCase.tsx",
+    "content": "alt=\"Onduleurs Huawei et Enphase\""
+  },
+  {
+    "path": "src/components/pages/garanties/ShowCase.tsx",
+    "content": "className=\"w-full max-w-xs h-auto mb-8\""
+  },
+  {
+    "path": "src/components/pages/garanties/ShowCase.tsx",
+    "content": "className=\"grid grid-cols-2 gap-4  md:grid\""
+  },
+  {
+    "path": "src/components/pages/garanties/ShowCase.tsx",
+    "content": "src=\"/images/pages/garanties/UPS/ENPHASE.jpg\""
+  },
+  {
+    "path": "src/components/pages/garanties/ShowCase.tsx",
+    "content": "alt=\"Enphase\""
+  },
+  {
+    "path": "src/components/pages/garanties/ShowCase.tsx",
+    "content": "className=\"max-w-full h-auto\""
+  },
+  {
+    "path": "src/components/pages/garanties/ShowCase.tsx",
+    "content": "src=\"/images/pages/garanties/UPS/HUAWEI.webp\""
+  },
+  {
+    "path": "src/components/pages/garanties/ShowCase.tsx",
+    "content": "alt=\"Huawei\""
+  },
+  {
+    "path": "src/components/pages/garanties/ShowCase.tsx",
+    "content": "className=\"max-w-full h-auto\""
+  },
+  {
+    "path": "src/components/pages/garanties/About.tsx",
+    "content": "className=\"bg-white flex justify-center py-10 md:py-20 w-full\""
+  },
+  {
+    "path": "src/components/pages/garanties/About.tsx",
+    "content": "className=\" mx-auto px-4 md:px-6 flex flex-col md:flex-row items-center gap-6 md:gap-10\""
+  },
+  {
+    "path": "src/components/pages/garanties/About.tsx",
+    "content": "className=\"flex flex-col space-y-4 md:space-y-6 md:max-w-[35rem]\""
+  },
+  {
+    "path": "src/components/pages/garanties/About.tsx",
+    "content": "className=\"text-[28px] md:text-[40px] font-bold text-[#040922] leading-tight md:leading-[50px] font-['Lato',_Arial,_Helvetica,_sans-serif]\""
+  },
+  {
+    "path": "src/components/pages/garanties/About.tsx",
+    "content": "Des techniciens agréés audités et évalués après chaque intervention"
+  },
+  {
+    "path": "src/components/pages/garanties/About.tsx",
+    "content": "className=\"text-gray-800\""
+  },
+  {
+    "path": "src/components/pages/garanties/About.tsx",
+    "content": "Nos 350 techniciens locaux agréées interviennent partout en France,\n            avec les meilleures garanties de prestation de pose"
+  },
+  {
+    "path": "src/components/pages/garanties/About.tsx",
+    "content": "className=\"w-full md:w-[550px]\""
+  },
+  {
+    "path": "src/components/pages/garanties/About.tsx",
+    "content": "src=\"/images/pages/garanties/About.jpeg\""
+  },
+  {
+    "path": "src/components/pages/garanties/About.tsx",
+    "content": "alt=\"Solar panels on roof\""
+  },
+  {
+    "path": "src/components/pages/garanties/About.tsx",
+    "content": "className=\"w-full h-auto rounded-lg\""
+  },
+  {
+    "path": "src/components/pages/demande-devis-panneau-solaire/Numbers.tsx",
+    "content": "className=\"flex flex-col md:flex-row gap-6 md:gap-42 bg-white justify-center items-center py-10 md:py-20 px-4 md:px-0\""
+  },
+  {
+    "path": "src/components/pages/demande-devis-panneau-solaire/Numbers.tsx",
+    "content": "className=\"text-center w-full md:w-58 bg-gray-100 px-6 md:px-10 py-5 max-w-xs\""
+  },
+  {
+    "path": "src/components/pages/demande-devis-panneau-solaire/Numbers.tsx",
+    "content": "className=\"text-[2.5rem] md:text-[3rem] font-normal text-black\""
+  },
+  {
+    "path": "src/components/pages/demande-devis-panneau-solaire/Numbers.tsx",
+    "content": "4"
+  },
+  {
+    "path": "src/components/pages/demande-devis-panneau-solaire/Numbers.tsx",
+    "content": "className=\"text-sm text-black\""
+  },
+  {
+    "path": "src/components/pages/demande-devis-panneau-solaire/Numbers.tsx",
+    "content": "ans d’expertise solaire"
+  },
+  {
+    "path": "src/components/pages/demande-devis-panneau-solaire/Numbers.tsx",
+    "content": "className=\"text-center w-full md:w-58 bg-gray-100 px-6 md:px-10 py-5 max-w-xs\""
+  },
+  {
+    "path": "src/components/pages/demande-devis-panneau-solaire/Numbers.tsx",
+    "content": "className=\"text-[2.5rem] md:text-[3rem] font-normal text-black\""
+  },
+  {
+    "path": "src/components/pages/demande-devis-panneau-solaire/Numbers.tsx",
+    "content": "3000"
+  },
+  {
+    "path": "src/components/pages/demande-devis-panneau-solaire/Numbers.tsx",
+    "content": "className=\"text-sm text-black\""
+  },
+  {
+    "path": "src/components/pages/demande-devis-panneau-solaire/Numbers.tsx",
+    "content": "installation solaires réalisées"
+  },
+  {
+    "path": "src/components/pages/demande-devis-panneau-solaire/Numbers.tsx",
+    "content": "className=\"text-center w-full md:w-58 bg-gray-100 px-6 md:px-10 py-5 max-w-xs\""
+  },
+  {
+    "path": "src/components/pages/demande-devis-panneau-solaire/Numbers.tsx",
+    "content": "className=\"text-[2.5rem] md:text-[3rem] font-normal text-black\""
+  },
+  {
+    "path": "src/components/pages/demande-devis-panneau-solaire/Numbers.tsx",
+    "content": "72350"
+  },
+  {
+    "path": "src/components/pages/demande-devis-panneau-solaire/Numbers.tsx",
+    "content": "className=\"text-sm text-black\""
+  },
+  {
+    "path": "src/components/pages/demande-devis-panneau-solaire/Numbers.tsx",
+    "content": "panneaux solaires installés"
+  },
+  {
+    "path": "src/components/pages/demande-devis-panneau-solaire/Numbers.tsx",
+    "content": "className=\"text-center w-full md:w-58 bg-gray-100 px-6 md:px-10 py-5 max-w-xs\""
+  },
+  {
+    "path": "src/components/pages/demande-devis-panneau-solaire/Numbers.tsx",
+    "content": "className=\"text-[2.5rem] md:text-[3rem] font-normal text-black\""
+  },
+  {
+    "path": "src/components/pages/demande-devis-panneau-solaire/Numbers.tsx",
+    "content": "82"
+  },
+  {
+    "path": "src/components/pages/demande-devis-panneau-solaire/Numbers.tsx",
+    "content": "className=\"text-sm text-black\""
+  },
+  {
+    "path": "src/components/pages/demande-devis-panneau-solaire/Numbers.tsx",
+    "content": "MW installés en Europe"
+  },
+  {
+    "path": "src/components/pages/demande-devis-panneau-solaire/Form.tsx",
+    "content": "className=\"bg-gradient-to-br from-[#1a2b7b] to-[#111111] text-white py-16\""
+  },
+  {
+    "path": "src/components/pages/demande-devis-panneau-solaire/Form.tsx",
+    "content": "className=\"container mx-auto px-4 md:px-6 lg:px-8 max-w-6xl\""
+  },
+  {
+    "path": "src/components/pages/demande-devis-panneau-solaire/Form.tsx",
+    "content": "className=\"grid md:grid-cols-2 gap-12 items-center\""
+  },
+  {
+    "path": "src/components/pages/demande-devis-panneau-solaire/Form.tsx",
+    "content": "className=\"space-y-6\""
+  },
+  {
+    "path": "src/components/pages/demande-devis-panneau-solaire/Form.tsx",
+    "content": "className=\"text-4xl md:text-5xl font-bold\""
+  },
+  {
+    "path": "src/components/pages/demande-devis-panneau-solaire/Form.tsx",
+    "content": "Votre histoire commence ici..."
+  },
+  {
+    "path": "src/components/pages/demande-devis-panneau-solaire/Form.tsx",
+    "content": "className=\"text-lg\""
+  },
+  {
+    "path": "src/components/pages/demande-devis-panneau-solaire/Form.tsx",
+    "content": "Faites comme Jonathan. Prenez rendez-vous en quelques clics avec\n                l&apos;un de nos experts, obtenez votre devis panneau solaire et\n                découvrez vos économies, le montant des aides auxquelles vous\n                avez droit."
+  },
+  {
+    "path": "src/components/pages/demande-devis-panneau-solaire/Form.tsx",
+    "content": "className=\" relative\""
+  },
+  {
+    "path": "src/components/pages/demande-devis-panneau-solaire/Form.tsx",
+    "content": "className=\"relative aspect-video bg-teal-900 rounded-lg overflow-hidden cursor-pointer\""
+  },
+  {
+    "path": "src/components/pages/demande-devis-panneau-solaire/Form.tsx",
+    "content": "url=\"https://youtu.be/y4iMWlxVKDA\""
+  },
+  {
+    "path": "src/components/pages/demande-devis-panneau-solaire/Form.tsx",
+    "content": "width=\"100%\""
+  },
+  {
+    "path": "src/components/pages/demande-devis-panneau-solaire/Form.tsx",
+    "content": "height=\"100%\""
+  },
+  {
+    "path": "src/components/pages/demande-devis-panneau-solaire/Form.tsx",
+    "content": "className=\"container mx-auto px-4 md:px-6 lg:px-8 max-w-6xl  py-8\""
+  },
+  {
+    "path": "src/components/pages/demande-devis-panneau-solaire/Form.tsx",
+    "content": "formId=\"cm969dzza000gwn31txnij2tr\""
+  },
+  {
+    "path": "src/components/pages/demande-devis-panneau-solaire/Features.tsx",
+    "content": "className=\"w-full md:py-10 py-20  px-4 border-none bg-white\""
+  },
+  {
+    "path": "src/components/pages/demande-devis-panneau-solaire/Features.tsx",
+    "content": "className=\"border-none mx-auto\""
+  },
+  {
+    "path": "src/components/pages/demande-devis-panneau-solaire/Features.tsx",
+    "content": "className=\"grid relative grid-cols-1 md:grid-cols-3 border-none gap-14\""
+  },
+  {
+    "path": "src/components/pages/demande-devis-panneau-solaire/Features.tsx",
+    "content": "title=\"Des prix bas pour tous et sans compromis sur la qualité\""
+  },
+  {
+    "path": "src/components/pages/demande-devis-panneau-solaire/Features.tsx",
+    "content": "description=\"Panneaux solaires dernière génération, batterie, gestionnaire d’énergie intelligent, interface de gestion et de pilotage… concevez l’installation de vos rêves.\""
+  },
+  {
+    "path": "src/components/pages/demande-devis-panneau-solaire/Features.tsx",
+    "content": "title=\"Une installation rapide en 2 mois par techniciens locaux RGE\""
+  },
+  {
+    "path": "src/components/pages/demande-devis-panneau-solaire/Features.tsx",
+    "content": "description=\"Ont été sélectionnés les installateurs offrant les meilleures garanties pour vous faire bénéficier d’une installation de haute qualité.\""
+  },
+  {
+    "path": "src/components/pages/demande-devis-panneau-solaire/Features.tsx",
+    "content": "title=\"De fortes garanties incluses pour être serein à chaque étape\""
+  },
+  {
+    "path": "src/components/pages/demande-devis-panneau-solaire/Features.tsx",
+    "content": "description=\"Pendant 10 ans, si vous ne faites pas les économies promises, on vous rembourse la différence. En cas de difficultés, on vous accompagne jusqu’à 5 ans.\""
+  },
+  {
+    "path": "src/components/pages/demande-devis-panneau-solaire/Features.tsx",
+    "content": "text=\"Je simule mes économies\""
+  },
+  {
+    "path": "src/components/pages/demande-devis-panneau-solaire/Features.tsx",
+    "content": "href=\"Je simule mes économies\""
+  },
+  {
+    "path": "src/components/pages/demande-devis-panneau-solaire/Features.tsx",
+    "content": "className=\"w-full flex justify-center items-center mt-4\""
+  },
+  {
+    "path": "src/components/pages/demande-devis-panneau-solaire/Features.tsx",
+    "content": "className=\"\n        group relative inline-flex items-center justify-center \n        px-7 py-3 bg-[#fca605] text-white font-medium rounded-full \n        hover:bg-[#0B476F] overflow-hidden\""
+  },
+  {
+    "path": "src/components/pages/demande-devis-panneau-solaire/Features.tsx",
+    "content": "className=\"transition-all duration-500 group-hover:translate-y-[-100%] group-hover:opacity-1\""
+  },
+  {
+    "path": "src/components/pages/demande-devis-panneau-solaire/Features.tsx",
+    "content": "xmlns=\"http://www.w3.org/2000/svg\""
+  },
+  {
+    "path": "src/components/pages/demande-devis-panneau-solaire/Features.tsx",
+    "content": "width=\"24\""
+  },
+  {
+    "path": "src/components/pages/demande-devis-panneau-solaire/Features.tsx",
+    "content": "height=\"24\""
+  },
+  {
+    "path": "src/components/pages/demande-devis-panneau-solaire/Features.tsx",
+    "content": "viewBox=\"0 0 24 24\""
+  },
+  {
+    "path": "src/components/pages/demande-devis-panneau-solaire/Features.tsx",
+    "content": "fill=\"none\""
+  },
+  {
+    "path": "src/components/pages/demande-devis-panneau-solaire/Features.tsx",
+    "content": "stroke=\"currentColor\""
+  },
+  {
+    "path": "src/components/pages/demande-devis-panneau-solaire/Features.tsx",
+    "content": "strokeWidth=\"2\""
+  },
+  {
+    "path": "src/components/pages/demande-devis-panneau-solaire/Features.tsx",
+    "content": "strokeLinecap=\"round\""
+  },
+  {
+    "path": "src/components/pages/demande-devis-panneau-solaire/Features.tsx",
+    "content": "strokeLinejoin=\"round\""
+  },
+  {
+    "path": "src/components/pages/demande-devis-panneau-solaire/Features.tsx",
+    "content": "className=\"ml-2 h-4 w-4\""
+  },
+  {
+    "path": "src/components/pages/demande-devis-panneau-solaire/Features.tsx",
+    "content": "d=\"m9 18 6-6-6-6\""
+  },
+  {
+    "path": "src/components/pages/demande-devis-panneau-solaire/Features.tsx",
+    "content": "className=\"absolute transition-all duration-500 opacity-1 group-hover:opacity-100 group-hover:translate-y-0\""
+  },
+  {
+    "path": "src/components/pages/demande-devis-panneau-solaire/Features.tsx",
+    "content": "className=\"group relative inline-flex items-center justify-center\""
+  },
+  {
+    "path": "src/components/pages/demande-devis-panneau-solaire/Features.tsx",
+    "content": "className=\"translate-y-[-10%]\""
+  },
+  {
+    "path": "src/components/pages/demande-devis-panneau-solaire/Features.tsx",
+    "content": "xmlns=\"http://www.w3.org/2000/svg\""
+  },
+  {
+    "path": "src/components/pages/demande-devis-panneau-solaire/Features.tsx",
+    "content": "width=\"24\""
+  },
+  {
+    "path": "src/components/pages/demande-devis-panneau-solaire/Features.tsx",
+    "content": "height=\"24\""
+  },
+  {
+    "path": "src/components/pages/demande-devis-panneau-solaire/Features.tsx",
+    "content": "viewBox=\"0 0 24 24\""
+  },
+  {
+    "path": "src/components/pages/demande-devis-panneau-solaire/Features.tsx",
+    "content": "fill=\"none\""
+  },
+  {
+    "path": "src/components/pages/demande-devis-panneau-solaire/Features.tsx",
+    "content": "stroke=\"currentColor\""
+  },
+  {
+    "path": "src/components/pages/demande-devis-panneau-solaire/Features.tsx",
+    "content": "strokeWidth=\"2\""
+  },
+  {
+    "path": "src/components/pages/demande-devis-panneau-solaire/Features.tsx",
+    "content": "strokeLinecap=\"round\""
+  },
+  {
+    "path": "src/components/pages/demande-devis-panneau-solaire/Features.tsx",
+    "content": "strokeLinejoin=\"round\""
+  },
+  {
+    "path": "src/components/pages/demande-devis-panneau-solaire/Features.tsx",
+    "content": "className=\"ml-2 h-4 w-4 opacity-0\""
+  },
+  {
+    "path": "src/components/pages/demande-devis-panneau-solaire/Features.tsx",
+    "content": "d=\"m9 18 6-6-6-6\""
+  },
+  {
+    "path": "src/components/pages/demande-devis-panneau-solaire/About.tsx",
+    "content": "className=\"bg-white flex justify-center py-10 h-200 md:py-20 w-full\""
+  },
+  {
+    "path": "src/components/pages/demande-devis-panneau-solaire/About.tsx",
+    "content": "className=\" mx-auto px-4 md:px-6 flex flex-col md:flex-row items-center gap-10 md:gap-20\""
+  },
+  {
+    "path": "src/components/pages/demande-devis-panneau-solaire/About.tsx",
+    "content": "className=\"flex flex-col space-y-4 md:space-y-6 md:max-w-[32rem]\""
+  },
+  {
+    "path": "src/components/pages/demande-devis-panneau-solaire/About.tsx",
+    "content": "className=\"text-blue-800\""
+  },
+  {
+    "path": "src/components/pages/demande-devis-panneau-solaire/About.tsx",
+    "content": "Une marque du groupe QAIR"
+  },
+  {
+    "path": "src/components/pages/demande-devis-panneau-solaire/About.tsx",
+    "content": "className=\"text-[28px] md:text-[40px] font-bold text-[#040922] leading-tight md:leading-[50px] font-['Lato',_Arial,_Helvetica,_sans-serif]\""
+  },
+  {
+    "path": "src/components/pages/demande-devis-panneau-solaire/About.tsx",
+    "content": "Le rachat de surplus de production non consommée"
+  },
+  {
+    "path": "src/components/pages/demande-devis-panneau-solaire/About.tsx",
+    "content": "className=\"text-gray-800\""
+  },
+  {
+    "path": "src/components/pages/demande-devis-panneau-solaire/About.tsx",
+    "content": "Sunrise France ; le leader de l’autoconsommation solaire\n          intelligente depuis 2019"
+  },
+  {
+    "path": "src/components/pages/demande-devis-panneau-solaire/About.tsx",
+    "content": "className=\"text-gray-800\""
+  },
+  {
+    "path": "src/components/pages/demande-devis-panneau-solaire/About.tsx",
+    "content": "Sunrise est une filiale du groupe QAIR, groupe international de\n            référence dans les énergies renouvelables. Sunrise France s’est\n            donné pour objectif de rendre le solaire accessible à tous, en\n            offrant le meilleur compromis entre prix, rentabilité et\n            performance."
+  },
+  {
+    "path": "src/components/pages/demande-devis-panneau-solaire/About.tsx",
+    "content": "className=\"w-full md:w-[550px]\""
+  },
+  {
+    "path": "src/components/pages/demande-devis-panneau-solaire/About.tsx",
+    "content": "src=\"/images/pages/demande-devis-panneau-solaire/About.webp\""
+  },
+  {
+    "path": "src/components/pages/demande-devis-panneau-solaire/About.tsx",
+    "content": "alt=\"Solar panels on roof\""
+  },
+  {
+    "path": "src/components/pages/demande-devis-panneau-solaire/About.tsx",
+    "content": "className=\"w-full h-auto rounded-lg\""
+  },
+  {
+    "path": "src/components/pages/demande-devis-panneau-solaire/Features/Stars.tsx",
+    "content": "className=\"flex items-center justify-center\""
+  },
+  {
+    "path": "src/components/pages/demande-devis-panneau-solaire/Features/Stars.tsx",
+    "content": "fill=\"currentColor\""
+  },
+  {
+    "path": "src/components/pages/demande-devis-panneau-solaire/Features/Stars.tsx",
+    "content": "viewBox=\"0 0 20 20\""
+  },
+  {
+    "path": "src/components/pages/demande-devis-panneau-solaire/Features/Stars.tsx",
+    "content": "xmlns=\"http://www.w3.org/2000/svg\""
+  },
+  {
+    "path": "src/components/pages/demande-devis-panneau-solaire/Features/Stars.tsx",
+    "content": "d=\"M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z\""
+  },
+  {
+    "path": "src/components/pages/demande-devis-panneau-solaire/Features/FeatureCard.tsx",
+    "content": "className=\"flex border-none flex-col gap-5 h-70 justify-center item-center text-center\""
+  },
+  {
+    "path": "src/components/pages/demande-devis-panneau-solaire/Features/FeatureCard.tsx",
+    "content": "className=\"flex flex-col gap-5 justify-around h-70 item-center\""
+  },
+  {
+    "path": "src/components/pages/demande-devis-panneau-solaire/Features/FeatureCard.tsx",
+    "content": "className=\"text-black text-[1.35rem] flex min-h-[5rem] items-start text-start justify-start leading-tight\""
+  },
+  {
+    "path": "src/components/pages/demande-devis-panneau-solaire/Features/FeatureCard.tsx",
+    "content": "className=\"text-[#31394a]  mt-[-30px] text-[1.05rem] flex item-center  mb-4 text-start\""
+  },
+  {
+    "path": "src/components/pages/avis-clients/Minimum.tsx",
+    "content": "className=\"w-full py-12 md:py-[50px] overflow-hidden\""
+  },
+  {
+    "path": "src/components/pages/avis-clients/Minimum.tsx",
+    "content": "className=\"container mx-auto px-4\""
+  },
+  {
+    "path": "src/components/pages/avis-clients/Minimum.tsx",
+    "content": "className=\"flex flex-wrap items-center justify-center\""
+  },
+  {
+    "path": "src/components/pages/avis-clients/Minimum.tsx",
+    "content": "className=\"w-full md:w-1/2 lg:w-[50%] px-2 md:pr-[72px] md:pl-[3.84%]\""
+  },
+  {
+    "path": "src/components/pages/avis-clients/Minimum.tsx",
+    "content": "className=\"relative\""
+  },
+  {
+    "path": "src/components/pages/avis-clients/Minimum.tsx",
+    "content": "className=\"w-full h-full\""
+  },
+  {
+    "path": "src/components/pages/avis-clients/Minimum.tsx",
+    "content": "src=\"/images/pages/aides/TVA/Hero.webp\""
+  },
+  {
+    "path": "src/components/pages/avis-clients/Minimum.tsx",
+    "content": "alt=\"Couple heureux dans leur maison\""
+  },
+  {
+    "path": "src/components/pages/avis-clients/Minimum.tsx",
+    "content": "className=\"w-full h-full object-cover\""
+  },
+  {
+    "path": "src/components/pages/avis-clients/Minimum.tsx",
+    "content": "className=\"w-full md:w-1/2 lg:w-[50%] px-2 md:pl-[55px] md:pr-[3.84%]\""
+  },
+  {
+    "path": "src/components/pages/avis-clients/Minimum.tsx",
+    "content": "className=\"mt-5 md:mt-[20px] mb-6 md:mb-[30px]\""
+  },
+  {
+    "path": "src/components/pages/avis-clients/Minimum.tsx",
+    "content": "className=\"text-white text-2xl md:text-3xl lg:text-4xl font-bold m-0\""
+  },
+  {
+    "path": "src/components/pages/avis-clients/Minimum.tsx",
+    "content": "Une TVA réduite à 10% dans certains cas"
+  },
+  {
+    "path": "src/components/pages/avis-clients/Minimum.tsx",
+    "content": "className=\"text-white mb-12 md:mb-[50px]\""
+  },
+  {
+    "path": "src/components/pages/avis-clients/Minimum.tsx",
+    "content": "Les centrales photovoltaïques dont la puissance est inférieure\n                ou égale à 3 kWc bénéficient d&apos;un taux de TVA réduit à 10%.\n                Pour des installations au-delà de ces 3 kWc, le taux passe à\n                20%."
+  },
+  {
+    "path": "src/components/pages/avis-clients/Minimum.tsx",
+    "content": "text=\"Programme de parrainage\""
+  },
+  {
+    "path": "src/components/pages/avis-clients/Minimum.tsx",
+    "content": "href=\"Programme de parrainage\""
+  },
+  {
+    "path": "src/components/pages/avis-clients/Minimum.tsx",
+    "content": "className=\"w-full flex justify-start items-start\""
+  },
+  {
+    "path": "src/components/pages/avis-clients/Minimum.tsx",
+    "content": "className=\"\n    group relative inline-flex gap-2 items-center justify-center \n    px-7 py-4 bg-[#fbac18] text-white font-medium rounded-full \n    hover:bg-[#0B476F] overflow-hidden\""
+  },
+  {
+    "path": "src/components/pages/avis-clients/Minimum.tsx",
+    "content": "className=\"text-white text-2xl\""
+  },
+  {
+    "path": "src/components/pages/avis-clients/Minimum.tsx",
+    "content": "className=\"transition-all duration-500 group-hover:translate-y-[-20px] group-hover:opacity-1\""
+  },
+  {
+    "path": "src/components/pages/avis-clients/Minimum.tsx",
+    "content": "className=\"absolute transition-all duration-500 opacity-1 group-hover:opacity-100 group-hover:translate-y-0\""
+  },
+  {
+    "path": "src/components/pages/avis-clients/Minimum.tsx",
+    "content": "className=\"group relative inline-flex items-center justify-center \""
+  },
+  {
+    "path": "src/components/pages/avis-clients/Minimum.tsx",
+    "content": "className=\"text-white opacity-0 text-2xl\""
+  },
+  {
+    "path": "src/components/pages/avis-clients/Minimum.tsx",
+    "content": "className=\" translate-y-[0px] translate-x-[0px] \""
+  },
+  {
+    "path": "src/components/pages/avis-clients/Hero.tsx",
+    "content": "className=\"relative md:h-[420px] h-[500px] z-0 p-0 m-0 w-full flex items-center justify-center overflow-hidden bg-cover bg-center\""
+  },
+  {
+    "path": "src/components/pages/avis-clients/Hero.tsx",
+    "content": "className=\"absolute inset-0 bg-[#00061b] opacity-40\""
+  },
+  {
+    "path": "src/components/pages/avis-clients/Hero.tsx",
+    "content": "className=\"relative p-0 m-0 w-full h-full flex items-center text-white\""
+  },
+  {
+    "path": "src/components/pages/avis-clients/Hero.tsx",
+    "content": "className=\"absolute left-[-5rem] md:left-0  inset-0  h-full\""
+  },
+  {
+    "path": "src/components/pages/avis-clients/Hero.tsx",
+    "content": "alt=\"Blue background shape\""
+  },
+  {
+    "path": "src/components/pages/avis-clients/Hero.tsx",
+    "content": "className=\"relative w-full px-6 py-8 flex flex-col items-start justify-center\""
+  },
+  {
+    "path": "src/components/pages/avis-clients/Hero.tsx",
+    "content": "className=\"max-w-[90%]\""
+  },
+  {
+    "path": "src/components/pages/avis-clients/Hero.tsx",
+    "content": "className=\"text-2xl sm:text-3xl font-semibold  leading-tight mb-4\""
+  },
+  {
+    "path": "src/components/pages/avis-clients/Hero.tsx",
+    "content": "className=\"text-sm leading-relaxed mb-6\""
+  },
+  {
+    "path": "src/components/pages/avis-clients/Hero.tsx",
+    "content": "className=\"relative h-full flex left-[20%] md:left-[40%] w-full\""
+  },
+  {
+    "path": "src/components/pages/avis-clients/Hero.tsx",
+    "content": "className=\"absolute h-full flex flex-col justify-center pl-4 sm:pl-8 md:pl-[4.8rem] pr-4 sm:pr-8 md:pr-16 gap-2 md:gap-[1rem] lg:gap-[1rem]\""
+  },
+  {
+    "path": "src/components/pages/avis-clients/Hero.tsx",
+    "content": "className=\"box-border px-2 w-22 bg-white text-xs text-[rgb(4,9,34)]\""
+  },
+  {
+    "path": "src/components/pages/avis-clients/Hero.tsx",
+    "content": "Avis Sunrise"
+  },
+  {
+    "path": "src/components/pages/avis-clients/Hero.tsx",
+    "content": "className=\"text-3xl sm:text-4xl md:text-[2.3rem] lg:text-[3rem] w-[70%] font-semibold leading-tight\""
+  },
+  {
+    "path": "src/components/pages/avis-clients/Hero.tsx",
+    "content": "className=\"text-base w-full sm:w-[80%] md:w-[60%] lg:w-[50%]\""
+  },
+  {
+    "path": "src/components/pages/avis-clients/Hero.tsx",
+    "content": "className=\" flex w-[80%] justify-end items-center mt-6\""
+  },
+  {
+    "path": "src/components/pages/avis-clients/Hero.tsx",
+    "content": "className=\"w-[90%] flex justify-start items-start\""
+  },
+  {
+    "path": "src/components/pages/avis-clients/Hero.tsx",
+    "content": "className=\"\n    group relative inline-flex gap-2 items-center justify-center \n    px-7 py-4 bg-gray-300 text-black font-medium rounded-full  hover:text-white\n    hover:bg-[#0B476F] overflow-hidden\""
+  },
+  {
+    "path": "src/components/pages/avis-clients/Hero.tsx",
+    "content": "className=\"text-white text-2xl\""
+  },
+  {
+    "path": "src/components/pages/avis-clients/Hero.tsx",
+    "content": "className=\"transition-all duration-500 group-hover:translate-y-[-20px] group-hover:opacity-1\""
+  },
+  {
+    "path": "src/components/pages/avis-clients/Hero.tsx",
+    "content": "className=\"absolute transition-all duration-500 opacity-1 group-hover:opacity-100 group-hover:translate-y-0\""
+  },
+  {
+    "path": "src/components/pages/avis-clients/Hero.tsx",
+    "content": "className=\"group relative inline-flex items-center justify-center \""
+  },
+  {
+    "path": "src/components/pages/avis-clients/Hero.tsx",
+    "content": "className=\"text-white opacity-0 text-2xl\""
+  },
+  {
+    "path": "src/components/pages/avis-clients/Hero.tsx",
+    "content": "className=\" translate-y-[0px] translate-x-[0px] \""
+  },
+  {
+    "path": "src/components/pages/avis-clients/Hero/GetStartButton.tsx",
+    "content": "className=\"w-full flex justify-start items-start\""
+  },
+  {
+    "path": "src/components/pages/avis-clients/Hero/GetStartButton.tsx",
+    "content": "className=\"\n    group relative inline-flex gap-2 items-center justify-center \n    px-7 py-4 bg-[#fbac18] text-white font-medium rounded-full \n    hover:bg-[#0B476F] overflow-hidden\""
+  },
+  {
+    "path": "src/components/pages/avis-clients/Hero/GetStartButton.tsx",
+    "content": "className=\"text-white text-2xl\""
+  },
+  {
+    "path": "src/components/pages/avis-clients/Hero/GetStartButton.tsx",
+    "content": "className=\"transition-all duration-500 group-hover:translate-y-[-20px] group-hover:opacity-1\""
+  },
+  {
+    "path": "src/components/pages/avis-clients/Hero/GetStartButton.tsx",
+    "content": "className=\"absolute transition-all duration-500 opacity-1 group-hover:opacity-100 group-hover:translate-y-0\""
+  },
+  {
+    "path": "src/components/pages/avis-clients/Hero/GetStartButton.tsx",
+    "content": "className=\"group relative inline-flex items-center justify-center \""
+  },
+  {
+    "path": "src/components/pages/avis-clients/Hero/GetStartButton.tsx",
+    "content": "className=\"text-white opacity-0 text-2xl\""
+  },
+  {
+    "path": "src/components/pages/avis-clients/Hero/GetStartButton.tsx",
+    "content": "className=\" translate-y-[0px] translate-x-[0px] \""
+  },
+  {
+    "path": "src/components/pages/aides/TVA.tsx",
+    "content": "className=\"w-full py-12 md:py-[50px] overflow-hidden\""
+  },
+  {
+    "path": "src/components/pages/aides/TVA.tsx",
+    "content": "className=\"container mx-auto px-4\""
+  },
+  {
+    "path": "src/components/pages/aides/TVA.tsx",
+    "content": "className=\"flex flex-wrap items-center justify-center\""
+  },
+  {
+    "path": "src/components/pages/aides/TVA.tsx",
+    "content": "className=\"w-full md:w-1/2 lg:w-[50%] px-2 md:pr-[72px] md:pl-[3.84%]\""
+  },
+  {
+    "path": "src/components/pages/aides/TVA.tsx",
+    "content": "className=\"relative\""
+  },
+  {
+    "path": "src/components/pages/aides/TVA.tsx",
+    "content": "className=\"w-full h-full\""
+  },
+  {
+    "path": "src/components/pages/aides/TVA.tsx",
+    "content": "src=\"/images/pages/aides/TVA/Hero.webp\""
+  },
+  {
+    "path": "src/components/pages/aides/TVA.tsx",
+    "content": "alt=\"Couple heureux dans leur maison\""
+  },
+  {
+    "path": "src/components/pages/aides/TVA.tsx",
+    "content": "className=\"w-full h-full object-cover\""
+  },
+  {
+    "path": "src/components/pages/aides/TVA.tsx",
+    "content": "className=\"w-full md:w-1/2 lg:w-[50%] px-2 md:pl-[55px] md:pr-[3.84%]\""
+  },
+  {
+    "path": "src/components/pages/aides/TVA.tsx",
+    "content": "className=\"mt-5 md:mt-[20px] mb-6 md:mb-[30px]\""
+  },
+  {
+    "path": "src/components/pages/aides/TVA.tsx",
+    "content": "className=\"text-white text-2xl md:text-3xl lg:text-4xl font-bold m-0\""
+  },
+  {
+    "path": "src/components/pages/aides/TVA.tsx",
+    "content": "Une TVA réduite à 10% dans certains cas"
+  },
+  {
+    "path": "src/components/pages/aides/TVA.tsx",
+    "content": "className=\"text-white mb-12 md:mb-[50px]\""
+  },
+  {
+    "path": "src/components/pages/aides/TVA.tsx",
+    "content": "Les centrales photovoltaïques dont la puissance est inférieure ou égale à 3 kWc bénéficient d&apos;un\n                taux de TVA réduit à 10%. Pour des installations au-delà de ces 3 kWc, le taux passe à 20%."
+  },
+  {
+    "path": "src/components/pages/aides/TVA.tsx",
+    "content": "className=\"hidden\""
+  },
+  {
+    "path": "src/components/pages/aides/TVA.tsx",
+    "content": "href=\"/contact\""
+  },
+  {
+    "path": "src/components/pages/aides/TVA.tsx",
+    "content": "className=\"inline-flex items-center justify-center px-10 py-[18px] bg-transparent text-white border border-white rounded-md hover:bg-white hover:text-blue-600 transition-all duration-200\""
+  },
+  {
+    "path": "src/components/pages/aides/TVA.tsx",
+    "content": "Get started today"
+  },
+  {
+    "path": "src/components/pages/aides/SubSide.tsx",
+    "content": "className=\"py-8 md:py-16 px-4 bg-white\""
+  },
+  {
+    "path": "src/components/pages/aides/SubSide.tsx",
+    "content": "className=\"container mx-auto max-w-7xl\""
+  },
+  {
+    "path": "src/components/pages/aides/SubSide.tsx",
+    "content": "className=\"grid grid-cols-1 lg:grid-cols-2 gap-6 lg:gap-16\""
+  },
+  {
+    "path": "src/components/pages/aides/SubSide.tsx",
+    "content": "className=\"text-2xl sm:text-3xl md:text-4xl font-bold mb-4 md:mb-6 text-slate-900\""
+  },
+  {
+    "path": "src/components/pages/aides/SubSide.tsx",
+    "content": "Prime à l&apos;autoconsommation"
+  },
+  {
+    "path": "src/components/pages/aides/SubSide.tsx",
+    "content": "comment en bénéficier ?"
+  },
+  {
+    "path": "src/components/pages/aides/SubSide.tsx",
+    "content": "className=\"w-24 sm:w-32 mb-4 md:mb-6\""
+  },
+  {
+    "path": "src/components/pages/aides/SubSide.tsx",
+    "content": "src=\"/images/pages/aides/SubSide/MINISTERE.svg\""
+  },
+  {
+    "path": "src/components/pages/aides/SubSide.tsx",
+    "content": "alt=\"Ministère de la Transition Écologique\""
+  },
+  {
+    "path": "src/components/pages/aides/SubSide.tsx",
+    "content": "className=\"w-full h-auto\""
+  },
+  {
+    "path": "src/components/pages/aides/SubSide.tsx",
+    "content": "className=\"text-slate-700 mb-6 md:mb-8\""
+  },
+  {
+    "path": "src/components/pages/aides/SubSide.tsx",
+    "content": "Tout acquéreur d&apos;une installation solaire Sunrise bénéficie de la prime à l&apos;autoconsommation\n              photovoltaïque, indépendamment de ses revenus. 3 conditions suffisent. Nous nous engageons à ce\n              qu&apos;elles soient respectées."
+  },
+  {
+    "path": "src/components/pages/aides/SubSide.tsx",
+    "content": "className=\"grid grid-cols-1 md:grid-cols-2 gap-8 lg:gap-16 mt-8\""
+  },
+  {
+    "path": "src/components/pages/aides/SubSide.tsx",
+    "content": "className=\"relative\""
+  },
+  {
+    "path": "src/components/pages/aides/SubSide.tsx",
+    "content": "className=\"absolute -top-[10%] right-0 md:-right-[10%] z-10\""
+  },
+  {
+    "path": "src/components/pages/aides/SubSide.tsx",
+    "content": "src=\"/images/pages/aides/SubSide/Idea.webp\""
+  },
+  {
+    "path": "src/components/pages/aides/SubSide.tsx",
+    "content": "alt=\"Simulateur\""
+  },
+  {
+    "path": "src/components/pages/aides/SubSide.tsx",
+    "content": "className=\"w-16 h-16 sm:w-20 sm:h-20 md:w-24 md:h-24\""
+  },
+  {
+    "path": "src/components/pages/aides/SubSide.tsx",
+    "content": "className=\"p-4 sm:p-6 border border-slate-200 shadow-md relative\""
+  },
+  {
+    "path": "src/components/pages/aides/SubSide.tsx",
+    "content": "className=\"mb-4 md:mb-6\""
+  },
+  {
+    "path": "src/components/pages/aides/SubSide.tsx",
+    "content": "className=\"text-base sm:text-lg font-bold mb-4\""
+  },
+  {
+    "path": "src/components/pages/aides/SubSide.tsx",
+    "content": "className=\"bg-slate-800 text-white px-2 py-1\""
+  },
+  {
+    "path": "src/components/pages/aides/SubSide.tsx",
+    "content": "Vérifiez gratuitement"
+  },
+  {
+    "path": "src/components/pages/aides/SubSide.tsx",
+    "content": "le montant de vos\n                  aides à l&apos;autoconsommation solaire"
+  },
+  {
+    "path": "src/components/pages/aides/SubSide.tsx",
+    "content": "className=\"space-y-4 md:space-y-6\""
+  },
+  {
+    "path": "src/components/pages/aides/SubSide.tsx",
+    "content": "className=\"space-y-2\""
+  },
+  {
+    "path": "src/components/pages/aides/SubSide.tsx",
+    "content": "htmlFor=\"power-capacity\""
+  },
+  {
+    "path": "src/components/pages/aides/SubSide.tsx",
+    "content": "Votre puissance de centrale solaire"
+  },
+  {
+    "path": "src/components/pages/aides/SubSide.tsx",
+    "content": "className=\"space-y-4\""
+  },
+  {
+    "path": "src/components/pages/aides/SubSide.tsx",
+    "content": "className=\"h-2 rounded-full relative\""
+  },
+  {
+    "path": "src/components/pages/aides/SubSide.tsx",
+    "content": "id=\"power-capacity\""
+  },
+  {
+    "path": "src/components/pages/aides/SubSide.tsx",
+    "content": "className=\"py-4\""
+  },
+  {
+    "path": "src/components/pages/aides/SubSide.tsx",
+    "content": "className=\"flex justify-between text-sm text-slate-600\""
+  },
+  {
+    "path": "src/components/pages/aides/SubSide.tsx",
+    "content": "1kWc"
+  },
+  {
+    "path": "src/components/pages/aides/SubSide.tsx",
+    "content": "className=\"w-12 h-8 border border-slate-300 flex items-center justify-center bg-white\""
+  },
+  {
+    "path": "src/components/pages/aides/SubSide.tsx",
+    "content": "9kWc"
+  },
+  {
+    "path": "src/components/pages/aides/SubSide.tsx",
+    "content": "className=\"grid grid-cols-1 sm:grid-cols-2 gap-4 md:gap-6\""
+  },
+  {
+    "path": "src/components/pages/aides/SubSide.tsx",
+    "content": "className=\"space-y-3\""
+  },
+  {
+    "path": "src/components/pages/aides/SubSide.tsx",
+    "content": "className=\"font-medium\""
+  },
+  {
+    "path": "src/components/pages/aides/SubSide.tsx",
+    "content": "Situation"
+  },
+  {
+    "path": "src/components/pages/aides/SubSide.tsx",
+    "content": "className=\"text-red-500 font-normal\""
+  },
+  {
+    "path": "src/components/pages/aides/SubSide.tsx",
+    "content": "(Nécessaire)"
+  },
+  {
+    "path": "src/components/pages/aides/SubSide.tsx",
+    "content": "className=\"flex items-center space-x-2\""
+  },
+  {
+    "path": "src/components/pages/aides/SubSide.tsx",
+    "content": "value=\"house\""
+  },
+  {
+    "path": "src/components/pages/aides/SubSide.tsx",
+    "content": "id=\"house\""
+  },
+  {
+    "path": "src/components/pages/aides/SubSide.tsx",
+    "content": "htmlFor=\"house\""
+  },
+  {
+    "path": "src/components/pages/aides/SubSide.tsx",
+    "content": "className=\"font-normal text-sm sm:text-base\""
+  },
+  {
+    "path": "src/components/pages/aides/SubSide.tsx",
+    "content": "Propriétaire de maison individuelle"
+  },
+  {
+    "path": "src/components/pages/aides/SubSide.tsx",
+    "content": "className=\"flex items-center space-x-2\""
+  },
+  {
+    "path": "src/components/pages/aides/SubSide.tsx",
+    "content": "value=\"apartment\""
+  },
+  {
+    "path": "src/components/pages/aides/SubSide.tsx",
+    "content": "id=\"apartment\""
+  },
+  {
+    "path": "src/components/pages/aides/SubSide.tsx",
+    "content": "htmlFor=\"apartment\""
+  },
+  {
+    "path": "src/components/pages/aides/SubSide.tsx",
+    "content": "className=\"font-normal text-sm sm:text-base\""
+  },
+  {
+    "path": "src/components/pages/aides/SubSide.tsx",
+    "content": "Propriétaire d&apos;un appartement"
+  },
+  {
+    "path": "src/components/pages/aides/SubSide.tsx",
+    "content": "className=\"flex items-center space-x-2\""
+  },
+  {
+    "path": "src/components/pages/aides/SubSide.tsx",
+    "content": "value=\"tenant\""
+  },
+  {
+    "path": "src/components/pages/aides/SubSide.tsx",
+    "content": "id=\"tenant\""
+  },
+  {
+    "path": "src/components/pages/aides/SubSide.tsx",
+    "content": "htmlFor=\"tenant\""
+  },
+  {
+    "path": "src/components/pages/aides/SubSide.tsx",
+    "content": "className=\"font-normal text-sm sm:text-base\""
+  },
+  {
+    "path": "src/components/pages/aides/SubSide.tsx",
+    "content": "Locataire"
+  },
+  {
+    "path": "src/components/pages/aides/SubSide.tsx",
+    "content": "className=\"space-y-3\""
+  },
+  {
+    "path": "src/components/pages/aides/SubSide.tsx",
+    "content": "className=\"font-medium\""
+  },
+  {
+    "path": "src/components/pages/aides/SubSide.tsx",
+    "content": "Ancienneté de votre bien"
+  },
+  {
+    "path": "src/components/pages/aides/SubSide.tsx",
+    "content": "className=\"text-red-500 font-normal\""
+  },
+  {
+    "path": "src/components/pages/aides/SubSide.tsx",
+    "content": "(Nécessaire)"
+  },
+  {
+    "path": "src/components/pages/aides/SubSide.tsx",
+    "content": "className=\"flex items-center space-x-2\""
+  },
+  {
+    "path": "src/components/pages/aides/SubSide.tsx",
+    "content": "value=\"over2years\""
+  },
+  {
+    "path": "src/components/pages/aides/SubSide.tsx",
+    "content": "id=\"over2years\""
+  },
+  {
+    "path": "src/components/pages/aides/SubSide.tsx",
+    "content": "htmlFor=\"over2years\""
+  },
+  {
+    "path": "src/components/pages/aides/SubSide.tsx",
+    "content": "className=\"font-normal text-sm sm:text-base\""
+  },
+  {
+    "path": "src/components/pages/aides/SubSide.tsx",
+    "content": "Construite depuis +2 ans"
+  },
+  {
+    "path": "src/components/pages/aides/SubSide.tsx",
+    "content": "className=\"flex items-center space-x-2\""
+  },
+  {
+    "path": "src/components/pages/aides/SubSide.tsx",
+    "content": "value=\"under2years\""
+  },
+  {
+    "path": "src/components/pages/aides/SubSide.tsx",
+    "content": "id=\"under2years\""
+  },
+  {
+    "path": "src/components/pages/aides/SubSide.tsx",
+    "content": "htmlFor=\"under2years\""
+  },
+  {
+    "path": "src/components/pages/aides/SubSide.tsx",
+    "content": "className=\"font-normal text-sm sm:text-base\""
+  },
+  {
+    "path": "src/components/pages/aides/SubSide.tsx",
+    "content": "Construite depuis -2 ans"
+  },
+  {
+    "path": "src/components/pages/aides/SubSide.tsx",
+    "content": "className=\"flex items-center space-x-2\""
+  },
+  {
+    "path": "src/components/pages/aides/SubSide.tsx",
+    "content": "value=\"notbuilt\""
+  },
+  {
+    "path": "src/components/pages/aides/SubSide.tsx",
+    "content": "id=\"notbuilt\""
+  },
+  {
+    "path": "src/components/pages/aides/SubSide.tsx",
+    "content": "htmlFor=\"notbuilt\""
+  },
+  {
+    "path": "src/components/pages/aides/SubSide.tsx",
+    "content": "className=\"font-normal text-sm sm:text-base\""
+  },
+  {
+    "path": "src/components/pages/aides/SubSide.tsx",
+    "content": "Pas encore construite"
+  },
+  {
+    "path": "src/components/pages/aides/SubSide.tsx",
+    "content": "text=\"Simuler le montant de mes aides\""
+  },
+  {
+    "path": "src/components/pages/aides/SubSide.tsx",
+    "content": "href=\"Simuler le montant de mes aides\""
+  },
+  {
+    "path": "src/components/pages/aides/SubSide.tsx",
+    "content": "className=\"space-y-6 md:space-y-9\""
+  },
+  {
+    "path": "src/components/pages/aides/SubSide.tsx",
+    "content": "className=\"bg-blue-900 text-white w-full p-4 sm:p-6\""
+  },
+  {
+    "path": "src/components/pages/aides/SubSide.tsx",
+    "content": "className=\"text-2xl sm:text-3xl md:text-4xl font-bold\""
+  },
+  {
+    "path": "src/components/pages/aides/SubSide.tsx",
+    "content": "Jusqu&apos;à 1 440€"
+  },
+  {
+    "path": "src/components/pages/aides/SubSide.tsx",
+    "content": "className=\"text-base sm:text-lg\""
+  },
+  {
+    "path": "src/components/pages/aides/SubSide.tsx",
+    "content": "d&apos;aides financières"
+  },
+  {
+    "path": "src/components/pages/aides/SubSide.tsx",
+    "content": "className=\"space-y-3 md:space-y-4 w-full text-slate-700 text-sm sm:text-base\""
+  },
+  {
+    "path": "src/components/pages/aides/SubSide.tsx",
+    "content": "L&apos;autoconsommation photovoltaïque est la consommation de sa propre production d&apos;électricité à\n                partir de l&apos;énergie solaire. Elle permet d&apos;utiliser une énergie non polluante et abondante et\n                de contribuer à la transition énergétique."
+  },
+  {
+    "path": "src/components/pages/aides/SubSide.tsx",
+    "content": "Les installations qui permettent l&apos;autoconsommation (installations de vente en surplus), sont\n                éligibles à une prime à l&apos;investissement. Cette prime est dégressive et variable en fonction de la\n                puissance de l&apos;installation."
+  },
+  {
+    "path": "src/components/pages/aides/SubSide.tsx",
+    "content": "Si vous remplissez les conditions (le détail des conditions est consultable dans l&apos;arrêté tarifaire\n                du 6 octobre 2021), cette prime est versée automatiquement par EDF, en même temps que vos revenus\n                générés par la vente de votre surplus."
+  },
+  {
+    "path": "src/components/pages/aides/SubSide.tsx",
+    "content": "Les montants des primes sont mis à jour tous les trimestres. Pour connaître les montants en temps réel,\n                simulez votre montant d&apos;aide avec notre calculateur gratuit."
+  },
+  {
+    "path": "src/components/pages/aides/Steps.tsx",
+    "content": "className=\"container mx-auto px-4 py-12\""
+  },
+  {
+    "path": "src/components/pages/aides/Steps.tsx",
+    "content": "className=\"grid grid-cols-1 md:grid-cols-3 gap-8\""
+  },
+  {
+    "path": "src/components/pages/aides/Steps.tsx",
+    "content": "className=\"flex flex-col items-center text-center\""
+  },
+  {
+    "path": "src/components/pages/aides/Steps.tsx",
+    "content": "className=\"mb-6 text-[#4b3479]\""
+  },
+  {
+    "path": "src/components/pages/aides/Steps.tsx",
+    "content": "className=\"text-xl font-semibold mb-4\""
+  },
+  {
+    "path": "src/components/pages/aides/Steps.tsx",
+    "content": "Assurance décennale"
+  },
+  {
+    "path": "src/components/pages/aides/Steps.tsx",
+    "content": "className=\"text-gray-700\""
+  },
+  {
+    "path": "src/components/pages/aides/Steps.tsx",
+    "content": "Pendant les 10 années suivant l'installation, seront réparés tous\n            dommages qui n'étaient pas décelables lors de la réception des\n            travaux et qui compromettraient la solidité du bâti ou qui le\n            rendraient inhabitable ou impropre à son usage"
+  },
+  {
+    "path": "src/components/pages/aides/Steps.tsx",
+    "content": "className=\"flex flex-col items-center text-center\""
+  },
+  {
+    "path": "src/components/pages/aides/Steps.tsx",
+    "content": "src=\"/images/pages/garanties/Steps.jpeg\""
+  },
+  {
+    "path": "src/components/pages/aides/Steps.tsx",
+    "content": "alt=\"RGE Logo\""
+  },
+  {
+    "path": "src/components/pages/aides/Steps.tsx",
+    "content": "className=\"mb-6\""
+  },
+  {
+    "path": "src/components/pages/aides/Steps.tsx",
+    "content": "className=\"text-xl font-semibold mb-4\""
+  },
+  {
+    "path": "src/components/pages/aides/Steps.tsx",
+    "content": "Certification RGE"
+  },
+  {
+    "path": "src/components/pages/aides/Steps.tsx",
+    "content": "className=\"text-gray-700\""
+  },
+  {
+    "path": "src/components/pages/aides/Steps.tsx",
+    "content": "Tous nos techniciens détiennent la certification RGE afin de vous\n            faire bénéficier des aides d'État et de vous offrir la meilleure\n            qualité de pose possible"
+  },
+  {
+    "path": "src/components/pages/aides/Steps.tsx",
+    "content": "className=\"flex flex-col items-center text-center\""
+  },
+  {
+    "path": "src/components/pages/aides/Steps.tsx",
+    "content": "className=\"mb-6 text-[#4b3479]\""
+  },
+  {
+    "path": "src/components/pages/aides/Steps.tsx",
+    "content": "className=\"text-xl font-semibold mb-4\""
+  },
+  {
+    "path": "src/components/pages/aides/Steps.tsx",
+    "content": "Visites de contrôle"
+  },
+  {
+    "path": "src/components/pages/aides/Steps.tsx",
+    "content": "className=\"text-gray-700\""
+  },
+  {
+    "path": "src/components/pages/aides/Steps.tsx",
+    "content": "Nos équipes contrôlent aléatoirement la qualité des installations\n            réalisées et interrogent systématiquement les clients 1 mois après\n            la mise en service pour connaître leur satisfaction."
+  },
+  {
+    "path": "src/components/pages/aides/CTA.tsx",
+    "content": "className=\"w-full py-12 md:py-16 lg:py-20 text-gray-900 bg-gray-50\""
+  },
+  {
+    "path": "src/components/pages/aides/CTA.tsx",
+    "content": "className=\"mx-auto px-4 max-w-6xl\""
+  },
+  {
+    "path": "src/components/pages/aides/CTA.tsx",
+    "content": "className=\"text-center mb-10 md:mb-16  justify-end items-center flex flex-col gap-16\""
+  },
+  {
+    "path": "src/components/pages/aides/CTA.tsx",
+    "content": "className=\"text-3xl md:text-4xl lg:text-5xl w-[70%] justify-end items-center text-center flex font-bold mb-4\""
+  },
+  {
+    "path": "src/components/pages/aides/CTA.tsx",
+    "content": "Obtenez des aides locales grâce à notre équipe d’experts"
+  },
+  {
+    "path": "src/components/pages/aides/CTA.tsx",
+    "content": "className=\"text-sm md:text-base  w-full \""
+  },
+  {
+    "path": "src/components/pages/aides/CTA.tsx",
+    "content": "Certaines collectivités locales proposent des aides pour réduire le\n            coût d’investissement de votre installation solaire. Les montants et\n            les démarches pour les obtenir varient. Le plus simple est de nous\n            appeler et nos équipes se chargent de tout pour vous !"
+  },
+  {
+    "path": "src/components/pages/aides/CTA.tsx",
+    "content": "text=\"Je demande un RDV avec un conseiller\""
+  },
+  {
+    "path": "src/components/pages/aides/CTA.tsx",
+    "content": "href=\"Je demande un RDV avec un conseiller\""
+  },
+  {
+    "path": "src/components/pages/aides/CTA.tsx",
+    "content": "className=\"w-full flex justify-center items-center\""
+  },
+  {
+    "path": "src/components/pages/aides/CTA.tsx",
+    "content": "className=\"\n      group relative inline-flex gap-2 items-center justify-center \n      px-7 py-4 bg-[#fbac18] text-white font-medium rounded-full \n      hover:bg-[#e09404] overflow-hidden\""
+  },
+  {
+    "path": "src/components/pages/aides/CTA.tsx",
+    "content": "className=\"text-white text-2xl\""
+  },
+  {
+    "path": "src/components/pages/aides/CTA.tsx",
+    "content": "className=\"transition-all duration-500 group-hover:translate-y-[-20px] group-hover:opacity-1\""
+  },
+  {
+    "path": "src/components/pages/aides/CTA.tsx",
+    "content": "className=\"absolute transition-all duration-500 opacity-1 group-hover:opacity-100 group-hover:translate-y-0\""
+  },
+  {
+    "path": "src/components/pages/aides/CTA.tsx",
+    "content": "className=\"group relative inline-flex items-center justify-center \""
+  },
+  {
+    "path": "src/components/pages/aides/CTA.tsx",
+    "content": "className=\"text-white opacity-0 text-2xl\""
+  },
+  {
+    "path": "src/components/pages/aides/CTA.tsx",
+    "content": "className=\" translate-y-[0px] translate-x-[0px] \""
+  },
+  {
+    "path": "src/components/pages/aides/About.tsx",
+    "content": "className=\"bg-white flex justify-center py-10 h-200 md:py-20 w-full\""
+  },
+  {
+    "path": "src/components/pages/aides/About.tsx",
+    "content": "className=\" mx-auto px-4 md:px-6 flex flex-col md:flex-row items-center gap-10 md:gap-20\""
+  },
+  {
+    "path": "src/components/pages/aides/About.tsx",
+    "content": "className=\"flex flex-col space-y-4 md:space-y-6 md:max-w-[32rem]\""
+  },
+  {
+    "path": "src/components/pages/aides/About.tsx",
+    "content": "className=\"text-blue-800\""
+  },
+  {
+    "path": "src/components/pages/aides/About.tsx",
+    "content": "Un coup de pouce sur 20 ans"
+  },
+  {
+    "path": "src/components/pages/aides/About.tsx",
+    "content": "className=\"text-[28px] md:text-[40px] font-bold text-[#040922] leading-tight md:leading-[50px] font-['Lato',_Arial,_Helvetica,_sans-serif]\""
+  },
+  {
+    "path": "src/components/pages/aides/About.tsx",
+    "content": "Le rachat de surplus de production non consommée"
+  },
+  {
+    "path": "src/components/pages/aides/About.tsx",
+    "content": "className=\"text-gray-800\""
+  },
+  {
+    "path": "src/components/pages/aides/About.tsx",
+    "content": "Lors de la conception de votre projet, votre expert en énergie\n            Sunrise identifie avec vous s’il vaut mieux consommer la totalité de\n            votre production d’électricité ou si vous devrez en injecter, tout\n            ou partie, sur le réseau public."
+  },
+  {
+    "path": "src/components/pages/aides/About.tsx",
+    "content": "className=\"text-gray-800\""
+  },
+  {
+    "path": "src/components/pages/aides/About.tsx",
+    "content": "Si vous optez pour la vente de surplus, nos équipes s’occuperont de\n            la déclaration de votre installation solaire auprès d’Enedis ou de\n            votre ELD en tant que « centrale d’autoconsommation avec revente de\n            surplus ». Au premier trimestre 2023, le tarif d’achat du kWh est\n            fixé à 0,1313 € par kWh réinjecté pendant une durée contractuelle de\n            20 années, pour toute installation photovoltaïque dont la puissance\n            totale est inférieure ou égale à 9kWc."
+  },
+  {
+    "path": "src/components/pages/aides/About.tsx",
+    "content": "className=\"w-full md:w-[550px]\""
+  },
+  {
+    "path": "src/components/pages/aides/About.tsx",
+    "content": "src=\"/images/pages/aides/about.webp\""
+  },
+  {
+    "path": "src/components/pages/aides/About.tsx",
+    "content": "alt=\"Solar panels on roof\""
+  },
+  {
+    "path": "src/components/pages/aides/About.tsx",
+    "content": "className=\"w-full h-auto rounded-lg\""
+  },
+  {
+    "path": "src/components/pages/aides/SubSide/slider.tsx",
+    "content": "className=\"relative h-2 w-full grow overflow-hidden rounded-full bg-slate-100\""
+  },
+  {
+    "path": "src/components/pages/aides/SubSide/slider.tsx",
+    "content": "className=\"absolute h-full bg-teal-500\""
+  },
+  {
+    "path": "src/components/pages/aides/SubSide/slider.tsx",
+    "content": "className=\"block h-5 w-5 rounded-full border-2 border-teal-500 bg-white ring-offset-white transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-slate-950 focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50\""
+  },
+  {
+    "path": "src/components/pages/aides/SubSide/radio-group.tsx",
+    "content": "className=\"flex items-center justify-center\""
+  },
+  {
+    "path": "src/components/pages/aides/SubSide/radio-group.tsx",
+    "content": "className=\"h-2.5 w-2.5 fill-current text-current\""
+  },
+  {
+    "path": "src/components/pages/aides/SubSide/button.tsx",
+    "content": "className=\"w-full flex justify-center items-center\""
+  },
+  {
+    "path": "src/components/pages/aides/SubSide/button.tsx",
+    "content": "className=\"group relative inline-flex items-center justify-center px-6 py-3 bg-[#fbac18] text-white  font-medium rounded-full hover:bg-[#0B476F] overflow-hidden\""
+  },
+  {
+    "path": "src/components/pages/aides/SubSide/button.tsx",
+    "content": "className=\"transition-all duration-500\""
+  },
+  {
+    "path": "src/components/modules/SearchBar.tsx",
+    "content": "className=\"relative w-full md:w-auto md:flex-1\""
+  },
+  {
+    "path": "src/components/modules/SearchBar.tsx",
+    "content": "className=\"w-full\""
+  },
+  {
+    "path": "src/components/modules/SearchBar.tsx",
+    "content": "type=\"search\""
+  },
+  {
+    "path": "src/components/modules/SearchBar.tsx",
+    "content": "placeholder=\"Commencer une recherche\""
+  },
+  {
+    "path": "src/components/modules/SearchBar.tsx",
+    "content": "className=\"h-12 pl-14 pr-10 bg-white border-white focus:border-blue-300 w-full\""
+  },
+  {
+    "path": "src/components/modules/SearchBar.tsx",
+    "content": "type=\"submit\""
+  },
+  {
+    "path": "src/components/modules/SearchBar.tsx",
+    "content": "size=\"icon\""
+  },
+  {
+    "path": "src/components/modules/SearchBar.tsx",
+    "content": "variant=\"ghost\""
+  },
+  {
+    "path": "src/components/modules/SearchBar.tsx",
+    "content": "className=\"absolute left-0 top-0 h-12 w-12 text-gray-900 font-bold\""
+  },
+  {
+    "path": "src/components/modules/SearchBar.tsx",
+    "content": "className=\"sr-only\""
+  },
+  {
+    "path": "src/components/modules/SearchBar.tsx",
+    "content": "Recherche"
+  },
+  {
+    "path": "src/components/modules/SearchBar.tsx",
+    "content": "className=\"h-6 w-6\""
+  },
+  {
+    "path": "src/components/modules/SearchBar.tsx",
+    "content": "className=\"mt-4 text-red-500 text-sm\""
+  },
+  {
+    "path": "src/components/modules/SearchBar.tsx",
+    "content": "className=\"mt-10 bg-white rounded-lg p-4 max-h-[80vh] overflow-y-auto text-left\""
+  },
+  {
+    "path": "src/components/modules/SearchBar.tsx",
+    "content": "className=\"font-semibold mb-4\""
+  },
+  {
+    "path": "src/components/modules/SearchBar.tsx",
+    "content": "Résultats pour “"
+  },
+  {
+    "path": "src/components/modules/SearchBar.tsx",
+    "content": "” :"
+  },
+  {
+    "path": "src/components/modules/SearchBar.tsx",
+    "content": "className=\"space-y-6 text-sm\""
+  },
+  {
+    "path": "src/components/modules/SearchBar.tsx",
+    "content": "className=\"text-blue-700 font-medium\""
+  },
+  {
+    "path": "src/components/modules/SearchBar.tsx",
+    "content": "className=\"ml-4 mt-1 list-disc list-inside space-y-1 text-gray-800\""
+  },
+  {
+    "path": "src/components/modules/SearchBar.tsx",
+    "content": "className=\"mt-10 text-sm text-gray-500\""
+  },
+  {
+    "path": "src/components/modules/SearchBar.tsx",
+    "content": "Aucun résultat trouvé."
+  },
+  {
+    "path": "src/components/modules/SNavBar.tsx",
+    "content": "className=\"section-main\""
+  },
+  {
+    "path": "src/components/modules/SNavBar.tsx",
+    "content": "className=\"header-container\""
+  },
+  {
+    "path": "src/components/modules/SNavBar.tsx",
+    "content": "className=\"header-content\""
+  },
+  {
+    "path": "src/components/modules/SNavBar.tsx",
+    "content": "className=\"header-inner\""
+  },
+  {
+    "path": "src/components/modules/SNavBar.tsx",
+    "content": "href=\"/\""
+  },
+  {
+    "path": "src/components/modules/SNavBar.tsx",
+    "content": "src=\"/images/modules/NavBar/Sunrise.svg\""
+  },
+  {
+    "path": "src/components/modules/SNavBar.tsx",
+    "content": "alt=\"logo Sunrise\""
+  },
+  {
+    "path": "src/components/modules/SNavBar.tsx",
+    "content": "className=\"logo-image\""
+  },
+  {
+    "path": "src/components/modules/SNavBar.tsx",
+    "content": "className=\"mobile-menu-button \""
+  },
+  {
+    "path": "src/components/modules/SNavBar.tsx",
+    "content": "className=\"mobile-menu\""
+  },
+  {
+    "path": "src/components/modules/Reviews.tsx",
+    "content": "className=\"max-w-6xl mx-auto p-5\""
+  },
+  {
+    "path": "src/components/modules/Reviews.tsx",
+    "content": "className=\"grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4\""
+  },
+  {
+    "path": "src/components/modules/Reviews.tsx",
+    "content": "className=\"md:col-span-1\""
+  },
+  {
+    "path": "src/components/modules/Proches.tsx",
+    "content": "Loading video..."
+  },
+  {
+    "path": "src/components/modules/Proches.tsx",
+    "content": "className=\"py-8 md:py-14 px-4 md:px-8 lg:px-16 bg-white\""
+  },
+  {
+    "path": "src/components/modules/Proches.tsx",
+    "content": "className=\"text-center text-2xl md:text-3xl font-semibold mb-8 text-gray-800\""
+  },
+  {
+    "path": "src/components/modules/Proches.tsx",
+    "content": "Découvrez nos installations proches de chez vous !"
+  },
+  {
+    "path": "src/components/modules/Proches.tsx",
+    "content": "className=\"max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-center gap-8 md:gap-12\""
+  },
+  {
+    "path": "src/components/modules/Proches.tsx",
+    "content": "className=\"w-full md:w-1/2 flex justify-center\""
+  },
+  {
+    "path": "src/components/modules/Proches.tsx",
+    "content": "url=\"https://youtu.be/y4iMWlxVKDA\""
+  },
+  {
+    "path": "src/components/modules/Proches.tsx",
+    "content": "width=\"504px\""
+  },
+  {
+    "path": "src/components/modules/Proches.tsx",
+    "content": "height=\"283px\""
+  },
+  {
+    "path": "src/components/modules/Proches.tsx",
+    "content": "title=\"Solar Panel Installation Video\""
+  },
+  {
+    "path": "src/components/modules/Proches.tsx",
+    "content": "className=\"w-full md:w-1/2 flex justify-center\""
+  },
+  {
+    "path": "src/components/modules/PNavBar.tsx",
+    "content": "className=\"border-none bg-[#f9f9f9] hidden lg:block\""
+  },
+  {
+    "path": "src/components/modules/PNavBar.tsx",
+    "content": "className=\" text-black flex justify-between pr-4 items-center text-sm h-full \""
+  },
+  {
+    "path": "src/components/modules/PNavBar.tsx",
+    "content": "className=\"flex h-full\""
+  },
+  {
+    "path": "src/components/modules/PNavBar.tsx",
+    "content": "href=\"#\""
+  },
+  {
+    "path": "src/components/modules/PNavBar.tsx",
+    "content": "className=\" px-4 py-4 pl-6 pr-6 bg-white\""
+  },
+  {
+    "path": "src/components/modules/PNavBar.tsx",
+    "content": "Particulier"
+  },
+  {
+    "path": "src/components/modules/PNavBar.tsx",
+    "content": "href=\"#\""
+  },
+  {
+    "path": "src/components/modules/PNavBar.tsx",
+    "content": "className=\"font-light px-4 py-4 pl-6 pr-6\""
+  },
+  {
+    "path": "src/components/modules/PNavBar.tsx",
+    "content": "Entreprise"
+  },
+  {
+    "path": "src/components/modules/PNavBar.tsx",
+    "content": "className=\"flex justify-center pr-4 items-center space-x-6\""
+  },
+  {
+    "path": "src/components/modules/PNavBar.tsx",
+    "content": "className=\"hidden  md:flex space-x-6\""
+  },
+  {
+    "path": "src/components/modules/PNavBar.tsx",
+    "content": "href=\"#\""
+  },
+  {
+    "path": "src/components/modules/PNavBar.tsx",
+    "content": "className=\"text-muted-foreground transition-colors duration-300 hover:text-[#127a4c]\""
+  },
+  {
+    "path": "src/components/modules/PNavBar.tsx",
+    "content": "Guides"
+  },
+  {
+    "path": "src/components/modules/PNavBar.tsx",
+    "content": "href=\"#\""
+  },
+  {
+    "path": "src/components/modules/PNavBar.tsx",
+    "content": "className=\"text-muted-foreground transition-colors duration-300 hover:text-[#127a4c]\""
+  },
+  {
+    "path": "src/components/modules/PNavBar.tsx",
+    "content": "Qui sommes nous ?"
+  },
+  {
+    "path": "src/components/modules/PNavBar.tsx",
+    "content": "href=\"#\""
+  },
+  {
+    "path": "src/components/modules/PNavBar.tsx",
+    "content": "className=\"text-muted-foreground transition-colors duration-300 hover:text-[#127a4c]\""
+  },
+  {
+    "path": "src/components/modules/PNavBar.tsx",
+    "content": "Carrières"
+  },
+  {
+    "path": "src/components/modules/PNavBar.tsx",
+    "content": "href=\"#\""
+  },
+  {
+    "path": "src/components/modules/PNavBar.tsx",
+    "content": "className=\"text-muted-foreground transition-colors duration-300 hover:text-[#127a4c]\""
+  },
+  {
+    "path": "src/components/modules/PNavBar.tsx",
+    "content": "Nous contacter"
+  },
+  {
+    "path": "src/components/modules/PNavBar.tsx",
+    "content": "className=\"flex items-center\""
+  },
+  {
+    "path": "src/components/modules/PNavBar.tsx",
+    "content": "href=\"\""
+  },
+  {
+    "path": "src/components/modules/PNavBar.tsx",
+    "content": "className=\"\""
+  },
+  {
+    "path": "src/components/modules/PNavBar.tsx",
+    "content": "src=\"/images/modules/NavBar/Numero.png\""
+  },
+  {
+    "path": "src/components/modules/PNavBar.tsx",
+    "content": "alt=\"logo Sunrise\""
+  },
+  {
+    "path": "src/components/modules/Hero.tsx",
+    "content": "className=\"relative md:h-[420px] h-[500px] z-0 p-0 m-0 w-full flex items-center justify-center overflow-hidden bg-cover bg-center\""
+  },
+  {
+    "path": "src/components/modules/Hero.tsx",
+    "content": "className=\"absolute inset-0 bg-[#00061b] opacity-40\""
+  },
+  {
+    "path": "src/components/modules/Hero.tsx",
+    "content": "className=\"relative p-0 m-0 w-full h-full flex items-center text-white\""
+  },
+  {
+    "path": "src/components/modules/Hero.tsx",
+    "content": "className=\"absolute left-[-5rem] md:left-0  inset-0  h-full\""
+  },
+  {
+    "path": "src/components/modules/Hero.tsx",
+    "content": "alt=\"Blue background shape\""
+  },
+  {
+    "path": "src/components/modules/Hero.tsx",
+    "content": "className=\"relative w-full px-6 py-8 flex flex-col items-start justify-center\""
+  },
+  {
+    "path": "src/components/modules/Hero.tsx",
+    "content": "className=\"max-w-[90%]\""
+  },
+  {
+    "path": "src/components/modules/Hero.tsx",
+    "content": "className=\"text-2xl sm:text-3xl font-semibold  leading-tight mb-4\""
+  },
+  {
+    "path": "src/components/modules/Hero.tsx",
+    "content": "className=\"text-sm leading-relaxed mb-6\""
+  },
+  {
+    "path": "src/components/modules/Hero.tsx",
+    "content": "className=\"relative h-full flex left-[20%] md:left-[40%] w-full\""
+  },
+  {
+    "path": "src/components/modules/Hero.tsx",
+    "content": "className=\"absolute h-full flex flex-col justify-center pl-4 sm:pl-8 md:pl-[4.8rem] pr-4 sm:pr-8 md:pr-16 gap-4 md:gap-[2rem] lg:gap-[3rem]\""
+  },
+  {
+    "path": "src/components/modules/Hero.tsx",
+    "content": "className=\"text-3xl sm:text-4xl md:text-[2.3rem] lg:text-[3rem] w-[70%] font-semibold leading-tight\""
+  },
+  {
+    "path": "src/components/modules/Hero.tsx",
+    "content": "className=\"text-base w-full sm:w-[80%] md:w-[60%] lg:w-[50%]\""
+  },
+  {
+    "path": "src/components/modules/Hero.tsx",
+    "content": "className=\"mt-2\""
+  },
+  {
+    "path": "src/components/modules/Guarantees.tsx",
+    "content": "className=\"w-full py-8 md:py-12 lg:py-20 text-gray-900 bg-gray-50\""
+  },
+  {
+    "path": "src/components/modules/Guarantees.tsx",
+    "content": "className=\"mx-auto px-4 max-w-6xl\""
+  },
+  {
+    "path": "src/components/modules/Guarantees.tsx",
+    "content": "className=\"text-center mb-6 md:mb-10\""
+  },
+  {
+    "path": "src/components/modules/Guarantees.tsx",
+    "content": "className=\"text-xl md:text-2xl lg:text-3xl font-bold mb-2\""
+  },
+  {
+    "path": "src/components/modules/Guarantees.tsx",
+    "content": "Des garanties exclusives Sunrise"
+  },
+  {
+    "path": "src/components/modules/Guarantees.tsx",
+    "content": "className=\"text-lg md:text-xl lg:text-2xl font-bold mb-4 md:mb-6\""
+  },
+  {
+    "path": "src/components/modules/Guarantees.tsx",
+    "content": "pour produire sereinement son énergie solaire"
+  },
+  {
+    "path": "src/components/modules/Guarantees.tsx",
+    "content": "className=\"text-sm md:text-base max-w-4xl mx-auto\""
+  },
+  {
+    "path": "src/components/modules/Guarantees.tsx",
+    "content": "Quoi qu&apos;il se passe pendant les 5 à 10 prochaines années, votre installation solaire sera réparée sans\n            aucun frais et réduira votre facture d&apos;électricité."
+  },
+  {
+    "path": "src/components/modules/Guarantees.tsx",
+    "content": "className=\"flex flex-col md:flex-row gap-6 md:gap-5 justify-center md:h-auto items-stretch mx-auto\""
+  },
+  {
+    "path": "src/components/modules/Guarantees.tsx",
+    "content": "className=\"flex justify-center mt-8 md:mt-10\""
+  },
+  {
+    "path": "src/components/modules/Guarantees.tsx",
+    "content": "text=\"Nos garanties\""
+  },
+  {
+    "path": "src/components/modules/Guarantees.tsx",
+    "content": "href=\"#nos-garanties\""
+  },
+  {
+    "path": "src/components/modules/Guarantees.tsx",
+    "content": "className=\"rounded-3xl w-full md:w-1/2 gap-20 p-6 md:p-8 lg:p-[40px] flex flex-col items-center text-center text-white\""
+  },
+  {
+    "path": "src/components/modules/Guarantees.tsx",
+    "content": "className=\"text-lg mx-auto text-center font-bold mb-4 md:mb-1\""
+  },
+  {
+    "path": "src/components/modules/Guarantees.tsx",
+    "content": "Accompagnement"
+  },
+  {
+    "path": "src/components/modules/Guarantees.tsx",
+    "content": "Zéro Panne"
+  },
+  {
+    "path": "src/components/modules/Guarantees.tsx",
+    "content": "className=\"flex flex-col text-center\""
+  },
+  {
+    "path": "src/components/modules/Guarantees.tsx",
+    "content": "className=\"text-sm mb-1\""
+  },
+  {
+    "path": "src/components/modules/Guarantees.tsx",
+    "content": "Jusqu'à"
+  },
+  {
+    "path": "src/components/modules/Guarantees.tsx",
+    "content": "className=\"text-6xl md:text-7xl lg:text-8xl font-bold mb-4\""
+  },
+  {
+    "path": "src/components/modules/Guarantees.tsx",
+    "content": "5 ans"
+  },
+  {
+    "path": "src/components/modules/Guarantees.tsx",
+    "content": "className=\"text-2xl md:text-3xl lg:text-4xl text-center font-semibold  mt-4 md:mt-8 lg:mt-auto\""
+  },
+  {
+    "path": "src/components/modules/Guarantees.tsx",
+    "content": "d'accompagnement"
+  },
+  {
+    "path": "src/components/modules/Guarantees.tsx",
+    "content": "par nos équipes en"
+  },
+  {
+    "path": "src/components/modules/Guarantees.tsx",
+    "content": "cas de difficultés"
+  },
+  {
+    "path": "src/components/modules/Guarantees.tsx",
+    "content": "className=\"bg-white rounded-3xl w-full md:w-1/2 p-6 md:p-8 lg:p-[40px] flex flex-col items-center gap-6 md:gap-8 lg:gap-12 text-center border border-gray-200\""
+  },
+  {
+    "path": "src/components/modules/Guarantees.tsx",
+    "content": "className=\"mb-2 md:mb-4\""
+  },
+  {
+    "path": "src/components/modules/Guarantees.tsx",
+    "content": "className=\"font-extrabold text-lg mb-1\""
+  },
+  {
+    "path": "src/components/modules/Guarantees.tsx",
+    "content": "Garantie de réduction de facture"
+  },
+  {
+    "path": "src/components/modules/Guarantees.tsx",
+    "content": "className=\"text-base md:text-lg font-semibold w-full md:w-[90%] mx-auto\""
+  },
+  {
+    "path": "src/components/modules/Guarantees.tsx",
+    "content": "Vos économies sont garanties ou remboursées"
+  },
+  {
+    "path": "src/components/modules/Guarantees.tsx",
+    "content": "className=\"my-2 md:my-4\""
+  },
+  {
+    "path": "src/components/modules/Guarantees.tsx",
+    "content": "className=\"text-6xl md:text-7xl lg:text-8xl font-bold\""
+  },
+  {
+    "path": "src/components/modules/Guarantees.tsx",
+    "content": "10 ans"
+  },
+  {
+    "path": "src/components/modules/Guarantees.tsx",
+    "content": "className=\"flex flex-col gap-4 md:gap-6 justify-center items-center\""
+  },
+  {
+    "path": "src/components/modules/Guarantees.tsx",
+    "content": "src=\"/images/pages/panneaux-solaires/Guarantees.webp\""
+  },
+  {
+    "path": "src/components/modules/Guarantees.tsx",
+    "content": "alt=\"Panneau solaire\""
+  },
+  {
+    "path": "src/components/modules/Guarantees.tsx",
+    "content": "className=\"object-contain w-32 md:w-40 lg:w-[200px]\""
+  },
+  {
+    "path": "src/components/modules/Guarantees.tsx",
+    "content": "className=\"font-semibold leading-6 md:leading-7 text-gray-700 mt-2 md:mt-4 max-w-xs\""
+  },
+  {
+    "path": "src/components/modules/Guarantees.tsx",
+    "content": "Pendant 10 ans, si vous ne faites pas les économies promises par notre étude, on vous rembourse la différence."
+  },
+  {
+    "path": "src/components/modules/Guarantees.tsx",
+    "content": "className=\"w-full flex justify-center items-center\""
+  },
+  {
+    "path": "src/components/modules/Guarantees.tsx",
+    "content": "className=\"\n          group relative inline-flex text-base md:text-lg lg:text-xl items-center justify-center \n          px-6 py-3 md:px-8 md:py-4 bg-[#fbac18] text-white font-medium rounded-full \n          hover:bg-[#0b68a4] hover:border-[#003366] overflow-hidden\""
+  },
+  {
+    "path": "src/components/modules/Guarantees.tsx",
+    "content": "className=\"transition-all duration-500 group-hover:translate-y-[-100%] group-hover:opacity-1\""
+  },
+  {
+    "path": "src/components/modules/Guarantees.tsx",
+    "content": "xmlns=\"http://www.w3.org/2000/svg\""
+  },
+  {
+    "path": "src/components/modules/Guarantees.tsx",
+    "content": "width=\"40\""
+  },
+  {
+    "path": "src/components/modules/Guarantees.tsx",
+    "content": "height=\"40\""
+  },
+  {
+    "path": "src/components/modules/Guarantees.tsx",
+    "content": "viewBox=\"0 0 20 20\""
+  },
+  {
+    "path": "src/components/modules/Guarantees.tsx",
+    "content": "fill=\"none\""
+  },
+  {
+    "path": "src/components/modules/Guarantees.tsx",
+    "content": "stroke=\"currentColor\""
+  },
+  {
+    "path": "src/components/modules/Guarantees.tsx",
+    "content": "strokeWidth=\"3\""
+  },
+  {
+    "path": "src/components/modules/Guarantees.tsx",
+    "content": "strokeLinecap=\"round\""
+  },
+  {
+    "path": "src/components/modules/Guarantees.tsx",
+    "content": "strokeLinejoin=\"round\""
+  },
+  {
+    "path": "src/components/modules/Guarantees.tsx",
+    "content": "className=\"ml-2 h-3 w-3 md:h-4 md:w-4\""
+  },
+  {
+    "path": "src/components/modules/Guarantees.tsx",
+    "content": "d=\"m9 18 6-6-6-6\""
+  },
+  {
+    "path": "src/components/modules/Guarantees.tsx",
+    "content": "className=\"absolute transition-all duration-500 opacity-1 group-hover:opacity-100 group-hover:translate-y-0\""
+  },
+  {
+    "path": "src/components/modules/Guarantees.tsx",
+    "content": "className=\"group relative inline-flex items-center justify-center\""
+  },
+  {
+    "path": "src/components/modules/Guarantees.tsx",
+    "content": "className=\"translate-y-[-10%]\""
+  },
+  {
+    "path": "src/components/modules/Guarantees.tsx",
+    "content": "xmlns=\"http://www.w3.org/2000/svg\""
+  },
+  {
+    "path": "src/components/modules/Guarantees.tsx",
+    "content": "width=\"40\""
+  },
+  {
+    "path": "src/components/modules/Guarantees.tsx",
+    "content": "height=\"40\""
+  },
+  {
+    "path": "src/components/modules/Guarantees.tsx",
+    "content": "viewBox=\"0 0 20 20\""
+  },
+  {
+    "path": "src/components/modules/Guarantees.tsx",
+    "content": "fill=\"none\""
+  },
+  {
+    "path": "src/components/modules/Guarantees.tsx",
+    "content": "stroke=\"currentColor\""
+  },
+  {
+    "path": "src/components/modules/Guarantees.tsx",
+    "content": "strokeWidth=\"3\""
+  },
+  {
+    "path": "src/components/modules/Guarantees.tsx",
+    "content": "strokeLinecap=\"round\""
+  },
+  {
+    "path": "src/components/modules/Guarantees.tsx",
+    "content": "strokeLinejoin=\"round\""
+  },
+  {
+    "path": "src/components/modules/Guarantees.tsx",
+    "content": "className=\"ml-2 h-3 w-3 md:h-4 md:w-4 opacity-0\""
+  },
+  {
+    "path": "src/components/modules/Guarantees.tsx",
+    "content": "d=\"m9 18 6-6-6-6\""
+  },
+  {
+    "path": "src/components/modules/Footer.tsx",
+    "content": "className=\"bg-[#0a0b1e] text-white py-12\""
+  },
+  {
+    "path": "src/components/modules/Footer.tsx",
+    "content": "className=\"container mx-auto px-4\""
+  },
+  {
+    "path": "src/components/modules/Footer.tsx",
+    "content": "className=\"grid grid-cols-1 md:grid-cols-3 gap-8\""
+  },
+  {
+    "path": "src/components/modules/Footer.tsx",
+    "content": "className=\"flex flex-col space-y-6\""
+  },
+  {
+    "path": "src/components/modules/Footer.tsx",
+    "content": "href=\"/\""
+  },
+  {
+    "path": "src/components/modules/Footer.tsx",
+    "content": "className=\"inline-block\""
+  },
+  {
+    "path": "src/components/modules/Footer.tsx",
+    "content": "src=\"/images/modules/Footer/Sunrise-white.svg\""
+  },
+  {
+    "path": "src/components/modules/Footer.tsx",
+    "content": "alt=\"Sunrise Logo\""
+  },
+  {
+    "path": "src/components/modules/Footer.tsx",
+    "content": "className=\"mt-4\""
+  },
+  {
+    "path": "src/components/modules/Footer.tsx",
+    "content": "className=\"font-medium\""
+  },
+  {
+    "path": "src/components/modules/Footer.tsx",
+    "content": "Avis Bien"
+  },
+  {
+    "path": "src/components/modules/Footer.tsx",
+    "content": "className=\"flex items-center mt-1\""
+  },
+  {
+    "path": "src/components/modules/Footer.tsx",
+    "content": "className=\"text-xl font-bold mr-2\""
+  },
+  {
+    "path": "src/components/modules/Footer.tsx",
+    "content": "4.0"
+  },
+  {
+    "path": "src/components/modules/Footer.tsx",
+    "content": "className=\"flex\""
+  },
+  {
+    "path": "src/components/modules/Footer.tsx",
+    "content": "src=\"/images/modules/Footer/Star.svg\""
+  },
+  {
+    "path": "src/components/modules/Footer.tsx",
+    "content": "alt=\"star\""
+  },
+  {
+    "path": "src/components/modules/Footer.tsx",
+    "content": "src=\"/images/modules/Footer/EmptyStar.svg\""
+  },
+  {
+    "path": "src/components/modules/Footer.tsx",
+    "content": "alt=\"star\""
+  },
+  {
+    "path": "src/components/modules/Footer.tsx",
+    "content": "className=\"text-sm mt-1\""
+  },
+  {
+    "path": "src/components/modules/Footer.tsx",
+    "content": "49 avis Google"
+  },
+  {
+    "path": "src/components/modules/Footer.tsx",
+    "content": "className=\"space-y-4\""
+  },
+  {
+    "path": "src/components/modules/Footer.tsx",
+    "content": "href=\"/\""
+  },
+  {
+    "path": "src/components/modules/Footer.tsx",
+    "content": "className=\"block hover:text-gray-300 transition-colors\""
+  },
+  {
+    "path": "src/components/modules/Footer.tsx",
+    "content": "Offre solaire dédiée aux PME PMI"
+  },
+  {
+    "path": "src/components/modules/Footer.tsx",
+    "content": "href=\"/qui-sommes-nous\""
+  },
+  {
+    "path": "src/components/modules/Footer.tsx",
+    "content": "className=\"block hover:text-gray-300 transition-colors\""
+  },
+  {
+    "path": "src/components/modules/Footer.tsx",
+    "content": "Qui sommes nous ?"
+  },
+  {
+    "path": "src/components/modules/Footer.tsx",
+    "content": "href=\"/rejoindre\""
+  },
+  {
+    "path": "src/components/modules/Footer.tsx",
+    "content": "className=\"block hover:text-gray-300 transition-colors\""
+  },
+  {
+    "path": "src/components/modules/Footer.tsx",
+    "content": "Rejoindre le réseau de techniciens Sunrise"
+  },
+  {
+    "path": "src/components/modules/Footer.tsx",
+    "content": "href=\"/avis-clients\""
+  },
+  {
+    "path": "src/components/modules/Footer.tsx",
+    "content": "className=\"block hover:text-gray-300 transition-colors\""
+  },
+  {
+    "path": "src/components/modules/Footer.tsx",
+    "content": "Avis clients"
+  },
+  {
+    "path": "src/components/modules/Footer.tsx",
+    "content": "href=\"/parrainage\""
+  },
+  {
+    "path": "src/components/modules/Footer.tsx",
+    "content": "className=\"block hover:text-gray-300 transition-colors\""
+  },
+  {
+    "path": "src/components/modules/Footer.tsx",
+    "content": "Programme de parrainage"
+  },
+  {
+    "path": "src/components/modules/Footer.tsx",
+    "content": "className=\"space-y-4\""
+  },
+  {
+    "path": "src/components/modules/Footer.tsx",
+    "content": "href=\"/comparez\""
+  },
+  {
+    "path": "src/components/modules/Footer.tsx",
+    "content": "className=\"block hover:text-gray-300 transition-colors\""
+  },
+  {
+    "path": "src/components/modules/Footer.tsx",
+    "content": "Comparez votre devis solaire"
+  },
+  {
+    "path": "src/components/modules/Footer.tsx",
+    "content": "href=\"/devis\""
+  },
+  {
+    "path": "src/components/modules/Footer.tsx",
+    "content": "className=\"block hover:text-gray-300 transition-colors\""
+  },
+  {
+    "path": "src/components/modules/Footer.tsx",
+    "content": "Votre devis Panneau Solaire en moins de 24 heures"
+  },
+  {
+    "path": "src/components/modules/Footer.tsx",
+    "content": "href=\"/politique-donnees\""
+  },
+  {
+    "path": "src/components/modules/Footer.tsx",
+    "content": "className=\"block hover:text-gray-300 transition-colors\""
+  },
+  {
+    "path": "src/components/modules/Footer.tsx",
+    "content": "Politique de données personnelles"
+  },
+  {
+    "path": "src/components/modules/Footer.tsx",
+    "content": "href=\"/mentions-legales\""
+  },
+  {
+    "path": "src/components/modules/Footer.tsx",
+    "content": "className=\"block hover:text-gray-300 transition-colors\""
+  },
+  {
+    "path": "src/components/modules/Footer.tsx",
+    "content": "Mentions légales"
+  },
+  {
+    "path": "src/components/modules/Footer.tsx",
+    "content": "href=\"/contact\""
+  },
+  {
+    "path": "src/components/modules/Footer.tsx",
+    "content": "className=\"block hover:text-gray-300 transition-colors\""
+  },
+  {
+    "path": "src/components/modules/Footer.tsx",
+    "content": "Nous contacter"
+  },
+  {
+    "path": "src/components/modules/Footer.tsx",
+    "content": "className=\"mt-12 pt-8 border-t border-gray-800 flex flex-col md:flex-row justify-between items-center\""
+  },
+  {
+    "path": "src/components/modules/Footer.tsx",
+    "content": "className=\"text-sm text-gray-400 mb-4 md:mb-0 text-center md:text-left\""
+  },
+  {
+    "path": "src/components/modules/Footer.tsx",
+    "content": "© 2025 Sunrise - Tous droits réservés |"
+  },
+  {
+    "path": "src/components/modules/Footer.tsx",
+    "content": "href=\"/mentions-legales\""
+  },
+  {
+    "path": "src/components/modules/Footer.tsx",
+    "content": "className=\"hover:text-white transition-colors\""
+  },
+  {
+    "path": "src/components/modules/Footer.tsx",
+    "content": "Mentions légales"
+  },
+  {
+    "path": "src/components/modules/Footer.tsx",
+    "content": "|"
+  },
+  {
+    "path": "src/components/modules/Footer.tsx",
+    "content": "href=\"/politique-donnees\""
+  },
+  {
+    "path": "src/components/modules/Footer.tsx",
+    "content": "className=\"hover:text-white transition-colors\""
+  },
+  {
+    "path": "src/components/modules/Footer.tsx",
+    "content": "Politique de gestion des données personnelles"
+  },
+  {
+    "path": "src/components/modules/Footer.tsx",
+    "content": "className=\"mt-2\""
+  },
+  {
+    "path": "src/components/modules/Footer.tsx",
+    "content": "className=\"text-gray-400 hover:text-white transition-colors\""
+  },
+  {
+    "path": "src/components/modules/Footer.tsx",
+    "content": "Cliquez-ici pour modifier vos préférences en matière de cookies"
+  },
+  {
+    "path": "src/components/modules/Footer.tsx",
+    "content": "className=\"flex space-x-4\""
+  },
+  {
+    "path": "src/components/modules/Footer.tsx",
+    "content": "href=\"https://facebook.com\""
+  },
+  {
+    "path": "src/components/modules/Footer.tsx",
+    "content": "className=\"hover:text-gray-300 transition-colors\""
+  },
+  {
+    "path": "src/components/modules/Footer.tsx",
+    "content": "aria-label=\"Facebook\""
+  },
+  {
+    "path": "src/components/modules/Footer.tsx",
+    "content": "href=\"https://youtube.com\""
+  },
+  {
+    "path": "src/components/modules/Footer.tsx",
+    "content": "className=\"hover:text-gray-300 transition-colors\""
+  },
+  {
+    "path": "src/components/modules/Footer.tsx",
+    "content": "aria-label=\"YouTube\""
+  },
+  {
+    "path": "src/components/modules/Footer.tsx",
+    "content": "href=\"https://linkedin.com\""
+  },
+  {
+    "path": "src/components/modules/Footer.tsx",
+    "content": "className=\"hover:text-gray-300 transition-colors\""
+  },
+  {
+    "path": "src/components/modules/Footer.tsx",
+    "content": "aria-label=\"LinkedIn\""
+  },
+  {
+    "path": "src/components/modules/Footer.tsx",
+    "content": "href=\"https://instagram.com\""
+  },
+  {
+    "path": "src/components/modules/Footer.tsx",
+    "content": "className=\"hover:text-gray-300 transition-colors\""
+  },
+  {
+    "path": "src/components/modules/Footer.tsx",
+    "content": "aria-label=\"Instagram\""
+  },
+  {
+    "path": "src/components/modules/FAQ.tsx",
+    "content": "className=\"mx-auto px-6 w-full max-w-[1200px] flex flex-col py-8 md:py-12 lg:py-16 xl:py-20\""
+  },
+  {
+    "path": "src/components/modules/FAQ.tsx",
+    "content": "className=\"flex flex-col items-center text-center\""
+  },
+  {
+    "path": "src/components/modules/FAQ.tsx",
+    "content": "alt=\"Speech bubble icon\""
+  },
+  {
+    "path": "src/components/modules/FAQ.tsx",
+    "content": "className=\"mb-3 md:mb-5 w-20 h-20 md:w-24 md:h-24 lg:w-28 lg:h-28 xl:w-32 xl:h-32\""
+  },
+  {
+    "path": "src/components/modules/FAQ.tsx",
+    "content": "className=\"text-3xl font-semibold\""
+  },
+  {
+    "path": "src/components/modules/FAQ.tsx",
+    "content": "className=\"mt-3 text-gray-600\""
+  },
+  {
+    "path": "src/components/modules/FAQ.tsx",
+    "content": "className=\" mt-6  md:mt-8 lg:mt-12 w-full space-y-3 md:space-y-4\""
+  },
+  {
+    "path": "src/components/modules/FAQ.tsx",
+    "content": "className=\" bg-[#f7f7f7]\""
+  },
+  {
+    "path": "src/components/modules/FAQ.tsx",
+    "content": "className=\"flex w-full items-center justify-between px-3 sm:px-4 md:px-6 py-3 md:py-4 text-left\""
+  },
+  {
+    "path": "src/components/modules/FAQ.tsx",
+    "content": "className=\"flex items-center\""
+  },
+  {
+    "path": "src/components/modules/FAQ.tsx",
+    "content": "className=\"flex items-center justify-center h-5 md:w-6 md:h-6 mr-2 sm:mr-3 md:mr-4 bg-[#fbac18] text-white\""
+  },
+  {
+    "path": "src/components/modules/FAQ.tsx",
+    "content": "className=\"md:size-20\""
+  },
+  {
+    "path": "src/components/modules/FAQ.tsx",
+    "content": "className=\"md:size-20\""
+  },
+  {
+    "path": "src/components/modules/FAQ.tsx",
+    "content": "className=\"text-lg md:text-xl lg:text-2xl font-normal\""
+  },
+  {
+    "path": "src/components/modules/FAQ.tsx",
+    "content": "className=\"px-3 sm:px-4 md:px-6 pb-3 md:pb-4 pt-1\""
+  },
+  {
+    "path": "src/components/modules/FAQ.tsx",
+    "content": "className=\"text-base md:text-lg\""
+  },
+  {
+    "path": "src/components/modules/Blog.tsx",
+    "content": "className=\"w-full flex justify-start items-start px-2 md:px-0\""
+  },
+  {
+    "path": "src/components/modules/Blog.tsx",
+    "content": "className=\"group relative inline-flex items-center justify-center px-3 sm:px-4 md:px-5 py-1.5 sm:py-2 bg-gray-200 text-black hover:text-white font-medium rounded-full hover:bg-[#0B476F] overflow-hidden transition-colors duration-300\""
+  },
+  {
+    "path": "src/components/modules/Blog.tsx",
+    "content": "xmlns=\"http://www.w3.org/2000/svg\""
+  },
+  {
+    "path": "src/components/modules/Blog.tsx",
+    "content": "width=\"20\""
+  },
+  {
+    "path": "src/components/modules/Blog.tsx",
+    "content": "height=\"20\""
+  },
+  {
+    "path": "src/components/modules/Blog.tsx",
+    "content": "viewBox=\"0 0 24 24\""
+  },
+  {
+    "path": "src/components/modules/Blog.tsx",
+    "content": "fill=\"none\""
+  },
+  {
+    "path": "src/components/modules/Blog.tsx",
+    "content": "strokeWidth=\"2\""
+  },
+  {
+    "path": "src/components/modules/Blog.tsx",
+    "content": "strokeLinecap=\"round\""
+  },
+  {
+    "path": "src/components/modules/Blog.tsx",
+    "content": "strokeLinejoin=\"round\""
+  },
+  {
+    "path": "src/components/modules/Blog.tsx",
+    "content": "className=\"mr-1.5 h-3 w-3 sm:h-4 sm:w-4\""
+  },
+  {
+    "path": "src/components/modules/Blog.tsx",
+    "content": "d=\"m9 18 6-6-6-6\""
+  },
+  {
+    "path": "src/components/modules/Blog.tsx",
+    "content": "className=\"transition-all duration-500 text-xs sm:text-sm font-semibold\""
+  },
+  {
+    "path": "src/components/modules/Blog.tsx",
+    "content": "className=\"w-full flex justify-center items-center mt-4 md:mt-8\""
+  },
+  {
+    "path": "src/components/modules/Blog.tsx",
+    "content": "className=\"group relative inline-flex items-center justify-center px-4 sm:px-5 md:px-6 py-2 sm:py-2.5 md:py-3 bg-[#0B68A4] text-white font-medium rounded-full hover:bg-[#0B476F] overflow-hidden transition-colors duration-300\""
+  },
+  {
+    "path": "src/components/modules/Blog.tsx",
+    "content": "className=\"transition-all duration-500 text-xs sm:text-sm md:text-base font-semibold\""
+  },
+  {
+    "path": "src/components/modules/Blog.tsx",
+    "content": "className=\"py-6 sm:py-8 md:py-12 lg:py-16 px-4 sm:px-6 md:px-8 lg:px-12 bg-white flex flex-col gap-8 md:gap-12\""
+  },
+  {
+    "path": "src/components/modules/Blog.tsx",
+    "content": "className=\"text-2xl sm:text-3xl md:text-4xl font-bold text-center text-gray-900 px-2 sm:px-4 md:px-8 lg:px-20 max-w-5xl mx-auto\""
+  },
+  {
+    "path": "src/components/modules/Blog.tsx",
+    "content": "Plus de 3 000 clients heureux partout en France"
+  },
+  {
+    "path": "src/components/modules/Blog.tsx",
+    "content": "className=\"grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-5 md:gap-6 lg:gap-8 max-w-7xl mx-auto\""
+  },
+  {
+    "path": "src/components/modules/Blog.tsx",
+    "content": "className=\"flex flex-col place-items-start items-start text-start bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow duration-300\""
+  },
+  {
+    "path": "src/components/modules/Blog.tsx",
+    "content": "className=\"mb-2 sm:mb-3 md:mb-4 w-full overflow-hidden\""
+  },
+  {
+    "path": "src/components/modules/Blog.tsx",
+    "content": "className=\"object-cover w-full h-40 sm:h-44 md:h-48 lg:h-56 transition-transform hover:scale-105 duration-500\""
+  },
+  {
+    "path": "src/components/modules/Blog.tsx",
+    "content": "className=\"text-sm sm:text-base md:text-lg font-bold text-gray-900 mb-2 sm:mb-3 px-3 sm:px-4 line-clamp-2 min-h-[2.5rem] sm:min-h-[3rem]\""
+  },
+  {
+    "path": "src/components/modules/Blog.tsx",
+    "content": "className=\"mb-3 sm:mb-4\""
+  },
+  {
+    "path": "src/components/modules/Blog.tsx",
+    "content": "text=\"Découvrir l'installation\""
+  },
+  {
+    "path": "src/components/modules/Blog.tsx",
+    "content": "href=\"demande-devis-panneau-solaire\""
+  },
+  {
+    "path": "src/components/modules/Blog.tsx",
+    "content": "text=\"Parcourir toutes nos réalisations\""
+  },
+  {
+    "path": "src/components/modules/Blog.tsx",
+    "content": "href=\"demande-devis-panneau-solaire\""
+  }
+]

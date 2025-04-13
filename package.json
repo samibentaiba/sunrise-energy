@@ -3,11 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev --turbopack",
-    "build": "next build",
-    "generate-search": "ts-node --project tsconfig.scripts.json src/scripts/search-index.ts",
-    "generate-map": "ts-node --project tsconfig.scripts.json src/scripts/map-index.ts",
-    "prebuild": "bun run generate-search && bun run generate-map",
+    "dev": "bun run generate-indexes && next dev --turbopack",
+    "build": "bun run generate-indexes && next build",
+    "generate-indexes": "ts-node --project tsconfig.scripts.json ./src/scripts/generate-indexes.ts",
     "start": "next start",
     "lint": "next lint"
   },
@@ -74,6 +72,7 @@
     "@types/react-dom": "^19",
     "@types/react-simple-maps": "^3.0.6",
     "autoprefixer": "^10.4.21",
+    "chokidar": "^4.0.3",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
     "cmdk": "1.0.4",

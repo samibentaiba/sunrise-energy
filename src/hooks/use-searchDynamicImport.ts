@@ -5,7 +5,7 @@ import { useEffect, useState, Suspense } from "react";
 import { componentMap } from "@/data/componentMap";
 import type { ComponentType } from "react";
 
-export function useDynamicComponent(path: string | null) {
+export function useSearchDynamicImport(path: string | null) {
   const [Component, setComponent] = useState<ComponentType | null>(null);
 
   useEffect(() => {
@@ -13,7 +13,7 @@ export function useDynamicComponent(path: string | null) {
       console.log(`Attempting to load component from: ${path}`);
 
       if (!path || !(path in componentMap)) {
-        console.error("Invalid or missing path in componentMap.");
+        console.log("Invalid or missing path in componentMap.");
         setComponent(null);
         return;
       }

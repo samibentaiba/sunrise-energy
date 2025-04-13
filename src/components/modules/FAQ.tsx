@@ -68,7 +68,7 @@ export default function FAQ({
               onClick={() => toggleFaq(index)}
             >
               <div className="flex items-center">
-                <div className="flex items-center justify-center  h-5 md:w-6 md:h-6 mr-2 sm:mr-3 md:mr-4 bg-[#fbac18] text-white">
+                <div className="flex items-center justify-center h-5 md:w-6 md:h-6 mr-2 sm:mr-3 md:mr-4 bg-[#fbac18] text-white">
                   {item.isOpen ? (
                     <Minus size={16} className="md:size-20" />
                   ) : (
