@@ -1,6 +1,6 @@
 "use client";
 import React, { ReactElement } from "react";
-import FeatureList from "./CTA/FeatureList";
+import FeatureList from "./ui/CTA/FeatureList";
 import dynamic from "next/dynamic";
 
 const ReactPlayer = dynamic(() => import("react-player"), {

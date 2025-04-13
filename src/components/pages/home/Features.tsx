@@ -1,7 +1,7 @@
 "use client";
 import React, { ReactElement } from "react";
-import FeatureCard from "./Features/FeatureCard";
-import Stars from "./Features/Stars";
+import FeatureCard from "./ui/Features/FeatureCard";
+import Stars from "./ui/Features/Stars";
 import Image from "next/image";
 
 export default function Features(): ReactElement {

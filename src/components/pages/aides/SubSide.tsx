@@ -2,11 +2,11 @@
 
 import { ReactElement, useState } from "react";
 import Image from "next/image";
-import BlueButton  from "./SubSide/button";
-import { Card } from "./SubSide/card";
-import Slider from "./SubSide/slider";
-import { RadioGroup, RadioGroupItem } from "./SubSide/radio-group";
-import { Label } from "./SubSide/label";
+import BlueButton  from "./ui/SubSide/button";
+import { Card } from "./ui/SubSide/card";
+import Slider from "./ui/SubSide/slider";
+import { RadioGroup, RadioGroupItem } from "./ui/SubSide/radio-group";
+import { Label } from "./ui/SubSide/label";
 
 
 export default function SubSide():ReactElement {

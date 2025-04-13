@@ -1,13 +1,9 @@
 "use client";
 
 import Hero from "@/components/pages/avis-clients/Hero";
-import Minimum from "@/components/pages/avis-clients/Minimum";
-import Blog from "@/components/modules/Blog";
-import Proches from "@/components/modules/Proches";
-import Reviews from "@/components/modules/Reviews";
-import FAQ from "@/components/modules/FAQ";
+import CTA from "@/components/pages/avis-clients/parrainage/CTA";
 import { ReactElement } from "react";
-export default function AvisClients():ReactElement {
+export default function AvisClients(): ReactElement {
   return (
     <div className="min-h-screen overflow-clip w-[100%] text-black flex flex-col">
       <Hero
@@ -18,11 +14,7 @@ export default function AvisClients():ReactElement {
         backgroundImage="/images/pages/garanties/Hero.jpeg"
       />
 
-      <Blog />
-      <Proches />
-      <Reviews />
-      <Minimum />
-      <FAQ />
+      <CTA />
     </div>
   );
 }

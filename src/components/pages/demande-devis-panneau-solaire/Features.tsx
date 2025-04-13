@@ -1,6 +1,6 @@
 "use client";
 import React from "react";
-import FeatureCard from "./Features/FeatureCard";
+import FeatureCard from "./ui/Features/FeatureCard";
 export default function Features(): ReactElement {
   return (
     <section className="w-full md:py-10 py-20  px-4 border-none bg-white">
