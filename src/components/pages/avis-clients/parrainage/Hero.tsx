@@ -5,11 +5,9 @@ import { useEffect, useState } from "react";
 import { ReactElement } from "react";
 export default function Hero({
   title = "title",
-  description = "description",
   backgroundImage = "/images/pages/garanties/Hero.jpeg",
 }: {
   title: string;
-  description: string;
   backgroundImage: string;
 }): ReactElement {
   const [isMobile, setIsMobile] = useState(false);
@@ -60,8 +58,6 @@ export default function Hero({
               >
                 {title}
               </h1>
-
-              <p className="text-sm leading-relaxed mb-6">{description}</p>
             </div>
           </div>
         ) : (
@@ -77,10 +73,6 @@ export default function Hero({
               >
                 {title}
               </h1>
-
-              <p className="text-base w-full sm:w-[80%] md:w-[60%] lg:w-[50%]">
-                {description}
-              </p>
             </div>
           </div>
         )}

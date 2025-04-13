@@ -2500,6 +2500,50 @@
     "content": "className=\" translate-y-[0px] translate-x-[0px] \""
   },
   {
+    "path": "src/components/pages/avis-clients/parrainage/Steps.tsx",
+    "content": "className=\"w-full max-w-7xl mx-auto px-4 py-8\""
+  },
+  {
+    "path": "src/components/pages/avis-clients/parrainage/Steps.tsx",
+    "content": "className=\"text-center mb-10\""
+  },
+  {
+    "path": "src/components/pages/avis-clients/parrainage/Steps.tsx",
+    "content": "className=\"text-3xl font-bold\""
+  },
+  {
+    "path": "src/components/pages/avis-clients/parrainage/Steps.tsx",
+    "content": "Le parrainage,"
+  },
+  {
+    "path": "src/components/pages/avis-clients/parrainage/Steps.tsx",
+    "content": "comment ça marche ?"
+  },
+  {
+    "path": "src/components/pages/avis-clients/parrainage/Steps.tsx",
+    "content": "className=\"grid grid-cols-1 md:grid-cols-4 gap-6\""
+  },
+  {
+    "path": "src/components/pages/avis-clients/parrainage/Steps.tsx",
+    "content": "className=\"bg-white p-6 rounded-lg shadow-xl flex flex-col h-full\""
+  },
+  {
+    "path": "src/components/pages/avis-clients/parrainage/Steps.tsx",
+    "content": "className=\"mb-4\""
+  },
+  {
+    "path": "src/components/pages/avis-clients/parrainage/Steps.tsx",
+    "content": "className=\"inline-block text-white text-3xl font-bold px-3 py-1\""
+  },
+  {
+    "path": "src/components/pages/avis-clients/parrainage/Steps.tsx",
+    "content": "className=\"text-lg font-bold mb-2\""
+  },
+  {
+    "path": "src/components/pages/avis-clients/parrainage/Steps.tsx",
+    "content": "className=\"text-gray-700\""
+  },
+  {
     "path": "src/components/pages/avis-clients/parrainage/Hero.tsx",
     "content": "className=\"relative md:h-[420px] h-[500px] z-0 p-0 m-0 w-full flex items-center justify-center overflow-hidden bg-cover bg-center\""
   },
@@ -2533,10 +2577,6 @@
   },
   {
     "path": "src/components/pages/avis-clients/parrainage/Hero.tsx",
-    "content": "className=\"text-sm leading-relaxed mb-6\""
-  },
-  {
-    "path": "src/components/pages/avis-clients/parrainage/Hero.tsx",
     "content": "className=\"relative h-full flex left-[20%] md:left-[40%] w-full\""
   },
   {
@@ -2548,28 +2588,16 @@
     "content": "className=\"text-3xl sm:text-4xl md:text-[2.3rem] lg:text-[3rem] w-[70%] font-semibold leading-tight\""
   },
   {
-    "path": "src/components/pages/avis-clients/parrainage/Hero.tsx",
-    "content": "className=\"text-base w-full sm:w-[80%] md:w-[60%] lg:w-[50%]\""
+    "path": "src/components/pages/avis-clients/parrainage/CTA.tsx",
+    "content": "className=\"min-h-screen bg-white mx-auto py-16 px-4\""
   },
   {
     "path": "src/components/pages/avis-clients/parrainage/CTA.tsx",
-    "content": "className=\"min-h-screen bg-white\""
+    "content": "className=\"flex relative w-[50%]  flex-col md:flex-row justify-around items-center gap-22\""
   },
   {
     "path": "src/components/pages/avis-clients/parrainage/CTA.tsx",
-    "content": "className=\"container mx-auto py-16 px-4\""
-  },
-  {
-    "path": "src/components/pages/avis-clients/parrainage/CTA.tsx",
-    "content": "className=\"flex flex-col md:flex-row items-center gap-8\""
-  },
-  {
-    "path": "src/components/pages/avis-clients/parrainage/CTA.tsx",
-    "content": "className=\"w-full md:w-1/2 relative\""
-  },
-  {
-    "path": "src/components/pages/avis-clients/parrainage/CTA.tsx",
-    "content": "className=\"rounded-lg overflow-hidden shadow-xl\""
+    "content": "className=\"max-h-80 flex overflow-hidden \""
   },
   {
     "path": "src/components/pages/avis-clients/parrainage/CTA.tsx",
@@ -2581,15 +2609,15 @@
   },
   {
     "path": "src/components/pages/avis-clients/parrainage/CTA.tsx",
-    "content": "className=\"w-full h-auto object-cover\""
+    "content": "className=\" rounded-lg shadow-lg\""
   },
   {
     "path": "src/components/pages/avis-clients/parrainage/CTA.tsx",
-    "content": "className=\"w-full md:w-1/2 bg-white p-8 rounded-lg shadow-lg\""
+    "content": "className=\"absolute top-1/2 right-0 max-w-2xl h-100 flex justify-around items-start flex-col transform translate-x-[90%] translate-y-[0%] bg-white p-8 rounded-lg shadow-lg \""
   },
   {
     "path": "src/components/pages/avis-clients/parrainage/CTA.tsx",
-    "content": "className=\"text-3xl font-bold mb-4\""
+    "content": "className=\"text-3xl font-bold \""
   },
   {
     "path": "src/components/pages/avis-clients/parrainage/CTA.tsx",
@@ -2605,15 +2633,11 @@
   },
   {
     "path": "src/components/pages/avis-clients/parrainage/CTA.tsx",
-    "content": "className=\"text-gray-700 mb-6\""
+    "content": "className=\"text-gray-700 \""
   },
   {
     "path": "src/components/pages/avis-clients/parrainage/CTA.tsx",
-    "content": "En tant que parrain, votre confiance et votre implication sont\n              récompensées."
-  },
-  {
-    "path": "src/components/pages/avis-clients/parrainage/CTA.tsx",
-    "content": "className=\"mb-8\""
+    "content": "En tant que parrain, votre confiance et votre implication sont\n            récompensées."
   },
   {
     "path": "src/components/pages/avis-clients/parrainage/CTA.tsx",
@@ -2645,11 +2669,7 @@
   },
   {
     "path": "src/components/pages/avis-clients/parrainage/CTA.tsx",
-    "content": "text=\"\""
-  },
-  {
-    "path": "src/components/pages/avis-clients/parrainage/CTA.tsx",
-    "content": "hoveredText=\"\""
+    "content": "text=\"Je veux devenir parrain\""
   },
   {
     "path": "src/components/pages/avis-clients/parrainage/CTA.tsx",
@@ -2662,10 +2682,6 @@
   {
     "path": "src/components/pages/avis-clients/parrainage/CTA.tsx",
     "content": "className=\"\n    group relative inline-flex gap-2 items-center justify-center \n    px-7 py-4 bg-[#fbac18] text-white font-medium rounded-full \n    hover:bg-[#0B476F] overflow-hidden\""
-  },
-  {
-    "path": "src/components/pages/avis-clients/parrainage/CTA.tsx",
-    "content": "className=\"text-white text-2xl\""
   },
   {
     "path": "src/components/pages/avis-clients/parrainage/CTA.tsx",
@@ -2685,7 +2701,11 @@
   },
   {
     "path": "src/components/pages/avis-clients/parrainage/CTA.tsx",
-    "content": "className=\" translate-y-[0px] translate-x-[0px] \""
+    "content": "className=\" translate-y-[0px] translate-x-[-20px] \""
+  },
+  {
+    "path": "src/components/pages/avis-clients/parrainage/CTA.tsx",
+    "content": "className=\"text-white text-2xl\""
   },
   {
     "path": "src/components/pages/aides/TVA.tsx",
