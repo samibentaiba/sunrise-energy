@@ -60,7 +60,7 @@ export default function Footer(): ReactElement {
               Qui sommes nous ?
             </Link>
             <Link
-              href="/rejoindre"
+              href="/reseau-techniciens"
               className="block hover:text-gray-300 transition-colors"
             >
               Rejoindre le réseau de techniciens Sunrise
@@ -72,7 +72,7 @@ export default function Footer(): ReactElement {
               Avis clients
             </Link>
             <Link
-              href="/parrainage"
+              href="/avis-clients/parrainage"
               className="block hover:text-gray-300 transition-colors"
             >
               Programme de parrainage

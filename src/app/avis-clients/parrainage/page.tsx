@@ -1,6 +1,6 @@
 "use client";
 
-import Hero from "@/components/pages/avis-clients/Hero";
+import Hero from "@/components/pages/avis-clients/parrainage/Hero";
 import CTA from "@/components/pages/avis-clients/parrainage/CTA";
 import { ReactElement } from "react";
 export default function AvisClients(): ReactElement {
@@ -9,8 +9,6 @@ export default function AvisClients(): ReactElement {
       <Hero
         title="Des garanties uniques des engagements forts"
         description="Afin de vous assurer une sérénité qui dure dans le temps, vous bénéficiez de garanties étendues exclusives Sunrise pour votre installation sur-mesure de panneaux solaires en autoconsommation"
-        fButtonText="Je demande un RDV avec un conseiller"
-        sButtonText="Parrainer un proche"
         backgroundImage="/images/pages/garanties/Hero.jpeg"
       />
 

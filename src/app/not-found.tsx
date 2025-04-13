@@ -1,5 +1,5 @@
 "use client";
-import { ReactElement, useState } from "react";
+import { ReactElement } from "react";
 import { BlueButton } from "@/components/ui/bluebutton";
 import SearchBar from "@/components/modules/SearchBar";
 import { useSearchResult } from "@/hooks/use-searchResult";

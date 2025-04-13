@@ -1,6 +1,7 @@
-import Image from "next/image";
-import { ArrowRight } from "lucide-react";
+import { FaAngleDoubleRight } from "react-icons/fa";
 import { ReactElement } from "react";
+import Image from "next/image";
+import Link from "next/link";
 
 export default function CTA(): ReactElement {
   return (
@@ -50,8 +51,6 @@ export default function CTA(): ReactElement {
     </main>
   );
 }
-import { FaAngleDoubleRight } from "react-icons/fa";
-import Link from "next/link";
 
 function GetStartButton({
   text = "text",

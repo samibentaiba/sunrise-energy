@@ -944,6 +944,22 @@
     "content": "Gratuit et sans engagement"
   },
   {
+    "path": "src/components/pages/home/Hero.tsx",
+    "content": "className=\"\n    group  inline-flex gap-2 items-center justify-center \n     bg-[#fbac18]/75 text-white w-[90vw] rounded-full  md:w-auto\n    border-[3px] font-[650] border-[#ffffff]/75 hover:bg-[#fbac18]/100 hover:border-[#ffffff]/100 \n    overflow-hidden\n  \""
+  },
+  {
+    "path": "src/components/pages/home/Hero.tsx",
+    "content": "className=\"text-white md:text-2xl text-3xl \""
+  },
+  {
+    "path": "src/components/pages/home/Hero.tsx",
+    "content": "className=\"transition-all md:font-[650] font-[600] md:text-[20px] text-[18px]  opacity-100  duration-500 group-hover:translate-y-[-20px] group-hover:opacity-1\""
+  },
+  {
+    "path": "src/components/pages/home/Hero.tsx",
+    "content": "className=\"absolute transition-all md:font-[650] font-[600] md:text-[20px] text-[18px] duration-500 opacity-1 group-hover:opacity-100 group-hover:translate-y-0 translate-x-[16px]\""
+  },
+  {
     "path": "src/components/pages/home/Guarantees.tsx",
     "content": "className=\"relative md:h-[850px] h-[1400px]\""
   },
@@ -1274,6 +1290,30 @@
   {
     "path": "src/components/pages/home/About.tsx",
     "content": "className=\"w-full h-auto rounded-lg\""
+  },
+  {
+    "path": "src/components/pages/home/About.tsx",
+    "content": "className=\"\n    group relative inline-flex gap-2 items-center justify-center \n    px-7 py-4 bg-[#fbac18] text-white font-medium rounded-full \n    hover:bg-[#0b68a4] hover:border-[2px] hover:px-[26px] hover:py-[14px] hover:border-[#003366] overflow-hidden\""
+  },
+  {
+    "path": "src/components/pages/home/About.tsx",
+    "content": "className=\"text-white text-2xl\""
+  },
+  {
+    "path": "src/components/pages/home/About.tsx",
+    "content": "className=\"transition-all duration-500 group-hover:translate-y-[-20px] group-hover:opacity-1\""
+  },
+  {
+    "path": "src/components/pages/home/About.tsx",
+    "content": "className=\"absolute transition-all duration-500 opacity-1 group-hover:opacity-100 group-hover:translate-y-0\""
+  },
+  {
+    "path": "src/components/pages/home/About.tsx",
+    "content": "className=\"group relative inline-flex gap-2 items-center justify-center \""
+  },
+  {
+    "path": "src/components/pages/home/About.tsx",
+    "content": "className=\"text-white opacity-0 text-2xl\""
   },
   {
     "path": "src/components/pages/garanties/Team.tsx",
@@ -2428,6 +2468,90 @@
     "content": "className=\" translate-y-[0px] translate-x-[0px] \""
   },
   {
+    "path": "src/components/pages/avis-clients/Hero.tsx",
+    "content": "className=\"w-full flex justify-start items-start\""
+  },
+  {
+    "path": "src/components/pages/avis-clients/Hero.tsx",
+    "content": "className=\"\n    group relative inline-flex gap-2 items-center justify-center \n    px-7 py-4 bg-[#fbac18] text-white font-medium rounded-full \n    hover:bg-[#0B476F] overflow-hidden\""
+  },
+  {
+    "path": "src/components/pages/avis-clients/Hero.tsx",
+    "content": "className=\"text-white text-2xl\""
+  },
+  {
+    "path": "src/components/pages/avis-clients/Hero.tsx",
+    "content": "className=\"transition-all duration-500 group-hover:translate-y-[-20px] group-hover:opacity-1\""
+  },
+  {
+    "path": "src/components/pages/avis-clients/Hero.tsx",
+    "content": "className=\"absolute transition-all duration-500 opacity-1 group-hover:opacity-100 group-hover:translate-y-0\""
+  },
+  {
+    "path": "src/components/pages/avis-clients/Hero.tsx",
+    "content": "className=\"group relative inline-flex items-center justify-center \""
+  },
+  {
+    "path": "src/components/pages/avis-clients/Hero.tsx",
+    "content": "className=\"text-white opacity-0 text-2xl\""
+  },
+  {
+    "path": "src/components/pages/avis-clients/Hero.tsx",
+    "content": "className=\" translate-y-[0px] translate-x-[0px] \""
+  },
+  {
+    "path": "src/components/pages/avis-clients/parrainage/Hero.tsx",
+    "content": "className=\"relative md:h-[420px] h-[500px] z-0 p-0 m-0 w-full flex items-center justify-center overflow-hidden bg-cover bg-center\""
+  },
+  {
+    "path": "src/components/pages/avis-clients/parrainage/Hero.tsx",
+    "content": "className=\"absolute inset-0 bg-[#00061b] opacity-40\""
+  },
+  {
+    "path": "src/components/pages/avis-clients/parrainage/Hero.tsx",
+    "content": "className=\"relative p-0 m-0 w-full h-full flex items-center text-white\""
+  },
+  {
+    "path": "src/components/pages/avis-clients/parrainage/Hero.tsx",
+    "content": "className=\"absolute left-[-5rem] md:left-0  inset-0  h-full\""
+  },
+  {
+    "path": "src/components/pages/avis-clients/parrainage/Hero.tsx",
+    "content": "alt=\"Blue background shape\""
+  },
+  {
+    "path": "src/components/pages/avis-clients/parrainage/Hero.tsx",
+    "content": "className=\"relative w-full px-6 py-8 flex flex-col items-start justify-center\""
+  },
+  {
+    "path": "src/components/pages/avis-clients/parrainage/Hero.tsx",
+    "content": "className=\"max-w-[90%]\""
+  },
+  {
+    "path": "src/components/pages/avis-clients/parrainage/Hero.tsx",
+    "content": "className=\"text-2xl sm:text-3xl font-semibold  leading-tight mb-4\""
+  },
+  {
+    "path": "src/components/pages/avis-clients/parrainage/Hero.tsx",
+    "content": "className=\"text-sm leading-relaxed mb-6\""
+  },
+  {
+    "path": "src/components/pages/avis-clients/parrainage/Hero.tsx",
+    "content": "className=\"relative h-full flex left-[20%] md:left-[40%] w-full\""
+  },
+  {
+    "path": "src/components/pages/avis-clients/parrainage/Hero.tsx",
+    "content": "className=\"absolute h-full flex flex-col justify-center pl-4 sm:pl-8 md:pl-[4.8rem] pr-4 sm:pr-8 md:pr-16 gap-2 md:gap-[1rem] lg:gap-[1rem]\""
+  },
+  {
+    "path": "src/components/pages/avis-clients/parrainage/Hero.tsx",
+    "content": "className=\"text-3xl sm:text-4xl md:text-[2.3rem] lg:text-[3rem] w-[70%] font-semibold leading-tight\""
+  },
+  {
+    "path": "src/components/pages/avis-clients/parrainage/Hero.tsx",
+    "content": "className=\"text-base w-full sm:w-[80%] md:w-[60%] lg:w-[50%]\""
+  },
+  {
     "path": "src/components/pages/avis-clients/parrainage/CTA.tsx",
     "content": "className=\"min-h-screen bg-white\""
   },
@@ -2449,7 +2573,7 @@
   },
   {
     "path": "src/components/pages/avis-clients/parrainage/CTA.tsx",
-    "content": "src=\"https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-IRCAupfWdzCVRu1VRQMZezOJ5v96Dc.png\""
+    "content": "src=\"/images/pages/avis-clients/parrainage/CTA.webp\""
   },
   {
     "path": "src/components/pages/avis-clients/parrainage/CTA.tsx",
@@ -2485,7 +2609,7 @@
   },
   {
     "path": "src/components/pages/avis-clients/parrainage/CTA.tsx",
-    "content": "En tant que parrain, votre confiance et votre implication sont récompensées."
+    "content": "En tant que parrain, votre confiance et votre implication sont\n              récompensées."
   },
   {
     "path": "src/components/pages/avis-clients/parrainage/CTA.tsx",
@@ -2521,19 +2645,47 @@
   },
   {
     "path": "src/components/pages/avis-clients/parrainage/CTA.tsx",
-    "content": "href=\"#devenir-parrain\""
+    "content": "text=\"\""
   },
   {
     "path": "src/components/pages/avis-clients/parrainage/CTA.tsx",
-    "content": "className=\"inline-flex items-center gap-2 bg-[#fbac18] hover:bg-[#e69c10] text-white font-medium py-3 px-6 rounded-md transition-colors\""
+    "content": "hoveredText=\"\""
   },
   {
     "path": "src/components/pages/avis-clients/parrainage/CTA.tsx",
-    "content": "Je veux devenir parrain"
+    "content": "href=\"\""
   },
   {
     "path": "src/components/pages/avis-clients/parrainage/CTA.tsx",
-    "content": "className=\"h-4 w-4\""
+    "content": "className=\"w-full flex justify-start items-start\""
+  },
+  {
+    "path": "src/components/pages/avis-clients/parrainage/CTA.tsx",
+    "content": "className=\"\n    group relative inline-flex gap-2 items-center justify-center \n    px-7 py-4 bg-[#fbac18] text-white font-medium rounded-full \n    hover:bg-[#0B476F] overflow-hidden\""
+  },
+  {
+    "path": "src/components/pages/avis-clients/parrainage/CTA.tsx",
+    "content": "className=\"text-white text-2xl\""
+  },
+  {
+    "path": "src/components/pages/avis-clients/parrainage/CTA.tsx",
+    "content": "className=\"transition-all duration-500 group-hover:translate-y-[-20px] group-hover:opacity-1\""
+  },
+  {
+    "path": "src/components/pages/avis-clients/parrainage/CTA.tsx",
+    "content": "className=\"absolute transition-all duration-500 opacity-1 group-hover:opacity-100 group-hover:translate-y-0\""
+  },
+  {
+    "path": "src/components/pages/avis-clients/parrainage/CTA.tsx",
+    "content": "className=\"group relative inline-flex items-center justify-center \""
+  },
+  {
+    "path": "src/components/pages/avis-clients/parrainage/CTA.tsx",
+    "content": "className=\"text-white opacity-0 text-2xl\""
+  },
+  {
+    "path": "src/components/pages/avis-clients/parrainage/CTA.tsx",
+    "content": "className=\" translate-y-[0px] translate-x-[0px] \""
   },
   {
     "path": "src/components/pages/aides/TVA.tsx",
@@ -3564,6 +3716,38 @@
     "content": "className=\"mt-2\""
   },
   {
+    "path": "src/components/modules/Hero.tsx",
+    "content": "className=\"w-full flex justify-start items-start\""
+  },
+  {
+    "path": "src/components/modules/Hero.tsx",
+    "content": "className=\"\n    group relative inline-flex gap-2 items-center justify-center \n    px-7 py-4 bg-[#fbac18] text-white font-medium rounded-full \n    hover:bg-[#e09404] overflow-hidden\""
+  },
+  {
+    "path": "src/components/modules/Hero.tsx",
+    "content": "className=\"text-white text-2xl\""
+  },
+  {
+    "path": "src/components/modules/Hero.tsx",
+    "content": "className=\"transition-all duration-500 group-hover:translate-y-[-20px] group-hover:opacity-1\""
+  },
+  {
+    "path": "src/components/modules/Hero.tsx",
+    "content": "className=\"absolute transition-all duration-500 opacity-1 group-hover:opacity-100 group-hover:translate-y-0\""
+  },
+  {
+    "path": "src/components/modules/Hero.tsx",
+    "content": "className=\"group relative inline-flex items-center justify-center \""
+  },
+  {
+    "path": "src/components/modules/Hero.tsx",
+    "content": "className=\"text-white opacity-0 text-2xl\""
+  },
+  {
+    "path": "src/components/modules/Hero.tsx",
+    "content": "className=\" translate-y-[0px] translate-x-[0px] \""
+  },
+  {
     "path": "src/components/modules/Guarantees.tsx",
     "content": "className=\"w-full py-8 md:py-12 lg:py-20 text-gray-900 bg-gray-50\""
   },
@@ -3953,7 +4137,7 @@
   },
   {
     "path": "src/components/modules/Footer.tsx",
-    "content": "href=\"/rejoindre\""
+    "content": "href=\"/reseau-techniciens\""
   },
   {
     "path": "src/components/modules/Footer.tsx",
@@ -3977,7 +4161,7 @@
   },
   {
     "path": "src/components/modules/Footer.tsx",
-    "content": "href=\"/parrainage\""
+    "content": "href=\"/avis-clients/parrainage\""
   },
   {
     "path": "src/components/modules/Footer.tsx",

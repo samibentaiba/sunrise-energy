@@ -1,7 +1,7 @@
 // /hooks/use-searchDynamicImport.ts
 "use client";
 
-import { useEffect, useState, Suspense } from "react";
+import { useEffect, useState } from "react";
 import { componentMap } from "@/data/componentMap";
 import type { ComponentType } from "react";
 

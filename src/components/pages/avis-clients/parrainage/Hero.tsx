@@ -71,10 +71,6 @@ export default function Hero({
               className="absolute h-full flex flex-col justify-center pl-4 sm:pl-8 md:pl-[4.8rem] pr-4 sm:pr-8 md:pr-16 gap-2 md:gap-[1rem] lg:gap-[1rem]"
               style={{ width: "100%", maxWidth: "1200px" }}
             >
-              <span className="box-border px-2 w-22 bg-white text-xs text-[rgb(4,9,34)]">
-                Avis Sunrise
-              </span>
-
               <h1
                 className="text-3xl sm:text-4xl md:text-[2.3rem] lg:text-[3rem] w-[70%] font-semibold leading-tight"
                 style={{ fontWeight: 600 }}
