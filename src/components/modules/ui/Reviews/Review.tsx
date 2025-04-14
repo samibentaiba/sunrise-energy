@@ -7,13 +7,11 @@ export default function Review({
   name = "name",
   time = "time",
   comment = "comment",
-  avatar = "avatar",
   rating = 4,
 }: {
   name: string;
   time: string;
   comment: string;
-  avatar?: string;
   rating: 1 | 2 | 3 | 4 | 5;
 }): ReactElement {
   return (
@@ -26,17 +24,7 @@ export default function Review({
         <div>
           <div className="review-header">
             <div className="review-avatar">
-              {avatar ? (
-                <Image
-                  src="@/images/pages/panneaux-solaires/Reviews/star.svg"
-                  className="avatar-img"
-                  alt={name}
-                  width={40}
-                  height={40}
-                />
-              ) : (
-                <RandomAvatar name={name} size={40} />
-              )}
+              <RandomAvatar name={name} size={40} />
             </div>
             <div className="review-info">
               <p className="review-name">{name}</p>

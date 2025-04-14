@@ -29,7 +29,7 @@ export default function Steps(): ReactElement {
 
   return (
     <div className="w-full max-w-7xl mx-auto px-4 py-8">
-      <div className="text-center mb-10">
+      <div className="text-center p-12">
         <h3 className="text-3xl font-bold">
           Le parrainage,
           <br />

@@ -11,7 +11,6 @@ export default function Reviews():ReactElement {
         <div className="md:col-span-1">
           <Resume />
         </div>
-
         {/* Reviews fill the rest of the grid */}
         {mockdata.map((review) => (
           <div key={review.reviewId}>

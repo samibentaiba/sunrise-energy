@@ -5,21 +5,21 @@ import Link from "next/link";
 
 export default function CTA(): ReactElement {
   return (
-    <section className="min-h-screen bg-white mx-auto py-16 px-4">
-      <div className="flex relative w-[50%]  flex-col md:flex-row justify-around items-center gap-22">
+    <section className=" bg-white min-h-180 mx-auto py-16 px-4">
+      <div className="flex relative w-[50%] flex-col md:flex-row justify-around items-center gap-22">
         {/* Background Image */}
-        <div className="max-h-80 flex overflow-hidden ">
+        <div className="max-h-100 flex overflow-hidden ">
           <Image
             src="/images/pages/avis-clients/parrainage/CTA.webp"
             alt="Maison avec panneaux solaires au coucher du soleil"
-            width={1000}
-            height={1000}
+            width={1100}
+            height={1100}
             className=" rounded-lg shadow-lg"
           />
         </div>
 
         {/* Card positioned over the image */}
-        <div className="absolute top-1/2 right-0 max-w-2xl h-100 flex justify-around items-start flex-col transform translate-x-[90%] translate-y-[0%] bg-white p-8 rounded-lg shadow-lg ">
+        <div className="absolute top-1/2 right-0 max-w-3xl h-100 flex justify-around items-start flex-col transform translate-x-[90%] translate-y-[0%] bg-white p-8 rounded-lg shadow-lg ">
           <h2 className="text-3xl font-bold ">
             Pour <span className="bg-[#0b68a4] text-white px-2">Vous</span>
           </h2>

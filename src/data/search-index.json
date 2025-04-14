@@ -2545,7 +2545,7 @@
   },
   {
     "path": "src/components/pages/avis-clients/parrainage/ReferralForm.tsx",
-    "content": "className=\"w-full py-12 md:py-16 lg:py-20\""
+    "content": "className=\"w-full py-12 md:py-16 lg:py-20 bg-gray-50\""
   },
   {
     "path": "src/components/pages/avis-clients/parrainage/ReferralForm.tsx",
@@ -2581,7 +2581,7 @@
   },
   {
     "path": "src/components/pages/avis-clients/parrainage/ReferralForm.tsx",
-    "content": "className=\"grid gap-4 sm:grid-cols-2 mb-6\""
+    "content": "className=\"grid gap-4 sm:grid-cols-2 mb-8\""
   },
   {
     "path": "src/components/pages/avis-clients/parrainage/ReferralForm.tsx",
@@ -2597,6 +2597,10 @@
   },
   {
     "path": "src/components/pages/avis-clients/parrainage/ReferralForm.tsx",
+    "content": "className=\"h-12\""
+  },
+  {
+    "path": "src/components/pages/avis-clients/parrainage/ReferralForm.tsx",
     "content": "type=\"email\""
   },
   {
@@ -2609,7 +2613,19 @@
   },
   {
     "path": "src/components/pages/avis-clients/parrainage/ReferralForm.tsx",
-    "content": "className=\"grid gap-4 sm:grid-cols-3 mb-6\""
+    "content": "className=\"h-12\""
+  },
+  {
+    "path": "src/components/pages/avis-clients/parrainage/ReferralForm.tsx",
+    "content": "className=\"font-bold text-lg mb-4\""
+  },
+  {
+    "path": "src/components/pages/avis-clients/parrainage/ReferralForm.tsx",
+    "content": "A qui pensez-vous ?"
+  },
+  {
+    "path": "src/components/pages/avis-clients/parrainage/ReferralForm.tsx",
+    "content": "className=\"grid gap-4 sm:grid-cols-3 mb-8\""
   },
   {
     "path": "src/components/pages/avis-clients/parrainage/ReferralForm.tsx",
@@ -2617,7 +2633,11 @@
   },
   {
     "path": "src/components/pages/avis-clients/parrainage/ReferralForm.tsx",
-    "content": "placeholder=\"Nom du filleul\""
+    "content": "placeholder=\"Nom du 1er filleul\""
+  },
+  {
+    "path": "src/components/pages/avis-clients/parrainage/ReferralForm.tsx",
+    "content": "className=\"h-12\""
   },
   {
     "path": "src/components/pages/avis-clients/parrainage/ReferralForm.tsx",
@@ -2629,7 +2649,11 @@
   },
   {
     "path": "src/components/pages/avis-clients/parrainage/ReferralForm.tsx",
-    "content": "placeholder=\"Téléphone du filleul\""
+    "content": "placeholder=\"Téléphone du 1er filleul\""
+  },
+  {
+    "path": "src/components/pages/avis-clients/parrainage/ReferralForm.tsx",
+    "content": "className=\"h-12\""
   },
   {
     "path": "src/components/pages/avis-clients/parrainage/ReferralForm.tsx",
@@ -2641,11 +2665,39 @@
   },
   {
     "path": "src/components/pages/avis-clients/parrainage/ReferralForm.tsx",
-    "content": "placeholder=\"Email du filleul\""
+    "content": "placeholder=\"Email du 1er filleul\""
   },
   {
     "path": "src/components/pages/avis-clients/parrainage/ReferralForm.tsx",
-    "content": "className=\"mb-4\""
+    "content": "className=\"h-12\""
+  },
+  {
+    "path": "src/components/pages/avis-clients/parrainage/ReferralForm.tsx",
+    "content": "className=\"bg-blue-600 text-white p-4 rounded-md mb-6\""
+  },
+  {
+    "path": "src/components/pages/avis-clients/parrainage/ReferralForm.tsx",
+    "content": "className=\"text-center\""
+  },
+  {
+    "path": "src/components/pages/avis-clients/parrainage/ReferralForm.tsx",
+    "content": "className=\"font-medium\""
+  },
+  {
+    "path": "src/components/pages/avis-clients/parrainage/ReferralForm.tsx",
+    "content": "Total des gains potentiels"
+  },
+  {
+    "path": "src/components/pages/avis-clients/parrainage/ReferralForm.tsx",
+    "content": "className=\"text-xl font-bold\""
+  },
+  {
+    "path": "src/components/pages/avis-clients/parrainage/ReferralForm.tsx",
+    "content": "0,00 €"
+  },
+  {
+    "path": "src/components/pages/avis-clients/parrainage/ReferralForm.tsx",
+    "content": "className=\"mb-6\""
   },
   {
     "path": "src/components/pages/avis-clients/parrainage/ReferralForm.tsx",
@@ -2653,11 +2705,39 @@
   },
   {
     "path": "src/components/pages/avis-clients/parrainage/ReferralForm.tsx",
+    "content": "className=\"bg-blue-600 hover:bg-blue-700 text-white font-medium px-8 py-2 rounded-full\""
+  },
+  {
+    "path": "src/components/pages/avis-clients/parrainage/ReferralForm.tsx",
+    "content": "className=\"mt-4 text-xs text-gray-600\""
+  },
+  {
+    "path": "src/components/pages/avis-clients/parrainage/ReferralForm.tsx",
+    "content": "En cliquant sur « Envoyer », vous confirmez avoir pris connaissance de notre"
+  },
+  {
+    "path": "src/components/pages/avis-clients/parrainage/ReferralForm.tsx",
+    "content": "href=\"/politique-de-donnees-personnelles\""
+  },
+  {
+    "path": "src/components/pages/avis-clients/parrainage/ReferralForm.tsx",
+    "content": "className=\"text-blue-600 hover:underline\""
+  },
+  {
+    "path": "src/components/pages/avis-clients/parrainage/ReferralForm.tsx",
+    "content": "Politique de Données Personnelles"
+  },
+  {
+    "path": "src/components/pages/avis-clients/parrainage/ReferralForm.tsx",
+    "content": "et vous en acceptez le traitement par SunVolt. Vous et vos filleuls gardez la possibilité de retirer\n              votre consentement à tout moment."
+  },
+  {
+    "path": "src/components/pages/avis-clients/parrainage/ReferralForm.tsx",
     "content": "className=\"hidden lg:block relative rounded-lg overflow-hidden h-full min-h-[400px]\""
   },
   {
     "path": "src/components/pages/avis-clients/parrainage/ReferralForm.tsx",
-    "content": "src=\"/images/pages/avis-clients/parrainage/ReferralForm.webp\""
+    "content": "src=\"https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-uQwZoo9A3SYkxfTgauCB52J703Yr8o.png\""
   },
   {
     "path": "src/components/pages/avis-clients/parrainage/ReferralForm.tsx",
