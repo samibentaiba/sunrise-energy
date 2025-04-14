@@ -2544,6 +2544,122 @@
     "content": "className=\"text-gray-700\""
   },
   {
+    "path": "src/components/pages/avis-clients/parrainage/ReferralForm.tsx",
+    "content": "className=\"w-full py-12 md:py-16 lg:py-20\""
+  },
+  {
+    "path": "src/components/pages/avis-clients/parrainage/ReferralForm.tsx",
+    "content": "className=\"container px-4 md:px-6\""
+  },
+  {
+    "path": "src/components/pages/avis-clients/parrainage/ReferralForm.tsx",
+    "content": "className=\"text-center mb-10\""
+  },
+  {
+    "path": "src/components/pages/avis-clients/parrainage/ReferralForm.tsx",
+    "content": "className=\"text-3xl font-bold tracking-tight sm:text-4xl\""
+  },
+  {
+    "path": "src/components/pages/avis-clients/parrainage/ReferralForm.tsx",
+    "content": "Passez à l&apos;action"
+  },
+  {
+    "path": "src/components/pages/avis-clients/parrainage/ReferralForm.tsx",
+    "content": "className=\"mt-1 text-lg text-muted-foreground\""
+  },
+  {
+    "path": "src/components/pages/avis-clients/parrainage/ReferralForm.tsx",
+    "content": "et recommencez autant de fois que vous le souhaitez"
+  },
+  {
+    "path": "src/components/pages/avis-clients/parrainage/ReferralForm.tsx",
+    "content": "className=\"grid gap-8 lg:grid-cols-3\""
+  },
+  {
+    "path": "src/components/pages/avis-clients/parrainage/ReferralForm.tsx",
+    "content": "className=\"lg:col-span-2 bg-white p-6 rounded-lg shadow-sm\""
+  },
+  {
+    "path": "src/components/pages/avis-clients/parrainage/ReferralForm.tsx",
+    "content": "className=\"grid gap-4 sm:grid-cols-2 mb-6\""
+  },
+  {
+    "path": "src/components/pages/avis-clients/parrainage/ReferralForm.tsx",
+    "content": "type=\"text\""
+  },
+  {
+    "path": "src/components/pages/avis-clients/parrainage/ReferralForm.tsx",
+    "content": "placeholder=\"Votre nom\""
+  },
+  {
+    "path": "src/components/pages/avis-clients/parrainage/ReferralForm.tsx",
+    "content": "type=\"email\""
+  },
+  {
+    "path": "src/components/pages/avis-clients/parrainage/ReferralForm.tsx",
+    "content": "placeholder=\"Votre email\""
+  },
+  {
+    "path": "src/components/pages/avis-clients/parrainage/ReferralForm.tsx",
+    "content": "className=\"grid gap-4 sm:grid-cols-3 mb-6\""
+  },
+  {
+    "path": "src/components/pages/avis-clients/parrainage/ReferralForm.tsx",
+    "content": "placeholder=\"Nom du filleul\""
+  },
+  {
+    "path": "src/components/pages/avis-clients/parrainage/ReferralForm.tsx",
+    "content": "placeholder=\"Téléphone du filleul\""
+  },
+  {
+    "path": "src/components/pages/avis-clients/parrainage/ReferralForm.tsx",
+    "content": "type=\"tel\""
+  },
+  {
+    "path": "src/components/pages/avis-clients/parrainage/ReferralForm.tsx",
+    "content": "placeholder=\"Email du filleul\""
+  },
+  {
+    "path": "src/components/pages/avis-clients/parrainage/ReferralForm.tsx",
+    "content": "type=\"email\""
+  },
+  {
+    "path": "src/components/pages/avis-clients/parrainage/ReferralForm.tsx",
+    "content": "className=\"text-sm text-gray-500 mb-4\""
+  },
+  {
+    "path": "src/components/pages/avis-clients/parrainage/ReferralForm.tsx",
+    "content": "reCAPTCHA protégé par Google -"
+  },
+  {
+    "path": "src/components/pages/avis-clients/parrainage/ReferralForm.tsx",
+    "content": "href=\"#\""
+  },
+  {
+    "path": "src/components/pages/avis-clients/parrainage/ReferralForm.tsx",
+    "content": "Conditions"
+  },
+  {
+    "path": "src/components/pages/avis-clients/parrainage/ReferralForm.tsx",
+    "content": "type=\"submit\""
+  },
+  {
+    "path": "src/components/pages/avis-clients/parrainage/ReferralForm.tsx",
+    "content": "className=\"hidden lg:block relative rounded-lg overflow-hidden h-full min-h-[400px]\""
+  },
+  {
+    "path": "src/components/pages/avis-clients/parrainage/ReferralForm.tsx",
+    "content": "src=\"/images/pages/avis-clients/parrainage/ReferralForm.webp\""
+  },
+  {
+    "path": "src/components/pages/avis-clients/parrainage/ReferralForm.tsx",
+    "content": "alt=\"Parrainage\""
+  },
+  {
+    "path": "src/components/pages/avis-clients/parrainage/ReferralForm.tsx",
+    "content": "className=\"object-cover\""
+  },
+  {
     "path": "src/components/pages/avis-clients/parrainage/Hero.tsx",
     "content": "className=\"relative md:h-[420px] h-[500px] z-0 p-0 m-0 w-full flex items-center justify-center overflow-hidden bg-cover bg-center\""
   },
