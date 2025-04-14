@@ -2589,11 +2589,19 @@
   },
   {
     "path": "src/components/pages/avis-clients/parrainage/ReferralForm.tsx",
+    "content": "name=\"name\""
+  },
+  {
+    "path": "src/components/pages/avis-clients/parrainage/ReferralForm.tsx",
     "content": "placeholder=\"Votre nom\""
   },
   {
     "path": "src/components/pages/avis-clients/parrainage/ReferralForm.tsx",
     "content": "type=\"email\""
+  },
+  {
+    "path": "src/components/pages/avis-clients/parrainage/ReferralForm.tsx",
+    "content": "name=\"email\""
   },
   {
     "path": "src/components/pages/avis-clients/parrainage/ReferralForm.tsx",
@@ -2605,11 +2613,15 @@
   },
   {
     "path": "src/components/pages/avis-clients/parrainage/ReferralForm.tsx",
+    "content": "name=\"referralName\""
+  },
+  {
+    "path": "src/components/pages/avis-clients/parrainage/ReferralForm.tsx",
     "content": "placeholder=\"Nom du filleul\""
   },
   {
     "path": "src/components/pages/avis-clients/parrainage/ReferralForm.tsx",
-    "content": "placeholder=\"Téléphone du filleul\""
+    "content": "name=\"referralPhone\""
   },
   {
     "path": "src/components/pages/avis-clients/parrainage/ReferralForm.tsx",
@@ -2617,7 +2629,11 @@
   },
   {
     "path": "src/components/pages/avis-clients/parrainage/ReferralForm.tsx",
-    "content": "placeholder=\"Email du filleul\""
+    "content": "placeholder=\"Téléphone du filleul\""
+  },
+  {
+    "path": "src/components/pages/avis-clients/parrainage/ReferralForm.tsx",
+    "content": "name=\"referralEmail\""
   },
   {
     "path": "src/components/pages/avis-clients/parrainage/ReferralForm.tsx",
@@ -2625,19 +2641,11 @@
   },
   {
     "path": "src/components/pages/avis-clients/parrainage/ReferralForm.tsx",
-    "content": "className=\"text-sm text-gray-500 mb-4\""
+    "content": "placeholder=\"Email du filleul\""
   },
   {
     "path": "src/components/pages/avis-clients/parrainage/ReferralForm.tsx",
-    "content": "reCAPTCHA protégé par Google -"
-  },
-  {
-    "path": "src/components/pages/avis-clients/parrainage/ReferralForm.tsx",
-    "content": "href=\"#\""
-  },
-  {
-    "path": "src/components/pages/avis-clients/parrainage/ReferralForm.tsx",
-    "content": "Conditions"
+    "content": "className=\"mb-4\""
   },
   {
     "path": "src/components/pages/avis-clients/parrainage/ReferralForm.tsx",

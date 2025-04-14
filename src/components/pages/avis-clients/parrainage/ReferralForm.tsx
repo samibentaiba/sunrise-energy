@@ -1,44 +1,21 @@
 "use client";
 
-import { useGoogleReCaptcha } from "react-google-recaptcha-v3";
-import { useState } from "react";
+import { useReferralForm } from "@/hooks/use-referralForm"; // Import the custom hook for the form
 import { Button } from "@/components/ui/button";
+import ReCAPTCHA from "react-google-recaptcha";
 import { Input } from "@/components/ui/input";
 import Image from "next/image";
-import Link from "next/link";
 
 export default function ReferralForm() {
-  const { executeRecaptcha } = useGoogleReCaptcha();
-  const [submitting, setSubmitting] = useState(false);
-
-  const handleSubmit = async (e: React.FormEvent) => {
-    e.preventDefault();
-    if (!executeRecaptcha) return;
-
-    setSubmitting(true);
-    const token = await executeRecaptcha("referral_form");
-
-    // Example: Collect form data here (use refs or state)
-    const formData = {
-      name: "Example", // Replace with actual values
-      email: "example@email.com",
-      recaptchaToken: token,
-    };
-
-    const res = await fetch("/api/contact", {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify(formData),
-    });
-
-    if (res.ok) {
-      alert("Message envoyé !");
-    } else {
-      alert("Erreur lors de l'envoi du formulaire.");
-    }
-
-    setSubmitting(false);
-  };
+  const {
+    recaptchaRef,
+    //recaptchaToken,
+    handleRecaptchaChange,
+    formData,
+    handleChange,
+    handleSubmit,
+    submitting,
+  } = useReferralForm();
 
   return (
     <section className="w-full py-12 md:py-16 lg:py-20">
@@ -56,20 +33,56 @@ export default function ReferralForm() {
           <div className="lg:col-span-2 bg-white p-6 rounded-lg shadow-sm">
             <form onSubmit={handleSubmit}>
               <div className="grid gap-4 sm:grid-cols-2 mb-6">
-                <Input type="text" placeholder="Votre nom" required />
-                <Input type="email" placeholder="Votre email" required />
+                <Input
+                  type="text"
+                  name="name"
+                  placeholder="Votre nom"
+                  value={formData.name}
+                  onChange={handleChange}
+                  required
+                />
+                <Input
+                  type="email"
+                  name="email"
+                  placeholder="Votre email"
+                  value={formData.email}
+                  onChange={handleChange}
+                  required
+                />
               </div>
 
-              {/* Parrainage fields... */}
               <div className="grid gap-4 sm:grid-cols-3 mb-6">
-                <Input placeholder="Nom du filleul" required />
-                <Input placeholder="Téléphone du filleul" type="tel" required />
-                <Input placeholder="Email du filleul" type="email" required />
+                <Input
+                  name="referralName"
+                  placeholder="Nom du filleul"
+                  value={formData.referralName}
+                  onChange={handleChange}
+                  required
+                />
+                <Input
+                  name="referralPhone"
+                  type="tel"
+                  placeholder="Téléphone du filleul"
+                  value={formData.referralPhone}
+                  onChange={handleChange}
+                  required
+                />
+                <Input
+                  name="referralEmail"
+                  type="email"
+                  placeholder="Email du filleul"
+                  value={formData.referralEmail}
+                  onChange={handleChange}
+                  required
+                />
               </div>
 
-              {/* Simulated reCAPTCHA visual (optional since v3 is invisible) */}
-              <div className="text-sm text-gray-500 mb-4">
-                reCAPTCHA protégé par Google - <Link href="#">Conditions</Link>
+              <div className="mb-4">
+                <ReCAPTCHA
+                  sitekey={process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY!}
+                  ref={recaptchaRef}
+                  onChange={handleRecaptchaChange}
+                />
               </div>
 
               <Button type="submit" disabled={submitting}>
