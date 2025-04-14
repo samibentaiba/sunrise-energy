@@ -1,5 +1,5 @@
 // hooks/use-contactForm.ts
-import { useState, useRef } from "react"
+import { useState } from "react"
 import { useReCAPTCHA } from "@/hooks/use-reCAPTCHA"  // Assuming you already have use-reCAPTCHA as a custom hook
 
 export const useContactForm = () => {

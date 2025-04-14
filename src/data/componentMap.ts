@@ -25,6 +25,7 @@ export const componentMap: Record<string, () => Promise<{ default: ComponentType
   "components/pages/avis-clients/parrainage/ReferralForm": () => import("@/components/pages/avis-clients/parrainage/ReferralForm"),
   "components/pages/avis-clients/parrainage/Steps": () => import("@/components/pages/avis-clients/parrainage/Steps"),
   "components/pages/contact/ContactForm": () => import("@/components/pages/contact/ContactForm"),
+  "components/pages/contact/GoogleMap": () => import("@/components/pages/contact/GoogleMap"),
   "components/pages/demande-devis-panneau-solaire/About": () => import("@/components/pages/demande-devis-panneau-solaire/About"),
   "components/pages/demande-devis-panneau-solaire/Features": () => import("@/components/pages/demande-devis-panneau-solaire/Features"),
   "components/pages/demande-devis-panneau-solaire/Form": () => import("@/components/pages/demande-devis-panneau-solaire/Form"),

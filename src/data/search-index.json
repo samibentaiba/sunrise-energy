@@ -2272,6 +2272,22 @@
     "content": "className=\"w-full h-auto rounded-lg\""
   },
   {
+    "path": "src/components/pages/contact/GoogleMap.tsx",
+    "content": "className=\"aspect-[2/1] w-full\""
+  },
+  {
+    "path": "src/components/pages/contact/GoogleMap.tsx",
+    "content": "src=\"https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d1288.3903746345609!2d2.8527784!3d36.4961343!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sar!2sdz!4v1742107248442!5m2!1sar!2sdz\""
+  },
+  {
+    "path": "src/components/pages/contact/GoogleMap.tsx",
+    "content": "className=\"w-full h-full\""
+  },
+  {
+    "path": "src/components/pages/contact/GoogleMap.tsx",
+    "content": "loading=\"lazy\""
+  },
+  {
     "path": "src/components/pages/contact/ContactForm.tsx",
     "content": "className=\"max-w-7xl mx-auto py-12  px-4 md:px-6 md:py-16 lg:py-20 text-black bg-gray-50\""
   },
