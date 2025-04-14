@@ -3,7 +3,6 @@
 import { useGoogleReCaptcha } from "react-google-recaptcha-v3";
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
-import { Checkbox } from "@/components/ui/checkbox";
 import { Input } from "@/components/ui/input";
 import Image from "next/image";
 import Link from "next/link";
