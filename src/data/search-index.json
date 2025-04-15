@@ -800,6 +800,182 @@
     "content": "de garantie fabricant"
   },
   {
+    "path": "src/components/pages/mentions-legales/Hero.tsx",
+    "content": "className=\"flex flex-col items-center\""
+  },
+  {
+    "path": "src/components/pages/mentions-legales/Hero.tsx",
+    "content": "className=\"relative w-full h-[200px] md:h-[300px]\""
+  },
+  {
+    "path": "src/components/pages/mentions-legales/Hero.tsx",
+    "content": "src=\"/images/pages/mentions-legales/Hero.png\""
+  },
+  {
+    "path": "src/components/pages/mentions-legales/Hero.tsx",
+    "content": "alt=\"Mentions légales banner\""
+  },
+  {
+    "path": "src/components/pages/mentions-legales/Hero.tsx",
+    "content": "className=\"object-cover\""
+  },
+  {
+    "path": "src/components/pages/mentions-legales/About.tsx",
+    "content": "className=\"max-w-4xl mx-auto px-4 py-12\""
+  },
+  {
+    "path": "src/components/pages/mentions-legales/About.tsx",
+    "content": "className=\"text-3xl font-bold mb-8\""
+  },
+  {
+    "path": "src/components/pages/mentions-legales/About.tsx",
+    "content": "Editeur du site SunVolt"
+  },
+  {
+    "path": "src/components/pages/mentions-legales/About.tsx",
+    "content": "className=\"mb-6\""
+  },
+  {
+    "path": "src/components/pages/mentions-legales/About.tsx",
+    "content": "Le site internet"
+  },
+  {
+    "path": "src/components/pages/mentions-legales/About.tsx",
+    "content": "href=\"https://www.sunvolt.fr\""
+  },
+  {
+    "path": "src/components/pages/mentions-legales/About.tsx",
+    "content": "className=\"text-blue-600 hover:underline\""
+  },
+  {
+    "path": "src/components/pages/mentions-legales/About.tsx",
+    "content": "www.sunvolt.fr"
+  },
+  {
+    "path": "src/components/pages/mentions-legales/About.tsx",
+    "content": "est édité par la société SunVolt France."
+  },
+  {
+    "path": "src/components/pages/mentions-legales/About.tsx",
+    "content": "className=\"space-y-1 mb-8\""
+  },
+  {
+    "path": "src/components/pages/mentions-legales/About.tsx",
+    "content": "Numéro de SIRET : 84969368400011"
+  },
+  {
+    "path": "src/components/pages/mentions-legales/About.tsx",
+    "content": "Capital social : 50 000 €"
+  },
+  {
+    "path": "src/components/pages/mentions-legales/About.tsx",
+    "content": "Siège Social : 541 rue Méliès – 34000 MONTPELLIER - FRANCE"
+  },
+  {
+    "path": "src/components/pages/mentions-legales/About.tsx",
+    "content": "Responsable éditorial : David WALLON"
+  },
+  {
+    "path": "src/components/pages/mentions-legales/About.tsx",
+    "content": "Email :"
+  },
+  {
+    "path": "src/components/pages/mentions-legales/About.tsx",
+    "content": "href=\"mailto:contact@sunvolt.fr\""
+  },
+  {
+    "path": "src/components/pages/mentions-legales/About.tsx",
+    "content": "className=\"text-blue-600 hover:underline\""
+  },
+  {
+    "path": "src/components/pages/mentions-legales/About.tsx",
+    "content": "contact@sunvolt.fr"
+  },
+  {
+    "path": "src/components/pages/mentions-legales/About.tsx",
+    "content": "className=\"text-2xl font-bold mt-12 mb-6\""
+  },
+  {
+    "path": "src/components/pages/mentions-legales/About.tsx",
+    "content": "Confidentialité des informations"
+  },
+  {
+    "path": "src/components/pages/mentions-legales/About.tsx",
+    "content": "className=\"mb-4\""
+  },
+  {
+    "path": "src/components/pages/mentions-legales/About.tsx",
+    "content": "SunVolt s'engage à respecter la"
+  },
+  {
+    "path": "src/components/pages/mentions-legales/About.tsx",
+    "content": "href=\"#\""
+  },
+  {
+    "path": "src/components/pages/mentions-legales/About.tsx",
+    "content": "className=\"text-blue-600 hover:underline\""
+  },
+  {
+    "path": "src/components/pages/mentions-legales/About.tsx",
+    "content": "confidentialité des informations personnelles"
+  },
+  {
+    "path": "src/components/pages/mentions-legales/About.tsx",
+    "content": "saisies et de ne jamais les transmettre à des fins commerciales. Conformément à la Loi « informatique et Liberté\n        » du 6 janvier 1978, vous disposez d'un droit d'accès, de rectification, de modification, de suppression des\n        données qui vous concernent."
+  },
+  {
+    "path": "src/components/pages/mentions-legales/About.tsx",
+    "content": "className=\"mb-8\""
+  },
+  {
+    "path": "src/components/pages/mentions-legales/About.tsx",
+    "content": "Si vous souhaitez gérer vos données personnelles, n'hésitez pas à envoyer un mail via le"
+  },
+  {
+    "path": "src/components/pages/mentions-legales/About.tsx",
+    "content": "href=\"#\""
+  },
+  {
+    "path": "src/components/pages/mentions-legales/About.tsx",
+    "content": "className=\"text-blue-600 hover:underline\""
+  },
+  {
+    "path": "src/components/pages/mentions-legales/About.tsx",
+    "content": "formulaire de contact"
+  },
+  {
+    "path": "src/components/pages/mentions-legales/About.tsx",
+    "content": "."
+  },
+  {
+    "path": "src/components/pages/mentions-legales/About.tsx",
+    "content": "className=\"text-2xl font-bold mt-12 mb-6\""
+  },
+  {
+    "path": "src/components/pages/mentions-legales/About.tsx",
+    "content": "Hébergement"
+  },
+  {
+    "path": "src/components/pages/mentions-legales/About.tsx",
+    "content": "className=\"mb-4\""
+  },
+  {
+    "path": "src/components/pages/mentions-legales/About.tsx",
+    "content": "Le site est hébergé par la société KINSTA dont le siège est situé à l'adresse suivante : Los Angeles en\n        Californie aux États-Unis. Adresse mail :"
+  },
+  {
+    "path": "src/components/pages/mentions-legales/About.tsx",
+    "content": "href=\"mailto:contact@kinsta.com\""
+  },
+  {
+    "path": "src/components/pages/mentions-legales/About.tsx",
+    "content": "className=\"text-blue-600 hover:underline\""
+  },
+  {
+    "path": "src/components/pages/mentions-legales/About.tsx",
+    "content": "contact@kinsta.com"
+  },
+  {
     "path": "src/components/pages/home/Trust.tsx",
     "content": "className=\" bg-gray-50 md:px-20 md:py-20 px-5 pb-20 pt-10 flex justify-center flex-col items-center align-middle\""
   },
@@ -2273,11 +2449,11 @@
   },
   {
     "path": "src/components/pages/contact/GoogleMap.tsx",
-    "content": "className=\"aspect-[2/1] w-full\""
+    "content": "className=\"aspect-[2/1] h-120 w-screen\""
   },
   {
     "path": "src/components/pages/contact/GoogleMap.tsx",
-    "content": "src=\"https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d1288.3903746345609!2d2.8527784!3d36.4961343!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sar!2sdz!4v1742107248442!5m2!1sar!2sdz\""
+    "content": "src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d416.0571919604636!2d2.861136613418448!3d36.490189927188815!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x128f0954c12aa995%3A0x5e9e7796c88e339c!2sFVQ6%2BWGG%2C%20Ouled%20Ya%C3%AFch!5e0!3m2!1sfr!2sdz!4v1744599212413!5m2!1sfr!2sdz&z=12\""
   },
   {
     "path": "src/components/pages/contact/GoogleMap.tsx",
