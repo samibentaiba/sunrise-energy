@@ -1,8 +1,8 @@
-import HeroTerms from "@/components/modules/HeroTerms";
+import HeroTerms from "@/components/modules/terms/HeroTerms";
 import DataTable from "@/components/modules/DataTable";
-import PolicyLayout from "@/components/modules/PolicyLayout";
-import PolicyLink from "@/components/modules/PolicyLink";
-import PolicySection from "@/components/modules/PolicySection";
+import PolicyLayout from "@/components/modules/terms/PolicyLayout";
+import PolicyLink from "@/components/modules/terms/PolicyLink";
+import PolicySection from "@/components/modules/terms/PolicySection";
 
 export default function Page() {
   // Data for personal data types table

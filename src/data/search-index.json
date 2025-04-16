@@ -1348,6 +1348,10 @@
     "content": "className=\"text-white opacity-0 text-2xl\""
   },
   {
+    "path": "src/components/pages/guides/Guides.tsx",
+    "content": "className=\"container mx-auto py-8\""
+  },
+  {
     "path": "src/components/pages/garanties/Team.tsx",
     "content": "className=\"w-full py-16 md:py-24 relative\""
   },
@@ -4184,34 +4188,6 @@
     "content": "className=\"w-full md:w-1/2 flex justify-center\""
   },
   {
-    "path": "src/components/modules/PolicySection.tsx",
-    "content": "className=\"mb-12\""
-  },
-  {
-    "path": "src/components/modules/PolicySection.tsx",
-    "content": "className=\"text-2xl font-bold text-black mt-12 mb-6\""
-  },
-  {
-    "path": "src/components/modules/PolicySection.tsx",
-    "content": "className=\"text-black\""
-  },
-  {
-    "path": "src/components/modules/PolicyLink.tsx",
-    "content": "className=\"text-teal-600 hover:text-teal-800 transition-colors\""
-  },
-  {
-    "path": "src/components/modules/PolicyLayout.tsx",
-    "content": "className=\"min-h-screen bg-white\""
-  },
-  {
-    "path": "src/components/modules/PolicyLayout.tsx",
-    "content": "className=\"container mx-auto px-4 md:px-6 py-12\""
-  },
-  {
-    "path": "src/components/modules/PolicyLayout.tsx",
-    "content": "className=\"max-w-4xl mx-auto prose prose-slate lg:prose-lg\""
-  },
-  {
     "path": "src/components/modules/PNavBar.tsx",
     "content": "className=\"border-none bg-[#f9f9f9] hidden lg:block\""
   },
@@ -4257,7 +4233,7 @@
   },
   {
     "path": "src/components/modules/PNavBar.tsx",
-    "content": "href=\"#\""
+    "content": "href=\"/guides\""
   },
   {
     "path": "src/components/modules/PNavBar.tsx",
@@ -4322,26 +4298,6 @@
   {
     "path": "src/components/modules/PNavBar.tsx",
     "content": "alt=\"logo Sunrise\""
-  },
-  {
-    "path": "src/components/modules/HeroTerms.tsx",
-    "content": "className=\"relative md:h-[420px] h-[500px] z-0 p-0 m-0 w-full flex items-center justify-center overflow-hidden bg-cover bg-center bg-blend-overlay\""
-  },
-  {
-    "path": "src/components/modules/HeroTerms.tsx",
-    "content": "className=\"relative p-0 m-0 w-full h-full flex items-center justify-center text-white\""
-  },
-  {
-    "path": "src/components/modules/HeroTerms.tsx",
-    "content": "className=\"absolute flex justify-center items-center inset-0 h-full\""
-  },
-  {
-    "path": "src/components/modules/HeroTerms.tsx",
-    "content": "alt=\"Blue background shape\""
-  },
-  {
-    "path": "src/components/modules/HeroTerms.tsx",
-    "content": "className=\"text-3xl sm:text-4xl md:text-[2.3rem] lg:text-[3rem] w-[50%] text-center font-semibold leading-tight\""
   },
   {
     "path": "src/components/modules/Hero.tsx",
@@ -5226,5 +5182,113 @@
   {
     "path": "src/components/modules/Blog.tsx",
     "content": "href=\"demande-devis-panneau-solaire\""
+  },
+  {
+    "path": "src/components/modules/terms/PolicySection.tsx",
+    "content": "className=\"mb-12\""
+  },
+  {
+    "path": "src/components/modules/terms/PolicySection.tsx",
+    "content": "className=\"text-2xl font-bold text-black mt-12 mb-6\""
+  },
+  {
+    "path": "src/components/modules/terms/PolicySection.tsx",
+    "content": "className=\"text-black\""
+  },
+  {
+    "path": "src/components/modules/terms/PolicyLink.tsx",
+    "content": "className=\"text-teal-600 hover:text-teal-800 transition-colors\""
+  },
+  {
+    "path": "src/components/modules/terms/PolicyLayout.tsx",
+    "content": "className=\"min-h-screen bg-white\""
+  },
+  {
+    "path": "src/components/modules/terms/PolicyLayout.tsx",
+    "content": "className=\"container mx-auto px-4 md:px-6 py-12\""
+  },
+  {
+    "path": "src/components/modules/terms/PolicyLayout.tsx",
+    "content": "className=\"max-w-4xl mx-auto prose prose-slate lg:prose-lg\""
+  },
+  {
+    "path": "src/components/modules/terms/HeroTerms.tsx",
+    "content": "className=\"relative md:h-[420px] h-[500px] z-0 p-0 m-0 w-full flex items-center justify-center overflow-hidden bg-cover bg-center bg-blend-overlay\""
+  },
+  {
+    "path": "src/components/modules/terms/HeroTerms.tsx",
+    "content": "className=\"relative p-0 m-0 w-full h-full flex flex-col gap-8 items-center justify-center text-white\""
+  },
+  {
+    "path": "src/components/modules/terms/HeroTerms.tsx",
+    "content": "className=\"absolute flex justify-center  items-center inset-0 h-full\""
+  },
+  {
+    "path": "src/components/modules/terms/HeroTerms.tsx",
+    "content": "alt=\"Blue background shape\""
+  },
+  {
+    "path": "src/components/modules/terms/HeroTerms.tsx",
+    "content": "className=\"text-3xl sm:text-4xl md:text-[2.3rem] lg:text-[3rem] w-[50%] text-center font-semibold leading-tight\""
+  },
+  {
+    "path": "src/components/modules/terms/HeroTerms.tsx",
+    "content": "className=\"box-border my-0\""
+  },
+  {
+    "path": "src/components/modules/request/index.tsx",
+    "content": "className=\"p-4 flex flex-col items-center justify-center\""
+  },
+  {
+    "path": "src/components/modules/request/index.tsx",
+    "content": "className=\"w-full\""
+  },
+  {
+    "path": "src/components/modules/request/index.tsx",
+    "content": "className=\"text-2xl font-bold mb-6 text-center\""
+  },
+  {
+    "path": "src/components/modules/request/index.tsx",
+    "content": "Questionnaire Solaire"
+  },
+  {
+    "path": "src/components/modules/request/index.tsx",
+    "content": "className=\"mb-4\""
+  },
+  {
+    "path": "src/components/modules/request/index.tsx",
+    "content": "submitButtonText=\"Envoyer\""
+  },
+  {
+    "path": "src/components/modules/request/index.tsx",
+    "content": "nextButtonText=\"Ok\""
+  },
+  {
+    "path": "src/components/modules/request/index.tsx",
+    "content": "className=\"bg-green-50 p-6 rounded-lg border border-green-200\""
+  },
+  {
+    "path": "src/components/modules/request/index.tsx",
+    "content": "className=\"text-xl font-bold text-green-800 mb-4\""
+  },
+  {
+    "path": "src/components/modules/request/index.tsx",
+    "content": "Merci pour votre soumission!"
+  },
+  {
+    "path": "src/components/modules/request/index.tsx",
+    "content": "className=\"text-green-700\""
+  },
+  {
+    "path": "src/components/modules/request/index.tsx",
+    "content": "Nous avons bien reçu vos inations et nous vous contacterons\n              bientôt."
+  },
+  {
+    "path": "src/components/modules/request/index.tsx",
+    "content": "className=\"mt-4 px-4 py-2 bg-green-600 text-white rounded-md hover:bg-green-700\""
+  },
+  {
+    "path": "src/components/modules/request/index.tsx",
+    "content": "Recommencer"
   }
 ]
