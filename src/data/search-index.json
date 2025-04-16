@@ -4157,11 +4157,11 @@
   },
   {
     "path": "src/components/modules/PolicySection.tsx",
-    "content": "className=\"text-2xl font-bold text-gray-900 mt-12 mb-6\""
+    "content": "className=\"text-2xl font-bold text-black mt-12 mb-6\""
   },
   {
     "path": "src/components/modules/PolicySection.tsx",
-    "content": "className=\"text-gray-700\""
+    "content": "className=\"text-black\""
   },
   {
     "path": "src/components/modules/PolicyLink.tsx",

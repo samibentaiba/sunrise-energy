@@ -4,7 +4,6 @@ import { ReactElement, useState } from "react";
 import Image from "next/image";
 import { Star } from "lucide-react";
 
-// Review data now uses a single text field
 const reviews = [
   {
     name: "Brigitte",
@@ -209,3 +208,4 @@ export default function Trust(): ReactElement {
     </div>
   );
 }
+
