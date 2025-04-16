@@ -75,7 +75,7 @@ function GetStartButton({
   );
 }
 
-export default function SolarShowcase(): ReactElement {
+export default function Showcase(): ReactElement {
   return (
     <section className="bg-white py-20 px-6 md:py-24 lg:py-32">
       <div className="container mx-auto max-w-6xl">

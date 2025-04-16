@@ -800,182 +800,6 @@
     "content": "de garantie fabricant"
   },
   {
-    "path": "src/components/pages/mentions-legales/Hero.tsx",
-    "content": "className=\"flex flex-col items-center\""
-  },
-  {
-    "path": "src/components/pages/mentions-legales/Hero.tsx",
-    "content": "className=\"relative w-full h-[200px] md:h-[300px]\""
-  },
-  {
-    "path": "src/components/pages/mentions-legales/Hero.tsx",
-    "content": "src=\"/images/pages/mentions-legales/Hero.png\""
-  },
-  {
-    "path": "src/components/pages/mentions-legales/Hero.tsx",
-    "content": "alt=\"Mentions légales banner\""
-  },
-  {
-    "path": "src/components/pages/mentions-legales/Hero.tsx",
-    "content": "className=\"object-cover\""
-  },
-  {
-    "path": "src/components/pages/mentions-legales/About.tsx",
-    "content": "className=\"max-w-4xl mx-auto px-4 py-12\""
-  },
-  {
-    "path": "src/components/pages/mentions-legales/About.tsx",
-    "content": "className=\"text-3xl font-bold mb-8\""
-  },
-  {
-    "path": "src/components/pages/mentions-legales/About.tsx",
-    "content": "Editeur du site SunVolt"
-  },
-  {
-    "path": "src/components/pages/mentions-legales/About.tsx",
-    "content": "className=\"mb-6\""
-  },
-  {
-    "path": "src/components/pages/mentions-legales/About.tsx",
-    "content": "Le site internet"
-  },
-  {
-    "path": "src/components/pages/mentions-legales/About.tsx",
-    "content": "href=\"https://www.sunvolt.fr\""
-  },
-  {
-    "path": "src/components/pages/mentions-legales/About.tsx",
-    "content": "className=\"text-blue-600 hover:underline\""
-  },
-  {
-    "path": "src/components/pages/mentions-legales/About.tsx",
-    "content": "www.sunvolt.fr"
-  },
-  {
-    "path": "src/components/pages/mentions-legales/About.tsx",
-    "content": "est édité par la société SunVolt France."
-  },
-  {
-    "path": "src/components/pages/mentions-legales/About.tsx",
-    "content": "className=\"space-y-1 mb-8\""
-  },
-  {
-    "path": "src/components/pages/mentions-legales/About.tsx",
-    "content": "Numéro de SIRET : 84969368400011"
-  },
-  {
-    "path": "src/components/pages/mentions-legales/About.tsx",
-    "content": "Capital social : 50 000 €"
-  },
-  {
-    "path": "src/components/pages/mentions-legales/About.tsx",
-    "content": "Siège Social : 541 rue Méliès – 34000 MONTPELLIER - FRANCE"
-  },
-  {
-    "path": "src/components/pages/mentions-legales/About.tsx",
-    "content": "Responsable éditorial : David WALLON"
-  },
-  {
-    "path": "src/components/pages/mentions-legales/About.tsx",
-    "content": "Email :"
-  },
-  {
-    "path": "src/components/pages/mentions-legales/About.tsx",
-    "content": "href=\"mailto:contact@sunvolt.fr\""
-  },
-  {
-    "path": "src/components/pages/mentions-legales/About.tsx",
-    "content": "className=\"text-blue-600 hover:underline\""
-  },
-  {
-    "path": "src/components/pages/mentions-legales/About.tsx",
-    "content": "contact@sunvolt.fr"
-  },
-  {
-    "path": "src/components/pages/mentions-legales/About.tsx",
-    "content": "className=\"text-2xl font-bold mt-12 mb-6\""
-  },
-  {
-    "path": "src/components/pages/mentions-legales/About.tsx",
-    "content": "Confidentialité des informations"
-  },
-  {
-    "path": "src/components/pages/mentions-legales/About.tsx",
-    "content": "className=\"mb-4\""
-  },
-  {
-    "path": "src/components/pages/mentions-legales/About.tsx",
-    "content": "SunVolt s'engage à respecter la"
-  },
-  {
-    "path": "src/components/pages/mentions-legales/About.tsx",
-    "content": "href=\"#\""
-  },
-  {
-    "path": "src/components/pages/mentions-legales/About.tsx",
-    "content": "className=\"text-blue-600 hover:underline\""
-  },
-  {
-    "path": "src/components/pages/mentions-legales/About.tsx",
-    "content": "confidentialité des informations personnelles"
-  },
-  {
-    "path": "src/components/pages/mentions-legales/About.tsx",
-    "content": "saisies et de ne jamais les transmettre à des fins commerciales. Conformément à la Loi « informatique et Liberté\n        » du 6 janvier 1978, vous disposez d'un droit d'accès, de rectification, de modification, de suppression des\n        données qui vous concernent."
-  },
-  {
-    "path": "src/components/pages/mentions-legales/About.tsx",
-    "content": "className=\"mb-8\""
-  },
-  {
-    "path": "src/components/pages/mentions-legales/About.tsx",
-    "content": "Si vous souhaitez gérer vos données personnelles, n'hésitez pas à envoyer un mail via le"
-  },
-  {
-    "path": "src/components/pages/mentions-legales/About.tsx",
-    "content": "href=\"#\""
-  },
-  {
-    "path": "src/components/pages/mentions-legales/About.tsx",
-    "content": "className=\"text-blue-600 hover:underline\""
-  },
-  {
-    "path": "src/components/pages/mentions-legales/About.tsx",
-    "content": "formulaire de contact"
-  },
-  {
-    "path": "src/components/pages/mentions-legales/About.tsx",
-    "content": "."
-  },
-  {
-    "path": "src/components/pages/mentions-legales/About.tsx",
-    "content": "className=\"text-2xl font-bold mt-12 mb-6\""
-  },
-  {
-    "path": "src/components/pages/mentions-legales/About.tsx",
-    "content": "Hébergement"
-  },
-  {
-    "path": "src/components/pages/mentions-legales/About.tsx",
-    "content": "className=\"mb-4\""
-  },
-  {
-    "path": "src/components/pages/mentions-legales/About.tsx",
-    "content": "Le site est hébergé par la société KINSTA dont le siège est situé à l'adresse suivante : Los Angeles en\n        Californie aux États-Unis. Adresse mail :"
-  },
-  {
-    "path": "src/components/pages/mentions-legales/About.tsx",
-    "content": "href=\"mailto:contact@kinsta.com\""
-  },
-  {
-    "path": "src/components/pages/mentions-legales/About.tsx",
-    "content": "className=\"text-blue-600 hover:underline\""
-  },
-  {
-    "path": "src/components/pages/mentions-legales/About.tsx",
-    "content": "contact@kinsta.com"
-  },
-  {
     "path": "src/components/pages/home/Trust.tsx",
     "content": "className=\" bg-gray-50 md:px-20 md:py-20 px-5 pb-20 pt-10 flex justify-center flex-col items-center align-middle\""
   },
@@ -4328,6 +4152,34 @@
     "content": "className=\"w-full md:w-1/2 flex justify-center\""
   },
   {
+    "path": "src/components/modules/PolicySection.tsx",
+    "content": "className=\"mb-12\""
+  },
+  {
+    "path": "src/components/modules/PolicySection.tsx",
+    "content": "className=\"text-2xl font-bold text-gray-900 mt-12 mb-6\""
+  },
+  {
+    "path": "src/components/modules/PolicySection.tsx",
+    "content": "className=\"text-gray-700\""
+  },
+  {
+    "path": "src/components/modules/PolicyLink.tsx",
+    "content": "className=\"text-teal-600 hover:text-teal-800 transition-colors\""
+  },
+  {
+    "path": "src/components/modules/PolicyLayout.tsx",
+    "content": "className=\"min-h-screen bg-white\""
+  },
+  {
+    "path": "src/components/modules/PolicyLayout.tsx",
+    "content": "className=\"container mx-auto px-4 md:px-6 py-12\""
+  },
+  {
+    "path": "src/components/modules/PolicyLayout.tsx",
+    "content": "className=\"max-w-4xl mx-auto prose prose-slate lg:prose-lg\""
+  },
+  {
     "path": "src/components/modules/PNavBar.tsx",
     "content": "className=\"border-none bg-[#f9f9f9] hidden lg:block\""
   },
@@ -4438,6 +4290,26 @@
   {
     "path": "src/components/modules/PNavBar.tsx",
     "content": "alt=\"logo Sunrise\""
+  },
+  {
+    "path": "src/components/modules/HeroTerms.tsx",
+    "content": "className=\"relative md:h-[420px] h-[500px] z-0 p-0 m-0 w-full flex items-center justify-center overflow-hidden bg-cover bg-center bg-blend-overlay\""
+  },
+  {
+    "path": "src/components/modules/HeroTerms.tsx",
+    "content": "className=\"relative p-0 m-0 w-full h-full flex items-center justify-center text-white\""
+  },
+  {
+    "path": "src/components/modules/HeroTerms.tsx",
+    "content": "className=\"absolute flex justify-center items-center inset-0 h-full\""
+  },
+  {
+    "path": "src/components/modules/HeroTerms.tsx",
+    "content": "alt=\"Blue background shape\""
+  },
+  {
+    "path": "src/components/modules/HeroTerms.tsx",
+    "content": "className=\"text-3xl sm:text-4xl md:text-[2.3rem] lg:text-[3rem] w-[50%] text-center font-semibold leading-tight\""
   },
   {
     "path": "src/components/modules/Hero.tsx",
@@ -4969,7 +4841,7 @@
   },
   {
     "path": "src/components/modules/Footer.tsx",
-    "content": "href=\"/devis\""
+    "content": "href=\"/demande-devis-panneau-solaire\""
   },
   {
     "path": "src/components/modules/Footer.tsx",
@@ -4981,7 +4853,7 @@
   },
   {
     "path": "src/components/modules/Footer.tsx",
-    "content": "href=\"/politique-donnees\""
+    "content": "href=\"/donnees-personnelles\""
   },
   {
     "path": "src/components/modules/Footer.tsx",
@@ -5182,6 +5054,30 @@
   {
     "path": "src/components/modules/FAQ.tsx",
     "content": "className=\"text-base md:text-lg\""
+  },
+  {
+    "path": "src/components/modules/DataTable.tsx",
+    "content": "className=\"overflow-x-auto mb-6\""
+  },
+  {
+    "path": "src/components/modules/DataTable.tsx",
+    "content": "className=\"w-full border-collapse\""
+  },
+  {
+    "path": "src/components/modules/DataTable.tsx",
+    "content": "className=\"bg-gray-100\""
+  },
+  {
+    "path": "src/components/modules/DataTable.tsx",
+    "content": "className=\"border border-gray-300 px-4 py-2 text-left font-semibold\""
+  },
+  {
+    "path": "src/components/modules/DataTable.tsx",
+    "content": "className=\"border border-gray-300 px-4 py-2 text-left font-semibold\""
+  },
+  {
+    "path": "src/components/modules/DataTable.tsx",
+    "content": "className=\"border border-gray-300 px-4 py-2\""
   },
   {
     "path": "src/components/modules/Blog.tsx",

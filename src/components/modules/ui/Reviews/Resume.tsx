@@ -3,7 +3,7 @@
 import { ReactElement, useState } from "react"
 import { RandomAvatar } from "react-random-avatars"
 
-export default function ReviewSummary():ReactElement {
+export default function Resume():ReactElement {
   // Names for the avatars
   const names = ["Brigitte", "Antoine", "Sophie", "AI"]
   // State to track if content is expanded

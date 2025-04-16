@@ -39,7 +39,7 @@ const faqData = [
   },
 ];
 
-export default function SolarRouterFAQ(): ReactElement {
+export default function QA(): ReactElement {
   return (
     <div className="border-none  py-24 md:py-32 bg-white">
       <div className="border-none container mx-auto px-4">

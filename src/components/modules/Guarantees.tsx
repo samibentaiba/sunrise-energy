@@ -2,7 +2,7 @@ import Image from "next/image"
 import Link from "next/link"
 import type { ReactElement } from "react"
 
-export default function AdditionalGuarantees(): ReactElement {
+export default function Guarantees(): ReactElement {
   return (
     <section className="w-full py-8 md:py-12 lg:py-20 text-gray-900 bg-gray-50">
       <div className="mx-auto px-4 max-w-6xl">

@@ -149,7 +149,7 @@ const ReviewCard = ({
   );
 };
 
-export default function TestimonialsSection(): ReactElement {
+export default function Trust(): ReactElement {
   // State to track expanded reviews. By default, David's review (index 7) is expanded.
   const [expandedReviews, setExpandedReviews] = useState<number[]>([7]);
 

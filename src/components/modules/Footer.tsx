@@ -88,13 +88,13 @@ export default function Footer(): ReactElement {
               Comparez votre devis solaire
             </Link>
             <Link
-              href="/devis"
+              href="/demande-devis-panneau-solaire"
               className="block hover:text-gray-300 transition-colors"
             >
               Votre devis Panneau Solaire en moins de 24 heures
             </Link>
             <Link
-              href="/politique-donnees"
+              href="/donnees-personnelles"
               className="block hover:text-gray-300 transition-colors"
             >
               Politique de données personnelles

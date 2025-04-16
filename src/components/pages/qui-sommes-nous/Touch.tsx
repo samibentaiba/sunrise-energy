@@ -1,5 +1,5 @@
 import { ReactElement } from "react";
-export default function SolarMission(): ReactElement {
+export default function Touch(): ReactElement {
   return (
     <div id="team" className="w-full">
       <div

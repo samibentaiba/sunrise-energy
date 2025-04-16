@@ -7,7 +7,7 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Card, CardContent } from "@/components/ui/card";
 
-export default function MultiStepForm(): ReactElement {
+export default function Form(): ReactElement {
   const [step, setStep] = useState(1);
   const [formData, setFormData] = useState({
     companyName: "",
