@@ -27,7 +27,7 @@ export default function Touch(): ReactElement {
     </div>
   );
 }
-const SVGComponent: React.FC = (props) => (
+const SVGComponent: React.FC = () => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     viewBox="0 0 1440 320"
