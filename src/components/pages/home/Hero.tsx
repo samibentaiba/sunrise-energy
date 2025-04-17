@@ -4,7 +4,7 @@ export default function Hero(): ReactElement {
   return (
     <div className="relative md:h-[512px] h-[575px] z-0 p-0 m-0 w-full flex items-center justify-center bg-cover bg-center">
       <Image
-        src="/images/pages/home/Hero.png"
+        src="/images/module/Hero/Hero.png"
         alt="Hero"
         fill
         style={{ objectFit: "cover" }}

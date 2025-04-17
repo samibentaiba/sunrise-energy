@@ -82,7 +82,7 @@ export default function Footer(): ReactElement {
           {/* Second links column */}
           <div className="space-y-4">
             <Link
-              href="/comparez"
+              href="/installateur-photovoltaique/comparateur-devis-panneaux-solaires"
               className="block hover:text-gray-300 transition-colors"
             >
               Comparez votre devis solaire

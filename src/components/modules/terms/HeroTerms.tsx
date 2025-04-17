@@ -24,7 +24,7 @@ export default function HeroTerms({
         {/* Yellow Overlay */}
         <div className="absolute flex justify-center  items-center inset-0 h-full">
           <Image
-            src={"/images/modules/hero/YellowShape.svg"}
+            src={"/images/modules/Hero/YellowShape.svg"}
             alt="Blue background shape"
             fill
             style={{

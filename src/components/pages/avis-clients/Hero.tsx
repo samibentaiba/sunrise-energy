@@ -42,7 +42,7 @@ export default function Hero({
         {/* Blue Overlay */}
         <div className="absolute left-[-5rem] md:left-0  inset-0  h-full">
           <Image
-            src={"/images/modules/hero/BlueShape.svg"}
+            src={"/images/modules/Hero/BlueShape.svg"}
             alt="Blue background shape"
             fill
             style={{
