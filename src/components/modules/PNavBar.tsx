@@ -31,13 +31,13 @@ export default function PNavBar(): ReactElement {
             <Link href="/guides" className="text-muted-foreground transition-colors duration-300 hover:text-[#127a4c]">
               Guides
             </Link>
-            <Link href="#" className="text-muted-foreground transition-colors duration-300 hover:text-[#127a4c]">
+            <Link href="/qui-sommes-nous" className="text-muted-foreground transition-colors duration-300 hover:text-[#127a4c]">
               Qui sommes nous ?
             </Link>
-            <Link href="#" className="text-muted-foreground transition-colors duration-300 hover:text-[#127a4c]">
+            <Link href="/qui-sommes-nous/offres-emploi" className="text-muted-foreground transition-colors duration-300 hover:text-[#127a4c]">
               Carrières
             </Link>
-            <Link href="#" className="text-muted-foreground transition-colors duration-300 hover:text-[#127a4c]">
+            <Link href="/contact" className="text-muted-foreground transition-colors duration-300 hover:text-[#127a4c]">
               Nous contacter
             </Link>
           </div>

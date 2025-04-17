@@ -1,7 +1,7 @@
 import { ReactElement } from "react";
 export default function Touch(): ReactElement {
   return (
-    <div id="team" className="w-full">
+    <div id="team" className="w-full  relative">
       <div className="absolute left-0 hidden md:block w-full z-10">
         <SVGComponent />
       </div>
@@ -30,11 +30,12 @@ export default function Touch(): ReactElement {
 const SVGComponent: React.FC = () => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    viewBox="0 0 1440 320"
+    viewBox="0 0 1440 300"
     preserveAspectRatio="none"
     transform="matrix(1,0,0,-1,0,0)"
-    version="1.1"
+    version="1.0"
+
   >
-    <path fill="#fff" d="M0 0v300C990 0 1000 500 2500 200v4750L0 320Z"></path>
+    <path fill="#fff" d="M0 0v300C500 100 1000 450 5000 150v4000L0 300Z" />
   </svg>
 );

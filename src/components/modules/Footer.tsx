@@ -127,7 +127,7 @@ export default function Footer(): ReactElement {
             </Link>{" "}
             |
             <Link
-              href="/politique-donnees"
+              href="/donnees-personnelles"
               className="hover:text-white transition-colors"
             >
               {" "}
