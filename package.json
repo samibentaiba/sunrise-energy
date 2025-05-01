@@ -1,10 +1,10 @@
 {
-  "name": "dashboard",
+  "name": "sunrise",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "bun run generate-indexes && next dev --turbopack",
-    "build": "bun run generate-indexes && next build",
+    "build": "bun run generate-indexes && bunx next build",
     "start": "next start",
     "lint": "next lint",
     "generate-indexes": "bun ts-node --project tsconfig.scripts.json ./scripts/generate-indexes.ts",
