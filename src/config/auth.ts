@@ -1,3 +1,4 @@
+// src/config/auth.ts
 import CredentialsProvider from "next-auth/providers/credentials";
 import { validatePassword } from "../lib/hash";
 import { AuthOptions } from "next-auth";
@@ -24,18 +25,21 @@ export const NEXT_AUTH_OPTIONS: AuthOptions = {
       ) {
         const email = credentials?.email;
         const password = credentials?.password;
+        console.log("Checking credentials:", email);
 
         const user = await prisma.user.findUnique({
           where: {
             email,
           },
         });
+        console.log("User from DB:", user);
 
         if (!user) return null;
         if (password === undefined) return null;
         const isPasswordValid = await validatePassword(password, user.password);
-        if (!isPasswordValid) return null;
 
+        console.log("Password match:", isPasswordValid);
+        if (!isPasswordValid) return null;
         return {
           id: user.id,
           name: user.username,
