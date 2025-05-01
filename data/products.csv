@@ -1,0 +1,6 @@
+name,price,stock,status,productImages,availableAt,content
+"Solar Panel X100",199.99,15,active,"[""https://picsum.photos/seed/panel1/600/400"",""https://picsum.photos/seed/panel2/600/400""]","2025-05-01T08:00:00.000Z","Solar energy is one of the cleanest sources of energy. It reduces our reliance on fossil fuels."
+"Portable Power Bank",49.99,50,active,"[""https://picsum.photos/seed/powerbank1/600/400""]","2025-05-03T08:00:00.000Z","Living in the mountains brings peace and a sense of adventure."
+"Eco LED Bulb",12.50,200,inactive,"[""https://picsum.photos/seed/bulb1/600/400""]","2025-05-05T08:00:00.000Z","City life is both hectic and thrilling, full of surprises."
+"Wind Turbine Kit",899.00,5,archived,"[""https://picsum.photos/seed/wind1/600/400"",""https://picsum.photos/seed/wind2/600/400""]","2025-06-01T08:00:00.000Z","Harness the power of the wind with our complete turbine kit."
+"Solar Charger",34.75,100,active,"[""https://picsum.photos/seed/charger1/600/400""]","2025-04-30T08:00:00.000Z","A compact and efficient solar charger for outdoor adventures."

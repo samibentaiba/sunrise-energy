@@ -13,7 +13,7 @@ export default function SNavBar(): ReactElement {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
-    <div className="section-main">
+    <div className="section-main ">
       <div className="header-container">
         <div className="header-content">
           <div className="header-inner">

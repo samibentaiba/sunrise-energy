@@ -2,7 +2,7 @@
 import React, { ReactElement } from "react";
 import { useEffect } from "react";
 import ReactPlayer from "react-player";
-import { CustomGoogleForm } from "@/tools/GoogleForm";
+import { CustomGoogleForm } from "@/services/GoogleForm";
 
 export default function Home(): ReactElement {
   useEffect(() => {

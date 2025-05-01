@@ -6,7 +6,7 @@ import { SiFacebook, SiYoutube, SiLinkedin, SiInstagram } from "react-icons/si";
 import type { ReactElement } from "react";
 export default function Footer(): ReactElement {
   return (
-    <footer className="bg-[#0a0b1e] text-white py-12">
+    <footer className="bg-[#0a0b1e] w-screen text-white py-12">
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {/* Logo and ratings column */}

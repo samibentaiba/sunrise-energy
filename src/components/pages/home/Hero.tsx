@@ -4,7 +4,7 @@ export default function Hero(): ReactElement {
   return (
     <div className="relative md:h-[512px] h-[575px] z-0 p-0 m-0 w-full flex items-center justify-center bg-cover bg-center">
       <Image
-        src="/images/module/Hero/Hero.png"
+        src="/images/modules/Hero/Hero.png"
         alt="Hero"
         fill
         style={{ objectFit: "cover" }}
@@ -25,6 +25,7 @@ export default function Hero(): ReactElement {
             <GetStartButton
               text="Prendre RDV avec un expert solaire"
               href="demande-devis-panneau-solaire"
+              hoveredText="Prendre RDV avec un expert solaire"
             />
             <p
               style={{

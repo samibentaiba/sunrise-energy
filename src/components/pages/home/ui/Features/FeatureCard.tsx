@@ -1,6 +1,6 @@
 import React, { ReactElement, useEffect, useState } from "react";
 import { ArrowRight } from "lucide-react";
-import { cn } from "@/libs/utils";
+import { cn } from "@/lib/utils";
 
 export default function FeatureCard({
   title = "title",

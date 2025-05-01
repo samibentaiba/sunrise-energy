@@ -1,8 +1,7 @@
 "use client"
 
 import type React from "react"
-import { ArrowRight, Check, Clock, DollarSign } from "lucide-react"
-import { Button } from "@/components/ui/button"
+import {  Check, Clock, DollarSign } from "lucide-react"
 
 export default function Hero() {
   return (

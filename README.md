@@ -1,36 +1,116 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# **Project Title: Dashboard**
 
-## Getting Started
+## **Description**  
+This project is a web application built using Next.js, designed to serve as a dashboard interface for maintaining an eCommerce website focused on blogs and products. It leverages modern web technologies, including Prisma and PostgreSQL, to provide a responsive and interactive user experience. The application is styled using ShadCN, Tailwind CSS, and Next Themes for a modern and customizable design. Access is restricted to admin users only. This project uses NextAuth v4 for session management and secure API routes.
 
-First, run the development server:
+**Getting Started**  
+To get started with the project, follow these steps:
 
-```bash
-npm run dev
+1. **Clone the Repository**  
+   Clone the repository to your local machine using:
+   ```bash
+   git clone https://github.com/samibentaiba/dashboard.git
+   ```
 
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+2. **Navigate to the Project Directory**  
+   Change into the project directory:
+   ```bash
+   cd dashboard
+   ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+3. **Install Dependencies**  
+   Install the required dependencies using npm, yarn, or bun:
+   ```bash
+   npm install
+   # or
+   yarn install
+   # or
+   bun install
+   ```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+4. **Set Up PostgreSQL Database**  
+   Ensure you have PostgreSQL installed and running. Create a new database for the application.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+5. **Configure Environment Variables**  
+   Copy the `.env.example` file to `.env` and update the database connection string and NextAuth configuration:
+   ```plaintext
+   DATABASE_URL="postgresql://USER:PASSWORD@HOST:PORT/DATABASE"
+   NEXTAUTH_URL="http://localhost:3000"
+   NEXTAUTH_SECRET="your_secret_key"
+   ```
 
-## Learn More
+6. **Run Prisma Migrations**  
+   Use Prisma to set up your database schema:
+   ```bash
+   npx prisma migrate dev --name init
+   ```
 
-To learn more about Next.js, take a look at the following resources:
+7. **Run Local Database Scripts**  
+   If you have scripts for creating a local database for testing, you can run them as follows:
+   ```bash
+   npm run create-local-db
+   # or
+   yarn create-local-db
+   # or
+   bun create-local-db
+   ```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+8. **Seed the Database**  
+   To populate your database with initial data, run the seed script. The seed data is located in the `data` folder:
+   ```bash
+   bun run seed
+   ```
+   Ensure that your seed script is properly configured in your `package.json` or Prisma configuration.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+9. **Visualize the Database with Prisma Studio**  
+   To visualize your database and manage data, you can use Prisma Studio. Start it with the following command:
+   ```bash
+   npx prisma studio
+   ```
+   This will open Prisma Studio in your default web browser, allowing you to view and manipulate your database records.
 
-## Deploy on Vercel
+10. **Run the Development Server**  
+    Start the development server:
+    ```bash
+    npm run dev
+    # or
+    yarn dev
+    # or
+    bun dev
+    ```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+11. **Access the Application**  
+    Open your browser and navigate to:
+    ```
+    http://localhost:3000
+    ```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+**Project Structure**  
+The project contains the following key directories and files:
+
+- **src/**: Contains the main application source code.
+- **src/types/**: Contains type declarations to enhance the design system's clarity.
+- **prisma/**: Contains the Prisma schema and migration files.
+- **data/**: Contains seed data for populating the database.
+- **public/**: Static files that can be served directly.
+- **scripts/**: Custom scripts for creating a local database for testing.
+- **types/**: Contains module declarations for TypeScript.
+- **utils/**: Utility functions used throughout the application.
+- **.env.example**: Example environment variables configuration.
+- **README.md**: This file.
+
+**Technologies Used**  
+- **Next.js**: A React framework for server-side rendering and static site generation.
+- **TypeScript**: A superset of JavaScript that adds static types.
+- **Prisma**: An ORM for Node.js and TypeScript that simplifies database access.
+- **PostgreSQL**: A powerful, open-source relational database system.
+- **ShadCN**: A component library for building UI with Tailwind CSS.
+- **Tailwind CSS**: A utility-first CSS framework for rapid UI development.
+- **Next Themes**: A library for managing themes in Next.js applications.
+- **NextAuth v4**: For session management and secure API routes.
+- **CSS**: For additional styling of the application.
+
+**Deployment**  
+For deployment, it is recommended to use Vercel, the platform created by the makers of Next.js. Refer to the [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+**Contributing

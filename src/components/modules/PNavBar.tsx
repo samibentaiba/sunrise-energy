@@ -6,7 +6,7 @@ import { ReactElement } from "react";
 
 export default function PNavBar(): ReactElement {
   return (
-    <div className="border-none bg-[#f9f9f9] hidden lg:block">
+    <div className="border-none bg-[#f9f9f9] hidden lg:block ">
       <div
         className=" text-black flex justify-between pr-4 items-center text-sm h-full "
         style={{

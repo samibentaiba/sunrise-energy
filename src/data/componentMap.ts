@@ -49,6 +49,7 @@ export const componentMap: Record<string, () => Promise<{ default: ComponentType
   "components/pages/home/Hero": () => import("@/components/pages/home/Hero"),
   "components/pages/home/Numbers": () => import("@/components/pages/home/Numbers"),
   "components/pages/home/Trust": () => import("@/components/pages/home/Trust"),
+  "components/pages/installateur-photovoltaique/comparateur-devis-panneaux-solaires/Hero": () => import("@/components/pages/installateur-photovoltaique/comparateur-devis-panneaux-solaires/Hero"),
   "components/pages/panneaux-solaires/Installation": () => import("@/components/pages/panneaux-solaires/Installation"),
   "components/pages/panneaux-solaires/Protection": () => import("@/components/pages/panneaux-solaires/Protection"),
   "components/pages/qui-sommes-nous/About": () => import("@/components/pages/qui-sommes-nous/About"),
@@ -56,5 +57,8 @@ export const componentMap: Record<string, () => Promise<{ default: ComponentType
   "components/pages/qui-sommes-nous/QA": () => import("@/components/pages/qui-sommes-nous/QA"),
   "components/pages/qui-sommes-nous/Touch": () => import("@/components/pages/qui-sommes-nous/Touch"),
   "components/pages/qui-sommes-nous/Trust": () => import("@/components/pages/qui-sommes-nous/Trust"),
+  "components/pages/qui-sommes-nous/offres-emploi/Hero": () => import("@/components/pages/qui-sommes-nous/offres-emploi/Hero"),
+  "components/pages/qui-sommes-nous/offres-emploi/Job": () => import("@/components/pages/qui-sommes-nous/offres-emploi/Job"),
+  "components/pages/qui-sommes-nous/offres-emploi/Qair": () => import("@/components/pages/qui-sommes-nous/offres-emploi/Qair"),
   "components/pages/reseau-techniciens/Form": () => import("@/components/pages/reseau-techniciens/Form")
 };

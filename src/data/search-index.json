@@ -257,7 +257,7 @@
   },
   {
     "path": "src/components/pages/qui-sommes-nous/Touch.tsx",
-    "content": "className=\"w-full\""
+    "content": "className=\"w-full  relative\""
   },
   {
     "path": "src/components/pages/qui-sommes-nous/Touch.tsx",
@@ -289,7 +289,7 @@
   },
   {
     "path": "src/components/pages/qui-sommes-nous/Touch.tsx",
-    "content": "viewBox=\"0 0 1440 320\""
+    "content": "viewBox=\"0 0 1440 300\""
   },
   {
     "path": "src/components/pages/qui-sommes-nous/Touch.tsx",
@@ -301,7 +301,7 @@
   },
   {
     "path": "src/components/pages/qui-sommes-nous/Touch.tsx",
-    "content": "version=\"1.1\""
+    "content": "version=\"1.0\""
   },
   {
     "path": "src/components/pages/qui-sommes-nous/Touch.tsx",
@@ -309,7 +309,7 @@
   },
   {
     "path": "src/components/pages/qui-sommes-nous/Touch.tsx",
-    "content": "d=\"M0 0v300C990 0 1000 500 2500 200v4750L0 320Z\""
+    "content": "d=\"M0 0v300C500 100 1000 450 5000 150v4000L0 300Z\""
   },
   {
     "path": "src/components/pages/qui-sommes-nous/QA.tsx",
@@ -648,6 +648,558 @@
     "content": "className=\"whitespace-nowrap\""
   },
   {
+    "path": "src/components/pages/qui-sommes-nous/offres-emploi/Qair.tsx",
+    "content": "className=\"bg-white py-20 md:py-24 lg:py-32\""
+  },
+  {
+    "path": "src/components/pages/qui-sommes-nous/offres-emploi/Qair.tsx",
+    "content": "className=\"container mx-auto px-4 md:px-6\""
+  },
+  {
+    "path": "src/components/pages/qui-sommes-nous/offres-emploi/Qair.tsx",
+    "content": "className=\"flex flex-col md:flex-row items-center gap-8 md:gap-14 lg:gap-20\""
+  },
+  {
+    "path": "src/components/pages/qui-sommes-nous/offres-emploi/Qair.tsx",
+    "content": "className=\"w-full md:w-2/5 bg-[#fdb913] rounded-lg p-8 flex items-center justify-center\""
+  },
+  {
+    "path": "src/components/pages/qui-sommes-nous/offres-emploi/Qair.tsx",
+    "content": "src=\"/images/pages/qui-sommes-nous/offres-emploi/Qair.jpeg\""
+  },
+  {
+    "path": "src/components/pages/qui-sommes-nous/offres-emploi/Qair.tsx",
+    "content": "alt=\"SunVolt, filiale à 100% du groupe Qair\""
+  },
+  {
+    "path": "src/components/pages/qui-sommes-nous/offres-emploi/Qair.tsx",
+    "content": "className=\"w-full max-w-md\""
+  },
+  {
+    "path": "src/components/pages/qui-sommes-nous/offres-emploi/Qair.tsx",
+    "content": "className=\"w-full md:w-3/5\""
+  },
+  {
+    "path": "src/components/pages/qui-sommes-nous/offres-emploi/Qair.tsx",
+    "content": "className=\"text-3xl md:text-4xl font-bold text-[#040922] mb-8\""
+  },
+  {
+    "path": "src/components/pages/qui-sommes-nous/offres-emploi/Qair.tsx",
+    "content": "SunVolt France ; filiale d&apos;un grand groupe international"
+  },
+  {
+    "path": "src/components/pages/qui-sommes-nous/offres-emploi/Qair.tsx",
+    "content": "className=\"text-[#040922] space-y-5 mb-8\""
+  },
+  {
+    "path": "src/components/pages/qui-sommes-nous/offres-emploi/Qair.tsx",
+    "content": "href=\"https://www.qair.energy/\""
+  },
+  {
+    "path": "src/components/pages/qui-sommes-nous/offres-emploi/Qair.tsx",
+    "content": "target=\"_blank\""
+  },
+  {
+    "path": "src/components/pages/qui-sommes-nous/offres-emploi/Qair.tsx",
+    "content": "rel=\"noopener noreferrer\""
+  },
+  {
+    "path": "src/components/pages/qui-sommes-nous/offres-emploi/Qair.tsx",
+    "content": "className=\"text-[#0b68a4] hover:underline\""
+  },
+  {
+    "path": "src/components/pages/qui-sommes-nous/offres-emploi/Qair.tsx",
+    "content": "Le groupe QAIR"
+  },
+  {
+    "path": "src/components/pages/qui-sommes-nous/offres-emploi/Qair.tsx",
+    "content": ", actionnaire majoritaire de SunVolt, est un"
+  },
+  {
+    "path": "src/components/pages/qui-sommes-nous/offres-emploi/Qair.tsx",
+    "content": "producteur d&apos;énergie indépendant"
+  },
+  {
+    "path": "src/components/pages/qui-sommes-nous/offres-emploi/Qair.tsx",
+    "content": "qui\n                développe, détient et exploite des projets d&apos;énergie renouvelable avec différentes technologies :"
+  },
+  {
+    "path": "src/components/pages/qui-sommes-nous/offres-emploi/Qair.tsx",
+    "content": "éolien terrestre et offshore, solaire, valorisation énergétique de déchets, hydroélectricité, stockage\n                  (par batterie &amp; hydrogène)"
+  },
+  {
+    "path": "src/components/pages/qui-sommes-nous/offres-emploi/Qair.tsx",
+    "content": "."
+  },
+  {
+    "path": "src/components/pages/qui-sommes-nous/offres-emploi/Qair.tsx",
+    "content": "Les"
+  },
+  {
+    "path": "src/components/pages/qui-sommes-nous/offres-emploi/Qair.tsx",
+    "content": "550 collaborateurs du groupe"
+  },
+  {
+    "path": "src/components/pages/qui-sommes-nous/offres-emploi/Qair.tsx",
+    "content": "sont répartis dans 20 pays ; majoritairement en\n                France, en Pologne, en Allemagne, en Italie, en Espagne et au Brésil. QAIR possède un portefeuille\n                d&apos;actifs opérationnels en 2023 d&apos;environ 1 GW, ainsi que d&apos;un portefeuille de projets en\n                cours de développement de 25 GW."
+  },
+  {
+    "path": "src/components/pages/qui-sommes-nous/offres-emploi/Qair.tsx",
+    "content": "Le groupe Qair en quelques chiffres :"
+  },
+  {
+    "path": "src/components/pages/qui-sommes-nous/offres-emploi/Qair.tsx",
+    "content": "className=\"bg-gray-100 p-6 rounded-lg\""
+  },
+  {
+    "path": "src/components/pages/qui-sommes-nous/offres-emploi/Qair.tsx",
+    "content": "className=\"space-y-4\""
+  },
+  {
+    "path": "src/components/pages/qui-sommes-nous/offres-emploi/Qair.tsx",
+    "content": "className=\"flex items-start\""
+  },
+  {
+    "path": "src/components/pages/qui-sommes-nous/offres-emploi/Qair.tsx",
+    "content": "className=\"h-6 w-6 text-[#425a9e] mr-3 mt-0.5 flex-shrink-0\""
+  },
+  {
+    "path": "src/components/pages/qui-sommes-nous/offres-emploi/Qair.tsx",
+    "content": "550 collaborateurs dans plus de 20 pays"
+  },
+  {
+    "path": "src/components/pages/qui-sommes-nous/offres-emploi/Qair.tsx",
+    "content": "className=\"flex items-start\""
+  },
+  {
+    "path": "src/components/pages/qui-sommes-nous/offres-emploi/Qair.tsx",
+    "content": "className=\"h-6 w-6 text-[#425a9e] mr-3 mt-0.5 flex-shrink-0\""
+  },
+  {
+    "path": "src/components/pages/qui-sommes-nous/offres-emploi/Qair.tsx",
+    "content": "1 Milliard d&apos;Euros d&apos;actifs en exploitation dans les énergies renouvelables"
+  },
+  {
+    "path": "src/components/pages/qui-sommes-nous/offres-emploi/Qair.tsx",
+    "content": "className=\"flex items-start\""
+  },
+  {
+    "path": "src/components/pages/qui-sommes-nous/offres-emploi/Qair.tsx",
+    "content": "className=\"h-6 w-6 text-[#425a9e] mr-3 mt-0.5 flex-shrink-0\""
+  },
+  {
+    "path": "src/components/pages/qui-sommes-nous/offres-emploi/Qair.tsx",
+    "content": "4 Milliards d&apos;Euros d&apos;investissements prévus d&apos;ici 2028"
+  },
+  {
+    "path": "src/components/pages/qui-sommes-nous/offres-emploi/Job.tsx",
+    "content": "className=\"space-y-4 text-sm\""
+  },
+  {
+    "path": "src/components/pages/qui-sommes-nous/offres-emploi/Job.tsx",
+    "content": "className=\"font-bold\""
+  },
+  {
+    "path": "src/components/pages/qui-sommes-nous/offres-emploi/Job.tsx",
+    "content": "Poste & Missions :"
+  },
+  {
+    "path": "src/components/pages/qui-sommes-nous/offres-emploi/Job.tsx",
+    "content": "Sous la direction du Responsable Pôle BtoB, vous êtes chargés d'évaluer la faisabilité technique pour\n              l'installation de systèmes solaires photovoltaïques afin d'assurer la sécurité des structures des\n              bâtiments."
+  },
+  {
+    "path": "src/components/pages/qui-sommes-nous/offres-emploi/Job.tsx",
+    "content": "Pour cela, vous aurez à mener les missions suivantes :"
+  },
+  {
+    "path": "src/components/pages/qui-sommes-nous/offres-emploi/Job.tsx",
+    "content": "className=\"list-disc pl-5 space-y-1\""
+  },
+  {
+    "path": "src/components/pages/qui-sommes-nous/offres-emploi/Job.tsx",
+    "content": "Évaluation à distance ou sur sites des structures de toiture pour les installations solaires\n                photovoltaïques."
+  },
+  {
+    "path": "src/components/pages/qui-sommes-nous/offres-emploi/Job.tsx",
+    "content": "Conduire des évaluations techniques détaillées pour déterminer la capacité des toits à supporter le\n                poids et la charge des systèmes solaires photovoltaïques."
+  },
+  {
+    "path": "src/components/pages/qui-sommes-nous/offres-emploi/Job.tsx",
+    "content": "Collaborer avec l'équipe de conception pour s'assurer que les systèmes solaires sont conçus pour être en\n                accord avec les contraintes structurelles de chaque bâtiment."
+  },
+  {
+    "path": "src/components/pages/qui-sommes-nous/offres-emploi/Job.tsx",
+    "content": "Mise en place des méthodes de diagnostic permettant aux commerciaux de trier rapidement les projets\n                (GO/No-Go)"
+  },
+  {
+    "path": "src/components/pages/qui-sommes-nous/offres-emploi/Job.tsx",
+    "content": "Modéliser les étapes d'analyse et de dimensionnement d'un projet"
+  },
+  {
+    "path": "src/components/pages/qui-sommes-nous/offres-emploi/Job.tsx",
+    "content": "Spécifier les besoins fonctionnels pour développer la plateforme technologique qui automatise les tâches\n                répétitives de l'ingénieur structure"
+  },
+  {
+    "path": "src/components/pages/qui-sommes-nous/offres-emploi/Job.tsx",
+    "content": "className=\"font-bold\""
+  },
+  {
+    "path": "src/components/pages/qui-sommes-nous/offres-emploi/Job.tsx",
+    "content": "Profil :"
+  },
+  {
+    "path": "src/components/pages/qui-sommes-nous/offres-emploi/Job.tsx",
+    "content": "De formation ingénieur type Bac+5 sur une spécialité Photovoltaïques ou Génie Électrique, vous avez 2 à 5\n              ans d'expérience dans l'évaluation des structures de bâtiments de préférence dans le secteur de l'énergie\n              solaire."
+  },
+  {
+    "path": "src/components/pages/qui-sommes-nous/offres-emploi/Job.tsx",
+    "content": "Vous possédez des connaissance approfondie des codes du bâtiment et des réglementations en matière de\n              sécurité."
+  },
+  {
+    "path": "src/components/pages/qui-sommes-nous/offres-emploi/Job.tsx",
+    "content": "className=\"font-bold\""
+  },
+  {
+    "path": "src/components/pages/qui-sommes-nous/offres-emploi/Job.tsx",
+    "content": "Rémunération et avantages:"
+  },
+  {
+    "path": "src/components/pages/qui-sommes-nous/offres-emploi/Job.tsx",
+    "content": "className=\"list-disc pl-5 space-y-1\""
+  },
+  {
+    "path": "src/components/pages/qui-sommes-nous/offres-emploi/Job.tsx",
+    "content": "Poste en CDI, statut cadre"
+  },
+  {
+    "path": "src/components/pages/qui-sommes-nous/offres-emploi/Job.tsx",
+    "content": "Rémunération : 40 k€ à 60k€ selon expérience"
+  },
+  {
+    "path": "src/components/pages/qui-sommes-nous/offres-emploi/Job.tsx",
+    "content": "Horaires : 37h/semaine du lundi au vendredi"
+  },
+  {
+    "path": "src/components/pages/qui-sommes-nous/offres-emploi/Job.tsx",
+    "content": "Une journée de RTT par mois"
+  },
+  {
+    "path": "src/components/pages/qui-sommes-nous/offres-emploi/Job.tsx",
+    "content": "Télétravail possible dans la limite de 2 jours par semaine"
+  },
+  {
+    "path": "src/components/pages/qui-sommes-nous/offres-emploi/Job.tsx",
+    "content": "Tickets restaurant"
+  },
+  {
+    "path": "src/components/pages/qui-sommes-nous/offres-emploi/Job.tsx",
+    "content": "Mutuelle (50% payé par l'entreprise)"
+  },
+  {
+    "path": "src/components/pages/qui-sommes-nous/offres-emploi/Job.tsx",
+    "content": "Parking payé par l'entreprise"
+  },
+  {
+    "path": "src/components/pages/qui-sommes-nous/offres-emploi/Job.tsx",
+    "content": "Environnement de travail agréable à proximité d'Odysseum"
+  },
+  {
+    "path": "src/components/pages/qui-sommes-nous/offres-emploi/Job.tsx",
+    "content": "className=\"space-y-4 text-sm\""
+  },
+  {
+    "path": "src/components/pages/qui-sommes-nous/offres-emploi/Job.tsx",
+    "content": "Vous intégrez l'équipe SUPPORT composé d'un responsable et de 3 conseillers clientèles:"
+  },
+  {
+    "path": "src/components/pages/qui-sommes-nous/offres-emploi/Job.tsx",
+    "content": "className=\"font-bold\""
+  },
+  {
+    "path": "src/components/pages/qui-sommes-nous/offres-emploi/Job.tsx",
+    "content": "Quelles sont les missions ?"
+  },
+  {
+    "path": "src/components/pages/qui-sommes-nous/offres-emploi/Job.tsx",
+    "content": "className=\"list-disc pl-5 space-y-1\""
+  },
+  {
+    "path": "src/components/pages/qui-sommes-nous/offres-emploi/Job.tsx",
+    "content": "Gestion des appels entrants et création de tickets d'incidents;"
+  },
+  {
+    "path": "src/components/pages/qui-sommes-nous/offres-emploi/Job.tsx",
+    "content": "Accompagnement des clients au téléphone pour résoudre, répondre à leur questions sur l'avancement de\n                leur projet solaire photovoltaïques"
+  },
+  {
+    "path": "src/components/pages/qui-sommes-nous/offres-emploi/Job.tsx",
+    "content": "Trouver des solutions à leurs problèmes"
+  },
+  {
+    "path": "src/components/pages/qui-sommes-nous/offres-emploi/Job.tsx",
+    "content": "Transmettre les informations ou l'appel aux chefs de projets en charge de leur dossier."
+  },
+  {
+    "path": "src/components/pages/qui-sommes-nous/offres-emploi/Job.tsx",
+    "content": "Appel sortant pour prévenir de l'avancé, ou de l'infaisabilité technique du projet"
+  },
+  {
+    "path": "src/components/pages/qui-sommes-nous/offres-emploi/Job.tsx",
+    "content": "className=\"font-bold\""
+  },
+  {
+    "path": "src/components/pages/qui-sommes-nous/offres-emploi/Job.tsx",
+    "content": "Ce que nous attendons de vous :"
+  },
+  {
+    "path": "src/components/pages/qui-sommes-nous/offres-emploi/Job.tsx",
+    "content": "className=\"list-disc pl-5 space-y-1\""
+  },
+  {
+    "path": "src/components/pages/qui-sommes-nous/offres-emploi/Job.tsx",
+    "content": "Vous aimez la relation client, vous savez faire preuve de calme et êtes rassurant."
+  },
+  {
+    "path": "src/components/pages/qui-sommes-nous/offres-emploi/Job.tsx",
+    "content": "Vous aimez travailler en équipe ;"
+  },
+  {
+    "path": "src/components/pages/qui-sommes-nous/offres-emploi/Job.tsx",
+    "content": "Vous êtes à l'aise à l'oral et que vous êtes soucieux de la satisfaction de votre interlocuteur"
+  },
+  {
+    "path": "src/components/pages/qui-sommes-nous/offres-emploi/Job.tsx",
+    "content": "Les outils informatiques ne vous font pas peur et que vous faites preuve de curiosité."
+  },
+  {
+    "path": "src/components/pages/qui-sommes-nous/offres-emploi/Job.tsx",
+    "content": "className=\"font-bold\""
+  },
+  {
+    "path": "src/components/pages/qui-sommes-nous/offres-emploi/Job.tsx",
+    "content": "Type d'emploi / Rémunération :"
+  },
+  {
+    "path": "src/components/pages/qui-sommes-nous/offres-emploi/Job.tsx",
+    "content": "className=\"list-disc pl-5 space-y-1\""
+  },
+  {
+    "path": "src/components/pages/qui-sommes-nous/offres-emploi/Job.tsx",
+    "content": "Type de contrat : CDI"
+  },
+  {
+    "path": "src/components/pages/qui-sommes-nous/offres-emploi/Job.tsx",
+    "content": "35h du lundi au vendredi (horaire variable entre 9h et 18h)"
+  },
+  {
+    "path": "src/components/pages/qui-sommes-nous/offres-emploi/Job.tsx",
+    "content": "Carte restaurant"
+  },
+  {
+    "path": "src/components/pages/qui-sommes-nous/offres-emploi/Job.tsx",
+    "content": "Prime d'été"
+  },
+  {
+    "path": "src/components/pages/qui-sommes-nous/offres-emploi/Job.tsx",
+    "content": "Prime sur objectif jusqu'à 600€ annuel"
+  },
+  {
+    "path": "src/components/pages/qui-sommes-nous/offres-emploi/Job.tsx",
+    "content": "Salaire : 1 950,00€ à 2 000,00€ par mois"
+  },
+  {
+    "path": "src/components/pages/qui-sommes-nous/offres-emploi/Job.tsx",
+    "content": "className=\" bg-white\""
+  },
+  {
+    "path": "src/components/pages/qui-sommes-nous/offres-emploi/Job.tsx",
+    "content": "className=\"container mx-auto py-16\""
+  },
+  {
+    "path": "src/components/pages/qui-sommes-nous/offres-emploi/Job.tsx",
+    "content": "className=\"grid md:grid-cols-12 gap-6\""
+  },
+  {
+    "path": "src/components/pages/qui-sommes-nous/offres-emploi/Job.tsx",
+    "content": "className=\"md:col-span-3\""
+  },
+  {
+    "path": "src/components/pages/qui-sommes-nous/offres-emploi/Job.tsx",
+    "content": "className=\"relative h-[300px] md:h-[500px] rounded-lg overflow-hidden\""
+  },
+  {
+    "path": "src/components/pages/qui-sommes-nous/offres-emploi/Job.tsx",
+    "content": "src=\"/images/pages/qui-sommes-nous/offres-emploi/Office.png\""
+  },
+  {
+    "path": "src/components/pages/qui-sommes-nous/offres-emploi/Job.tsx",
+    "content": "alt=\"Business professionals reviewing information\""
+  },
+  {
+    "path": "src/components/pages/qui-sommes-nous/offres-emploi/Job.tsx",
+    "content": "className=\"object-cover\""
+  },
+  {
+    "path": "src/components/pages/qui-sommes-nous/offres-emploi/Job.tsx",
+    "content": "className=\"md:col-span-9\""
+  },
+  {
+    "path": "src/components/pages/qui-sommes-nous/offres-emploi/Job.tsx",
+    "content": "className=\"p-6 bg-gray-50\""
+  },
+  {
+    "path": "src/components/pages/qui-sommes-nous/offres-emploi/Job.tsx",
+    "content": "className=\"flex justify-between items-center mb-6\""
+  },
+  {
+    "path": "src/components/pages/qui-sommes-nous/offres-emploi/Job.tsx",
+    "content": "className=\"text-2xl font-bold\""
+  },
+  {
+    "path": "src/components/pages/qui-sommes-nous/offres-emploi/Job.tsx",
+    "content": "Offres d'emploi"
+  },
+  {
+    "path": "src/components/pages/qui-sommes-nous/offres-emploi/Job.tsx",
+    "content": "size=\"sm\""
+  },
+  {
+    "path": "src/components/pages/qui-sommes-nous/offres-emploi/Job.tsx",
+    "content": "className=\"text-xs\""
+  },
+  {
+    "path": "src/components/pages/qui-sommes-nous/offres-emploi/Job.tsx",
+    "content": "className=\"space-y-4\""
+  },
+  {
+    "path": "src/components/pages/qui-sommes-nous/offres-emploi/Job.tsx",
+    "content": "className=\"bg-white rounded-md shadow\""
+  },
+  {
+    "path": "src/components/pages/qui-sommes-nous/offres-emploi/Job.tsx",
+    "content": "className=\"w-full px-4 py-3 flex justify-between items-center hover:bg-gray-50 transition-colors\""
+  },
+  {
+    "path": "src/components/pages/qui-sommes-nous/offres-emploi/Job.tsx",
+    "content": "className=\"text-left\""
+  },
+  {
+    "path": "src/components/pages/qui-sommes-nous/offres-emploi/Job.tsx",
+    "content": "className=\"font-semibold\""
+  },
+  {
+    "path": "src/components/pages/qui-sommes-nous/offres-emploi/Job.tsx",
+    "content": "className=\"text-sm text-gray-500\""
+  },
+  {
+    "path": "src/components/pages/qui-sommes-nous/offres-emploi/Job.tsx",
+    "content": "className=\"h-5 w-5 text-gray-500\""
+  },
+  {
+    "path": "src/components/pages/qui-sommes-nous/offres-emploi/Job.tsx",
+    "content": "className=\"h-5 w-5 text-gray-500\""
+  },
+  {
+    "path": "src/components/pages/qui-sommes-nous/offres-emploi/Job.tsx",
+    "content": "className=\"px-4 py-4 border-t\""
+  },
+  {
+    "path": "src/components/pages/qui-sommes-nous/offres-emploi/Job.tsx",
+    "content": "className=\"mt-4\""
+  },
+  {
+    "path": "src/components/pages/qui-sommes-nous/offres-emploi/Job.tsx",
+    "content": "variant=\"default\""
+  },
+  {
+    "path": "src/components/pages/qui-sommes-nous/offres-emploi/Job.tsx",
+    "content": "size=\"sm\""
+  },
+  {
+    "path": "src/components/pages/qui-sommes-nous/offres-emploi/Job.tsx",
+    "content": "className=\"flex items-center\""
+  },
+  {
+    "path": "src/components/pages/qui-sommes-nous/offres-emploi/Job.tsx",
+    "content": "target=\"_blank\""
+  },
+  {
+    "path": "src/components/pages/qui-sommes-nous/offres-emploi/Job.tsx",
+    "content": "rel=\"noopener noreferrer\""
+  },
+  {
+    "path": "src/components/pages/qui-sommes-nous/offres-emploi/Job.tsx",
+    "content": "Postulez-ici"
+  },
+  {
+    "path": "src/components/pages/qui-sommes-nous/offres-emploi/Job.tsx",
+    "content": "className=\"ml-2 h-4 w-4\""
+  },
+  {
+    "path": "src/components/pages/qui-sommes-nous/offres-emploi/Job.tsx",
+    "content": "className=\"relative bg-green-50 border border-green-200 text-green-800 rounded-md p-6 mb-4 flex items-center justify-center\""
+  },
+  {
+    "path": "src/components/pages/qui-sommes-nous/offres-emploi/Job.tsx",
+    "content": "className=\"h-5 w-5 mr-3\""
+  },
+  {
+    "path": "src/components/pages/qui-sommes-nous/offres-emploi/Job.tsx",
+    "content": "className=\"text-center\""
+  },
+  {
+    "path": "src/components/pages/qui-sommes-nous/offres-emploi/Job.tsx",
+    "content": "Aucune offre pour le moment"
+  },
+  {
+    "path": "src/components/pages/qui-sommes-nous/offres-emploi/Job.tsx",
+    "content": "type=\"button\""
+  },
+  {
+    "path": "src/components/pages/qui-sommes-nous/offres-emploi/Job.tsx",
+    "content": "className=\"absolute top-0 right-0 p-2 text-green-800 hover:text-green-600\""
+  },
+  {
+    "path": "src/components/pages/qui-sommes-nous/offres-emploi/Job.tsx",
+    "content": "aria-label=\"Close\""
+  },
+  {
+    "path": "src/components/pages/qui-sommes-nous/offres-emploi/Job.tsx",
+    "content": "className=\"h-4 w-4\""
+  },
+  {
+    "path": "src/components/pages/qui-sommes-nous/offres-emploi/Job.tsx",
+    "content": "className=\"my-6\""
+  },
+  {
+    "path": "src/components/pages/qui-sommes-nous/offres-emploi/Job.tsx",
+    "content": "className=\"bg-green-50 border-green-200 text-green-700\""
+  },
+  {
+    "path": "src/components/pages/qui-sommes-nous/offres-emploi/Job.tsx",
+    "content": "className=\"h-4 w-4 mr-2\""
+  },
+  {
+    "path": "src/components/pages/qui-sommes-nous/offres-emploi/Job.tsx",
+    "content": "Consultez régulièrement cette page pour découvrir nos nouvelles opportunités."
+  },
+  {
+    "path": "src/components/pages/qui-sommes-nous/offres-emploi/Hero.tsx",
+    "content": "className=\"relative md:h-[420px] h-[500px] z-0 p-0 m-0 w-full flex items-center justify-center overflow-hidden bg-cover bg-center bg-blend-overlay\""
+  },
+  {
+    "path": "src/components/pages/qui-sommes-nous/offres-emploi/Hero.tsx",
+    "content": "className=\"relative p-0 m-0 w-full h-full flex flex-col gap-8 items-center justify-center text-white\""
+  },
+  {
+    "path": "src/components/pages/qui-sommes-nous/offres-emploi/Hero.tsx",
+    "content": "className=\"text-3xl sm:text-4xl md:text-[2.3rem] lg:text-[3rem] w-[30%] text-center font-semibold leading-tight\""
+  },
+  {
+    "path": "src/components/pages/qui-sommes-nous/offres-emploi/Hero.tsx",
+    "content": "className=\"box-border my-0\""
+  },
+  {
     "path": "src/components/pages/panneaux-solaires/Protection.tsx",
     "content": "className=\"w-screen text-gray-900 bg-white\""
   },
@@ -832,6 +1384,102 @@
     "content": "de garantie fabricant"
   },
   {
+    "path": "src/components/pages/installateur-photovoltaique/comparateur-devis-panneaux-solaires/Hero.tsx",
+    "content": "className=\"relative w-full overflow-hidden bg-[#22253d]\""
+  },
+  {
+    "path": "src/components/pages/installateur-photovoltaique/comparateur-devis-panneaux-solaires/Hero.tsx",
+    "content": "className=\"absolute inset-0 bg-gradient-to-r from-[#22253d] to-[rgba(4,9,34,0.12)]\""
+  },
+  {
+    "path": "src/components/pages/installateur-photovoltaique/comparateur-devis-panneaux-solaires/Hero.tsx",
+    "content": "className=\"container relative mx-auto px-5 py-12 md:py-16\""
+  },
+  {
+    "path": "src/components/pages/installateur-photovoltaique/comparateur-devis-panneaux-solaires/Hero.tsx",
+    "content": "className=\"grid grid-cols-1 lg:grid-cols-2 gap-8\""
+  },
+  {
+    "path": "src/components/pages/installateur-photovoltaique/comparateur-devis-panneaux-solaires/Hero.tsx",
+    "content": "className=\"pt-10 md:pt-24\""
+  },
+  {
+    "path": "src/components/pages/installateur-photovoltaique/comparateur-devis-panneaux-solaires/Hero.tsx",
+    "content": "className=\"text-white text-lg md:text-xl mb-4\""
+  },
+  {
+    "path": "src/components/pages/installateur-photovoltaique/comparateur-devis-panneaux-solaires/Hero.tsx",
+    "content": "Comparateur Devis Panneaux Solaires"
+  },
+  {
+    "path": "src/components/pages/installateur-photovoltaique/comparateur-devis-panneaux-solaires/Hero.tsx",
+    "content": "className=\"text-white text-3xl md:text-4xl lg:text-5xl font-bold leading-tight mb-6\""
+  },
+  {
+    "path": "src/components/pages/installateur-photovoltaique/comparateur-devis-panneaux-solaires/Hero.tsx",
+    "content": "Comparez et découvrez le vrai prix d&apos;une installation solaire en 3 clics"
+  },
+  {
+    "path": "src/components/pages/installateur-photovoltaique/comparateur-devis-panneaux-solaires/Hero.tsx",
+    "content": "className=\"hidden lg:block\""
+  },
+  {
+    "path": "src/components/pages/installateur-photovoltaique/comparateur-devis-panneaux-solaires/Hero.tsx",
+    "content": "className=\"hidden md:grid grid-cols-1 md:grid-cols-3 gap-8 mt-20 mb-16\""
+  },
+  {
+    "path": "src/components/pages/installateur-photovoltaique/comparateur-devis-panneaux-solaires/Hero.tsx",
+    "content": "className=\"h-6 w-6 text-[#f73760]\""
+  },
+  {
+    "path": "src/components/pages/installateur-photovoltaique/comparateur-devis-panneaux-solaires/Hero.tsx",
+    "content": "title=\"Pour faire le bon choix\""
+  },
+  {
+    "path": "src/components/pages/installateur-photovoltaique/comparateur-devis-panneaux-solaires/Hero.tsx",
+    "content": "description=\"Comparer plusieurs devis, c'est trouver la meilleure offre pour votre centrale solaire\""
+  },
+  {
+    "path": "src/components/pages/installateur-photovoltaique/comparateur-devis-panneaux-solaires/Hero.tsx",
+    "content": "className=\"h-6 w-6 text-[#f73760]\""
+  },
+  {
+    "path": "src/components/pages/installateur-photovoltaique/comparateur-devis-panneaux-solaires/Hero.tsx",
+    "content": "title=\"Pour gagner du temps\""
+  },
+  {
+    "path": "src/components/pages/installateur-photovoltaique/comparateur-devis-panneaux-solaires/Hero.tsx",
+    "content": "description=\"En 3 clics et sans inscription, vous savez si votre devis d'installation solaire est au bon prix\""
+  },
+  {
+    "path": "src/components/pages/installateur-photovoltaique/comparateur-devis-panneaux-solaires/Hero.tsx",
+    "content": "className=\"h-6 w-6 text-[#f73760]\""
+  },
+  {
+    "path": "src/components/pages/installateur-photovoltaique/comparateur-devis-panneaux-solaires/Hero.tsx",
+    "content": "title=\"Pour économiser\""
+  },
+  {
+    "path": "src/components/pages/installateur-photovoltaique/comparateur-devis-panneaux-solaires/Hero.tsx",
+    "content": "description=\"Faites jouer la concurrence et recevez une offre comparative de qualité et à un tarif compétitif\""
+  },
+  {
+    "path": "src/components/pages/installateur-photovoltaique/comparateur-devis-panneaux-solaires/Hero.tsx",
+    "content": "className=\"pl-5 border-l-2 border-[#f73760] transform transition-transform duration-300 hover:-translate-y-2\""
+  },
+  {
+    "path": "src/components/pages/installateur-photovoltaique/comparateur-devis-panneaux-solaires/Hero.tsx",
+    "content": "className=\"flex items-center gap-2 mb-2\""
+  },
+  {
+    "path": "src/components/pages/installateur-photovoltaique/comparateur-devis-panneaux-solaires/Hero.tsx",
+    "content": "className=\"text-white text-xl md:text-2xl font-semibold\""
+  },
+  {
+    "path": "src/components/pages/installateur-photovoltaique/comparateur-devis-panneaux-solaires/Hero.tsx",
+    "content": "className=\"text-white/70 text-base md:text-lg\""
+  },
+  {
     "path": "src/components/pages/home/Trust.tsx",
     "content": "className=\" bg-gray-50 md:px-20 md:py-20 px-5 pb-20 pt-10 flex justify-center flex-col items-center align-middle\""
   },
@@ -933,7 +1581,7 @@
   },
   {
     "path": "src/components/pages/home/Hero.tsx",
-    "content": "src=\"/images/pages/home/Hero.png\""
+    "content": "src=\"/images/modules/Hero/Hero.png\""
   },
   {
     "path": "src/components/pages/home/Hero.tsx",
@@ -970,6 +1618,10 @@
   {
     "path": "src/components/pages/home/Hero.tsx",
     "content": "href=\"demande-devis-panneau-solaire\""
+  },
+  {
+    "path": "src/components/pages/home/Hero.tsx",
+    "content": "hoveredText=\"Prendre RDV avec un expert solaire\""
   },
   {
     "path": "src/components/pages/home/Hero.tsx",
@@ -1349,7 +2001,7 @@
   },
   {
     "path": "src/components/pages/guides/Guides.tsx",
-    "content": "className=\"container mx-auto py-8\""
+    "content": "className=\"max-w-7xl w-[80%] mx-auto py-8\""
   },
   {
     "path": "src/components/pages/garanties/Team.tsx",
@@ -4093,7 +4745,7 @@
   },
   {
     "path": "src/components/modules/SNavBar.tsx",
-    "content": "className=\"section-main\""
+    "content": "className=\"section-main \""
   },
   {
     "path": "src/components/modules/SNavBar.tsx",
@@ -4189,7 +4841,7 @@
   },
   {
     "path": "src/components/modules/PNavBar.tsx",
-    "content": "className=\"border-none bg-[#f9f9f9] hidden lg:block\""
+    "content": "className=\"border-none bg-[#f9f9f9] hidden lg:block \""
   },
   {
     "path": "src/components/modules/PNavBar.tsx",
@@ -4245,7 +4897,7 @@
   },
   {
     "path": "src/components/modules/PNavBar.tsx",
-    "content": "href=\"#\""
+    "content": "href=\"/qui-sommes-nous\""
   },
   {
     "path": "src/components/modules/PNavBar.tsx",
@@ -4257,7 +4909,7 @@
   },
   {
     "path": "src/components/modules/PNavBar.tsx",
-    "content": "href=\"#\""
+    "content": "href=\"/qui-sommes-nous/offres-emploi\""
   },
   {
     "path": "src/components/modules/PNavBar.tsx",
@@ -4269,7 +4921,7 @@
   },
   {
     "path": "src/components/modules/PNavBar.tsx",
-    "content": "href=\"#\""
+    "content": "href=\"/contact\""
   },
   {
     "path": "src/components/modules/PNavBar.tsx",
@@ -4665,7 +5317,7 @@
   },
   {
     "path": "src/components/modules/Footer.tsx",
-    "content": "className=\"bg-[#0a0b1e] text-white py-12\""
+    "content": "className=\"bg-[#0a0b1e] w-screen text-white py-12\""
   },
   {
     "path": "src/components/modules/Footer.tsx",
@@ -4817,7 +5469,7 @@
   },
   {
     "path": "src/components/modules/Footer.tsx",
-    "content": "href=\"/comparez\""
+    "content": "href=\"/installateur-photovoltaique/comparateur-devis-panneaux-solaires\""
   },
   {
     "path": "src/components/modules/Footer.tsx",
@@ -4905,7 +5557,7 @@
   },
   {
     "path": "src/components/modules/Footer.tsx",
-    "content": "href=\"/politique-donnees\""
+    "content": "href=\"/donnees-personnelles\""
   },
   {
     "path": "src/components/modules/Footer.tsx",
@@ -5241,15 +5893,11 @@
   },
   {
     "path": "src/components/modules/request/index.tsx",
-    "content": "className=\"w-full\""
+    "content": "className=\"w-full flex flex-col justify-center items-center\""
   },
   {
     "path": "src/components/modules/request/index.tsx",
-    "content": "className=\"text-2xl font-bold mb-6 text-center\""
-  },
-  {
-    "path": "src/components/modules/request/index.tsx",
-    "content": "Questionnaire Solaire"
+    "content": "className=\"text-2xl font-bold mb-6 w-1/4 text-center\""
   },
   {
     "path": "src/components/modules/request/index.tsx",
@@ -5281,7 +5929,7 @@
   },
   {
     "path": "src/components/modules/request/index.tsx",
-    "content": "Nous avons bien reçu vos inations et nous vous contacterons\n              bientôt."
+    "content": "Nous avons bien reçu vos informations et nous vous contacterons\n              bientôt."
   },
   {
     "path": "src/components/modules/request/index.tsx",
