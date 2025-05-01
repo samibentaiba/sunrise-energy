@@ -161,7 +161,7 @@ function UnauthorizedPage() {
         </CardContent>
         <CardFooter className="flex flex-col space-y-2">
           <Button className="w-full" asChild>
-            <Link href="/signin">Sign In</Link>
+            <Link href="/admin/signin">Sign In</Link>
           </Button>
           <Button variant="outline" className="w-full" asChild>
             <Link href="/">Return Home</Link>

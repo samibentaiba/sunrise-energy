@@ -1,4 +1,4 @@
-// app/api/auth/forgot-password/route.ts
+// app/api/admin/auth/forgot-password/route.ts
 import prisma from '@/db';
 import { sendResetPasswordEmail } from '@/config/email';
 import { NextResponse } from 'next/server';
