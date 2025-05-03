@@ -53,8 +53,6 @@ NEXTJS_ENABLE_REACT_HYDRATION_DEBUG=true
 AUTH_SECRET= 
 # https://authjs.dev/getting-started/providers/github
 # https://github.com/settings/applications/new
-AUTH_GITHUB_ID= 
-AUTH_GITHUB_SECRET=
 
       `;
       fs.writeFileSync(envPath, envContent);

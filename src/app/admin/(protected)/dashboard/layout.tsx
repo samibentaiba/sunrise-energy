@@ -2,6 +2,7 @@
 import { LayoutLoadingProvider } from "@/app/admin/context/loading-context";
 import Link from "next/link";
 import { LayoutDashboard } from "lucide-react";
+import { Inbox } from "lucide-react";
 import { ShoppingBag } from "lucide-react";
 import { FileText } from "lucide-react";
 import { Settings } from "lucide-react";
@@ -36,7 +37,7 @@ export default function DashboardLayout({
   if (!isSession) return <UnauthorizedPage />;
   else if (isLayoutLoading) return <SkeletonLayout>{children}</SkeletonLayout>;
   else if (pathname === "/admin/dashboard/profile") return <>{children}</>;
-  else
+  else {
     return (
       <div className="flex min-h-screen w-full items-center justify-center flex-col">
         <header className="sticky top-0 z-40 flex py-1 w-full items-center justify-center border-b bg-background">
@@ -64,6 +65,11 @@ export default function DashboardLayout({
                     icon: LayoutDashboard,
                   },
                   {
+                    href: "/admin/dashboard/submissions",
+                    label: "Submissions",
+                    icon: Inbox,
+                  },
+                  {
                     href: "/admin/dashboard/products",
                     label: "Products",
                     icon: ShoppingBag,
@@ -84,7 +90,7 @@ export default function DashboardLayout({
                     href={href}
                     className={cn(
                       buttonVariants({ variant: "ghost" }),
-                      "justify-start"
+                      "justify-start",
                     )}
                   >
                     <Icon className="mr-2 h-4 w-4" />
@@ -100,6 +106,7 @@ export default function DashboardLayout({
         </div>
       </div>
     );
+  }
 }
 function SkeletonLayout({ children }: { children: React.ReactNode }) {
   return (
